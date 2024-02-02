@@ -1,2 +1,8 @@
 .pytest_cache
 **/**.csv
+**/**.pdf
+**/**.csv
+**/**.mkv
+**/**.mp3        
+**/**.jsonl
+**/**.txt
