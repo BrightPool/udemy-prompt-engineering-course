@@ -6,5 +6,3 @@ This is a Github repository for all of the source code used in the Udemy Prompt 
 
 - Install gitleaks for secret scanning: `brew install gitleaks`
 - Install pre-commit hooks: `pre-commit install`
-
-Testing Gitleaks again and again!!
