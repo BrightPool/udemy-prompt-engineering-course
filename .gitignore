@@ -9,3 +9,5 @@
 **/out/**
 **/data/**
 gitleaks-report.json
+.DS_Store
+**/**/.DS_Store
