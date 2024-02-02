@@ -1,0 +1,18 @@
+Write a numbered, hierachal outline for an article on "What is data enginering?"
+
+Here is an example of the structure:
+1. Introduction
+a. Definition of digital marketing
+2. Types of Digital Marketing
+a. Search Engine Optimization
+b. Social Media Marketing
+c. Content Marketing
+d. Pay-Per-Click Advertising
+e. Email Marketing
+3.Benefits of Digital Marketing
+a. Cost-Effective
+b. Targeted Audience
+c. Measurable Results
+d. Increased Reach
+
+---
