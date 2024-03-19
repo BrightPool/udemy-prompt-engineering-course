@@ -12,3 +12,4 @@ gitleaks-report.json
 .DS_Store
 **/**/.DS_Store
 **/**/record_manager_cache.sql
+vision/*.png
