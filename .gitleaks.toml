@@ -1,0 +1,6 @@
+[[rules]]
+description = "Ignore deep_dive_on_langgraph folder"
+regex = '''deep_dive_on_langgraph/'''
+path = 'deep_dive_on_langgraph/*'
+allowed_paths = [".*"]
+allowed_filetypes = []
