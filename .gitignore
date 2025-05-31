@@ -14,3 +14,4 @@ gitleaks-report.json
 **/**/record_manager_cache.sql
 vision/*.png
 .env
+mt-face.zip
