@@ -9,6 +9,8 @@
 **/out/**
 **/data/**
 gitleaks-report.json
+.claude/
+.cursor/
 .DS_Store
 **/**/.DS_Store
 **/**/record_manager_cache.sql

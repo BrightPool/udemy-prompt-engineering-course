@@ -1,86 +1,235 @@
 # The Complete Prompt Engineering for AI Bootcamp (2026)
 
-Source code and notebooks for the Udemy course. Each folder below maps to a section of the course. Sections without code (ChatGPT Deep Dive, Midjourney, Claude, etc.) are taught directly in the videos and don't have a corresponding folder here.
+Source code and notebooks for the Udemy course. This README covers the **coding sections** with links to the relevant folders. Video-only sections (Introduction, Five Principles, Core Concepts, ChatGPT Deep Dive, Prompting Techniques, Midjourney, Claude, Google Veo3, Other AI Models & Tools, Resources & Next Steps) are taught entirely in the Udemy videos and have no corresponding code here.
 
-## Course Sections (Code Folders)
+---
 
-### Section 6: OpenAI Platform & API
+## Course Sections (with Code)
+
+1. [OpenAI Platform & API](#openai-platform--api)
+2. [Embeddings and Vector Databases](#embeddings-and-vector-databases)
+3. [Building AI Agents](#building-ai-agents)
+4. [Advanced Retrieval Techniques](#advanced-retrieval-techniques)
+5. [Advanced Prompting Techniques](#advanced-prompting-techniques)
+6. [LangChain](#langchain)
+7. [LangGraph](#langgraph)
+8. [Text Generation Projects](#text-generation-projects)
+9. [Flux AI & Fal](#flux-ai--fal)
+10. [Image Generation Projects](#image-generation-projects)
+11. [Evaluations & Testing](#evaluations--testing)
+12. [Agent Architectures](#agent-architectures)
+13. [Fine-Tuning](#fine-tuning)
+
+---
+
+### OpenAI Platform & API
 
 Folder: [`openai_features_and_functionality/`](openai_features_and_functionality/)
 
 Covers the OpenAI Responses API, streaming, token counting, rate limits, structured outputs, tool calling, and building a simple agent. All notebooks use the Responses API unless explicitly comparing it with the older Chat Completions API.
 
-### Section 7: Vector Embeddings & RAG
+- Responses API & Messages
+- Coding Notebook with Different OpenAI Services
+- How to Count Tokens using tiktoken
+- Managing The Message History
+- What is Streaming?
+- Rate Limits Retrying and How to Overcome These Problems
+- Chat Completions vs Responses API
+- Tool (Function) Calling
+- Building a Simple Agent with Tools
+- Parallelization of requests with Async OpenAI
+
+### Embeddings and Vector Databases
 
 Folder: [`embeddings_and_vector_databases/`](embeddings_and_vector_databases/)
 
-Covers embeddings, vector search with FAISS, and information retrieval fundamentals.
+Covers embeddings, vector search with FAISS, information retrieval, RAG with Supabase PGVector, and hybrid retrieval.
 
-### Section 8: Advanced Retrieval Techniques
+- Understanding Vector Embeddings
+- Information Retrieval with Vector Databases
+- RAG with Supabase PGVector
+- Hybrid Retrieval
+
+### Building AI Agents
+
+Folder: [`building_ai_agents/`](building_ai_agents/)
+
+Hands-on agent projects using the OpenAI Responses API.
+
+- Multi-Source Customer Support Agent
+- Web Research + Structured Report Agent
+- Blog Post Generator Agent
+- SQL + Data Analysis Agent
+- Docs Watcher (OpenAI/Anthropic/Temporal release notes)
+- Deep Research Agent
+- Video Generation Agent
+
+### Advanced Retrieval Techniques
 
 Folder: [`advanced_retrieval_techniques/`](advanced_retrieval_techniques/)
 
 BM25 lexical retrieval, query expansion, hybrid retrieval, Reciprocal Rank Fusion, HyDE, parent document retrieval, MMR, and retrieval evaluation metrics. All notebooks are standalone (no LangChain dependency).
 
-### Section 9: Advanced Prompting Techniques
+- BM25: The Foundation of Lexical Search
+- Hybrid Search - Combining Dense and Sparse Retrieval
+- Query Expansion with LLMs
+- RAG-Fusion and Reciprocal Rank Fusion
+- HyDE and Parent Document Retrieval
+- MMR and Retrieval Evaluation Metrics
+
+### Advanced Prompting Techniques
 
 Folders:
-- [`proven_prompting_techniques/`](proven_prompting_techniques/) -- Role prompting, emotion prompting, chain of thought, in-context learning, self-consistency sampling
-- [`advanced_text_model_techniques/`](advanced_text_model_techniques/) -- ReAct, prompt optimization, prompt caching, recursive reprompting and revision
+- [`proven_prompting_techniques/`](proven_prompting_techniques/) -- Role prompting, emotion prompting, in-context learning, self-consistency sampling
+- [`advanced_text_model_techniques/`](advanced_text_model_techniques/) -- ReAct, prompt optimization, prompt caching, personas of thought
 
-### Section 10: LangChain
+Notebooks:
+- Role Prompting
+- Emotion Prompting
+- In Context Learning
+- Self-Consistency Sampling
+- Reason and Act (ReAct)
+- Personas of Thought
+- Prompt Optimization
+- Structured Outputs for OpenAI
+- Prompt Caching in Practice
+- OpenAI Realtime - Example
+- Semantic Caching
+- Reasoning Models Deep Dive - Prompting o1 o3 and o4
+- Advanced Reasoning Techniques - Graph of Thoughts and Skeleton-of-Thought
+
+### LangChain
 
 Folder: [`deep_dive_on_langchain/`](deep_dive_on_langchain/)
 
-18 numbered notebooks covering installation, chat models, prompt templates, streaming, output parsers, summarization chains, document loaders, text splitting, tagging, LangSmith tracing, LangChain Hub, LCEL (runnable interface, RAG, memory, multiple chains, branching/merging), vector stores with the Indexing API, configurable fields, and agents with tools.
+18 numbered notebooks covering the full LangChain stack.
 
-### Section 11: LangGraph
+- What Is LangChain?
+- Installation
+- Chat Models
+- Chat Prompt Templates
+- Streaming
+- Output Parsers
+- Summarizing Large Amounts of Text
+- Document Loaders Text Splitting & Creating LangChain Documents
+- Tagging Documents
+- Tracing with LangSmith
+- LangChain Hub - LangSmith
+- LCEL - The Runnable Protocol
+- LCEL - Chat Models itemgetter & RAG
+- LCEL - Chat Message History & Memory
+- LCEL - Creating Multiple Chains
+- LCEL - Conditional Logic Branching & Merging
+- LangChain Vector Databases + the Indexing API
+- LCEL Configurable Fields
+- LangChain Agents & Tools
+
+### LangGraph
 
 Folder: [`deep_dive_on_langgraph/`](deep_dive_on_langgraph/)
 
-6 numbered notebooks: simple LangGraph flows, tool usage and persistence, human in the loop, manually updating state, customizing state, and time travel.
+- Introduction To LangGraph
+- Simple LangGraph Flows
+- Tool Usage and Persistence
+- Human In The Loop
+- Manually Updating The State
+- Customizing State in LangGraph
+- Time Travel
+- RAG in LangGraph (Self Corrective RAG)
+- Extra Content: Advanced Branching/Subgraphs
 
-### Section 12: Text Generation Projects
+### Text Generation Projects
 
-Folder: [`ai_text_model_projects/`](ai_text_model_projects/)
+Folders:
+- [`ai_text_model_projects/`](ai_text_model_projects/) -- Coding projects
+- [`vision/`](vision/) -- Vision-based projects
 
-Projects include progressive summarization, summarizing large documents, review classification, AI blog post generation, text to speech, transcribing audio from YouTube, fine-tuning on writing style, and running Llama 3 locally with LM Studio.
+Notebooks:
+- Progressive Summarization
+- Summarizing An Entire Book
+- Review Classification
+- AI Blog Post Generation
+- Text To Speech using OpenAI
+- Using LangChain + Llama3 Locally with LMStudio
+- Transcribing audio from a Youtube Video
+- Fine-Tuning on Writing Style
+- Social Media Posting
+- Reverse Engineering a Publication
+- Building a GPT wrapper with Flask and HTMX
+- Qualitative Analysis
+- Claim Detection
+- OpenAI Realtime - Twilio Example
+- Automating Product Descriptions via GPT-V
+- Automating UX Landing Page Analysis via GPT-V
+- Natural Language to SQL Query Builder
+- Customer Service Chatbot with Escalation
 
-### Section 12 (Vision Projects)
+### Flux AI & Fal
 
-Folder: [`vision/`](vision/)
+Folder: [`standard_image_model_practices/`](standard_image_model_practices/)
 
-Automating product descriptions and UX landing page analysis using GPT vision capabilities.
+- Text to Image with Flux
+- Async Text to Image with Flux
+- X/Y/Z Prompt Grids
+- Image Upscaling with Clarity
+- Image to Image with Flux
+- Image Editing with Flux.Kontext
+- Advanced Inpainting with Flux
+- Draw Image Mask with Gradio
+- Segment Anything Masking
+- Advanced Outpainting with Flux
+- Advanced Consistent Characters
+- ControlNet with Flux Pro
+- Fine-Tuning with Flux Lora
+- Image to Video with Kling AI
 
-### Section 15: Stable Diffusion
-
-Folder: [`advanced_image_model_techniques/`](advanced_image_model_techniques/)
-
-DreamBooth fine-tuning and Stable Diffusion textual inversion training.
-
-### Section 16: Image Generation Projects
+### Image Generation Projects
 
 Folder: [`ai_image_model_projects/`](ai_image_model_projects/)
 
-Product placement with DreamBooth, AI profile pictures, Stable Diffusion projects, and creative image generation.
+- Product Placement
+- Tagging Ad Creative
+- AI Profile Picture
+- Nano Banana
 
-### Section 17: Evaluations & Testing
+### Evaluations & Testing
 
 Folders:
-- [`prompt_optimization_and_evals/`](prompt_optimization_and_evals/) -- DSPy, Sammo (intro, metaprompting, optimization), social media post generation, FunEval, evaluation metrics
+- [`prompt_optimization_and_evals/`](prompt_optimization_and_evals/) -- DSPy, Sammo, evaluation frameworks
 - [`evaluating_quality/`](evaluating_quality/) -- LLM and image model evaluation strategies
 
-### Section 18: Agent Architectures
+Notebooks:
+- Prompt Optimization with DSPy
+- Eval metrics with DSPy
+- Prompt Optimization: 5 Principles of Prompting
+- Prompt Optimization: Advanced
+- Sammo - Introduction
+- Sammo - Metaprompting
+- Sammo - Testing and Optimization
+- LLM & Image Model Performance: Advanced Evaluation Strategies
+
+### Agent Architectures
 
 Folders:
-- [`agent_architectures/`](agent_architectures/) -- Prompt chaining, routing, parallelization, orchestrator-workers, agents, evaluator-optimizer pattern
+- [`agent_architectures/`](agent_architectures/) -- Prompt chaining, routing, parallelization, orchestrator-workers, agents, evaluator-optimizer
 - [`advanced_concepts/`](advanced_concepts/) -- Agent swarms, self-correction, knowledge graphs
 
-### Section 19: Building AI Agents
+Notebooks:
+- Prompt Chaining
+- Routing
+- Parallelization
+- LLM Orchestrators
+- Agents
+- Mixture of Experts - Aggregator
+- Evaluator Optimizer
+- MCP - Building Custom MCP Servers in Python
+- OpenAI Agents SDK - Introduction
+- OpenAI Agents SDK - Building Agents with Persistent Memory
+- OpenAI Agents SDK - Agent Handoffs and Multi-Agent Coordination
 
-Folder: [`building_ai_agents/`](building_ai_agents/)
+### Fine-Tuning
 
-Hands-on agent projects using the OpenAI Responses API: multi-source customer support agent (SQLite + knowledge base), web research with structured reports, blog post generator (planner/writer/critic with reasoning models), SQL data analysis agent (text-to-SQL), docs watcher (long-running stateful loops), deep research agent, and video generation with Sora.
+- QLoRA and LoRA Fine-Tuning - Parameter-Efficient Methods
 
 ---
 
