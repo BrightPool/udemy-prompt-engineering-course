@@ -8,6 +8,10 @@
 **/**.txt
 **/out/**
 **/data/**
+# Exception: allow batman_history.md for RAG/embeddings course content
+!retrieval_embeddings_and_vector_databases/data/
+retrieval_embeddings_and_vector_databases/data/*
+!retrieval_embeddings_and_vector_databases/data/batman_history.md
 gitleaks-report.json
 .claude/
 .cursor/
