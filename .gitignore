@@ -10,6 +10,11 @@
 **/data/**
 # Exception: allow batman_history.md for RAG/embeddings course content
 !retrieval_embeddings_and_vector_databases/data/
+# Exception: building_ai_agents/resources for student course content
+!building_ai_agents/resources/data/
+!building_ai_agents/resources/data/**
+!building_ai_agents/resources/prompts/
+!building_ai_agents/resources/prompts/**
 retrieval_embeddings_and_vector_databases/data/*
 !retrieval_embeddings_and_vector_databases/data/batman_history.md
 gitleaks-report.json
