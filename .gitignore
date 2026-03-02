@@ -16,3 +16,9 @@ vision/*.png
 .env
 mt-face.zip
 .worktrees/
+CLAUDE.md
+**/CLAUDE.md
+.repro/
+**/.repro/
+*.skill
+docs/
