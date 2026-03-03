@@ -22,3 +22,6 @@ CLAUDE.md
 **/.repro/
 *.skill
 docs/
+!retrieval_augmented_generation/data/batman_history.md
+!retrieval_embeddings_and_vector_databases/data/
+!retrieval_embeddings_and_vector_databases/data/*
