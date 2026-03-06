@@ -1,0 +1,99 @@
+{
+  "ontology": {
+    "entity_types": [
+      "Person",
+      "Organization",
+      "Technology",
+      "Project",
+      "Publication",
+      "FundingRound"
+    ],
+    "relationship_types": [
+      "FOUNDED",
+      "WORKS_AT",
+      "LEADS",
+      "USES_TECHNOLOGY",
+      "AUTHORED",
+      "INVESTED_IN",
+      "PARTNERS_WITH",
+      "ADVISES",
+      "BUILT",
+      "DEPENDS_ON",
+      "PUBLISHED"
+    ]
+  },
+  "documents": [
+    {
+      "id": 1,
+      "title": "NovaMind AI Company Overview",
+      "category": "company",
+      "content": "NovaMind AI is an artificial intelligence startup founded in 2024 by Dr. Sarah Chen and Marcus Rivera. The company is headquartered in San Francisco and focuses on building intelligent agent systems for enterprise customers. NovaMind's core product is the NovaMind Agent Platform, which allows businesses to deploy autonomous AI agents that can reason, plan, and execute complex workflows. The company currently has 35 employees and operates from offices in San Francisco and Austin. NovaMind competes in the rapidly growing AI agent market alongside companies like LangChain, CrewAI, and Anthropic's tool-use ecosystem."
+    },
+    {
+      "id": 2,
+      "title": "Founding Team Profiles",
+      "category": "people",
+      "content": "Dr. Sarah Chen is the CEO and co-founder of NovaMind AI. She holds a PhD in Machine Learning from Stanford University, where her dissertation focused on attention mechanisms in transformer architectures. Before founding NovaMind, she spent four years leading the NLP research team at Google DeepMind, where she published several influential papers on reasoning in large language models. Marcus Rivera is the CTO and co-founder. He brings 15 years of distributed systems engineering experience, having served as a principal engineer at Databricks where he led the team that built their real-time streaming infrastructure. Marcus and Sarah met at an AI conference in 2023 and bonded over the shared vision that AI agents would transform enterprise software."
+    },
+    {
+      "id": 3,
+      "title": "Engineering Team and Structure",
+      "category": "people",
+      "content": "NovaMind's engineering organization is divided into three teams. The Agent Core team is led by Priya Sharma, a former senior engineer at OpenAI who specializes in agent architectures and tool-use patterns. Her team of six engineers builds the core reasoning and planning engine that powers all NovaMind agents. The Infrastructure team is led by James Liu, who previously built ML serving infrastructure at Meta. His team manages the PostgreSQL-based data platform, the vector search infrastructure using pgvector, and the real-time event processing system built on Apache Kafka. The Applied AI team is led by Elena Kowalski, a former research scientist at Hugging Face. Her team works directly with enterprise customers to customize agent deployments, build domain-specific tools, and fine-tune models for specialized use cases."
+    },
+    {
+      "id": 4,
+      "title": "Advisory Board",
+      "category": "people",
+      "content": "NovaMind has assembled a distinguished advisory board. Prof. Michael Torres is a tenured professor of Computer Science at MIT, specializing in knowledge representation and graph neural networks. He advises NovaMind on their knowledge graph architecture and has co-authored two research papers with the NovaMind team. Dr. Lisa Wang is a venture partner at Vertex Ventures and a former VP of Engineering at Salesforce. She advises on go-to-market strategy and enterprise sales. Dr. Raj Patel, a pioneer in information retrieval at Microsoft Research, advises on the company's retrieval-augmented generation pipeline and hybrid search architecture."
+    },
+    {
+      "id": 5,
+      "title": "NovaMind Agent Platform Architecture",
+      "category": "technology",
+      "content": "The NovaMind Agent Platform is built on a modular architecture with four layers. The Reasoning Layer uses a fine-tuned version of GPT-4o combined with a custom chain-of-thought prompting framework to enable multi-step planning and decision making. The Memory Layer provides agents with both short-term working memory (implemented as a sliding context window) and long-term memory backed by a PostgreSQL knowledge graph with pgvector for semantic retrieval. The Tool Layer exposes a registry of callable functions that agents can invoke, including web search, code execution, database queries, and API calls. The Orchestration Layer, built with LangGraph, manages agent lifecycles, handles multi-agent coordination, and provides tracing and observability through integration with LangSmith. The entire platform runs on Kubernetes and uses Redis for caching and rate limiting."
+    },
+    {
+      "id": 6,
+      "title": "Vector Search Engine Project",
+      "category": "project",
+      "content": "The Vector Search Engine is one of NovaMind's most critical internal projects, led by James Liu and his infrastructure team. The system uses PostgreSQL with the pgvector extension as its primary vector store, supporting both HNSW and IVFFlat indexing strategies. For the embedding pipeline, the team uses OpenAI's text-embedding-3-small model for document embeddings and a custom fine-tuned sentence-transformers model for entity embeddings. The search engine supports hybrid retrieval combining dense vector similarity with PostgreSQL's built-in full-text search via tsvector and tsquery. Benchmarks show the system achieves sub-50ms p95 latency at 10 million vectors with HNSW indexing. The team evaluated Pinecone and Weaviate as alternatives but chose PostgreSQL for operational simplicity since the knowledge graph already lives there."
+    },
+    {
+      "id": 7,
+      "title": "Enterprise RAG Pipeline",
+      "category": "project",
+      "content": "The Enterprise RAG Pipeline is NovaMind's flagship product feature, designed and built by Elena Kowalski's Applied AI team. The pipeline ingests customer documents through a multi-stage process: document parsing (using Unstructured.io), intelligent chunking (semantic chunking with overlap), embedding generation, and indexing into the vector store. At query time, the pipeline performs hybrid retrieval (keyword plus semantic search), followed by a re-ranking step using a cross-encoder model, and finally context assembly that respects token budget constraints. The pipeline integrates with the knowledge graph to provide GraphRAG capabilities: entities extracted from documents are linked as nodes, enabling multi-hop retrieval that surfaces connections invisible to pure vector search. Enterprise customers like Meridian Health and TechCorp Global use this pipeline to query their internal documentation, compliance records, and technical specifications."
+    },
+    {
+      "id": 8,
+      "title": "Research Publications",
+      "category": "research",
+      "content": "NovaMind's research team has published several papers at top venues. 'Attention Routing for Multi-Agent Systems' was published at NeurIPS 2025 by Dr. Sarah Chen, Priya Sharma, and Prof. Michael Torres. The paper introduces a novel mechanism for dynamically routing attention between cooperating agents based on task decomposition. 'Hybrid Retrieval with Knowledge Graph Augmentation' was published at EMNLP 2025 by Elena Kowalski, Dr. Raj Patel, and James Liu. This paper demonstrates that combining vector search with knowledge graph traversal improves retrieval accuracy by 23% on multi-hop reasoning benchmarks compared to pure vector search. Both papers have been widely cited and established NovaMind as a thought leader in the agentic AI space."
+    },
+    {
+      "id": 9,
+      "title": "Partnership with DataFlow Inc",
+      "category": "business",
+      "content": "In September 2025, NovaMind announced a strategic partnership with DataFlow Inc, a leading data integration platform with over 500 enterprise customers. Under the partnership, NovaMind's Agent Platform is integrated into DataFlow's product as an AI-powered automation layer. DataFlow customers can now deploy NovaMind agents that automatically monitor data pipelines, detect anomalies, and trigger corrective workflows. The integration was led by Elena Kowalski on the NovaMind side and DataFlow's VP of Product, Ryan Zhang. The partnership has already generated $2M in annual recurring revenue and is expected to triple in 2026. DataFlow Inc was founded in 2019 and is headquartered in Seattle, with 200 employees and $45M in total funding."
+    },
+    {
+      "id": 10,
+      "title": "Vertex Ventures Series A Funding",
+      "category": "business",
+      "content": "NovaMind AI closed a $12 million Series A funding round in March 2025, led by Vertex Ventures with participation from AI Fund and several angel investors. The round was led by Dr. Lisa Wang at Vertex Ventures, who also joined NovaMind's advisory board. The funding is being used to expand the engineering team from 20 to 50 people, invest in GPU infrastructure for model fine-tuning, and accelerate go-to-market efforts in the healthcare and financial services verticals. Prior to the Series A, NovaMind had raised a $2M seed round from Y Combinator and angel investors in 2024. The company's total funding to date is $14M. Dr. Lisa Wang noted that NovaMind's unique combination of knowledge graph technology and agent orchestration was a key differentiator that attracted Vertex's investment."
+    },
+    {
+      "id": 11,
+      "title": "NovaMind Product Roadmap 2026",
+      "category": "strategy",
+      "content": "NovaMind's 2026 product roadmap focuses on three strategic pillars. First, Multi-Agent Orchestration: the platform will support teams of specialized agents that collaborate on complex tasks, with features like agent-to-agent communication, shared memory spaces, and conflict resolution. This work is being led by Priya Sharma and builds on the attention routing research published at NeurIPS. Second, Knowledge Graph Automation: the platform will automatically build and maintain knowledge graphs from customer data, using LLM-based entity extraction with ontology constraints and community detection for topic clustering. Marcus Rivera is personally driving this initiative given his belief that knowledge graphs are the key differentiator. Third, Industry Vertical Solutions: pre-built agent templates for healthcare (clinical documentation, drug interaction checking) and financial services (compliance monitoring, fraud detection). Elena Kowalski's team is leading customer discovery for both verticals."
+    },
+    {
+      "id": 12,
+      "title": "Conference Presentations and Thought Leadership",
+      "category": "events",
+      "content": "NovaMind has been active on the conference circuit in 2025. Dr. Sarah Chen delivered the opening keynote at MLOps World 2025 in Austin, titled 'From Chatbots to Agents: Building Reliable AI Systems.' The talk covered NovaMind's approach to agent reliability, including structured output validation, tool-use guardrails, and automated testing for agent behavior. Priya Sharma presented a technical deep-dive at the AI Engineer Summit on 'GraphRAG in Production: Lessons from Building Enterprise Knowledge Graphs,' sharing benchmarks from NovaMind's deployment at Meridian Health. James Liu gave a talk at PGConf 2025 about using PostgreSQL as a unified store for vectors, full-text search, and graph data, which drew significant interest from the PostgreSQL community."
+    }
+  ]
+}

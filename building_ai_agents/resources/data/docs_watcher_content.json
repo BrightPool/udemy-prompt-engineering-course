@@ -1,0 +1,21 @@
+{
+  "sources": [
+    {"id": 1, "name": "OpenAI API Changelog",    "url": "https://platform.openai.com/docs/changelog"},
+    {"id": 2, "name": "Anthropic Release Notes",  "url": "https://docs.anthropic.com/en/docs/about-claude/models"},
+    {"id": 3, "name": "Local Test Source",         "url": "local://test"}
+  ],
+  "simulated_content": {
+    "1": {
+      "v1": "# OpenAI API Changelog\n\n## January 2026\n- Released GPT-5.2 with improved reasoning\n- Added new function calling features\n- Updated rate limits for Tier 3 users",
+      "v2": "# OpenAI API Changelog\n\n## February 2026\n- BREAKING: Deprecated gpt-4-turbo model\n- New pricing for GPT-5.2: $2/1M input tokens\n- Released o4-mini reasoning model\n\n## January 2026\n- Released GPT-5.2 with improved reasoning\n- Added new function calling features\n- Updated rate limits for Tier 3 users"
+    },
+    "2": {
+      "v1": "# Claude Models\n\n## Claude 4.5 Sonnet\n- 200K context window\n- Best for coding and analysis\n- $3/$15 per 1M tokens",
+      "v2": "# Claude Models\n\n## Claude 4.6 Opus\n- 200K context window\n- Most capable model\n- $15/$75 per 1M tokens\n\n## Claude 4.5 Sonnet\n- 200K context window\n- Best for coding and analysis\n- $3/$15 per 1M tokens"
+    },
+    "3": {
+      "v1": "Test content version 1",
+      "v2": "Test content version 3: push-based update with BREAKING changes"
+    }
+  }
+}
