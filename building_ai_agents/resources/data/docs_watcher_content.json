@@ -7,7 +7,7 @@
   "simulated_content": {
     "1": {
       "v1": "# OpenAI API Changelog\n\n## January 2026\n- Released GPT-5.2 with improved reasoning\n- Added new function calling features\n- Updated rate limits for Tier 3 users",
-      "v2": "# OpenAI API Changelog\n\n## February 2026\n- BREAKING: Deprecated gpt-4-turbo model\n- New pricing for GPT-5.2: $2/1M input tokens\n- Released o4-mini reasoning model\n\n## January 2026\n- Released GPT-5.2 with improved reasoning\n- Added new function calling features\n- Updated rate limits for Tier 3 users"
+      "v2": "# OpenAI API Changelog\n\n## February 2026\n- BREAKING: Deprecated gpt-5-mini model\n- New pricing for GPT-5.2: $2/1M input tokens\n- Released o4-mini reasoning model\n\n## January 2026\n- Released GPT-5.2 with improved reasoning\n- Added new function calling features\n- Updated rate limits for Tier 3 users"
     },
     "2": {
       "v1": "# Claude Models\n\n## Claude 4.5 Sonnet\n- 200K context window\n- Best for coding and analysis\n- $3/$15 per 1M tokens",
