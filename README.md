@@ -26,14 +26,38 @@ The full course includes non-coding lessons, platform walkthroughs, and conceptu
 
 ## Recommended Starting Points
 
-If you are new to the repo, use one of these paths:
+If you are new to the repo, pick a track below:
 
-- OpenAI foundations: [openai_features_and_functionality/chat_completions_vs_responses_api.ipynb](openai_features_and_functionality/chat_completions_vs_responses_api.ipynb), [openai_features_and_functionality/responses_api_and_messages.ipynb](openai_features_and_functionality/responses_api_and_messages.ipynb), [openai_features_and_functionality/structured_outputs_using_openai.ipynb](openai_features_and_functionality/structured_outputs_using_openai.ipynb), [openai_features_and_functionality/tool_calling.ipynb](openai_features_and_functionality/tool_calling.ipynb)
-- Prompt engineering techniques: [advanced_text_model_techniques/few_shot_learning.ipynb](advanced_text_model_techniques/few_shot_learning.ipynb), [advanced_text_model_techniques/chain_of_thought.ipynb](advanced_text_model_techniques/chain_of_thought.ipynb), [advanced_text_model_techniques/self_consistency_sampling.ipynb](advanced_text_model_techniques/self_consistency_sampling.ipynb), [advanced_text_model_techniques/prompt_optimization.ipynb](advanced_text_model_techniques/prompt_optimization.ipynb)
-- Retrieval and RAG: [retrieval_embeddings_and_vector_databases/introduction_to_retrieval.ipynb](retrieval_embeddings_and_vector_databases/introduction_to_retrieval.ipynb), [retrieval_embeddings_and_vector_databases/understanding_vector_embeddings.ipynb](retrieval_embeddings_and_vector_databases/understanding_vector_embeddings.ipynb), [retrieval_embeddings_and_vector_databases/retrieval_augmented_generation_vector_database.ipynb](retrieval_embeddings_and_vector_databases/retrieval_augmented_generation_vector_database.ipynb), [retrieval_embeddings_and_vector_databases/introduction_to_hybrid_retrieval_with_sql_filtering_&_embeddings.ipynb](retrieval_embeddings_and_vector_databases/introduction_to_hybrid_retrieval_with_sql_filtering_&_embeddings.ipynb)
-- Agents: [building_ai_agents/multi_source_customer_support_agent.ipynb](building_ai_agents/multi_source_customer_support_agent.ipynb), [building_ai_agents/introduction_to_openai_ai_agents_sdk.ipynb](building_ai_agents/introduction_to_openai_ai_agents_sdk.ipynb), [building_ai_agents/blog_post_generator_agent.ipynb](building_ai_agents/blog_post_generator_agent.ipynb)
-- LangGraph: [deep_dive_on_langgraph/1_simple_langgraph.ipynb](deep_dive_on_langgraph/1_simple_langgraph.ipynb) through [deep_dive_on_langgraph/6_time_travel.ipynb](deep_dive_on_langgraph/6_time_travel.ipynb)
-- Evals and optimization: [prompt_optimization_and_evals/social_media_posts.ipynb](prompt_optimization_and_evals/social_media_posts.ipynb), [prompt_optimization_and_evals/evaluation_metrics.ipynb](prompt_optimization_and_evals/evaluation_metrics.ipynb), [prompt_optimization_and_evals/dspy-primer-with-every.ipynb](prompt_optimization_and_evals/dspy-primer-with-every.ipynb)
+### OpenAI Foundations
+- [Chat Completions vs Responses API](openai_features_and_functionality/chat_completions_vs_responses_api.ipynb)
+- [Responses API & Messages](openai_features_and_functionality/responses_api_and_messages.ipynb)
+- [Structured Outputs](openai_features_and_functionality/structured_outputs_using_openai.ipynb)
+- [Tool Calling](openai_features_and_functionality/tool_calling.ipynb)
+
+### Prompt Engineering Techniques
+- [Few-Shot Learning](advanced_text_model_techniques/few_shot_learning.ipynb)
+- [Chain of Thought](advanced_text_model_techniques/chain_of_thought.ipynb)
+- [Self-Consistency Sampling](advanced_text_model_techniques/self_consistency_sampling.ipynb)
+- [Prompt Optimization](advanced_text_model_techniques/prompt_optimization.ipynb)
+
+### Retrieval & RAG
+- [Introduction to Retrieval](retrieval_embeddings_and_vector_databases/introduction_to_retrieval.ipynb)
+- [Understanding Vector Embeddings](retrieval_embeddings_and_vector_databases/understanding_vector_embeddings.ipynb)
+- [RAG with Vector Databases](retrieval_embeddings_and_vector_databases/retrieval_augmented_generation_vector_database.ipynb)
+- [Hybrid Retrieval with SQL Filtering & Embeddings](retrieval_embeddings_and_vector_databases/introduction_to_hybrid_retrieval_with_sql_filtering_&_embeddings.ipynb)
+
+### Agents
+- [Multi-Source Customer Support Agent](building_ai_agents/multi_source_customer_support_agent.ipynb)
+- [Introduction to OpenAI Agents SDK](building_ai_agents/introduction_to_openai_ai_agents_sdk.ipynb)
+- [Blog Post Generator Agent](building_ai_agents/blog_post_generator_agent.ipynb)
+
+### LangGraph
+- [Simple LangGraph](deep_dive_on_langgraph/1_simple_langgraph.ipynb) through [Time Travel](deep_dive_on_langgraph/6_time_travel.ipynb)
+
+### Evals & Optimization
+- [Social Media Posts](prompt_optimization_and_evals/social_media_posts.ipynb)
+- [Evaluation Metrics](prompt_optimization_and_evals/evaluation_metrics.ipynb)
+- [DSPy Primer](prompt_optimization_and_evals/dspy-primer-with-every.ipynb)
 
 ## Repo Map
 
