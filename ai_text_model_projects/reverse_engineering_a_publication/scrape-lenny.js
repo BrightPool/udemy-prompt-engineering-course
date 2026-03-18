@@ -1,24 +1,27 @@
 (function () {
-    const articles = document.querySelectorAll('.pencraft.pc-display-flex.pc-flexDirection-column.pc-padding-8.pc-reset.pc-borderRadius-sm._container_1uybr_1');
+    const articles = document.querySelectorAll('[role="article"]');
     let data = 'Title\tLink\tDescription\tPublished\tAuthor\tHearts\tComments\n'; // Header row
 
     data += Array.from(articles).map(container => {
         try {
-            const article = container.querySelector('.pencraft.pc-display-flex.pc-flexDirection-column.pc-gap-8.pc-position-relative.pc-reset')
+            const links = container.querySelectorAll('a');
+            const titleLink = links[0];
+            const descriptionLink = links[1];
+            const authorLinks = Array.from(links).slice(2);
 
-            const titleElement = article.children[0] || { innerText: '', href: '' };
-            const descriptionElement = article.children[1] || { innerText: '' };
-            const heartsElement = container.querySelector('.like-button-container .label');
-            const commentsElement = container.querySelector('.post-ufi-comment-button .label');
-            const publishedElement = article.children[2];
+            const title = titleLink ? titleLink.textContent.trim() : '';
+            const link = titleLink ? titleLink.href : '';
+            const description = descriptionLink ? descriptionLink.textContent.trim() : '';
 
-            const title = titleElement.innerText.trim();
-            const link = titleElement.firstChild.href;
-            const description = descriptionElement.innerText.trim();
-            const hearts = heartsElement ? heartsElement.innerText.trim() : '0';
-            const comments = commentsElement ? commentsElement.innerText.trim() : '0';
-            const published = publishedElement ? publishedElement.children[0].innerText.trim() : '';
-            const author = publishedElement ? publishedElement.children[2].innerText.trim() : '';
+            const timeElement = container.querySelector('time');
+            const published = timeElement ? timeElement.textContent.trim() : '';
+
+            const author = authorLinks.map(a => a.textContent.trim()).join(', ');
+
+            const likeButton = container.querySelector('button[aria-label^="Like"]');
+            const commentButton = container.querySelector('button[aria-label^="View comments"]');
+            const hearts = likeButton ? likeButton.textContent.trim() : '0';
+            const comments = commentButton ? commentButton.textContent.trim() : '0';
 
             return `"${title}"\t"${link}"\t"${description}"\t"${published}"\t"${author}"\t${hearts}\t${comments}`;
 
