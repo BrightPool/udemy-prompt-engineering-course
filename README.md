@@ -1,6 +1,6 @@
 # The Complete Prompt Engineering for AI Bootcamp (2026)
 
-This repository is the notebook companion for the coding portions of The Complete Prompt Engineering for AI Bootcamp (2026) on Udemy.
+This repository is the notebook companion for the coding portions of [The Complete Prompt Engineering for AI Bootcamp (2026)](https://www.udemy.com/course/prompt-engineering-for-ai/) on Udemy.
 
 It is built around Jupyter notebooks, small example apps, prompt files, datasets, screenshots, and diagrams rather than a single installable Python package. At the time of writing, the repo contains 248 notebooks covering prompt engineering, OpenAI workflows, retrieval, agents, LangChain, LangGraph, evaluation, vision, and image generation.
 
