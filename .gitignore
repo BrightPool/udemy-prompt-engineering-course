@@ -32,3 +32,5 @@ docs/
 !building_ai_agents/resources/data/knowledge_base/**
 !building_ai_agents/resources/prompts/
 !building_ai_agents/resources/prompts/*
+!ai_text_model_projects/reverse_engineering_a_publication/all_text.txt
+!ai_text_model_projects/reverse_engineering_a_publication/Lenny Newsletter - Sheet1.csv
