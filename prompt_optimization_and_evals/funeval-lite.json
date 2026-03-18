@@ -1,0 +1,40 @@
+{
+  "prog.predict": {
+    "traces": [],
+    "train": [],
+    "demos": [],
+    "signature": {
+      "instructions": "Assess the quality of a joke along the specified dimension.",
+      "fields": [
+        {
+          "prefix": "Joke:",
+          "description": "The joke to be assessed."
+        },
+        {
+          "prefix": "Topic:",
+          "description": "The topic related to the joke."
+        },
+        {
+          "prefix": "Question:",
+          "description": "The question to assess the joke against."
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Answer:",
+          "description": "Answer to the question, only respond Yes or No."
+        }
+      ]
+    },
+    "lm": null
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.13",
+      "dspy": "3.1.2",
+      "cloudpickle": "3.1"
+    }
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "prog.predict": {
+    "traces": [],
+    "train": [],
+    "demos": [
+      {
+        "augmented": true,
+        "topic": "Healthcare",
+        "reasoning": "I picked observational humor about a common healthcare experience—long wait times plus self-diagnosing via the internet—because it's widely relatable and lets the punchline land on the absurdity that the appointment becomes redundant.",
+        "joke": "I waited six weeks for a doctor's appointment. By the time I saw her I'd already diagnosed myself on WebMD, joined two support groups, and started a podcast—so the doctor's diagnosis was just my cohost signing off."
+      },
+      {
+        "topic": "Technology",
+        "joke": "iPhones are Barbie Dolls for grown men. You carry them round, dress them up in little outfits, accessorise, & get a new one every year."
+      },
+      {
+        "topic": "Awards",
+        "joke": "For any of you who don’t know, the Golden Globes are just like the Oscars, but without all that esteem. The Golden Globes are to the Oscars what Kim Kardashian is to Kate Middleton. A bit louder, a bit trashier, a bit drunker, and more easily bought."
+      },
+      {
+        "topic": "Fashion",
+        "joke": "If you arrive fashionably late in Crocs, you’re just late."
+      },
+      {
+        "topic": "Animals",
+        "joke": "Two monkeys were getting into the bath. One said: ‘Oo, oo, oo, aah aah aah.’ The other replied: ‘Well, put some cold in it then.’"
+      },
+      {
+        "topic": "Music",
+        "joke": "Here’s a picture of me with REM. That’s me in the corner."
+      },
+      {
+        "topic": "Health",
+        "joke": "Remember, being healthy is basically dying as slowly as possible."
+      },
+      {
+        "topic": "Weather",
+        "joke": "I hate all those weathermen, too, who tell you that rain is bad weather. There’s no such thing as bad weather, just the wrong clothing, so get yourself a sexy raincoat and live a little."
+      },
+      {
+        "topic": "Humor",
+        "joke": "I can’t find someone funny whom I don’t like. Hitler told great jokes."
+      },
+      {
+        "topic": "Military",
+        "joke": "Do commandos not wear pants? They must wear pants, don’t they?"
+      },
+      {
+        "topic": "Sports",
+        "joke": "If I was an Olympic athlete, I’d rather come in last than win the silver medal. You win the gold, you feel good. You win the bronze, you think, ‘at least I got something.’ But you win that silver, that’s like, ‘Congratulations, you almost won! Of all the losers, you came in first! You’re the number one loser! No one lost ahead of you!’"
+      },
+      {
+        "topic": "Suburban Life",
+        "joke": "My parents did just well enough so I could grow up poor around white people. When Nas and them used to talk about the projects, I used to get jealous. It sounded fun. Everybody in the projects was poor, and that’s fair. But if you were poor in Silver Spring, nigga, it felt like it was only happening to you."
+      },
+      {
+        "topic": "Workplace",
+        "joke": "If your boss is getting you down, look at him through the prongs of a fork and imagine him in jail."
+      },
+      {
+        "topic": "Life",
+        "joke": "Mondays are fine. It’s your life that sucks."
+      },
+      {
+        "topic": "Religion",
+        "joke": "We weren’t very religious. On Hanukkah, my mother had our menorah on a dimmer."
+      },
+      {
+        "topic": "Appearance",
+        "joke": "I always look skint. When I buy a Big Issue, people take it out of my hand and give me a pound."
+      }
+    ],
+    "signature": {
+      "instructions": "Make a funny joke given a topic.",
+      "fields": [
+        {
+          "prefix": "Topic:",
+          "description": "The topic of the joke."
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Joke:",
+          "description": "The funny joke."
+        }
+      ]
+    },
+    "lm": null
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.12",
+      "dspy": "3.1.3",
+      "cloudpickle": "3.1"
+    }
+  }
+}
