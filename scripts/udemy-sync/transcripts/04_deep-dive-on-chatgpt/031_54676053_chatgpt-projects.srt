@@ -1,0 +1,399 @@
+1
+00:00:00,000 --> 00:00:00,760
+Hey, welcome back.
+
+2
+00:00:00,960 --> 00:00:02,500
+And in this video, we're gonna have a look
+
+3
+00:00:02,500 --> 00:00:04,280
+at ChatGPT projects.
+
+4
+00:00:04,740 --> 00:00:07,460
+You can think of ChatGPT projects a little bit like a folder.
+
+5
+00:00:07,880 --> 00:00:10,000
+You can put specific information in there,
+
+6
+00:00:10,160 --> 00:00:12,240
+files, custom instructions.
+
+7
+00:00:12,680 --> 00:00:15,340
+Whenever you have a project or something specific,
+
+8
+00:00:15,380 --> 00:00:18,060
+I'd recommend putting it inside of a ChatGPT project.
+
+9
+00:00:18,420 --> 00:00:20,500
+That way you can keep everything nice and tidy.
+
+10
+00:00:20,780 --> 00:00:22,000
+And when you're specifically wanting
+
+11
+00:00:22,000 --> 00:00:23,140
+to talk about that project,
+
+12
+00:00:23,300 --> 00:00:24,980
+you'll then navigate into that project
+
+13
+00:00:24,980 --> 00:00:26,940
+and go into it almost like a folder.
+
+14
+00:00:27,420 --> 00:00:29,020
+Let's see how we can create projects.
+
+15
+00:00:29,020 --> 00:00:30,600
+Go over to the left-hand side,
+
+16
+00:00:30,920 --> 00:00:32,860
+and then you can see you've got projects
+
+17
+00:00:32,860 --> 00:00:34,400
+above your chat history.
+
+18
+00:00:34,920 --> 00:00:36,440
+I want you to click on New Project,
+
+19
+00:00:36,860 --> 00:00:38,620
+and then I want you to give your project a name.
+
+20
+00:00:38,760 --> 00:00:40,460
+I'm gonna call mine Travel Holidays,
+
+21
+00:00:41,440 --> 00:00:43,320
+and then you're gonna click Create Project.
+
+22
+00:00:43,900 --> 00:00:45,900
+It will take a little bit of time to create a project,
+
+23
+00:00:46,100 --> 00:00:47,220
+so we'll just wait for that.
+
+24
+00:00:47,440 --> 00:00:49,400
+After you've got a project that's being created,
+
+25
+00:00:49,560 --> 00:00:51,320
+you can add files to this project.
+
+26
+00:00:51,460 --> 00:00:54,600
+Now, these files are specifically attached to this project,
+
+27
+00:00:54,600 --> 00:00:56,840
+so you can add custom instructions,
+
+28
+00:00:56,840 --> 00:00:59,000
+so what kind of things are specific to this project.
+
+29
+00:00:59,240 --> 00:01:05,060
+So I'll say, only give me advice about where to go,
+
+30
+00:01:05,760 --> 00:01:07,120
+not what to eat.
+
+31
+00:01:07,760 --> 00:01:09,240
+We can also drag in files,
+
+32
+00:01:09,760 --> 00:01:12,080
+and you can see that this uses the default memory.
+
+33
+00:01:12,260 --> 00:01:14,560
+So projects can access memories from outside chats
+
+34
+00:01:14,560 --> 00:01:15,480
+and vice versa.
+
+35
+00:01:15,920 --> 00:01:18,140
+So it will access your default memory.
+
+36
+00:01:18,740 --> 00:01:20,920
+You can add files and instructions.
+
+37
+00:01:21,520 --> 00:01:22,680
+And what's clever about this
+
+38
+00:01:22,680 --> 00:01:24,900
+is that these instructions and these files
+
+39
+00:01:24,900 --> 00:01:27,080
+are only specific to this project.
+
+40
+00:01:27,760 --> 00:01:29,900
+So that means I could have a specific way
+
+41
+00:01:29,900 --> 00:01:32,420
+of talking with chat GPT inside of a project.
+
+42
+00:01:32,720 --> 00:01:34,040
+Let's say I've asked, for example,
+
+43
+00:01:34,180 --> 00:01:35,760
+I want to go on holiday to Brazil,
+
+44
+00:01:35,920 --> 00:01:37,100
+can you give me some recommendations?
+
+45
+00:01:37,800 --> 00:01:40,060
+You'll see it's given us some information about this,
+
+46
+00:01:40,220 --> 00:01:41,660
+specific places to go.
+
+47
+00:01:42,040 --> 00:01:44,340
+That's great, but now if we look on the left-hand side,
+
+48
+00:01:44,480 --> 00:01:47,540
+can you see our Travel Holidays folder or project
+
+49
+00:01:47,540 --> 00:01:49,700
+has now got a recent chat history.
+
+50
+00:01:50,200 --> 00:01:51,600
+Now, if I click on this again,
+
+51
+00:01:52,000 --> 00:01:54,100
+you'll see that we've got our one conversation here,
+
+52
+00:01:54,100 --> 00:01:56,140
+so we can actually share this conversation.
+
+53
+00:01:56,680 --> 00:01:58,440
+We can re-engage with this conversation.
+
+54
+00:01:59,020 --> 00:02:00,380
+So it's a way for you to,
+
+55
+00:02:00,680 --> 00:02:03,060
+rather than have a load of your conversations
+
+56
+00:02:03,060 --> 00:02:04,800
+and you're endlessly scrolling,
+
+57
+00:02:05,140 --> 00:02:07,420
+trying to find that conversation that you had,
+
+58
+00:02:07,800 --> 00:02:09,740
+that's where you're starting to use projects, right?
+
+59
+00:02:09,820 --> 00:02:12,660
+So when you've got 100 or 300 different types
+
+60
+00:02:12,660 --> 00:02:13,740
+of chat GPT conversations,
+
+61
+00:02:14,120 --> 00:02:15,640
+you just can't seem to find them.
+
+62
+00:02:15,880 --> 00:02:17,920
+So that's a really, really good use case
+
+63
+00:02:17,920 --> 00:02:20,620
+for using these projects inside of chat GPT.
+
+64
+00:02:21,260 --> 00:02:23,020
+One other thing that I really like to do is,
+
+65
+00:02:23,020 --> 00:02:25,780
+let's say I create a new conversation outside of the project.
+
+66
+00:02:26,040 --> 00:02:29,720
+So I'm looking to learn about Spain and travel.
+
+67
+00:02:30,220 --> 00:02:32,220
+One way that I like to do this is you'll see
+
+68
+00:02:32,220 --> 00:02:34,360
+that over here in the sort of left-hand side,
+
+69
+00:02:34,700 --> 00:02:36,880
+the conversations come up about Spain,
+
+70
+00:02:37,000 --> 00:02:40,280
+but I really wanted to have had that inside of my project.
+
+71
+00:02:40,320 --> 00:02:41,720
+So you can just click on the triple dots
+
+72
+00:02:41,720 --> 00:02:44,740
+and then you can move that to a specific project,
+
+73
+00:02:44,920 --> 00:02:45,660
+so Travel Holidays.
+
+74
+00:02:46,060 --> 00:02:48,500
+And now that Spain information is there
+
+75
+00:02:48,500 --> 00:02:49,740
+with my Brazil information.
+
+76
+00:02:50,140 --> 00:02:51,980
+So it's kind of one of these things where like,
+
+77
+00:02:51,980 --> 00:02:56,000
+if you do forget to specifically talk inside of a project,
+
+78
+00:02:56,200 --> 00:02:57,880
+then you can always move that chat session
+
+79
+00:02:57,880 --> 00:02:59,740
+over into the project itself.
+
+80
+00:03:00,000 --> 00:03:01,900
+So I find these two ways of working
+
+81
+00:03:01,900 --> 00:03:03,920
+are really, really good for tidying up.
+
+82
+00:03:04,360 --> 00:03:06,500
+And then I don't have to manually search all the chats.
+
+83
+00:03:06,580 --> 00:03:08,320
+I can just keep the relevant chats
+
+84
+00:03:08,320 --> 00:03:09,720
+under a specific project.
+
+85
+00:03:10,060 --> 00:03:11,700
+The other benefit that you get though from this
+
+86
+00:03:11,700 --> 00:03:14,360
+is that as you talk more in a specific project,
+
+87
+00:03:14,760 --> 00:03:17,100
+chat GPT is clever enough to pull in relevant types
+
+88
+00:03:17,100 --> 00:03:19,600
+of chats within side that project itself.
+
+89
+00:03:19,660 --> 00:03:21,340
+So it starts to remember things specifically
+
+90
+00:03:21,340 --> 00:03:23,560
+from chat histories that have happened
+
+91
+00:03:23,560 --> 00:03:24,500
+inside of that project.
+
+92
+00:03:24,960 --> 00:03:26,460
+You can also add files.
+
+93
+00:03:26,700 --> 00:03:28,560
+I don't find myself doing that much,
+
+94
+00:03:28,820 --> 00:03:31,260
+but obviously if you're in data analysis
+
+95
+00:03:31,260 --> 00:03:34,920
+or you're pulling in relevant CSVs or PDF files or images,
+
+96
+00:03:35,400 --> 00:03:36,660
+then you can certainly include that
+
+97
+00:03:36,660 --> 00:03:37,960
+at the project level as well.
+
+98
+00:03:38,380 --> 00:03:38,740
+Okay, great.
+
+99
+00:03:39,080 --> 00:03:39,760
+So that was projects.
+
+100
+00:03:40,220 --> 00:03:41,120
+I'll see you in the next one.

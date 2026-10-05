@@ -1,0 +1,615 @@
+1
+00:00:00,080 --> 00:00:04,680
+Okay, let's walk you through the vision prompting guide, which is how to prompt a vision model
+
+2
+00:00:04,680 --> 00:00:10,860
+and just really showing you what they're capable of doing. So vision models, typically called
+
+3
+00:00:10,860 --> 00:00:15,800
+multimodal models, that means they have multiple modes of input, not just text, but you can
+
+4
+00:00:15,800 --> 00:00:20,980
+input images as well. And I'm sure there's going to be more coming in terms of inputting
+
+5
+00:00:20,980 --> 00:00:28,000
+video and inputting audio, etc. So one of the big breakthroughs, I think, in recent years
+
+6
+00:00:28,000 --> 00:00:34,360
+is that chat GPT can see now. So up to AI, they released a few months ago at the developer
+
+7
+00:00:34,360 --> 00:00:43,100
+conference at the end of 2023. And now it's pretty easy to have AI look at an image and
+
+8
+00:00:43,100 --> 00:00:49,140
+tell you what's in it. Back in 2014, it was so impossible to do that, that there was a
+
+9
+00:00:49,140 --> 00:00:56,340
+joke on the internet on XKCD that if you needed to take a picture and see if the
+
+10
+00:00:56,340 --> 00:01:01,480
+picture contained a bird, it would be like a five-year research project with a team of
+
+11
+00:01:01,480 --> 00:01:07,220
+PhDs. So it was virtually impossible. Whereas now, it's pretty easy, you just ask chat GPT.
+
+12
+00:01:07,920 --> 00:01:14,140
+Which multimodal models are available as well as chat GPT, which uses GPT-4 vision. There's
+
+13
+00:01:14,140 --> 00:01:19,480
+also CLIP by OpenAI as an open source model that was released as part of Stable. It's
+
+14
+00:01:19,480 --> 00:01:23,980
+actually what Stable Diffusion was originally built on. It's a very simple model, though
+
+15
+00:01:23,980 --> 00:01:30,680
+it can only really tell you what's in an image or give you captions of an image. Gemini 1.5
+
+16
+00:01:30,680 --> 00:01:37,180
+Pro by Google is multimodal. It also accepts video, which is really cool. Cloud3 by Anthropic
+
+17
+00:01:37,180 --> 00:01:42,580
+now accepts images too. And then there's a couple of other open source alternatives.
+
+18
+00:01:42,860 --> 00:01:50,600
+So Lava 1.6 by Meta is open source. That is a fine tune of the Llama 2 model. So it accepts
+
+19
+00:01:50,600 --> 00:01:58,260
+images as well as text. And then there's also Quinn VL, which is by Alibaba. So what can
+
+20
+00:01:58,260 --> 00:02:03,260
+it do? Here's an example that really blew my mind. I uploaded an image of a Twitch stream
+
+21
+00:02:03,260 --> 00:02:07,260
+of the game World of Tanks. And it could pull out lots of information. It could detect
+
+22
+00:02:07,260 --> 00:02:11,480
+different objects. Is there a tank in this image? It can read text from the image as well.
+
+23
+00:02:11,980 --> 00:02:16,740
+It can understand overall layout and UI. It can give feedback on that if you are prompting
+
+24
+00:02:16,740 --> 00:02:22,700
+it for that reason. It can also understand what's happening. It can explain what's happening
+
+25
+00:02:22,700 --> 00:02:25,780
+in the scene based on that image, which is really exciting.
+
+26
+00:02:26,480 --> 00:02:32,780
+What I'm going to do now is apply the five principles of prompting to vision prompting.
+
+27
+00:02:33,140 --> 00:02:37,820
+Because what you'll see is it doesn't matter what the AI model is. Essentially, there's
+
+28
+00:02:37,820 --> 00:02:43,360
+always these same five principles that apply. So everything you've learned for text and
+
+29
+00:02:43,360 --> 00:02:46,440
+image prompting will also work for vision as well.
+
+30
+00:02:47,640 --> 00:02:52,700
+First principle was give direction. And that's also true here. People have found that by
+
+31
+00:02:52,700 --> 00:02:56,700
+pointing to specific objects and literally annotating an image, like drawing a circle
+
+32
+00:02:56,700 --> 00:03:02,180
+around the thing that you want to ask about, that works really well. And you can combine
+
+33
+00:03:02,180 --> 00:03:09,260
+that with traditional ML and image segmentation techniques. So you can draw these on programmatically.
+
+34
+00:03:09,260 --> 00:03:15,480
+Identify if there's a bottle in the image, draw an arrow next to the bottle programmatically,
+
+35
+00:03:15,860 --> 00:03:20,060
+and then query GPT Vision to ask your question about that bottle.
+
+36
+00:03:22,240 --> 00:03:26,260
+Specifying format also works. JSON mode works here as well, which is really great. You
+
+37
+00:03:26,260 --> 00:03:30,700
+can get structured text from an image. So here's an example of reading a driver's license
+
+38
+00:03:30,700 --> 00:03:34,460
+and pulling out the important information. That's really exciting.
+
+39
+00:03:35,220 --> 00:03:40,200
+There's also the concept of providing examples. It can actually accept multiple images. It
+
+40
+00:03:40,200 --> 00:03:45,540
+just doesn't need to be just one. And it's in the chat format, just like any other kind
+
+41
+00:03:45,540 --> 00:03:49,940
+of chat that you have with chat GPT. Here's an example where they got it to correctly read
+
+42
+00:03:49,940 --> 00:03:55,180
+a speedometer, which is something it fails at, where they just provided a few examples
+
+43
+00:03:55,180 --> 00:04:03,840
+first. The first two images, they manually wrote the response. And then the third one,
+
+44
+00:04:03,840 --> 00:04:09,540
+they just included the image and then GPT-4 was able to write that response there and
+
+45
+00:04:09,540 --> 00:04:13,540
+get it correct, which is really good. Evaluating quality is just as important with
+
+46
+00:04:13,540 --> 00:04:19,120
+vision as it is with any other LLM work that you're doing, because it sometimes gets things
+
+47
+00:04:19,120 --> 00:04:23,460
+wrong. So it does a pretty good of recognising who these people are. They're famous researchers.
+
+48
+00:04:24,000 --> 00:04:29,500
+But the bounding boxes it draws around them are a little bit off. You can see it's
+
+49
+00:04:29,500 --> 00:04:34,760
+missed and GNG or engineering here with the bounding box. I don't fully trust it for
+
+50
+00:04:34,760 --> 00:04:38,180
+every task. You need to evaluate quality just like you do for anything.
+
+51
+00:04:38,720 --> 00:04:43,400
+Division of labour works here as well. So if you divide a task up into multiple prompts,
+
+52
+00:04:44,080 --> 00:04:49,880
+or even within the same prompt, if you get to think step by step by prompting it to figure
+
+53
+00:04:49,880 --> 00:04:56,020
+out let's count these apples row by row, does a much better job of getting the exact correct
+
+54
+00:04:56,020 --> 00:05:01,220
+response. And you can see here where we didn't ask it to do that, it didn't count the right
+
+55
+00:05:01,220 --> 00:05:07,990
+number of apples. Cool. Now I think the biggest thing, the most exciting thing for me is
+
+56
+00:05:09,130 --> 00:05:13,770
+temporal reasoning. What I mean by that is it can actually understand what's happening in a
+
+57
+00:05:13,770 --> 00:05:19,350
+sequence of images. Here's an example where she showed four pictures of someone doing a push up,
+
+58
+00:05:19,430 --> 00:05:24,070
+they go down, and then they go up again. And you can actually ask it, what's this person going
+
+59
+00:05:24,070 --> 00:05:28,810
+to do next? They're going to do a push up. It actually understands the sequence of images here,
+
+60
+00:05:28,810 --> 00:05:33,370
+and it could reorder the images as well if you put them out of sequence, which is, again,
+
+61
+00:05:33,490 --> 00:05:37,410
+very exciting. Now this is really different. I think this is the thing that you couldn't do
+
+62
+00:05:37,410 --> 00:05:41,570
+before with traditional ML because they didn't have a reasoning engine behind it. You could
+
+63
+00:05:41,570 --> 00:05:45,430
+identify that there are cameras in the image, you could identify a person in the image,
+
+64
+00:05:45,730 --> 00:05:51,090
+but it couldn't really figure out what that person is doing from frame to frame. And I think that
+
+65
+00:05:51,090 --> 00:05:56,390
+little glimpse of intelligence, that is really what makes this very special and worth the
+
+66
+00:05:56,390 --> 00:06:03,470
+absorbent cost comes with using vision models. I applied this to a project that I worked on
+
+67
+00:06:03,470 --> 00:06:09,530
+recently where we transcribed the audio for some video, but we also transcribed the images
+
+68
+00:06:09,530 --> 00:06:16,050
+using AI Vision. So we got it to provide commentary on the game, and this is from a Twitch stream.
+
+69
+00:06:16,950 --> 00:06:20,970
+So you can see the sequence of images we provided, these are the timestamps in seconds,
+
+70
+00:06:21,110 --> 00:06:25,610
+and then this is the commentary here that the AI wrote, and it's really good. You can
+
+71
+00:06:25,610 --> 00:06:30,090
+stitch all this together as well. One of the things that we found is that it can handle
+
+72
+00:06:30,090 --> 00:06:36,130
+maybe up to 30 images at the minute in terms of the context length, and it's also very expensive.
+
+73
+00:06:37,010 --> 00:06:42,130
+So it turned out to be about $6 an hour to do this, which isn't actually that far off
+
+74
+00:06:42,130 --> 00:06:46,290
+paying someone in a low cost country to do it. We expect that's going to come down by an order
+
+75
+00:06:46,290 --> 00:06:52,070
+of magnitude soon. One thing you have to watch out is AI models have a mind of their own to
+
+76
+00:06:52,070 --> 00:06:56,390
+come be trusted. Just like I said before, evaluation is really important. We found that
+
+77
+00:06:56,390 --> 00:07:02,450
+quite often, it would refuse to do the request or get things wrong. So we had to really develop
+
+78
+00:07:02,450 --> 00:07:07,030
+a lot of good evaluation techniques in order to make sure this is working. And it's a real pain,
+
+79
+00:07:07,030 --> 00:07:12,310
+because every time we get something wrong, that's costing you real money for a vision request. It
+
+80
+00:07:12,310 --> 00:07:16,170
+could be a couple of cents each. So if you're doing hundreds of hours of footage, then these
+
+81
+00:07:16,170 --> 00:07:23,270
+problems really add up. So we developed a bunch of evaluation metrics. A few different things that we
+
+82
+00:07:23,270 --> 00:07:30,210
+found were useful is we had a test set where we actually knew the answers. So we could provide a
+
+83
+00:07:30,210 --> 00:07:36,310
+sequence, and then we knew what sorts of things were in that sequence. And we asked it to identify
+
+84
+00:07:36,310 --> 00:07:41,670
+whether those things were in the sequence. And what we can do then is get an accuracy score.
+
+85
+00:07:42,010 --> 00:07:48,130
+So we can see how often did it predict false, and it actually was false. How often did it
+
+86
+00:07:48,130 --> 00:07:53,690
+predict false, but it actually was true. One of the things we found is that it doesn't hallucinate
+
+87
+00:07:54,290 --> 00:08:01,830
+when something isn't there. So it actually had zero cases where, let's give an example.
+
+88
+00:08:02,410 --> 00:08:07,670
+Is there a tank in this image? It doesn't imagine there's a tank in the image if it's not there,
+
+89
+00:08:07,770 --> 00:08:12,630
+but sometimes it would miss something. One of the things we're looking for was close quarters
+
+90
+00:08:12,630 --> 00:08:18,230
+combat. And sometimes there was actually close quarters combat, and it didn't recognize that.
+
+91
+00:08:18,690 --> 00:08:21,930
+So the accuracy was about 80% for the things that we were testing out.
+
+92
+00:08:22,450 --> 00:08:29,670
+The other thing we needed to do was figure out how close it got with some labeling. It wouldn't
+
+93
+00:08:29,670 --> 00:08:34,490
+always label the same things the same way. We had active combat as one of the labels here,
+
+94
+00:08:34,830 --> 00:08:37,970
+but then sometimes it would come up with a new label, which is active combat engagement,
+
+95
+00:08:37,970 --> 00:08:43,150
+which is so close that it's pretty much the same thing. And we would treat that as a winning test
+
+96
+00:08:43,610 --> 00:08:48,670
+answer. This was the reference answer, and then this is what it came up with. And because it's
+
+97
+00:08:48,670 --> 00:08:54,430
+so close, we used cosine similarity on a vector database. We're based just based on this text
+
+98
+00:08:54,430 --> 00:08:59,890
+that we could get that similarity back. We count it as a one if the similarity was above 90%.
+
+99
+00:09:00,610 --> 00:09:07,380
+And you can see some examples where that is. One thing we expect is that open source models
+
+100
+00:09:07,380 --> 00:09:13,900
+will bring down cost. So this is an experiment I ran with 1.6, and it's a 30 billion parameter
+
+101
+00:09:13,900 --> 00:09:18,720
+model. It does a pretty good job. It's slow, though. At the present, it takes about five
+
+102
+00:09:18,720 --> 00:09:24,480
+minutes to process one minute worth of video, which isn't great. It's much slower than real
+
+103
+00:09:24,480 --> 00:09:28,820
+time. GPT Vision is actually slightly faster than real time. This obviously will speed up.
+
+104
+00:09:29,040 --> 00:09:33,860
+This was me running it on my three MacBooks. Over time, I expect the speed will increase,
+
+105
+00:09:33,860 --> 00:09:38,460
+the cost will come down, and be relatively cheap to sequence any sort of video.
+
+106
+00:09:39,900 --> 00:09:43,620
+One of the really exciting things I've seen, which I think will change a lot,
+
+107
+00:09:43,740 --> 00:09:47,960
+and it's not something I really predicted, was using this for software development.
+
+108
+00:09:48,340 --> 00:09:54,140
+TLDraw did a really cool feature in the platform where you can take your mockup,
+
+109
+00:09:54,580 --> 00:09:58,640
+and then it takes a screenshot of that mockup, and it feeds it to GPT Vision.
+
+110
+00:09:58,640 --> 00:10:05,680
+Then what you get back is a generated code. It literally generates the design, the code,
+
+111
+00:10:05,680 --> 00:10:10,020
+for you based on that mockup. You just click make it real, which is pretty cool.
+
+112
+00:10:10,500 --> 00:10:14,900
+So there's going to be all sorts of new modalities there. I think now that AI can see,
+
+113
+00:10:15,400 --> 00:10:20,340
+then maybe typing text into a box isn't going to be the main way we interact with AI,
+
+114
+00:10:20,600 --> 00:10:25,920
+but we'll see. One of the other exciting things I found is that, especially with Google,
+
+115
+00:10:25,920 --> 00:10:30,860
+I'm seeing some demos here that it can return structured data from video.
+
+116
+00:10:31,600 --> 00:10:36,720
+Here is an example of some of the works at Google. They uploaded a video of American Cars,
+
+117
+00:10:37,500 --> 00:10:41,680
+and then it pulled out structured data of what cars are in the video. I think this is going to be
+
+118
+00:10:41,680 --> 00:10:48,880
+really big importance, especially because Google's model has 1 million token context windows. So you
+
+119
+00:10:48,880 --> 00:10:53,800
+could potentially take a whole movie and pull out structured data of which characters appeared
+
+120
+00:10:53,800 --> 00:10:58,380
+and which parts of the movie. That could open up quite a bit. That's the sort of stuff that
+
+121
+00:10:58,380 --> 00:11:04,300
+people like Netflix pay millions of dollars for people to do manually right now, which should
+
+122
+00:11:04,300 --> 00:11:10,400
+hopefully be done by AI in the future for a lot less money. So what are the other Vision
+
+123
+00:11:10,400 --> 00:11:16,600
+use cases? I just listed a few here that I came up with. This is primarily from a paper
+
+124
+00:11:16,600 --> 00:11:21,220
+I'll enter at the end, but a few that are interesting. It's pretty good at understanding
+
+125
+00:11:21,220 --> 00:11:26,760
+medical images, although it's not a doctor's. They can at least help you diagnose what's going
+
+126
+00:11:26,760 --> 00:11:31,700
+on potentially. They can recognize logos, it can count objects, it can tell you what's funny
+
+127
+00:11:31,700 --> 00:11:36,300
+about an image. It's also good at visual reasoning, so it can infer from visual clues in the image
+
+128
+00:11:36,300 --> 00:11:41,140
+what's going on. It can extract text, it's really good at code architecture. Not just
+
+129
+00:11:41,740 --> 00:11:47,140
+the example I showed you where we draw a mock-up and it turns that into front-end code,
+
+130
+00:11:47,140 --> 00:11:52,720
+but also in the back-end. You can draw a mock-up of a data architecture or a database structure
+
+131
+00:11:52,720 --> 00:11:59,360
+and it can turn that into Python code. It can interpret charts, it can actually pull data from
+
+132
+00:11:59,360 --> 00:12:04,820
+the chart, so extract all the sales figures from this pie chart could be really interesting.
+
+133
+00:12:05,360 --> 00:12:09,160
+It can translate language, which is really powerful, especially when it gets faster than
+
+134
+00:12:09,160 --> 00:12:14,640
+real time. You'll be able to hold it up just like you can do with Google Translate right now.
+
+135
+00:12:14,640 --> 00:12:21,260
+You can hold it up to a sign and it can automatically translate that back into your native
+
+136
+00:12:21,260 --> 00:12:26,200
+language. It's really good at data extraction as well. You can pull data out the image,
+
+137
+00:12:26,340 --> 00:12:31,840
+like you've seen examples of, to read human emotions and understand them and infer information
+
+138
+00:12:31,840 --> 00:12:37,080
+from them. It can evaluate aesthetics, so I've seen some people use this in image prompting.
+
+139
+00:12:37,580 --> 00:12:42,440
+It can evaluate whether something is beautiful or not. It can score it, which is pretty cool.
+
+140
+00:12:42,440 --> 00:12:48,220
+It can detect defects. I imagine this can be used a lot in factories in order to identify
+
+141
+00:12:48,220 --> 00:12:53,860
+whether something has gone wrong or the product has got a hole in it or something needs to be
+
+142
+00:12:53,860 --> 00:12:58,380
+stopped about the manufacturing process. Then the final two, I think, is where it really gets sci-fi
+
+143
+00:12:58,380 --> 00:13:03,800
+embodied agents. Being able to walk around as a robot and it can actually tell you
+
+144
+00:13:03,800 --> 00:13:09,500
+where to go to get something from the fridge. That means it can actually be applied to a robot
+
+145
+00:13:09,500 --> 00:13:15,060
+and that robot can then use deep division to understand where it's moving in the world.
+
+146
+00:13:15,300 --> 00:13:21,860
+I think that's pretty cool. You can also set up a browsing agent, so a little bit less sci-fi than a
+
+147
+00:13:21,860 --> 00:13:26,820
+robot walking around your home, but you can get it to actually operate your browser, operate your
+
+148
+00:13:26,820 --> 00:13:31,580
+computer, and book things for you or schedule things for you. I think that's going to be
+
+149
+00:13:31,580 --> 00:13:35,960
+really powerful as well. If you wanted to learn a little bit more about visual prompting,
+
+150
+00:13:35,960 --> 00:13:39,960
+I really recommend this paper. It's where a lot of these examples came from. It's called The Dawn of
+
+151
+00:13:39,960 --> 00:13:47,180
+LMMs. That's L-M, Large Multimodal Models instead of L-L-M, Large Language Models. But yeah,
+
+152
+00:13:47,280 --> 00:13:52,500
+I think this is the future. I think there's a lot of unexpected businesses that are going to come
+
+153
+00:13:52,500 --> 00:13:58,640
+out of this that will prove to be really impactful on our world. The quicker you can test out this
+
+154
+00:13:58,640 --> 00:13:59,500
+stuff, the better.

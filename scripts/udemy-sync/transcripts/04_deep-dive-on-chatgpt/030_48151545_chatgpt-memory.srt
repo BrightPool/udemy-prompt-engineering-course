@@ -1,0 +1,243 @@
+1
+00:00:00,000 --> 00:00:01,520
+Hey, and in this video, we're gonna have a look
+
+2
+00:00:01,520 --> 00:00:03,140
+at something called ChatGPT Memory.
+
+3
+00:00:03,560 --> 00:00:06,480
+This basically allows ChatGPT to store previous information
+
+4
+00:00:06,480 --> 00:00:08,720
+from your recorded chat history sessions.
+
+5
+00:00:09,060 --> 00:00:10,420
+You can prompt memory as well.
+
+6
+00:00:10,660 --> 00:00:13,220
+So we're gonna go into the top left, go to GPT-4o,
+
+7
+00:00:13,560 --> 00:00:15,080
+and then what I'm gonna do is say,
+
+8
+00:00:16,140 --> 00:00:18,240
+remember that my name is James.
+
+9
+00:00:18,800 --> 00:00:20,980
+And what you'll see is that ChatGPT is actually gonna say
+
+10
+00:00:20,980 --> 00:00:22,660
+memory created or memory updated,
+
+11
+00:00:23,220 --> 00:00:25,900
+and ChatGPT is able to then figure out
+
+12
+00:00:25,900 --> 00:00:27,140
+that there's a memory here.
+
+13
+00:00:27,460 --> 00:00:28,780
+After clicking on Manage Memories,
+
+14
+00:00:28,780 --> 00:00:30,680
+you can see all of the memories that appear,
+
+15
+00:00:30,980 --> 00:00:32,600
+and you can also delete memories as well.
+
+16
+00:00:32,820 --> 00:00:34,220
+So I could delete that, you know,
+
+17
+00:00:34,400 --> 00:00:35,820
+ChatGPT knows that my name is James.
+
+18
+00:00:36,320 --> 00:00:39,580
+Now, why memory is so powerful is because we could go
+
+19
+00:00:39,580 --> 00:00:42,900
+to a new conversation and say, what is my name?
+
+20
+00:00:45,420 --> 00:00:47,020
+And it knows that my name is James.
+
+21
+00:00:47,340 --> 00:00:49,240
+And this is really good because this basically means
+
+22
+00:00:49,240 --> 00:00:53,440
+we can store or tell ChatGPT to store relevant information
+
+23
+00:00:53,440 --> 00:00:55,980
+about our business, about our personal context,
+
+24
+00:00:56,300 --> 00:00:58,440
+and then that information is going to be dynamically
+
+25
+00:00:58,440 --> 00:01:01,940
+injected into the prompt and make the chat
+
+26
+00:01:01,940 --> 00:01:04,100
+and the responses much more tailored to you
+
+27
+00:01:04,100 --> 00:01:05,640
+and your current situation.
+
+28
+00:01:06,120 --> 00:01:07,600
+So remember, you can access your memories
+
+29
+00:01:07,600 --> 00:01:08,680
+by creating a memory.
+
+30
+00:01:08,920 --> 00:01:10,260
+You can also access your memories
+
+31
+00:01:10,260 --> 00:01:11,300
+if you go to the top right.
+
+32
+00:01:11,800 --> 00:01:15,280
+Go to Settings, and then once you're in Settings,
+
+33
+00:01:15,600 --> 00:01:18,580
+click on Personalization, and then go to Manage,
+
+34
+00:01:18,680 --> 00:01:20,360
+and you'll see all of your memories here.
+
+35
+00:01:20,560 --> 00:01:21,680
+You can clear all memories,
+
+36
+00:01:21,820 --> 00:01:23,080
+or you can clear a single memory,
+
+37
+00:01:23,600 --> 00:01:26,940
+and then over time, you will accumulate more memories.
+
+38
+00:01:26,940 --> 00:01:29,180
+The last thing I wanna show you when it comes to memories
+
+39
+00:01:29,180 --> 00:01:32,180
+is how to explicitly inject memories into ChatGPT,
+
+40
+00:01:32,320 --> 00:01:33,240
+and that's just through prompting.
+
+41
+00:01:33,900 --> 00:01:37,120
+So for example, I could say I want you to remember
+
+42
+00:01:37,660 --> 00:01:40,940
+that my name is James Phoenix.
+
+43
+00:01:41,460 --> 00:01:43,320
+And then what we're basically doing to ChatGPT
+
+44
+00:01:43,320 --> 00:01:45,600
+is explicitly injecting memories
+
+45
+00:01:45,600 --> 00:01:46,640
+that are then gonna be saved.
+
+46
+00:01:46,840 --> 00:01:49,580
+So you don't necessarily have to wait for ChatGPT
+
+47
+00:01:49,580 --> 00:01:52,480
+to collect memories about what you want it
+
+48
+00:01:52,480 --> 00:01:53,320
+to know all the time.
+
+49
+00:01:53,600 --> 00:01:56,240
+You could just keep asking ChatGPT to add memories
+
+50
+00:01:56,240 --> 00:01:57,840
+or update existing memories.
+
+51
+00:01:58,400 --> 00:02:01,040
+You could say, can you update my age
+
+52
+00:02:01,500 --> 00:02:05,300
+based on the 13th of September 1992?
+
+53
+00:02:05,700 --> 00:02:08,320
+So you can specifically update memories as well,
+
+54
+00:02:08,480 --> 00:02:10,520
+or delete memories by just prompting
+
+55
+00:02:10,520 --> 00:02:11,620
+and talking to ChatGPT.
+
+56
+00:02:12,080 --> 00:02:14,220
+I find this is a really great way
+
+57
+00:02:14,220 --> 00:02:16,200
+when I've had a very in-depth conversation
+
+58
+00:02:16,200 --> 00:02:20,120
+or I want to frame all of the conversations
+
+59
+00:02:20,520 --> 00:02:23,640
+for ChatGPT going forward with specific memories.
+
+60
+00:02:23,640 --> 00:02:26,480
+That's when I'll explicitly add these in
+
+61
+00:02:26,480 --> 00:02:27,940
+so that they're always present.

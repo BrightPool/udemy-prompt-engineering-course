@@ -1,0 +1,927 @@
+1
+00:00:00,520 --> 00:00:04,520
+I'm going to teach you about prompt testing, and the good news is you don't have to know
+
+2
+00:00:04,520 --> 00:00:05,540
+how to code to do this.
+
+3
+00:00:05,700 --> 00:00:07,380
+So here you can see the outcome of a test.
+
+4
+00:00:07,920 --> 00:00:12,940
+This is variation A versus variation B, and specifically I was trying to test something
+
+5
+00:00:12,940 --> 00:00:16,040
+that would increase the word length of blog posts.
+
+6
+00:00:16,340 --> 00:00:19,620
+Even if you ask it for quite a long blog post, it doesn't listen all the time.
+
+7
+00:00:19,780 --> 00:00:23,520
+There's all sorts of tricks to getting it to listen, and the trick that I tried here,
+
+8
+00:00:23,660 --> 00:00:29,120
+if you look into the datasheet, I specifically just said, make it really long or I lose
+
+9
+00:00:29,120 --> 00:00:29,780
+my job.
+
+10
+00:00:30,400 --> 00:00:35,540
+The reason why it works if you look for the emotion prompting paper is that large language
+
+11
+00:00:35,540 --> 00:00:39,280
+metals can actually understand and can be enhanced by emotionally stimuli.
+
+12
+00:00:39,740 --> 00:00:45,200
+And that's pretty interesting because AI is like a simulation of a human brain, if you
+
+13
+00:00:45,200 --> 00:00:46,020
+think about it that way.
+
+14
+00:00:46,320 --> 00:00:50,860
+So it does make sense that they would react in similar ways to the way that we work.
+
+15
+00:00:51,140 --> 00:00:54,840
+So that's the technical explanation to why this works.
+
+16
+00:00:55,540 --> 00:00:59,820
+So what you can see here, and I'll just outline these, is that these responses are actually
+
+17
+00:00:59,820 --> 00:01:01,160
+longer but not consistently.
+
+18
+00:01:01,400 --> 00:01:02,440
+In some cases, they're shorter.
+
+19
+00:01:02,760 --> 00:01:05,660
+In this case, we actually got a pretty short response back.
+
+20
+00:01:06,440 --> 00:01:10,520
+In a few other cases, we've gotten below a thousand words.
+
+21
+00:01:11,140 --> 00:01:16,620
+The way I'm calculating word length here is I'm just counting the result of splitting
+
+22
+00:01:16,620 --> 00:01:17,920
+the text by space.
+
+23
+00:01:18,200 --> 00:01:20,000
+You can see that this doesn't have to be really complicated.
+
+24
+00:01:20,420 --> 00:01:22,000
+E-vals is a whole topic, right?
+
+25
+00:01:22,000 --> 00:01:26,520
+There's a lot that you can learn about e-vals, and most of them are geared towards programmers
+
+26
+00:01:26,960 --> 00:01:29,220
+who can set up like an eval framework.
+
+27
+00:01:29,520 --> 00:01:32,640
+But in this case, you just need something simple in Google Sheets.
+
+28
+00:01:32,720 --> 00:01:34,140
+I just need to count the number of words, right?
+
+29
+00:01:34,300 --> 00:01:41,100
+We have an existing experiment, and we've tested adding it in all caps, but we want
+
+30
+00:01:41,100 --> 00:01:43,120
+to add another variation here.
+
+31
+00:01:43,560 --> 00:01:48,780
+And that should be as simple as just creating variation C, and then we're going to run
+
+32
+00:01:48,780 --> 00:01:49,700
+it 10 times.
+
+33
+00:01:52,100 --> 00:01:53,340
+Just count 10 of these.
+
+34
+00:01:54,780 --> 00:01:55,120
+There we go.
+
+35
+00:01:55,420 --> 00:01:55,940
+So we have 10.
+
+36
+00:01:58,100 --> 00:02:06,120
+And the hypothesis I have is that if we take this, the hypothesis I have is that if I specify
+
+37
+00:02:06,120 --> 00:02:09,540
+a word length, then it might listen to that, right?
+
+38
+00:02:09,640 --> 00:02:10,040
+But we'll see.
+
+39
+00:02:10,360 --> 00:02:11,440
+And this is an experiment, right?
+
+40
+00:02:11,520 --> 00:02:14,760
+Because we don't actually know if it's capable of following word length at this point.
+
+41
+00:02:14,960 --> 00:02:18,120
+I'm just going to call this specify word length.
+
+42
+00:02:19,500 --> 00:02:23,900
+And I'm going to take this existing prompt, the control, and it's important that you start
+
+43
+00:02:23,900 --> 00:02:29,520
+from the control each time, because you might be getting different results based on the
+
+44
+00:02:29,520 --> 00:02:30,640
+different changes that you made.
+
+45
+00:02:31,100 --> 00:02:36,460
+I'm just going to paste in the template here, get rid of these quip marks, and then I'm
+
+46
+00:02:36,460 --> 00:02:40,240
+going to say, right now, for blog posts, each section should be a minimal paragraph
+
+47
+00:02:40,240 --> 00:02:49,320
+two paragraphs long, and the overall article should be more than 2,000 words.
+
+48
+00:02:50,840 --> 00:02:52,600
+I'm going to pass that in there.
+
+49
+00:02:53,360 --> 00:02:56,180
+And then so this is all, you know, this is going to be the same every time.
+
+50
+00:02:57,600 --> 00:03:04,440
+And the actual, actual post here, I'm just going to paste this in.
+
+51
+00:03:04,680 --> 00:03:06,460
+So this is when the template's filled in.
+
+52
+00:03:06,780 --> 00:03:09,740
+And if you see here, we have these in curly brackets.
+
+53
+00:03:09,740 --> 00:03:14,440
+We have writing style, we have topic, these are variables that you need to fill in.
+
+54
+00:03:15,020 --> 00:03:19,040
+And if we see an example here, this is where it's filled in.
+
+55
+00:03:19,440 --> 00:03:24,100
+So you can see that we filled in the topic, productivity with time blocking.
+
+56
+00:03:24,600 --> 00:03:27,380
+And we filled in the writing style that we want.
+
+57
+00:03:27,720 --> 00:03:30,020
+We filled in the example post as well.
+
+58
+00:03:30,420 --> 00:03:35,460
+So we've given it one example already, which is a post here about the Pomodoro
+
+59
+00:03:35,460 --> 00:03:40,480
+technique, and, and then we're just going to wait for it to come back with the
+
+60
+00:03:40,480 --> 00:03:44,000
+actual response, but we need to adapt this, this filled in, we call it the
+
+61
+00:03:44,000 --> 00:03:47,640
+formatted prompt as well, because that's what we're actually going to copy and
+
+62
+00:03:47,640 --> 00:03:49,200
+paste into check GPT.
+
+63
+00:03:50,300 --> 00:03:52,040
+So now we have it in here.
+
+64
+00:03:52,340 --> 00:03:54,960
+We need to just make that change that we made to the template.
+
+65
+00:03:55,280 --> 00:03:59,560
+We said minimum of two paragraphs long, and it should be more than 2,000 words.
+
+66
+00:04:06,700 --> 00:04:07,140
+Okay.
+
+67
+00:04:07,380 --> 00:04:09,700
+So that's the only change that we're testing here.
+
+68
+00:04:09,700 --> 00:04:13,100
+And we're just isolating that one variable and we can just copy and
+
+69
+00:04:13,100 --> 00:04:15,120
+paste this down for them, right?
+
+70
+00:04:15,200 --> 00:04:18,780
+So if you're running a more advanced experiment, you might want to try multiple
+
+71
+00:04:18,780 --> 00:04:23,340
+things, so maybe you try multiple topics, maybe you try different examples, whatever
+
+72
+00:04:23,340 --> 00:04:24,940
+it is, you can test that.
+
+73
+00:04:25,200 --> 00:04:28,600
+And the reason why, by the way, I'm running the same thing 10 times is you
+
+74
+00:04:28,600 --> 00:04:30,840
+can see just how often the results vary.
+
+75
+00:04:31,240 --> 00:04:34,760
+And this is the thing with LLMs, they don't always give you the same response
+
+76
+00:04:34,760 --> 00:04:38,960
+back, so it's really important that you actually take a look at what's coming
+
+77
+00:04:38,960 --> 00:04:42,060
+back and you actually run experiments like this.
+
+78
+00:04:42,440 --> 00:04:42,680
+Okay, cool.
+
+79
+00:04:42,840 --> 00:04:45,880
+Now we have, just to summarize, we have the specified word length.
+
+80
+00:04:46,040 --> 00:04:48,700
+We have a hypothesis of what we think might work.
+
+81
+00:04:48,960 --> 00:04:53,960
+We have the actual prompt template, which we're recording here for posterity.
+
+82
+00:04:54,480 --> 00:04:57,900
+And we could use that template to fill in different topics or
+
+83
+00:04:57,900 --> 00:05:00,100
+different writing styles, whatever it is.
+
+84
+00:05:00,780 --> 00:05:04,900
+Then we have the formatted prompts for this run, right?
+
+85
+00:05:05,080 --> 00:05:07,940
+And this is, each one of these rows is a run of chat GPT.
+
+86
+00:05:08,420 --> 00:05:11,700
+And this is exact text that we've pasted in.
+
+87
+00:05:12,000 --> 00:05:13,740
+We will paste into chat GPT.
+
+88
+00:05:14,260 --> 00:05:16,680
+So it's the prompt with the variables filled in.
+
+89
+00:05:16,800 --> 00:05:18,160
+That's the formatted prompt.
+
+90
+00:05:18,600 --> 00:05:21,020
+And then we just need to put in here, which model we're going to use.
+
+91
+00:05:21,360 --> 00:05:25,400
+In this case, we're going to use GPT four, which is chat GPT plus.
+
+92
+00:05:25,900 --> 00:05:28,400
+And then this is where we're going to paste in the response.
+
+93
+00:05:28,860 --> 00:05:33,460
+We can also copy this formula down and I'm just going to drag that down there.
+
+94
+00:05:33,760 --> 00:05:35,380
+So that's going to count the number of words.
+
+95
+00:05:36,180 --> 00:05:36,620
+Cool.
+
+96
+00:05:36,900 --> 00:05:37,000
+All right.
+
+97
+00:05:37,000 --> 00:05:44,640
+So now I'm not going to use chat GPT because chat GPT I've found is relatively consistent.
+
+98
+00:05:44,880 --> 00:05:46,860
+It's somewhat personalized to people's results.
+
+99
+00:05:47,260 --> 00:05:49,960
+If you have custom instructions, it's going to change things, right?
+
+100
+00:05:50,020 --> 00:05:53,540
+I would say whenever you're templating something, you want to use the API, but
+
+101
+00:05:53,540 --> 00:05:55,740
+obviously I promise you, you wouldn't have to code here.
+
+102
+00:05:56,000 --> 00:05:58,960
+So I'm not going to make you, but if you sign up for a developer
+
+103
+00:05:58,960 --> 00:06:02,760
+account at open AI, the main thing that I use here is this playground.
+
+104
+00:06:03,100 --> 00:06:04,400
+This is the system message.
+
+105
+00:06:04,420 --> 00:06:05,820
+This is like the custom instructions.
+
+106
+00:06:06,220 --> 00:06:07,480
+We're not going to play with that here.
+
+107
+00:06:07,840 --> 00:06:10,500
+We're just going to emulate talking to chat GPT.
+
+108
+00:06:10,880 --> 00:06:12,080
+We have the model over here.
+
+109
+00:06:12,300 --> 00:06:13,800
+So we can use turbo preview.
+
+110
+00:06:14,020 --> 00:06:16,060
+We can use GPT four or whatever it is.
+
+111
+00:06:16,340 --> 00:06:17,980
+And then you can set the temperature as well.
+
+112
+00:06:18,120 --> 00:06:21,580
+I just leave it at one right now and that's relatively balanced.
+
+113
+00:06:21,800 --> 00:06:23,780
+If you want it to be more deterministic.
+
+114
+00:06:23,780 --> 00:06:26,400
+So you want it to give the same result every time you could lower it.
+
+115
+00:06:26,560 --> 00:06:29,900
+Or if you want it to be a bit more crazy or creative, you could increase it.
+
+116
+00:06:30,280 --> 00:06:33,200
+The main thing you want to make sure is you set the maximum length here.
+
+117
+00:06:33,200 --> 00:06:36,600
+I've set it for 4,000 because that should be enough.
+
+118
+00:06:36,820 --> 00:06:40,240
+One token, like it's saying here is roughly four characters of English text.
+
+119
+00:06:40,420 --> 00:06:42,340
+So about three fourths of a word.
+
+120
+00:06:43,000 --> 00:06:43,080
+Yeah.
+
+121
+00:06:43,200 --> 00:06:45,440
+4,000 tokens would be about 3,000 words.
+
+122
+00:06:45,780 --> 00:06:47,780
+It should be plenty for what we, what we need.
+
+123
+00:06:48,040 --> 00:06:49,660
+And then don't worry about these other settings.
+
+124
+00:06:49,960 --> 00:06:54,500
+I'm going to paste in the prompt here and we can see, actually,
+
+125
+00:06:54,640 --> 00:06:59,860
+we'll just delete the quote marks, something that Google sheets adds.
+
+126
+00:07:00,480 --> 00:07:02,700
+But yeah, we have, this is our formatted prompt.
+
+127
+00:07:02,700 --> 00:07:04,440
+Remember, don't place the template in there.
+
+128
+00:07:04,540 --> 00:07:08,100
+So we have here the productivity with time blocking topic.
+
+129
+00:07:08,280 --> 00:07:10,460
+We have the writing style.
+
+130
+00:07:11,240 --> 00:07:15,300
+And then we have this example post of another post I've written in the past.
+
+131
+00:07:15,620 --> 00:07:16,800
+And it's going to go off that.
+
+132
+00:07:16,960 --> 00:07:17,300
+Okay, cool.
+
+133
+00:07:17,440 --> 00:07:23,680
+So let's hit submit and it's going to generate this response.
+
+134
+00:07:27,910 --> 00:07:32,210
+And this takes a little bit of time with GPT-4 is much faster than GPT-3.5.
+
+135
+00:07:33,170 --> 00:07:36,470
+But the nice thing about this, by the way, is you're also not
+
+136
+00:07:36,470 --> 00:07:39,810
+going to hit your limits because GPT-4, you can only send 50
+
+137
+00:07:39,810 --> 00:07:43,730
+messages a day or in three hours, which is super annoying, right?
+
+138
+00:07:43,930 --> 00:07:48,230
+And if you have this situation where you're trying to test a prompt,
+
+139
+00:07:48,690 --> 00:07:49,810
+I need to run it 10 times.
+
+140
+00:07:50,070 --> 00:07:53,150
+That means I can only test five things and that sucks.
+
+141
+00:07:53,610 --> 00:07:57,270
+It's better to do it through the open AI API playground instead.
+
+142
+00:07:58,130 --> 00:08:01,670
+One thing I should also mention is that there is some cost to this.
+
+143
+00:08:02,350 --> 00:08:08,070
+GPT-4 is pretty cheap, but you can see the pricing and the usage in here.
+
+144
+00:08:08,610 --> 00:08:12,090
+I'm just going to try and open that another tab so you can see, so you can
+
+145
+00:08:12,090 --> 00:08:13,590
+see how many spend three bucks this month.
+
+146
+00:08:13,890 --> 00:08:19,230
+But last month I spent a fair bit, 130 bucks.
+
+147
+00:08:19,550 --> 00:08:21,130
+It just depends on what you're doing.
+
+148
+00:08:21,550 --> 00:08:25,490
+This actual, these API calls, so like this one I just made here is like five
+
+149
+00:08:25,490 --> 00:08:28,550
+cents, so it's not a big amount.
+
+150
+00:08:28,850 --> 00:08:30,390
+So don't worry too much about it.
+
+151
+00:08:30,910 --> 00:08:31,190
+Cool.
+
+152
+00:08:31,670 --> 00:08:32,370
+All right, here we go.
+
+153
+00:08:32,470 --> 00:08:39,770
+We have response here and I'm just going to copy.
+
+154
+00:08:40,790 --> 00:08:41,550
+I'm not even going to read it.
+
+155
+00:08:41,830 --> 00:08:45,090
+I'm just going to paste in here and here we go.
+
+156
+00:08:45,370 --> 00:08:47,050
+We only got 933 words.
+
+157
+00:08:47,330 --> 00:08:52,770
+So it did ignore our admonition to make the word land long.
+
+158
+00:08:53,090 --> 00:08:54,550
+You can have a couple of choices here.
+
+159
+00:08:54,710 --> 00:08:58,290
+The one you can iterate on the prompt and just say it did so badly on
+
+160
+00:08:58,290 --> 00:09:00,810
+the first try that I'm not even going to try it multiple times.
+
+161
+00:09:00,810 --> 00:09:04,310
+I'm going to try something else, or you could keep running it 10 more
+
+162
+00:09:04,310 --> 00:09:07,070
+times and pasting these in just to see if there's some variation.
+
+163
+00:09:07,270 --> 00:09:09,050
+I'm going to do that and then I'll restart.
+
+164
+00:09:10,430 --> 00:09:10,830
+Okay.
+
+165
+00:09:11,050 --> 00:09:15,390
+On the last run now, you can see the, I've just been copying and pasting in here.
+
+166
+00:09:15,970 --> 00:09:17,290
+And it's not looking good.
+
+167
+00:09:17,470 --> 00:09:20,590
+Actually we're getting worse results so far.
+
+168
+00:09:20,670 --> 00:09:24,030
+Yeah, with an experiment like this, typically I'd run it a couple of times.
+
+169
+00:09:24,030 --> 00:09:28,970
+And if it's not even close, I would stop it, but this is interesting data, right?
+
+170
+00:09:28,970 --> 00:09:30,790
+Because here we go.
+
+171
+00:09:30,870 --> 00:09:31,790
+We've got the last one here.
+
+172
+00:09:31,970 --> 00:09:36,510
+If we just paste that one in, what this tells us is that it does not respect word count.
+
+173
+00:09:36,790 --> 00:09:41,130
+It has basically completely ignored what we said here that it should be more than
+
+174
+00:09:41,130 --> 00:09:46,130
+2000 words that is a good result when it comes to an experiment, you'd be surprised
+
+175
+00:09:46,130 --> 00:09:49,490
+because one, it tells us that technique doesn't work.
+
+176
+00:09:49,650 --> 00:09:52,710
+Says there's a lot of time and effort, like worrying about whether it's going to
+
+177
+00:09:52,710 --> 00:09:54,870
+work or not, and we're not going to try that one next.
+
+178
+00:09:54,970 --> 00:09:56,230
+We're going to try a different technique.
+
+179
+00:09:56,850 --> 00:10:01,010
+The other thing that's really helpful here is that when we see other people
+
+180
+00:10:01,010 --> 00:10:04,310
+using this technique, we can tell them of this experiment and actually give them
+
+181
+00:10:04,310 --> 00:10:07,610
+the data and say, look, it doesn't look like it works, but you test it.
+
+182
+00:10:07,790 --> 00:10:11,030
+And it fosters a culture of testing within the organization.
+
+183
+00:10:11,670 --> 00:10:15,450
+The really nice thing as well is that this is just a small scale test with
+
+184
+00:10:15,450 --> 00:10:18,730
+you doing it in Google sheets, but like you could pass this to a developer
+
+185
+00:10:18,730 --> 00:10:21,190
+and say, Hey, can you test this at a larger scale?
+
+186
+00:10:21,550 --> 00:10:25,990
+Or maybe we could, if you find a result that does work like we did with
+
+187
+00:10:25,990 --> 00:10:30,390
+and make it really long in caps, the emotion prompting, then that's something
+
+188
+00:10:30,390 --> 00:10:33,250
+that you could validate with a larger scale test and you could try it with
+
+189
+00:10:33,250 --> 00:10:36,750
+lots of different topics or lots of different example blog posts or lots
+
+190
+00:10:36,750 --> 00:10:41,730
+of different writing styles and see which of those things impacts the overall length.
+
+191
+00:10:42,470 --> 00:10:47,090
+You could also then scale this up and do other types of evaluations.
+
+192
+00:10:47,350 --> 00:10:50,930
+So maybe the word length isn't as good when we use one type of prompt,
+
+193
+00:10:51,290 --> 00:10:52,830
+but maybe the quality is high.
+
+194
+00:10:52,830 --> 00:10:57,410
+So you could have maybe outsourced this, have someone read each of these blog
+
+195
+00:10:57,410 --> 00:10:59,970
+posts and then put like a rating out of 10.
+
+196
+00:11:00,110 --> 00:11:03,790
+The reason why it's useful to save this stuff here is that rather than just
+
+197
+00:11:03,790 --> 00:11:07,530
+running it in chat GBT, and then you lose the output, you can never find it
+
+198
+00:11:07,530 --> 00:11:11,550
+again, cause it's in your history somewhere, then you can actually give
+
+199
+00:11:11,550 --> 00:11:12,550
+this data to someone else.
+
+200
+00:11:12,650 --> 00:11:15,510
+You actually have some real data now and you can use that
+
+201
+00:11:15,510 --> 00:11:17,550
+for whatever it is you need.
+
+202
+00:11:17,730 --> 00:11:19,970
+You can go back and review it in different ways.
+
+203
+00:11:19,970 --> 00:11:24,110
+You can add new tests to the experiment, really, whatever it is you want.
+
+204
+00:11:24,350 --> 00:11:27,430
+That's a really powerful thing you can do here and just on the final
+
+205
+00:11:27,430 --> 00:11:31,050
+thing, let me just update this, this pivot table.
+
+206
+00:11:31,330 --> 00:11:31,430
+Okay.
+
+207
+00:11:31,690 --> 00:11:35,590
+So to change the range, you just select the pivot table and then you
+
+208
+00:11:35,590 --> 00:11:39,910
+click edit here and then if you scroll up, you'll see the range here.
+
+209
+00:11:40,210 --> 00:11:44,970
+Right now it goes to G21, which is just the bottom here.
+
+210
+00:11:45,270 --> 00:11:48,410
+We want it to go all the way down to G31.
+
+211
+00:11:49,970 --> 00:11:51,170
+You can change that.
+
+212
+00:11:52,290 --> 00:11:57,370
+Or if you want to make this automatic, you could just say to G and then
+
+213
+00:11:57,370 --> 00:12:01,810
+it's going to grab everything if you want, but I'm going to do this manually.
+
+214
+00:12:02,630 --> 00:12:02,690
+Cool.
+
+215
+00:12:02,950 --> 00:12:03,070
+All right.
+
+216
+00:12:03,170 --> 00:12:09,970
+So we can see that we actually had a lower response than I'll lose my jobs
+
+217
+00:12:09,970 --> 00:12:13,990
+and caps, but we did have a slightly higher response to the control.
+
+218
+00:12:14,170 --> 00:12:16,750
+The way we figured that out, I just copy and paste the formula.
+
+219
+00:12:17,610 --> 00:12:18,570
+Actually, let me just do it here.
+
+220
+00:12:18,570 --> 00:12:23,430
+So it would be this divided by this minus one.
+
+221
+00:12:23,930 --> 00:12:30,350
+So it is 7.4% better in terms of length across 10 observations.
+
+222
+00:12:30,870 --> 00:12:33,090
+So it's certainly pretty small, but it did make a difference.
+
+223
+00:12:33,190 --> 00:12:37,450
+It just didn't make as much of a difference as the all caps emotion response.
+
+224
+00:12:38,090 --> 00:12:39,470
+You could also test other things here.
+
+225
+00:12:39,570 --> 00:12:42,970
+So you could take away the caps and just use the root of emotion, or you
+
+226
+00:12:42,970 --> 00:12:46,430
+could put the word length and caps as well, if you want, you can get
+
+227
+00:12:46,430 --> 00:12:50,230
+pretty fine grained with this, but now you know how to do prompt testing.
+
+228
+00:12:50,630 --> 00:12:51,950
+You can test whatever you want.
+
+229
+00:12:52,310 --> 00:12:56,510
+So feel free to make a copy of this sheet, but also do make your own
+
+230
+00:12:56,510 --> 00:12:58,070
+sheets or add your own stuff.
+
+231
+00:12:58,410 --> 00:13:01,990
+If you find that necessary for the purposes of your test or the type of
+
+232
+00:13:01,990 --> 00:13:05,030
+evidence you need to be able to give to the other people on your team.

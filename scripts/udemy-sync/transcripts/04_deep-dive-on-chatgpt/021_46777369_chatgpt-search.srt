@@ -1,0 +1,107 @@
+1
+00:00:00,180 --> 00:00:07,400
+Let me walk you through ChatGPT. This is a new addition to ChatGPT. It did have the ability
+
+2
+00:00:07,400 --> 00:00:12,580
+to search before, but it's gotten a lot better and it looks at multiple sources. Let me just
+
+3
+00:00:12,580 --> 00:00:23,520
+search here for who won the election. It gives us the right answer now because it has up-to-date
+
+4
+00:00:23,520 --> 00:00:31,280
+information from the searches it did. It gives us a specific credit to the sources which
+
+5
+00:00:31,280 --> 00:00:37,900
+is useful. In this case, it's on the Wall Street Journal and you can see here a bit more information.
+
+6
+00:00:38,920 --> 00:00:46,400
+Now if you look on citations, it shows this one specifically. There's also other ones
+
+7
+00:00:46,400 --> 00:00:52,880
+as well, so you can look at Arroyo's, click through specifically to see this. Now, the
+
+8
+00:00:54,100 --> 00:01:00,040
+interesting thing that I found is even if you turn the search off, you say, who won
+
+9
+00:01:00,040 --> 00:01:06,200
+the election? I will still do a search, so it's actually, I think as we speak right
+
+10
+00:01:06,200 --> 00:01:12,500
+now, it's not actually possible to turn this feature off. It will bring this in regardless
+
+11
+00:01:12,500 --> 00:01:19,500
+whenever you're asking for some to-date information, but it is quite useful. Now, if you want to
+
+12
+00:01:19,500 --> 00:01:26,440
+turn the search off, you could go into neutral and then if you just to judge it in classic,
+
+13
+00:01:27,280 --> 00:01:43,560
+you can say the election and it tells us it actually refuses. It's fun, but let's see
+
+14
+00:01:43,560 --> 00:01:55,980
+a very hot topic. That's probably why it appears interesting. So that's how the search works.
+
+15
+00:01:56,660 --> 00:02:02,540
+I would say it's useful, especially for specific situations where you need up-to-date information.
+
+16
+00:02:03,180 --> 00:02:09,040
+Another good example here is what are the latest trends amongst teens?
+
+17
+00:02:09,960 --> 00:02:22,350
+It's street fashion. Because it searches multiple articles, it can be quite useful and it can even
+
+18
+00:02:22,350 --> 00:02:26,890
+bring back images and they can summarize all these different things. So here it's looking at
+
+19
+00:02:26,890 --> 00:02:32,350
+the in-style, college fashion, a few different sites, and you can click through and see
+
+20
+00:02:32,810 --> 00:02:39,850
+the validation here if it's any good. The other thing I found it useful for is restaurants and
+
+21
+00:02:39,850 --> 00:02:52,140
+is a restaurant meeting that sells and tries. Because it has your IP address, it will actually
+
+22
+00:02:52,780 --> 00:02:58,000
+do a search for you. Unfortunately, it's not very accurate because it's just based on IP
+
+23
+00:02:58,000 --> 00:03:03,680
+and I don't live in Birmingham, but that's where my IP address is. It is pretty good. It gives you
+
+24
+00:03:03,680 --> 00:03:09,360
+back a map here, a list, so really gunning for Google here. But again, I would recommend you
+
+25
+00:03:09,360 --> 00:03:16,040
+click through to check if search results first. Hopefully, that's useful. It's much better than
+
+26
+00:03:16,040 --> 00:03:20,500
+the previous search, which would only search maybe one thing at a time. So I've been using this more
+
+27
+00:03:20,500 --> 00:03:20,720
+than a month. So I think it's really useful.

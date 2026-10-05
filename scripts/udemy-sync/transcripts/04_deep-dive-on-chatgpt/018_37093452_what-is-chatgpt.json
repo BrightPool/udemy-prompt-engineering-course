@@ -1,0 +1,6986 @@
+{
+ "lecture_id": "37093452",
+ "title": "what is chatgpt",
+ "section": "04_deep-dive-on-chatgpt",
+ "video_path": "scripts/udemy-sync/videos/04_deep-dive-on-chatgpt/018_37093452_what-is-chatgpt.mp4",
+ "duration_s": 321.94,
+ "model": "small.en",
+ "word_timestamps": true,
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 2.58,
+   "text": " I'm going to walk you through what is ChatGPT.",
+   "words": [
+    {
+     "start": 0.0,
+     "end": 0.22,
+     "word": " I'm",
+     "prob": 0.643
+    },
+    {
+     "start": 0.22,
+     "end": 0.28,
+     "word": " going",
+     "prob": 0.706
+    },
+    {
+     "start": 0.28,
+     "end": 0.36,
+     "word": " to",
+     "prob": 0.995
+    },
+    {
+     "start": 0.36,
+     "end": 0.48,
+     "word": " walk",
+     "prob": 0.996
+    },
+    {
+     "start": 0.48,
+     "end": 0.72,
+     "word": " you",
+     "prob": 0.998
+    },
+    {
+     "start": 0.72,
+     "end": 1.06,
+     "word": " through",
+     "prob": 0.995
+    },
+    {
+     "start": 1.06,
+     "end": 1.4,
+     "word": " what",
+     "prob": 0.875
+    },
+    {
+     "start": 1.4,
+     "end": 1.8,
+     "word": " is",
+     "prob": 0.994
+    },
+    {
+     "start": 1.8,
+     "end": 2.58,
+     "word": " ChatGPT.",
+     "prob": 0.555
+    }
+   ]
+  },
+  {
+   "start": 2.88,
+   "end": 6.12,
+   "text": " This is the original AI model that everyone knows and loves.",
+   "words": [
+    {
+     "start": 2.88,
+     "end": 2.98,
+     "word": " This",
+     "prob": 0.984
+    },
+    {
+     "start": 2.98,
+     "end": 3.14,
+     "word": " is",
+     "prob": 0.999
+    },
+    {
+     "start": 3.14,
+     "end": 3.3,
+     "word": " the",
+     "prob": 0.998
+    },
+    {
+     "start": 3.3,
+     "end": 3.8,
+     "word": " original",
+     "prob": 0.999
+    },
+    {
+     "start": 3.8,
+     "end": 4.38,
+     "word": " AI",
+     "prob": 0.967
+    },
+    {
+     "start": 4.38,
+     "end": 4.74,
+     "word": " model",
+     "prob": 0.993
+    },
+    {
+     "start": 4.74,
+     "end": 5.12,
+     "word": " that",
+     "prob": 0.978
+    },
+    {
+     "start": 5.12,
+     "end": 5.44,
+     "word": " everyone",
+     "prob": 0.996
+    },
+    {
+     "start": 5.44,
+     "end": 5.66,
+     "word": " knows",
+     "prob": 0.995
+    },
+    {
+     "start": 5.66,
+     "end": 5.9,
+     "word": " and",
+     "prob": 0.995
+    },
+    {
+     "start": 5.9,
+     "end": 6.12,
+     "word": " loves.",
+     "prob": 0.998
+    }
+   ]
+  },
+  {
+   "start": 6.86,
+   "end": 9.0,
+   "text": " So you've probably heard of it, but we're going to walk you through it anyway.",
+   "words": [
+    {
+     "start": 6.86,
+     "end": 6.86,
+     "word": " So",
+     "prob": 0.955
+    },
+    {
+     "start": 6.86,
+     "end": 7.06,
+     "word": " you've",
+     "prob": 0.7
+    },
+    {
+     "start": 7.06,
+     "end": 7.22,
+     "word": " probably",
+     "prob": 0.999
+    },
+    {
+     "start": 7.22,
+     "end": 7.42,
+     "word": " heard",
+     "prob": 0.998
+    },
+    {
+     "start": 7.42,
+     "end": 7.52,
+     "word": " of",
+     "prob": 0.998
+    },
+    {
+     "start": 7.52,
+     "end": 7.66,
+     "word": " it,",
+     "prob": 0.999
+    },
+    {
+     "start": 7.66,
+     "end": 7.94,
+     "word": " but",
+     "prob": 0.998
+    },
+    {
+     "start": 7.94,
+     "end": 8.16,
+     "word": " we're",
+     "prob": 0.959
+    },
+    {
+     "start": 8.16,
+     "end": 8.2,
+     "word": " going",
+     "prob": 0.932
+    },
+    {
+     "start": 8.2,
+     "end": 8.28,
+     "word": " to",
+     "prob": 0.999
+    },
+    {
+     "start": 8.28,
+     "end": 8.42,
+     "word": " walk",
+     "prob": 0.993
+    },
+    {
+     "start": 8.42,
+     "end": 8.52,
+     "word": " you",
+     "prob": 0.998
+    },
+    {
+     "start": 8.52,
+     "end": 8.68,
+     "word": " through",
+     "prob": 0.999
+    },
+    {
+     "start": 8.68,
+     "end": 8.78,
+     "word": " it",
+     "prob": 0.998
+    },
+    {
+     "start": 8.78,
+     "end": 9.0,
+     "word": " anyway.",
+     "prob": 0.908
+    }
+   ]
+  },
+  {
+   "start": 9.6,
+   "end": 11.5,
+   "text": " What would be the next word in the sentence?",
+   "words": [
+    {
+     "start": 9.6,
+     "end": 9.6,
+     "word": " What",
+     "prob": 0.809
+    },
+    {
+     "start": 9.6,
+     "end": 9.74,
+     "word": " would",
+     "prob": 0.997
+    },
+    {
+     "start": 9.74,
+     "end": 10.04,
+     "word": " be",
+     "prob": 0.999
+    },
+    {
+     "start": 10.04,
+     "end": 10.18,
+     "word": " the",
+     "prob": 0.999
+    },
+    {
+     "start": 10.18,
+     "end": 10.42,
+     "word": " next",
+     "prob": 0.999
+    },
+    {
+     "start": 10.42,
+     "end": 10.74,
+     "word": " word",
+     "prob": 0.998
+    },
+    {
+     "start": 10.74,
+     "end": 11.0,
+     "word": " in",
+     "prob": 0.998
+    },
+    {
+     "start": 11.0,
+     "end": 11.16,
+     "word": " the",
+     "prob": 0.74
+    },
+    {
+     "start": 11.16,
+     "end": 11.5,
+     "word": " sentence?",
+     "prob": 1.0
+    }
+   ]
+  },
+  {
+   "start": 11.92,
+   "end": 14.42,
+   "text": " The students open their, what?",
+   "words": [
+    {
+     "start": 11.92,
+     "end": 11.98,
+     "word": " The",
+     "prob": 0.872
+    },
+    {
+     "start": 11.98,
+     "end": 12.34,
+     "word": " students",
+     "prob": 0.98
+    },
+    {
+     "start": 12.34,
+     "end": 12.9,
+     "word": " open",
+     "prob": 0.938
+    },
+    {
+     "start": 12.9,
+     "end": 13.52,
+     "word": " their,",
+     "prob": 0.97
+    },
+    {
+     "start": 13.72,
+     "end": 14.42,
+     "word": " what?",
+     "prob": 0.948
+    }
+   ]
+  },
+  {
+   "start": 15.16,
+   "end": 18.86,
+   "text": " Could be books, could open their laptops, they could open their exams, their minds.",
+   "words": [
+    {
+     "start": 15.16,
+     "end": 15.18,
+     "word": " Could",
+     "prob": 0.43
+    },
+    {
+     "start": 15.18,
+     "end": 15.28,
+     "word": " be",
+     "prob": 0.975
+    },
+    {
+     "start": 15.28,
+     "end": 15.62,
+     "word": " books,",
+     "prob": 0.993
+    },
+    {
+     "start": 16.08,
+     "end": 16.22,
+     "word": " could",
+     "prob": 0.588
+    },
+    {
+     "start": 16.22,
+     "end": 16.46,
+     "word": " open",
+     "prob": 0.998
+    },
+    {
+     "start": 16.46,
+     "end": 16.64,
+     "word": " their",
+     "prob": 0.996
+    },
+    {
+     "start": 16.64,
+     "end": 17.0,
+     "word": " laptops,",
+     "prob": 0.997
+    },
+    {
+     "start": 17.32,
+     "end": 17.4,
+     "word": " they",
+     "prob": 0.857
+    },
+    {
+     "start": 17.4,
+     "end": 17.46,
+     "word": " could",
+     "prob": 0.974
+    },
+    {
+     "start": 17.46,
+     "end": 17.7,
+     "word": " open",
+     "prob": 0.998
+    },
+    {
+     "start": 17.7,
+     "end": 17.9,
+     "word": " their",
+     "prob": 0.996
+    },
+    {
+     "start": 17.9,
+     "end": 18.28,
+     "word": " exams,",
+     "prob": 0.999
+    },
+    {
+     "start": 18.48,
+     "end": 18.58,
+     "word": " their",
+     "prob": 0.994
+    },
+    {
+     "start": 18.58,
+     "end": 18.86,
+     "word": " minds.",
+     "prob": 0.949
+    }
+   ]
+  },
+  {
+   "start": 19.34,
+   "end": 23.1,
+   "text": " There's a lot of different words that could come next in that sentence.",
+   "words": [
+    {
+     "start": 19.34,
+     "end": 19.62,
+     "word": " There's",
+     "prob": 0.974
+    },
+    {
+     "start": 19.62,
+     "end": 19.74,
+     "word": " a",
+     "prob": 0.998
+    },
+    {
+     "start": 19.74,
+     "end": 19.84,
+     "word": " lot",
+     "prob": 0.999
+    },
+    {
+     "start": 19.84,
+     "end": 19.98,
+     "word": " of",
+     "prob": 1.0
+    },
+    {
+     "start": 19.98,
+     "end": 20.18,
+     "word": " different",
+     "prob": 0.999
+    },
+    {
+     "start": 20.18,
+     "end": 20.46,
+     "word": " words",
+     "prob": 0.999
+    },
+    {
+     "start": 20.46,
+     "end": 20.68,
+     "word": " that",
+     "prob": 0.992
+    },
+    {
+     "start": 20.68,
+     "end": 20.94,
+     "word": " could",
+     "prob": 0.996
+    },
+    {
+     "start": 20.94,
+     "end": 21.26,
+     "word": " come",
+     "prob": 0.998
+    },
+    {
+     "start": 21.26,
+     "end": 21.72,
+     "word": " next",
+     "prob": 0.996
+    },
+    {
+     "start": 21.72,
+     "end": 22.4,
+     "word": " in",
+     "prob": 0.954
+    },
+    {
+     "start": 22.4,
+     "end": 22.66,
+     "word": " that",
+     "prob": 0.997
+    },
+    {
+     "start": 22.66,
+     "end": 23.1,
+     "word": " sentence.",
+     "prob": 1.0
+    }
+   ]
+  },
+  {
+   "start": 23.38,
+   "end": 27.76,
+   "text": " And we can predict what word might come next based on the context in",
+   "words": [
+    {
+     "start": 23.38,
+     "end": 23.8,
+     "word": " And",
+     "prob": 0.978
+    },
+    {
+     "start": 23.8,
+     "end": 24.36,
+     "word": " we",
+     "prob": 0.953
+    },
+    {
+     "start": 24.36,
+     "end": 24.52,
+     "word": " can",
+     "prob": 0.999
+    },
+    {
+     "start": 24.52,
+     "end": 24.92,
+     "word": " predict",
+     "prob": 1.0
+    },
+    {
+     "start": 24.92,
+     "end": 25.32,
+     "word": " what",
+     "prob": 0.982
+    },
+    {
+     "start": 25.32,
+     "end": 25.52,
+     "word": " word",
+     "prob": 0.965
+    },
+    {
+     "start": 25.52,
+     "end": 25.66,
+     "word": " might",
+     "prob": 0.999
+    },
+    {
+     "start": 25.66,
+     "end": 25.84,
+     "word": " come",
+     "prob": 0.999
+    },
+    {
+     "start": 25.84,
+     "end": 26.14,
+     "word": " next",
+     "prob": 0.999
+    },
+    {
+     "start": 26.14,
+     "end": 26.34,
+     "word": " based",
+     "prob": 0.883
+    },
+    {
+     "start": 26.34,
+     "end": 26.52,
+     "word": " on",
+     "prob": 0.998
+    },
+    {
+     "start": 26.52,
+     "end": 26.64,
+     "word": " the",
+     "prob": 0.999
+    },
+    {
+     "start": 26.64,
+     "end": 27.12,
+     "word": " context",
+     "prob": 0.998
+    },
+    {
+     "start": 27.12,
+     "end": 27.76,
+     "word": " in",
+     "prob": 0.959
+    }
+   ]
+  },
+  {
+   "start": 27.76,
+   "end": 29.08,
+   "text": " which we're seeing the sentence.",
+   "words": [
+    {
+     "start": 27.76,
+     "end": 27.96,
+     "word": " which",
+     "prob": 0.386
+    },
+    {
+     "start": 27.96,
+     "end": 28.24,
+     "word": " we're",
+     "prob": 0.574
+    },
+    {
+     "start": 28.24,
+     "end": 28.44,
+     "word": " seeing",
+     "prob": 0.99
+    },
+    {
+     "start": 28.44,
+     "end": 28.64,
+     "word": " the",
+     "prob": 0.419
+    },
+    {
+     "start": 28.64,
+     "end": 29.08,
+     "word": " sentence.",
+     "prob": 0.997
+    }
+   ]
+  },
+  {
+   "start": 29.78,
+   "end": 34.12,
+   "text": " And so can ChatGPT, and that is essentially how these models work.",
+   "words": [
+    {
+     "start": 29.78,
+     "end": 29.84,
+     "word": " And",
+     "prob": 0.933
+    },
+    {
+     "start": 29.84,
+     "end": 30.22,
+     "word": " so",
+     "prob": 0.97
+    },
+    {
+     "start": 30.22,
+     "end": 30.62,
+     "word": " can",
+     "prob": 0.979
+    },
+    {
+     "start": 30.62,
+     "end": 31.18,
+     "word": " ChatGPT,",
+     "prob": 0.262
+    },
+    {
+     "start": 31.66,
+     "end": 31.7,
+     "word": " and",
+     "prob": 0.967
+    },
+    {
+     "start": 31.7,
+     "end": 31.9,
+     "word": " that",
+     "prob": 0.997
+    },
+    {
+     "start": 31.9,
+     "end": 32.22,
+     "word": " is",
+     "prob": 0.999
+    },
+    {
+     "start": 32.22,
+     "end": 32.82,
+     "word": " essentially",
+     "prob": 0.985
+    },
+    {
+     "start": 32.82,
+     "end": 33.18,
+     "word": " how",
+     "prob": 0.997
+    },
+    {
+     "start": 33.18,
+     "end": 33.5,
+     "word": " these",
+     "prob": 0.997
+    },
+    {
+     "start": 33.5,
+     "end": 33.74,
+     "word": " models",
+     "prob": 0.995
+    },
+    {
+     "start": 33.74,
+     "end": 34.12,
+     "word": " work.",
+     "prob": 0.997
+    }
+   ]
+  },
+  {
+   "start": 34.3,
+   "end": 39.74,
+   "text": " They have figured out the probability of what word comes next based on all of the",
+   "words": [
+    {
+     "start": 34.3,
+     "end": 34.4,
+     "word": " They",
+     "prob": 0.98
+    },
+    {
+     "start": 34.4,
+     "end": 34.8,
+     "word": " have",
+     "prob": 0.998
+    },
+    {
+     "start": 34.8,
+     "end": 35.32,
+     "word": " figured",
+     "prob": 0.999
+    },
+    {
+     "start": 35.32,
+     "end": 35.6,
+     "word": " out",
+     "prob": 0.999
+    },
+    {
+     "start": 35.6,
+     "end": 35.92,
+     "word": " the",
+     "prob": 0.996
+    },
+    {
+     "start": 35.92,
+     "end": 36.36,
+     "word": " probability",
+     "prob": 0.997
+    },
+    {
+     "start": 36.36,
+     "end": 36.7,
+     "word": " of",
+     "prob": 0.998
+    },
+    {
+     "start": 36.7,
+     "end": 36.9,
+     "word": " what",
+     "prob": 0.974
+    },
+    {
+     "start": 36.9,
+     "end": 37.1,
+     "word": " word",
+     "prob": 0.624
+    },
+    {
+     "start": 37.1,
+     "end": 37.36,
+     "word": " comes",
+     "prob": 0.998
+    },
+    {
+     "start": 37.36,
+     "end": 37.84,
+     "word": " next",
+     "prob": 0.999
+    },
+    {
+     "start": 37.84,
+     "end": 38.7,
+     "word": " based",
+     "prob": 0.772
+    },
+    {
+     "start": 38.7,
+     "end": 39.04,
+     "word": " on",
+     "prob": 1.0
+    },
+    {
+     "start": 39.04,
+     "end": 39.54,
+     "word": " all",
+     "prob": 0.998
+    },
+    {
+     "start": 39.54,
+     "end": 39.66,
+     "word": " of",
+     "prob": 0.73
+    },
+    {
+     "start": 39.66,
+     "end": 39.74,
+     "word": " the",
+     "prob": 0.998
+    }
+   ]
+  },
+  {
+   "start": 39.74,
+   "end": 41.86,
+   "text": " different words that they've seen on the internet.",
+   "words": [
+    {
+     "start": 39.74,
+     "end": 39.96,
+     "word": " different",
+     "prob": 0.998
+    },
+    {
+     "start": 39.96,
+     "end": 40.32,
+     "word": " words",
+     "prob": 0.998
+    },
+    {
+     "start": 40.32,
+     "end": 40.52,
+     "word": " that",
+     "prob": 0.587
+    },
+    {
+     "start": 40.52,
+     "end": 40.72,
+     "word": " they've",
+     "prob": 0.985
+    },
+    {
+     "start": 40.72,
+     "end": 40.96,
+     "word": " seen",
+     "prob": 0.999
+    },
+    {
+     "start": 40.96,
+     "end": 41.38,
+     "word": " on",
+     "prob": 0.999
+    },
+    {
+     "start": 41.38,
+     "end": 41.52,
+     "word": " the",
+     "prob": 1.0
+    },
+    {
+     "start": 41.52,
+     "end": 41.86,
+     "word": " internet.",
+     "prob": 0.334
+    }
+   ]
+  },
+  {
+   "start": 42.64,
+   "end": 46.04,
+   "text": " And, you know, without getting too technical, they have those probabilities",
+   "words": [
+    {
+     "start": 42.64,
+     "end": 42.64,
+     "word": " And,",
+     "prob": 0.976
+    },
+    {
+     "start": 42.66,
+     "end": 43.04,
+     "word": " you",
+     "prob": 0.964
+    },
+    {
+     "start": 43.04,
+     "end": 43.12,
+     "word": " know,",
+     "prob": 1.0
+    },
+    {
+     "start": 43.22,
+     "end": 43.3,
+     "word": " without",
+     "prob": 0.997
+    },
+    {
+     "start": 43.3,
+     "end": 43.5,
+     "word": " getting",
+     "prob": 0.999
+    },
+    {
+     "start": 43.5,
+     "end": 43.78,
+     "word": " too",
+     "prob": 0.968
+    },
+    {
+     "start": 43.78,
+     "end": 44.28,
+     "word": " technical,",
+     "prob": 1.0
+    },
+    {
+     "start": 44.78,
+     "end": 44.92,
+     "word": " they",
+     "prob": 0.984
+    },
+    {
+     "start": 44.92,
+     "end": 45.26,
+     "word": " have",
+     "prob": 1.0
+    },
+    {
+     "start": 45.26,
+     "end": 45.46,
+     "word": " those",
+     "prob": 0.995
+    },
+    {
+     "start": 45.46,
+     "end": 46.04,
+     "word": " probabilities",
+     "prob": 0.999
+    }
+   ]
+  },
+  {
+   "start": 46.04,
+   "end": 50.28,
+   "text": " baked into the model and they can decide based on the context, based on",
+   "words": [
+    {
+     "start": 46.04,
+     "end": 46.32,
+     "word": " baked",
+     "prob": 0.999
+    },
+    {
+     "start": 46.32,
+     "end": 46.58,
+     "word": " into",
+     "prob": 0.999
+    },
+    {
+     "start": 46.58,
+     "end": 46.76,
+     "word": " the",
+     "prob": 1.0
+    },
+    {
+     "start": 46.76,
+     "end": 47.0,
+     "word": " model",
+     "prob": 0.999
+    },
+    {
+     "start": 47.0,
+     "end": 47.68,
+     "word": " and",
+     "prob": 0.515
+    },
+    {
+     "start": 47.68,
+     "end": 47.88,
+     "word": " they",
+     "prob": 0.999
+    },
+    {
+     "start": 47.88,
+     "end": 48.14,
+     "word": " can",
+     "prob": 0.999
+    },
+    {
+     "start": 48.14,
+     "end": 48.6,
+     "word": " decide",
+     "prob": 0.999
+    },
+    {
+     "start": 48.6,
+     "end": 48.92,
+     "word": " based",
+     "prob": 0.834
+    },
+    {
+     "start": 48.92,
+     "end": 49.16,
+     "word": " on",
+     "prob": 1.0
+    },
+    {
+     "start": 49.16,
+     "end": 49.28,
+     "word": " the",
+     "prob": 0.999
+    },
+    {
+     "start": 49.28,
+     "end": 49.82,
+     "word": " context,",
+     "prob": 0.996
+    },
+    {
+     "start": 50.06,
+     "end": 50.12,
+     "word": " based",
+     "prob": 0.999
+    },
+    {
+     "start": 50.12,
+     "end": 50.28,
+     "word": " on",
+     "prob": 1.0
+    }
+   ]
+  },
+  {
+   "start": 50.28,
+   "end": 53.1,
+   "text": " the prompt that you give them, what word comes next.",
+   "words": [
+    {
+     "start": 50.28,
+     "end": 50.4,
+     "word": " the",
+     "prob": 1.0
+    },
+    {
+     "start": 50.4,
+     "end": 50.7,
+     "word": " prompt",
+     "prob": 0.992
+    },
+    {
+     "start": 50.7,
+     "end": 51.0,
+     "word": " that",
+     "prob": 0.978
+    },
+    {
+     "start": 51.0,
+     "end": 51.12,
+     "word": " you",
+     "prob": 1.0
+    },
+    {
+     "start": 51.12,
+     "end": 51.28,
+     "word": " give",
+     "prob": 0.998
+    },
+    {
+     "start": 51.28,
+     "end": 51.56,
+     "word": " them,",
+     "prob": 0.999
+    },
+    {
+     "start": 51.88,
+     "end": 52.1,
+     "word": " what",
+     "prob": 0.986
+    },
+    {
+     "start": 52.1,
+     "end": 52.36,
+     "word": " word",
+     "prob": 0.991
+    },
+    {
+     "start": 52.36,
+     "end": 52.74,
+     "word": " comes",
+     "prob": 0.998
+    },
+    {
+     "start": 52.74,
+     "end": 53.1,
+     "word": " next.",
+     "prob": 0.999
+    }
+   ]
+  },
+  {
+   "start": 53.26,
+   "end": 55.46,
+   "text": " And they specifically use tokens rather than words.",
+   "words": [
+    {
+     "start": 53.26,
+     "end": 53.34,
+     "word": " And",
+     "prob": 0.997
+    },
+    {
+     "start": 53.34,
+     "end": 53.48,
+     "word": " they",
+     "prob": 0.895
+    },
+    {
+     "start": 53.48,
+     "end": 53.9,
+     "word": " specifically",
+     "prob": 0.993
+    },
+    {
+     "start": 53.9,
+     "end": 54.24,
+     "word": " use",
+     "prob": 0.894
+    },
+    {
+     "start": 54.24,
+     "end": 54.66,
+     "word": " tokens",
+     "prob": 0.989
+    },
+    {
+     "start": 54.66,
+     "end": 55.0,
+     "word": " rather",
+     "prob": 0.803
+    },
+    {
+     "start": 55.0,
+     "end": 55.22,
+     "word": " than",
+     "prob": 0.993
+    },
+    {
+     "start": 55.22,
+     "end": 55.46,
+     "word": " words.",
+     "prob": 0.843
+    }
+   ]
+  },
+  {
+   "start": 55.92,
+   "end": 59.66,
+   "text": " A token is about three fourths of a word on average, a lot of some differences",
+   "words": [
+    {
+     "start": 55.92,
+     "end": 56.16,
+     "word": " A",
+     "prob": 0.1
+    },
+    {
+     "start": 56.16,
+     "end": 56.38,
+     "word": " token",
+     "prob": 0.973
+    },
+    {
+     "start": 56.38,
+     "end": 56.58,
+     "word": " is",
+     "prob": 0.986
+    },
+    {
+     "start": 56.58,
+     "end": 56.8,
+     "word": " about",
+     "prob": 0.949
+    },
+    {
+     "start": 56.8,
+     "end": 57.04,
+     "word": " three",
+     "prob": 0.547
+    },
+    {
+     "start": 57.04,
+     "end": 57.48,
+     "word": " fourths",
+     "prob": 0.724
+    },
+    {
+     "start": 57.48,
+     "end": 57.56,
+     "word": " of",
+     "prob": 0.971
+    },
+    {
+     "start": 57.56,
+     "end": 57.66,
+     "word": " a",
+     "prob": 0.89
+    },
+    {
+     "start": 57.66,
+     "end": 57.88,
+     "word": " word",
+     "prob": 0.995
+    },
+    {
+     "start": 57.88,
+     "end": 58.14,
+     "word": " on",
+     "prob": 0.883
+    },
+    {
+     "start": 58.14,
+     "end": 58.48,
+     "word": " average,",
+     "prob": 0.996
+    },
+    {
+     "start": 58.74,
+     "end": 58.98,
+     "word": " a",
+     "prob": 0.386
+    },
+    {
+     "start": 58.98,
+     "end": 59.04,
+     "word": " lot",
+     "prob": 0.994
+    },
+    {
+     "start": 59.04,
+     "end": 59.14,
+     "word": " of",
+     "prob": 0.985
+    },
+    {
+     "start": 59.14,
+     "end": 59.26,
+     "word": " some",
+     "prob": 0.955
+    },
+    {
+     "start": 59.26,
+     "end": 59.66,
+     "word": " differences",
+     "prob": 0.995
+    }
+   ]
+  },
+  {
+   "start": 59.66,
+   "end": 61.28,
+   "text": " in how they split those words up.",
+   "words": [
+    {
+     "start": 59.66,
+     "end": 60.02,
+     "word": " in",
+     "prob": 0.903
+    },
+    {
+     "start": 60.02,
+     "end": 60.2,
+     "word": " how",
+     "prob": 0.999
+    },
+    {
+     "start": 60.2,
+     "end": 60.4,
+     "word": " they",
+     "prob": 0.997
+    },
+    {
+     "start": 60.4,
+     "end": 60.64,
+     "word": " split",
+     "prob": 0.998
+    },
+    {
+     "start": 60.64,
+     "end": 60.84,
+     "word": " those",
+     "prob": 0.932
+    },
+    {
+     "start": 60.84,
+     "end": 61.04,
+     "word": " words",
+     "prob": 0.993
+    },
+    {
+     "start": 61.04,
+     "end": 61.28,
+     "word": " up.",
+     "prob": 0.965
+    }
+   ]
+  },
+  {
+   "start": 61.46,
+   "end": 64.8,
+   "text": " But the model is trained until it can predict the next token.",
+   "words": [
+    {
+     "start": 61.46,
+     "end": 61.58,
+     "word": " But",
+     "prob": 0.978
+    },
+    {
+     "start": 61.58,
+     "end": 61.88,
+     "word": " the",
+     "prob": 0.948
+    },
+    {
+     "start": 61.88,
+     "end": 62.18,
+     "word": " model",
+     "prob": 0.999
+    },
+    {
+     "start": 62.18,
+     "end": 62.5,
+     "word": " is",
+     "prob": 0.999
+    },
+    {
+     "start": 62.5,
+     "end": 62.92,
+     "word": " trained",
+     "prob": 0.998
+    },
+    {
+     "start": 62.92,
+     "end": 63.32,
+     "word": " until",
+     "prob": 0.995
+    },
+    {
+     "start": 63.32,
+     "end": 63.48,
+     "word": " it",
+     "prob": 0.998
+    },
+    {
+     "start": 63.48,
+     "end": 63.72,
+     "word": " can",
+     "prob": 1.0
+    },
+    {
+     "start": 63.72,
+     "end": 64.06,
+     "word": " predict",
+     "prob": 0.999
+    },
+    {
+     "start": 64.06,
+     "end": 64.24,
+     "word": " the",
+     "prob": 0.997
+    },
+    {
+     "start": 64.24,
+     "end": 64.4,
+     "word": " next",
+     "prob": 0.998
+    },
+    {
+     "start": 64.4,
+     "end": 64.8,
+     "word": " token.",
+     "prob": 0.998
+    }
+   ]
+  },
+  {
+   "start": 65.24,
+   "end": 70.22,
+   "text": " And then when it knows on average what the right tokens are to come next in the",
+   "words": [
+    {
+     "start": 65.24,
+     "end": 65.46,
+     "word": " And",
+     "prob": 0.989
+    },
+    {
+     "start": 65.46,
+     "end": 65.82,
+     "word": " then",
+     "prob": 0.996
+    },
+    {
+     "start": 65.82,
+     "end": 66.16,
+     "word": " when",
+     "prob": 0.954
+    },
+    {
+     "start": 66.16,
+     "end": 66.32,
+     "word": " it",
+     "prob": 0.999
+    },
+    {
+     "start": 66.32,
+     "end": 66.64,
+     "word": " knows",
+     "prob": 0.999
+    },
+    {
+     "start": 66.64,
+     "end": 67.06,
+     "word": " on",
+     "prob": 0.817
+    },
+    {
+     "start": 67.06,
+     "end": 67.38,
+     "word": " average",
+     "prob": 1.0
+    },
+    {
+     "start": 67.38,
+     "end": 67.64,
+     "word": " what",
+     "prob": 0.771
+    },
+    {
+     "start": 67.64,
+     "end": 67.78,
+     "word": " the",
+     "prob": 0.997
+    },
+    {
+     "start": 67.78,
+     "end": 67.92,
+     "word": " right",
+     "prob": 0.969
+    },
+    {
+     "start": 67.92,
+     "end": 68.32,
+     "word": " tokens",
+     "prob": 0.999
+    },
+    {
+     "start": 68.32,
+     "end": 68.64,
+     "word": " are",
+     "prob": 0.996
+    },
+    {
+     "start": 68.64,
+     "end": 69.0,
+     "word": " to",
+     "prob": 0.958
+    },
+    {
+     "start": 69.0,
+     "end": 69.46,
+     "word": " come",
+     "prob": 0.997
+    },
+    {
+     "start": 69.46,
+     "end": 69.88,
+     "word": " next",
+     "prob": 0.996
+    },
+    {
+     "start": 69.88,
+     "end": 70.1,
+     "word": " in",
+     "prob": 0.983
+    },
+    {
+     "start": 70.1,
+     "end": 70.22,
+     "word": " the",
+     "prob": 0.997
+    }
+   ]
+  },
+  {
+   "start": 70.22,
+   "end": 74.0,
+   "text": " sequence, then you can give it a new sequence and figure out what comes next",
+   "words": [
+    {
+     "start": 70.22,
+     "end": 70.58,
+     "word": " sequence,",
+     "prob": 0.998
+    },
+    {
+     "start": 70.96,
+     "end": 71.12,
+     "word": " then",
+     "prob": 0.929
+    },
+    {
+     "start": 71.12,
+     "end": 71.24,
+     "word": " you",
+     "prob": 0.999
+    },
+    {
+     "start": 71.24,
+     "end": 71.38,
+     "word": " can",
+     "prob": 1.0
+    },
+    {
+     "start": 71.38,
+     "end": 71.48,
+     "word": " give",
+     "prob": 0.998
+    },
+    {
+     "start": 71.48,
+     "end": 71.58,
+     "word": " it",
+     "prob": 0.999
+    },
+    {
+     "start": 71.58,
+     "end": 71.7,
+     "word": " a",
+     "prob": 0.999
+    },
+    {
+     "start": 71.7,
+     "end": 71.84,
+     "word": " new",
+     "prob": 0.999
+    },
+    {
+     "start": 71.84,
+     "end": 72.18,
+     "word": " sequence",
+     "prob": 0.999
+    },
+    {
+     "start": 72.18,
+     "end": 72.52,
+     "word": " and",
+     "prob": 0.992
+    },
+    {
+     "start": 72.52,
+     "end": 72.76,
+     "word": " figure",
+     "prob": 0.999
+    },
+    {
+     "start": 72.76,
+     "end": 73.08,
+     "word": " out",
+     "prob": 0.999
+    },
+    {
+     "start": 73.08,
+     "end": 73.44,
+     "word": " what",
+     "prob": 0.99
+    },
+    {
+     "start": 73.44,
+     "end": 73.7,
+     "word": " comes",
+     "prob": 0.999
+    },
+    {
+     "start": 73.7,
+     "end": 74.0,
+     "word": " next",
+     "prob": 0.999
+    }
+   ]
+  },
+  {
+   "start": 74.0,
+   "end": 77.86,
+   "text": " after that and through understanding that through being able to predict the next",
+   "words": [
+    {
+     "start": 74.0,
+     "end": 74.26,
+     "word": " after",
+     "prob": 0.988
+    },
+    {
+     "start": 74.26,
+     "end": 74.52,
+     "word": " that",
+     "prob": 0.998
+    },
+    {
+     "start": 74.52,
+     "end": 74.88,
+     "word": " and",
+     "prob": 0.021
+    },
+    {
+     "start": 74.88,
+     "end": 75.34,
+     "word": " through",
+     "prob": 0.989
+    },
+    {
+     "start": 75.34,
+     "end": 76.2,
+     "word": " understanding",
+     "prob": 0.964
+    },
+    {
+     "start": 76.2,
+     "end": 76.56,
+     "word": " that",
+     "prob": 0.989
+    },
+    {
+     "start": 76.56,
+     "end": 76.74,
+     "word": " through",
+     "prob": 0.698
+    },
+    {
+     "start": 76.74,
+     "end": 76.92,
+     "word": " being",
+     "prob": 0.996
+    },
+    {
+     "start": 76.92,
+     "end": 77.12,
+     "word": " able",
+     "prob": 0.999
+    },
+    {
+     "start": 77.12,
+     "end": 77.28,
+     "word": " to",
+     "prob": 1.0
+    },
+    {
+     "start": 77.28,
+     "end": 77.52,
+     "word": " predict",
+     "prob": 0.998
+    },
+    {
+     "start": 77.52,
+     "end": 77.68,
+     "word": " the",
+     "prob": 0.993
+    },
+    {
+     "start": 77.68,
+     "end": 77.86,
+     "word": " next",
+     "prob": 0.997
+    }
+   ]
+  },
+  {
+   "start": 77.86,
+   "end": 81.72,
+   "text": " token, you have to understand quite a lot about how the world works because",
+   "words": [
+    {
+     "start": 77.86,
+     "end": 78.2,
+     "word": " token,",
+     "prob": 0.991
+    },
+    {
+     "start": 78.5,
+     "end": 78.58,
+     "word": " you",
+     "prob": 0.906
+    },
+    {
+     "start": 78.58,
+     "end": 78.66,
+     "word": " have",
+     "prob": 0.996
+    },
+    {
+     "start": 78.66,
+     "end": 78.76,
+     "word": " to",
+     "prob": 0.999
+    },
+    {
+     "start": 78.76,
+     "end": 79.06,
+     "word": " understand",
+     "prob": 0.998
+    },
+    {
+     "start": 79.06,
+     "end": 79.54,
+     "word": " quite",
+     "prob": 0.988
+    },
+    {
+     "start": 79.54,
+     "end": 79.68,
+     "word": " a",
+     "prob": 0.999
+    },
+    {
+     "start": 79.68,
+     "end": 79.86,
+     "word": " lot",
+     "prob": 0.999
+    },
+    {
+     "start": 79.86,
+     "end": 80.12,
+     "word": " about",
+     "prob": 0.998
+    },
+    {
+     "start": 80.12,
+     "end": 80.34,
+     "word": " how",
+     "prob": 0.998
+    },
+    {
+     "start": 80.34,
+     "end": 80.48,
+     "word": " the",
+     "prob": 0.999
+    },
+    {
+     "start": 80.48,
+     "end": 80.7,
+     "word": " world",
+     "prob": 0.998
+    },
+    {
+     "start": 80.7,
+     "end": 81.14,
+     "word": " works",
+     "prob": 0.997
+    },
+    {
+     "start": 81.14,
+     "end": 81.72,
+     "word": " because",
+     "prob": 0.647
+    }
+   ]
+  },
+  {
+   "start": 81.72,
+   "end": 83.5,
+   "text": " you need to know how things are associated.",
+   "words": [
+    {
+     "start": 81.72,
+     "end": 81.96,
+     "word": " you",
+     "prob": 0.998
+    },
+    {
+     "start": 81.96,
+     "end": 82.08,
+     "word": " need",
+     "prob": 0.999
+    },
+    {
+     "start": 82.08,
+     "end": 82.24,
+     "word": " to",
+     "prob": 0.999
+    },
+    {
+     "start": 82.24,
+     "end": 82.44,
+     "word": " know",
+     "prob": 0.999
+    },
+    {
+     "start": 82.44,
+     "end": 82.62,
+     "word": " how",
+     "prob": 0.999
+    },
+    {
+     "start": 82.62,
+     "end": 82.9,
+     "word": " things",
+     "prob": 0.999
+    },
+    {
+     "start": 82.9,
+     "end": 83.06,
+     "word": " are",
+     "prob": 0.998
+    },
+    {
+     "start": 83.06,
+     "end": 83.5,
+     "word": " associated.",
+     "prob": 0.995
+    }
+   ]
+  },
+  {
+   "start": 83.5,
+   "end": 87.04,
+   "text": " And therefore we get the magic that is a large language model.",
+   "words": [
+    {
+     "start": 83.5,
+     "end": 83.9,
+     "word": " And",
+     "prob": 0.218
+    },
+    {
+     "start": 83.9,
+     "end": 84.44,
+     "word": " therefore",
+     "prob": 0.9
+    },
+    {
+     "start": 84.44,
+     "end": 84.74,
+     "word": " we",
+     "prob": 0.75
+    },
+    {
+     "start": 84.74,
+     "end": 84.96,
+     "word": " get",
+     "prob": 0.998
+    },
+    {
+     "start": 84.96,
+     "end": 85.12,
+     "word": " the",
+     "prob": 0.995
+    },
+    {
+     "start": 85.12,
+     "end": 85.42,
+     "word": " magic",
+     "prob": 0.985
+    },
+    {
+     "start": 85.42,
+     "end": 85.66,
+     "word": " that",
+     "prob": 0.961
+    },
+    {
+     "start": 85.66,
+     "end": 85.9,
+     "word": " is",
+     "prob": 0.994
+    },
+    {
+     "start": 85.9,
+     "end": 86.22,
+     "word": " a",
+     "prob": 0.975
+    },
+    {
+     "start": 86.22,
+     "end": 86.42,
+     "word": " large",
+     "prob": 0.948
+    },
+    {
+     "start": 86.42,
+     "end": 86.74,
+     "word": " language",
+     "prob": 0.883
+    },
+    {
+     "start": 86.74,
+     "end": 87.04,
+     "word": " model.",
+     "prob": 0.981
+    }
+   ]
+  },
+  {
+   "start": 87.24,
+   "end": 91.78,
+   "text": " ChancherBT specifically is based on GBT4, which is a transformer model.",
+   "words": [
+    {
+     "start": 87.24,
+     "end": 87.48,
+     "word": " ChancherBT",
+     "prob": 0.225
+    },
+    {
+     "start": 87.48,
+     "end": 88.02,
+     "word": " specifically",
+     "prob": 0.855
+    },
+    {
+     "start": 88.02,
+     "end": 88.48,
+     "word": " is",
+     "prob": 0.966
+    },
+    {
+     "start": 88.48,
+     "end": 88.68,
+     "word": " based",
+     "prob": 0.998
+    },
+    {
+     "start": 88.68,
+     "end": 89.08,
+     "word": " on",
+     "prob": 0.997
+    },
+    {
+     "start": 89.08,
+     "end": 89.78,
+     "word": " GBT4,",
+     "prob": 0.812
+    },
+    {
+     "start": 89.78,
+     "end": 90.06,
+     "word": " which",
+     "prob": 0.992
+    },
+    {
+     "start": 90.06,
+     "end": 90.36,
+     "word": " is",
+     "prob": 0.999
+    },
+    {
+     "start": 90.36,
+     "end": 90.82,
+     "word": " a",
+     "prob": 0.995
+    },
+    {
+     "start": 90.82,
+     "end": 91.34,
+     "word": " transformer",
+     "prob": 0.749
+    },
+    {
+     "start": 91.34,
+     "end": 91.78,
+     "word": " model.",
+     "prob": 0.996
+    }
+   ]
+  },
+  {
+   "start": 92.38,
+   "end": 96.06,
+   "text": " Transformer models coming from the attention is all you need paper, which",
+   "words": [
+    {
+     "start": 92.38,
+     "end": 92.6,
+     "word": " Transformer",
+     "prob": 0.814
+    },
+    {
+     "start": 92.6,
+     "end": 92.94,
+     "word": " models",
+     "prob": 0.978
+    },
+    {
+     "start": 92.94,
+     "end": 93.58,
+     "word": " coming",
+     "prob": 0.629
+    },
+    {
+     "start": 93.58,
+     "end": 93.9,
+     "word": " from",
+     "prob": 0.999
+    },
+    {
+     "start": 93.9,
+     "end": 94.2,
+     "word": " the",
+     "prob": 0.911
+    },
+    {
+     "start": 94.2,
+     "end": 94.64,
+     "word": " attention",
+     "prob": 0.309
+    },
+    {
+     "start": 94.64,
+     "end": 94.88,
+     "word": " is",
+     "prob": 0.804
+    },
+    {
+     "start": 94.88,
+     "end": 95.0,
+     "word": " all",
+     "prob": 0.987
+    },
+    {
+     "start": 95.0,
+     "end": 95.14,
+     "word": " you",
+     "prob": 0.964
+    },
+    {
+     "start": 95.14,
+     "end": 95.4,
+     "word": " need",
+     "prob": 0.999
+    },
+    {
+     "start": 95.4,
+     "end": 95.7,
+     "word": " paper,",
+     "prob": 0.99
+    },
+    {
+     "start": 95.7,
+     "end": 96.06,
+     "word": " which",
+     "prob": 0.998
+    }
+   ]
+  },
+  {
+   "start": 96.06,
+   "end": 99.66,
+   "text": " is a famous paper, but I'm not going to run you through too much of the jargon",
+   "words": [
+    {
+     "start": 96.06,
+     "end": 96.2,
+     "word": " is",
+     "prob": 0.849
+    },
+    {
+     "start": 96.2,
+     "end": 96.3,
+     "word": " a",
+     "prob": 0.995
+    },
+    {
+     "start": 96.3,
+     "end": 96.48,
+     "word": " famous",
+     "prob": 0.999
+    },
+    {
+     "start": 96.48,
+     "end": 96.9,
+     "word": " paper,",
+     "prob": 0.999
+    },
+    {
+     "start": 96.9,
+     "end": 97.28,
+     "word": " but",
+     "prob": 0.995
+    },
+    {
+     "start": 97.28,
+     "end": 97.52,
+     "word": " I'm",
+     "prob": 0.865
+    },
+    {
+     "start": 97.52,
+     "end": 97.62,
+     "word": " not",
+     "prob": 0.996
+    },
+    {
+     "start": 97.62,
+     "end": 97.7,
+     "word": " going",
+     "prob": 0.82
+    },
+    {
+     "start": 97.7,
+     "end": 97.9,
+     "word": " to",
+     "prob": 0.996
+    },
+    {
+     "start": 97.9,
+     "end": 98.16,
+     "word": " run",
+     "prob": 0.999
+    },
+    {
+     "start": 98.16,
+     "end": 98.36,
+     "word": " you",
+     "prob": 0.997
+    },
+    {
+     "start": 98.36,
+     "end": 98.58,
+     "word": " through",
+     "prob": 0.999
+    },
+    {
+     "start": 98.58,
+     "end": 98.88,
+     "word": " too",
+     "prob": 0.996
+    },
+    {
+     "start": 98.88,
+     "end": 99.06,
+     "word": " much",
+     "prob": 1.0
+    },
+    {
+     "start": 99.06,
+     "end": 99.26,
+     "word": " of",
+     "prob": 0.935
+    },
+    {
+     "start": 99.26,
+     "end": 99.36,
+     "word": " the",
+     "prob": 0.993
+    },
+    {
+     "start": 99.36,
+     "end": 99.66,
+     "word": " jargon",
+     "prob": 0.993
+    }
+   ]
+  },
+  {
+   "start": 99.66,
+   "end": 101.86,
+   "text": " here, it won't mean too much to you.",
+   "words": [
+    {
+     "start": 99.66,
+     "end": 100.12,
+     "word": " here,",
+     "prob": 0.988
+    },
+    {
+     "start": 100.48,
+     "end": 100.62,
+     "word": " it",
+     "prob": 0.274
+    },
+    {
+     "start": 100.62,
+     "end": 100.74,
+     "word": " won't",
+     "prob": 0.958
+    },
+    {
+     "start": 100.74,
+     "end": 100.9,
+     "word": " mean",
+     "prob": 0.991
+    },
+    {
+     "start": 100.9,
+     "end": 101.16,
+     "word": " too",
+     "prob": 0.992
+    },
+    {
+     "start": 101.16,
+     "end": 101.36,
+     "word": " much",
+     "prob": 0.999
+    },
+    {
+     "start": 101.36,
+     "end": 101.58,
+     "word": " to",
+     "prob": 0.934
+    },
+    {
+     "start": 101.58,
+     "end": 101.86,
+     "word": " you.",
+     "prob": 0.989
+    }
+   ]
+  },
+  {
+   "start": 102.04,
+   "end": 106.32,
+   "text": " Just need to know is that this is, you know, the current kind of state of",
+   "words": [
+    {
+     "start": 102.04,
+     "end": 102.24,
+     "word": " Just",
+     "prob": 0.764
+    },
+    {
+     "start": 102.24,
+     "end": 102.4,
+     "word": " need",
+     "prob": 0.996
+    },
+    {
+     "start": 102.4,
+     "end": 102.58,
+     "word": " to",
+     "prob": 1.0
+    },
+    {
+     "start": 102.58,
+     "end": 102.86,
+     "word": " know",
+     "prob": 0.999
+    },
+    {
+     "start": 102.86,
+     "end": 103.52,
+     "word": " is",
+     "prob": 0.723
+    },
+    {
+     "start": 103.52,
+     "end": 103.98,
+     "word": " that",
+     "prob": 0.996
+    },
+    {
+     "start": 103.98,
+     "end": 104.5,
+     "word": " this",
+     "prob": 0.888
+    },
+    {
+     "start": 104.5,
+     "end": 104.8,
+     "word": " is,",
+     "prob": 0.994
+    },
+    {
+     "start": 104.8,
+     "end": 105.1,
+     "word": " you",
+     "prob": 0.986
+    },
+    {
+     "start": 105.1,
+     "end": 105.2,
+     "word": " know,",
+     "prob": 1.0
+    },
+    {
+     "start": 105.2,
+     "end": 105.36,
+     "word": " the",
+     "prob": 0.999
+    },
+    {
+     "start": 105.36,
+     "end": 105.62,
+     "word": " current",
+     "prob": 0.999
+    },
+    {
+     "start": 105.62,
+     "end": 105.88,
+     "word": " kind",
+     "prob": 0.958
+    },
+    {
+     "start": 105.88,
+     "end": 105.98,
+     "word": " of",
+     "prob": 0.999
+    },
+    {
+     "start": 105.98,
+     "end": 106.18,
+     "word": " state",
+     "prob": 0.996
+    },
+    {
+     "start": 106.18,
+     "end": 106.32,
+     "word": " of",
+     "prob": 0.916
+    }
+   ]
+  },
+  {
+   "start": 106.32,
+   "end": 108.22,
+   "text": " the art of this type of model.",
+   "words": [
+    {
+     "start": 106.32,
+     "end": 106.44,
+     "word": " the",
+     "prob": 0.997
+    },
+    {
+     "start": 106.44,
+     "end": 106.64,
+     "word": " art",
+     "prob": 0.998
+    },
+    {
+     "start": 106.64,
+     "end": 107.08,
+     "word": " of",
+     "prob": 0.967
+    },
+    {
+     "start": 107.08,
+     "end": 107.34,
+     "word": " this",
+     "prob": 0.999
+    },
+    {
+     "start": 107.34,
+     "end": 107.66,
+     "word": " type",
+     "prob": 0.999
+    },
+    {
+     "start": 107.66,
+     "end": 107.88,
+     "word": " of",
+     "prob": 0.999
+    },
+    {
+     "start": 107.88,
+     "end": 108.22,
+     "word": " model.",
+     "prob": 0.998
+    }
+   ]
+  },
+  {
+   "start": 108.44,
+   "end": 111.76,
+   "text": " We don't have another type of model other than transformer models",
+   "words": [
+    {
+     "start": 108.44,
+     "end": 108.58,
+     "word": " We",
+     "prob": 0.841
+    },
+    {
+     "start": 108.58,
+     "end": 108.74,
+     "word": " don't",
+     "prob": 0.999
+    },
+    {
+     "start": 108.74,
+     "end": 109.08,
+     "word": " have",
+     "prob": 0.999
+    },
+    {
+     "start": 109.08,
+     "end": 109.54,
+     "word": " another",
+     "prob": 0.995
+    },
+    {
+     "start": 109.54,
+     "end": 109.94,
+     "word": " type",
+     "prob": 0.998
+    },
+    {
+     "start": 109.94,
+     "end": 110.12,
+     "word": " of",
+     "prob": 1.0
+    },
+    {
+     "start": 110.12,
+     "end": 110.4,
+     "word": " model",
+     "prob": 0.998
+    },
+    {
+     "start": 110.4,
+     "end": 110.72,
+     "word": " other",
+     "prob": 0.919
+    },
+    {
+     "start": 110.72,
+     "end": 110.94,
+     "word": " than",
+     "prob": 0.999
+    },
+    {
+     "start": 110.94,
+     "end": 111.28,
+     "word": " transformer",
+     "prob": 0.812
+    },
+    {
+     "start": 111.28,
+     "end": 111.76,
+     "word": " models",
+     "prob": 0.997
+    }
+   ]
+  },
+  {
+   "start": 111.76,
+   "end": 113.08,
+   "text": " that are doing as good.",
+   "words": [
+    {
+     "start": 111.76,
+     "end": 112.18,
+     "word": " that",
+     "prob": 0.951
+    },
+    {
+     "start": 112.18,
+     "end": 112.3,
+     "word": " are",
+     "prob": 0.796
+    },
+    {
+     "start": 112.3,
+     "end": 112.52,
+     "word": " doing",
+     "prob": 0.995
+    },
+    {
+     "start": 112.52,
+     "end": 112.84,
+     "word": " as",
+     "prob": 0.852
+    },
+    {
+     "start": 112.84,
+     "end": 113.08,
+     "word": " good.",
+     "prob": 0.997
+    }
+   ]
+  },
+  {
+   "start": 113.08,
+   "end": 116.72,
+   "text": " But, you know, scientists are working on other types of architecture as well.",
+   "words": [
+    {
+     "start": 113.08,
+     "end": 113.64,
+     "word": " But,",
+     "prob": 0.605
+    },
+    {
+     "start": 114.0,
+     "end": 114.0,
+     "word": " you",
+     "prob": 0.957
+    },
+    {
+     "start": 114.0,
+     "end": 114.12,
+     "word": " know,",
+     "prob": 1.0
+    },
+    {
+     "start": 114.18,
+     "end": 114.44,
+     "word": " scientists",
+     "prob": 0.997
+    },
+    {
+     "start": 114.44,
+     "end": 114.68,
+     "word": " are",
+     "prob": 0.998
+    },
+    {
+     "start": 114.68,
+     "end": 114.98,
+     "word": " working",
+     "prob": 0.997
+    },
+    {
+     "start": 114.98,
+     "end": 115.18,
+     "word": " on",
+     "prob": 0.999
+    },
+    {
+     "start": 115.18,
+     "end": 115.44,
+     "word": " other",
+     "prob": 0.999
+    },
+    {
+     "start": 115.44,
+     "end": 115.72,
+     "word": " types",
+     "prob": 0.998
+    },
+    {
+     "start": 115.72,
+     "end": 115.9,
+     "word": " of",
+     "prob": 1.0
+    },
+    {
+     "start": 115.9,
+     "end": 116.3,
+     "word": " architecture",
+     "prob": 0.992
+    },
+    {
+     "start": 116.3,
+     "end": 116.52,
+     "word": " as",
+     "prob": 0.955
+    },
+    {
+     "start": 116.52,
+     "end": 116.72,
+     "word": " well.",
+     "prob": 0.999
+    }
+   ]
+  },
+  {
+   "start": 117.12,
+   "end": 118.56,
+   "text": " So how did they train ChancherBT?",
+   "words": [
+    {
+     "start": 117.12,
+     "end": 117.16,
+     "word": " So",
+     "prob": 0.981
+    },
+    {
+     "start": 117.16,
+     "end": 117.3,
+     "word": " how",
+     "prob": 0.865
+    },
+    {
+     "start": 117.3,
+     "end": 117.4,
+     "word": " did",
+     "prob": 0.826
+    },
+    {
+     "start": 117.4,
+     "end": 117.56,
+     "word": " they",
+     "prob": 0.994
+    },
+    {
+     "start": 117.56,
+     "end": 117.94,
+     "word": " train",
+     "prob": 0.97
+    },
+    {
+     "start": 117.94,
+     "end": 118.56,
+     "word": " ChancherBT?",
+     "prob": 0.005
+    }
+   ]
+  },
+  {
+   "start": 118.72,
+   "end": 122.22,
+   "text": " Well, it wasn't just the transformer model that was pretty good on its own.",
+   "words": [
+    {
+     "start": 118.72,
+     "end": 118.82,
+     "word": " Well,",
+     "prob": 0.518
+    },
+    {
+     "start": 118.88,
+     "end": 118.88,
+     "word": " it",
+     "prob": 0.981
+    },
+    {
+     "start": 118.88,
+     "end": 119.14,
+     "word": " wasn't",
+     "prob": 0.998
+    },
+    {
+     "start": 119.14,
+     "end": 119.4,
+     "word": " just",
+     "prob": 0.998
+    },
+    {
+     "start": 119.4,
+     "end": 119.64,
+     "word": " the",
+     "prob": 0.996
+    },
+    {
+     "start": 119.64,
+     "end": 120.04,
+     "word": " transformer",
+     "prob": 0.93
+    },
+    {
+     "start": 120.04,
+     "end": 120.38,
+     "word": " model",
+     "prob": 0.998
+    },
+    {
+     "start": 120.38,
+     "end": 120.6,
+     "word": " that",
+     "prob": 0.234
+    },
+    {
+     "start": 120.6,
+     "end": 120.84,
+     "word": " was",
+     "prob": 0.997
+    },
+    {
+     "start": 120.84,
+     "end": 121.44,
+     "word": " pretty",
+     "prob": 0.973
+    },
+    {
+     "start": 121.44,
+     "end": 121.7,
+     "word": " good",
+     "prob": 0.999
+    },
+    {
+     "start": 121.7,
+     "end": 121.88,
+     "word": " on",
+     "prob": 0.993
+    },
+    {
+     "start": 121.88,
+     "end": 122.0,
+     "word": " its",
+     "prob": 0.994
+    },
+    {
+     "start": 122.0,
+     "end": 122.22,
+     "word": " own.",
+     "prob": 0.998
+    }
+   ]
+  },
+  {
+   "start": 122.22,
+   "end": 126.88,
+   "text": " And that's where we had GBT3, but to get ChancherBT to actually kind of make",
+   "words": [
+    {
+     "start": 122.22,
+     "end": 122.42,
+     "word": " And",
+     "prob": 0.947
+    },
+    {
+     "start": 122.42,
+     "end": 122.66,
+     "word": " that's",
+     "prob": 0.997
+    },
+    {
+     "start": 122.66,
+     "end": 122.8,
+     "word": " where",
+     "prob": 0.895
+    },
+    {
+     "start": 122.8,
+     "end": 122.92,
+     "word": " we",
+     "prob": 0.999
+    },
+    {
+     "start": 122.92,
+     "end": 123.18,
+     "word": " had",
+     "prob": 0.999
+    },
+    {
+     "start": 123.18,
+     "end": 123.92,
+     "word": " GBT3,",
+     "prob": 0.598
+    },
+    {
+     "start": 124.32,
+     "end": 124.66,
+     "word": " but",
+     "prob": 0.973
+    },
+    {
+     "start": 124.66,
+     "end": 125.08,
+     "word": " to",
+     "prob": 0.983
+    },
+    {
+     "start": 125.08,
+     "end": 125.28,
+     "word": " get",
+     "prob": 0.993
+    },
+    {
+     "start": 125.28,
+     "end": 126.0,
+     "word": " ChancherBT",
+     "prob": 0.956
+    },
+    {
+     "start": 126.0,
+     "end": 126.28,
+     "word": " to",
+     "prob": 0.762
+    },
+    {
+     "start": 126.28,
+     "end": 126.42,
+     "word": " actually",
+     "prob": 0.93
+    },
+    {
+     "start": 126.42,
+     "end": 126.62,
+     "word": " kind",
+     "prob": 0.843
+    },
+    {
+     "start": 126.62,
+     "end": 126.7,
+     "word": " of",
+     "prob": 0.998
+    },
+    {
+     "start": 126.7,
+     "end": 126.88,
+     "word": " make",
+     "prob": 0.994
+    }
+   ]
+  },
+  {
+   "start": 126.88,
+   "end": 129.6,
+   "text": " it behave like an assistant, we had to have additional steps.",
+   "words": [
+    {
+     "start": 126.88,
+     "end": 127.1,
+     "word": " it",
+     "prob": 0.999
+    },
+    {
+     "start": 127.1,
+     "end": 127.48,
+     "word": " behave",
+     "prob": 0.994
+    },
+    {
+     "start": 127.48,
+     "end": 127.7,
+     "word": " like",
+     "prob": 0.992
+    },
+    {
+     "start": 127.7,
+     "end": 127.82,
+     "word": " an",
+     "prob": 0.996
+    },
+    {
+     "start": 127.82,
+     "end": 128.1,
+     "word": " assistant,",
+     "prob": 0.931
+    },
+    {
+     "start": 128.1,
+     "end": 128.32,
+     "word": " we",
+     "prob": 0.988
+    },
+    {
+     "start": 128.32,
+     "end": 128.44,
+     "word": " had",
+     "prob": 0.992
+    },
+    {
+     "start": 128.44,
+     "end": 128.54,
+     "word": " to",
+     "prob": 0.998
+    },
+    {
+     "start": 128.54,
+     "end": 128.72,
+     "word": " have",
+     "prob": 0.999
+    },
+    {
+     "start": 128.72,
+     "end": 129.14,
+     "word": " additional",
+     "prob": 0.995
+    },
+    {
+     "start": 129.14,
+     "end": 129.6,
+     "word": " steps.",
+     "prob": 0.996
+    }
+   ]
+  },
+  {
+   "start": 130.06,
+   "end": 134.4,
+   "text": " So after training the initial, you know, predict the next token model,",
+   "words": [
+    {
+     "start": 130.06,
+     "end": 130.12,
+     "word": " So",
+     "prob": 0.993
+    },
+    {
+     "start": 130.12,
+     "end": 130.62,
+     "word": " after",
+     "prob": 0.929
+    },
+    {
+     "start": 130.62,
+     "end": 131.16,
+     "word": " training",
+     "prob": 0.992
+    },
+    {
+     "start": 131.16,
+     "end": 131.58,
+     "word": " the",
+     "prob": 0.954
+    },
+    {
+     "start": 131.58,
+     "end": 132.26,
+     "word": " initial,",
+     "prob": 0.994
+    },
+    {
+     "start": 132.26,
+     "end": 132.58,
+     "word": " you",
+     "prob": 0.962
+    },
+    {
+     "start": 132.58,
+     "end": 132.7,
+     "word": " know,",
+     "prob": 1.0
+    },
+    {
+     "start": 132.84,
+     "end": 132.96,
+     "word": " predict",
+     "prob": 0.758
+    },
+    {
+     "start": 132.96,
+     "end": 133.14,
+     "word": " the",
+     "prob": 0.959
+    },
+    {
+     "start": 133.14,
+     "end": 133.3,
+     "word": " next",
+     "prob": 0.992
+    },
+    {
+     "start": 133.3,
+     "end": 133.74,
+     "word": " token",
+     "prob": 0.993
+    },
+    {
+     "start": 133.74,
+     "end": 134.4,
+     "word": " model,",
+     "prob": 0.966
+    }
+   ]
+  },
+  {
+   "start": 134.74,
+   "end": 138.76,
+   "text": " the foundation model, then they had to do some fine tuning on top.",
+   "words": [
+    {
+     "start": 134.74,
+     "end": 134.84,
+     "word": " the",
+     "prob": 0.996
+    },
+    {
+     "start": 134.84,
+     "end": 135.12,
+     "word": " foundation",
+     "prob": 0.887
+    },
+    {
+     "start": 135.12,
+     "end": 135.52,
+     "word": " model,",
+     "prob": 0.997
+    },
+    {
+     "start": 135.84,
+     "end": 136.16,
+     "word": " then",
+     "prob": 0.995
+    },
+    {
+     "start": 136.16,
+     "end": 136.44,
+     "word": " they",
+     "prob": 0.998
+    },
+    {
+     "start": 136.44,
+     "end": 136.68,
+     "word": " had",
+     "prob": 0.978
+    },
+    {
+     "start": 136.68,
+     "end": 136.88,
+     "word": " to",
+     "prob": 1.0
+    },
+    {
+     "start": 136.88,
+     "end": 137.2,
+     "word": " do",
+     "prob": 0.999
+    },
+    {
+     "start": 137.2,
+     "end": 137.52,
+     "word": " some",
+     "prob": 0.999
+    },
+    {
+     "start": 137.52,
+     "end": 137.82,
+     "word": " fine",
+     "prob": 0.97
+    },
+    {
+     "start": 137.82,
+     "end": 138.06,
+     "word": " tuning",
+     "prob": 0.707
+    },
+    {
+     "start": 138.06,
+     "end": 138.52,
+     "word": " on",
+     "prob": 0.992
+    },
+    {
+     "start": 138.52,
+     "end": 138.76,
+     "word": " top.",
+     "prob": 0.997
+    }
+   ]
+  },
+  {
+   "start": 138.76,
+   "end": 143.96,
+   "text": " They would have humans figure out which outputs were best and worst",
+   "words": [
+    {
+     "start": 138.76,
+     "end": 139.2,
+     "word": " They",
+     "prob": 0.47
+    },
+    {
+     "start": 139.2,
+     "end": 139.34,
+     "word": " would",
+     "prob": 0.983
+    },
+    {
+     "start": 139.34,
+     "end": 139.6,
+     "word": " have",
+     "prob": 0.988
+    },
+    {
+     "start": 139.6,
+     "end": 140.3,
+     "word": " humans",
+     "prob": 0.994
+    },
+    {
+     "start": 140.3,
+     "end": 141.0,
+     "word": " figure",
+     "prob": 0.97
+    },
+    {
+     "start": 141.0,
+     "end": 141.32,
+     "word": " out",
+     "prob": 0.998
+    },
+    {
+     "start": 141.32,
+     "end": 141.76,
+     "word": " which",
+     "prob": 0.989
+    },
+    {
+     "start": 141.76,
+     "end": 142.22,
+     "word": " outputs",
+     "prob": 0.997
+    },
+    {
+     "start": 142.22,
+     "end": 142.72,
+     "word": " were",
+     "prob": 0.993
+    },
+    {
+     "start": 142.72,
+     "end": 143.38,
+     "word": " best",
+     "prob": 0.967
+    },
+    {
+     "start": 143.38,
+     "end": 143.62,
+     "word": " and",
+     "prob": 0.992
+    },
+    {
+     "start": 143.62,
+     "end": 143.96,
+     "word": " worst",
+     "prob": 0.984
+    }
+   ]
+  },
+  {
+   "start": 143.96,
+   "end": 147.66,
+   "text": " from different questions, and then they would use that to reward the model.",
+   "words": [
+    {
+     "start": 143.96,
+     "end": 144.4,
+     "word": " from",
+     "prob": 0.968
+    },
+    {
+     "start": 144.4,
+     "end": 144.7,
+     "word": " different",
+     "prob": 0.995
+    },
+    {
+     "start": 144.7,
+     "end": 145.2,
+     "word": " questions,",
+     "prob": 0.997
+    },
+    {
+     "start": 145.4,
+     "end": 145.8,
+     "word": " and",
+     "prob": 0.987
+    },
+    {
+     "start": 145.8,
+     "end": 145.9,
+     "word": " then",
+     "prob": 0.981
+    },
+    {
+     "start": 145.9,
+     "end": 146.04,
+     "word": " they",
+     "prob": 0.955
+    },
+    {
+     "start": 146.04,
+     "end": 146.14,
+     "word": " would",
+     "prob": 0.745
+    },
+    {
+     "start": 146.14,
+     "end": 146.46,
+     "word": " use",
+     "prob": 0.991
+    },
+    {
+     "start": 146.46,
+     "end": 146.74,
+     "word": " that",
+     "prob": 0.997
+    },
+    {
+     "start": 146.74,
+     "end": 146.94,
+     "word": " to",
+     "prob": 0.989
+    },
+    {
+     "start": 146.94,
+     "end": 147.26,
+     "word": " reward",
+     "prob": 0.995
+    },
+    {
+     "start": 147.26,
+     "end": 147.44,
+     "word": " the",
+     "prob": 0.996
+    },
+    {
+     "start": 147.44,
+     "end": 147.66,
+     "word": " model.",
+     "prob": 0.888
+    }
+   ]
+  },
+  {
+   "start": 147.92,
+   "end": 153.06,
+   "text": " So they would predict tokens that humans thought were good answers to questions.",
+   "words": [
+    {
+     "start": 147.92,
+     "end": 147.92,
+     "word": " So",
+     "prob": 0.952
+    },
+    {
+     "start": 147.92,
+     "end": 148.08,
+     "word": " they",
+     "prob": 0.765
+    },
+    {
+     "start": 148.08,
+     "end": 148.3,
+     "word": " would",
+     "prob": 0.995
+    },
+    {
+     "start": 148.3,
+     "end": 148.92,
+     "word": " predict",
+     "prob": 0.998
+    },
+    {
+     "start": 148.92,
+     "end": 149.7,
+     "word": " tokens",
+     "prob": 0.993
+    },
+    {
+     "start": 149.7,
+     "end": 150.22,
+     "word": " that",
+     "prob": 0.983
+    },
+    {
+     "start": 150.22,
+     "end": 150.94,
+     "word": " humans",
+     "prob": 0.789
+    },
+    {
+     "start": 150.94,
+     "end": 151.32,
+     "word": " thought",
+     "prob": 0.996
+    },
+    {
+     "start": 151.32,
+     "end": 151.7,
+     "word": " were",
+     "prob": 0.99
+    },
+    {
+     "start": 151.7,
+     "end": 152.02,
+     "word": " good",
+     "prob": 0.996
+    },
+    {
+     "start": 152.02,
+     "end": 152.42,
+     "word": " answers",
+     "prob": 0.999
+    },
+    {
+     "start": 152.42,
+     "end": 152.66,
+     "word": " to",
+     "prob": 0.997
+    },
+    {
+     "start": 152.66,
+     "end": 153.06,
+     "word": " questions.",
+     "prob": 0.993
+    }
+   ]
+  },
+  {
+   "start": 153.34,
+   "end": 158.48,
+   "text": " Then they had to develop a type of policy reward model, PPO, reinforcement",
+   "words": [
+    {
+     "start": 153.34,
+     "end": 153.5,
+     "word": " Then",
+     "prob": 0.98
+    },
+    {
+     "start": 153.5,
+     "end": 153.68,
+     "word": " they",
+     "prob": 0.979
+    },
+    {
+     "start": 153.68,
+     "end": 153.84,
+     "word": " had",
+     "prob": 0.994
+    },
+    {
+     "start": 153.84,
+     "end": 154.04,
+     "word": " to",
+     "prob": 0.999
+    },
+    {
+     "start": 154.04,
+     "end": 154.46,
+     "word": " develop",
+     "prob": 0.999
+    },
+    {
+     "start": 154.46,
+     "end": 155.2,
+     "word": " a",
+     "prob": 0.995
+    },
+    {
+     "start": 155.2,
+     "end": 155.8,
+     "word": " type",
+     "prob": 0.983
+    },
+    {
+     "start": 155.8,
+     "end": 155.98,
+     "word": " of",
+     "prob": 0.996
+    },
+    {
+     "start": 155.98,
+     "end": 156.48,
+     "word": " policy",
+     "prob": 0.994
+    },
+    {
+     "start": 156.48,
+     "end": 156.94,
+     "word": " reward",
+     "prob": 0.878
+    },
+    {
+     "start": 156.94,
+     "end": 157.34,
+     "word": " model,",
+     "prob": 0.996
+    },
+    {
+     "start": 157.58,
+     "end": 157.94,
+     "word": " PPO,",
+     "prob": 0.981
+    },
+    {
+     "start": 158.3,
+     "end": 158.48,
+     "word": " reinforcement",
+     "prob": 0.648
+    }
+   ]
+  },
+  {
+   "start": 158.48,
+   "end": 162.2,
+   "text": " learning, and what that would allow you to do is take a prompt, the sample",
+   "words": [
+    {
+     "start": 158.48,
+     "end": 158.92,
+     "word": " learning,",
+     "prob": 0.995
+    },
+    {
+     "start": 159.22,
+     "end": 159.58,
+     "word": " and",
+     "prob": 0.995
+    },
+    {
+     "start": 159.58,
+     "end": 159.86,
+     "word": " what",
+     "prob": 0.985
+    },
+    {
+     "start": 159.86,
+     "end": 160.1,
+     "word": " that",
+     "prob": 0.995
+    },
+    {
+     "start": 160.1,
+     "end": 160.28,
+     "word": " would",
+     "prob": 0.997
+    },
+    {
+     "start": 160.28,
+     "end": 160.5,
+     "word": " allow",
+     "prob": 0.999
+    },
+    {
+     "start": 160.5,
+     "end": 160.68,
+     "word": " you",
+     "prob": 0.999
+    },
+    {
+     "start": 160.68,
+     "end": 160.82,
+     "word": " to",
+     "prob": 0.999
+    },
+    {
+     "start": 160.82,
+     "end": 161.06,
+     "word": " do",
+     "prob": 0.999
+    },
+    {
+     "start": 161.06,
+     "end": 161.34,
+     "word": " is",
+     "prob": 0.983
+    },
+    {
+     "start": 161.34,
+     "end": 161.54,
+     "word": " take",
+     "prob": 0.986
+    },
+    {
+     "start": 161.54,
+     "end": 161.66,
+     "word": " a",
+     "prob": 0.947
+    },
+    {
+     "start": 161.66,
+     "end": 161.8,
+     "word": " prompt,",
+     "prob": 0.566
+    },
+    {
+     "start": 161.92,
+     "end": 161.96,
+     "word": " the",
+     "prob": 0.817
+    },
+    {
+     "start": 161.96,
+     "end": 162.2,
+     "word": " sample",
+     "prob": 0.997
+    }
+   ]
+  },
+  {
+   "start": 162.2,
+   "end": 167.24,
+   "text": " from the dataset, use that PPO model to generate the output, and then",
+   "words": [
+    {
+     "start": 162.2,
+     "end": 162.44,
+     "word": " from",
+     "prob": 0.986
+    },
+    {
+     "start": 162.44,
+     "end": 162.58,
+     "word": " the",
+     "prob": 0.994
+    },
+    {
+     "start": 162.58,
+     "end": 162.96,
+     "word": " dataset,",
+     "prob": 0.664
+    },
+    {
+     "start": 163.16,
+     "end": 163.5,
+     "word": " use",
+     "prob": 0.992
+    },
+    {
+     "start": 163.5,
+     "end": 163.78,
+     "word": " that",
+     "prob": 0.999
+    },
+    {
+     "start": 163.78,
+     "end": 164.26,
+     "word": " PPO",
+     "prob": 0.991
+    },
+    {
+     "start": 164.26,
+     "end": 164.6,
+     "word": " model",
+     "prob": 0.996
+    },
+    {
+     "start": 164.6,
+     "end": 165.56,
+     "word": " to",
+     "prob": 0.97
+    },
+    {
+     "start": 165.56,
+     "end": 166.02,
+     "word": " generate",
+     "prob": 0.999
+    },
+    {
+     "start": 166.02,
+     "end": 166.18,
+     "word": " the",
+     "prob": 0.999
+    },
+    {
+     "start": 166.18,
+     "end": 166.54,
+     "word": " output,",
+     "prob": 0.999
+    },
+    {
+     "start": 166.56,
+     "end": 167.08,
+     "word": " and",
+     "prob": 0.997
+    },
+    {
+     "start": 167.08,
+     "end": 167.24,
+     "word": " then",
+     "prob": 0.995
+    }
+   ]
+  },
+  {
+   "start": 167.24,
+   "end": 171.12,
+   "text": " the reward model calculates a reward for the output, and the reward is",
+   "words": [
+    {
+     "start": 167.24,
+     "end": 167.38,
+     "word": " the",
+     "prob": 0.179
+    },
+    {
+     "start": 167.38,
+     "end": 167.68,
+     "word": " reward",
+     "prob": 0.94
+    },
+    {
+     "start": 167.68,
+     "end": 168.06,
+     "word": " model",
+     "prob": 0.985
+    },
+    {
+     "start": 168.06,
+     "end": 168.8,
+     "word": " calculates",
+     "prob": 0.96
+    },
+    {
+     "start": 168.8,
+     "end": 169.14,
+     "word": " a",
+     "prob": 0.637
+    },
+    {
+     "start": 169.14,
+     "end": 169.46,
+     "word": " reward",
+     "prob": 0.993
+    },
+    {
+     "start": 169.46,
+     "end": 169.6,
+     "word": " for",
+     "prob": 0.726
+    },
+    {
+     "start": 169.6,
+     "end": 169.7,
+     "word": " the",
+     "prob": 0.917
+    },
+    {
+     "start": 169.7,
+     "end": 169.98,
+     "word": " output,",
+     "prob": 0.995
+    },
+    {
+     "start": 170.26,
+     "end": 170.46,
+     "word": " and",
+     "prob": 0.991
+    },
+    {
+     "start": 170.46,
+     "end": 170.54,
+     "word": " the",
+     "prob": 0.996
+    },
+    {
+     "start": 170.54,
+     "end": 170.94,
+     "word": " reward",
+     "prob": 0.998
+    },
+    {
+     "start": 170.94,
+     "end": 171.12,
+     "word": " is",
+     "prob": 0.997
+    }
+   ]
+  },
+  {
+   "start": 171.12,
+   "end": 173.2,
+   "text": " used to update the policy using PPO.",
+   "words": [
+    {
+     "start": 171.12,
+     "end": 171.3,
+     "word": " used",
+     "prob": 0.997
+    },
+    {
+     "start": 171.3,
+     "end": 171.44,
+     "word": " to",
+     "prob": 0.999
+    },
+    {
+     "start": 171.44,
+     "end": 171.72,
+     "word": " update",
+     "prob": 0.996
+    },
+    {
+     "start": 171.72,
+     "end": 171.92,
+     "word": " the",
+     "prob": 0.998
+    },
+    {
+     "start": 171.92,
+     "end": 172.3,
+     "word": " policy",
+     "prob": 0.997
+    },
+    {
+     "start": 172.3,
+     "end": 172.78,
+     "word": " using",
+     "prob": 0.987
+    },
+    {
+     "start": 172.78,
+     "end": 173.2,
+     "word": " PPO.",
+     "prob": 0.948
+    }
+   ]
+  },
+  {
+   "start": 173.7,
+   "end": 176.82,
+   "text": " So this is kind of an additional set of reinforcement learning on top.",
+   "words": [
+    {
+     "start": 173.7,
+     "end": 173.7,
+     "word": " So",
+     "prob": 0.853
+    },
+    {
+     "start": 173.7,
+     "end": 174.22,
+     "word": " this",
+     "prob": 0.851
+    },
+    {
+     "start": 174.22,
+     "end": 174.42,
+     "word": " is",
+     "prob": 0.998
+    },
+    {
+     "start": 174.42,
+     "end": 174.6,
+     "word": " kind",
+     "prob": 0.932
+    },
+    {
+     "start": 174.6,
+     "end": 174.68,
+     "word": " of",
+     "prob": 1.0
+    },
+    {
+     "start": 174.68,
+     "end": 174.78,
+     "word": " an",
+     "prob": 0.989
+    },
+    {
+     "start": 174.78,
+     "end": 175.04,
+     "word": " additional",
+     "prob": 0.998
+    },
+    {
+     "start": 175.04,
+     "end": 175.38,
+     "word": " set",
+     "prob": 0.998
+    },
+    {
+     "start": 175.38,
+     "end": 175.6,
+     "word": " of",
+     "prob": 0.999
+    },
+    {
+     "start": 175.6,
+     "end": 175.98,
+     "word": " reinforcement",
+     "prob": 0.985
+    },
+    {
+     "start": 175.98,
+     "end": 176.34,
+     "word": " learning",
+     "prob": 0.976
+    },
+    {
+     "start": 176.34,
+     "end": 176.56,
+     "word": " on",
+     "prob": 0.995
+    },
+    {
+     "start": 176.56,
+     "end": 176.82,
+     "word": " top.",
+     "prob": 0.998
+    }
+   ]
+  },
+  {
+   "start": 177.6,
+   "end": 182.24,
+   "text": " Again, technical jargon, but all that means really is that you have the",
+   "words": [
+    {
+     "start": 177.6,
+     "end": 177.82,
+     "word": " Again,",
+     "prob": 0.961
+    },
+    {
+     "start": 178.02,
+     "end": 178.28,
+     "word": " technical",
+     "prob": 0.452
+    },
+    {
+     "start": 178.28,
+     "end": 178.66,
+     "word": " jargon,",
+     "prob": 1.0
+    },
+    {
+     "start": 178.84,
+     "end": 178.98,
+     "word": " but",
+     "prob": 0.99
+    },
+    {
+     "start": 178.98,
+     "end": 179.36,
+     "word": " all",
+     "prob": 0.991
+    },
+    {
+     "start": 179.36,
+     "end": 179.52,
+     "word": " that",
+     "prob": 0.999
+    },
+    {
+     "start": 179.52,
+     "end": 179.86,
+     "word": " means",
+     "prob": 0.996
+    },
+    {
+     "start": 179.86,
+     "end": 180.22,
+     "word": " really",
+     "prob": 0.969
+    },
+    {
+     "start": 180.22,
+     "end": 180.68,
+     "word": " is",
+     "prob": 0.933
+    },
+    {
+     "start": 180.68,
+     "end": 181.0,
+     "word": " that",
+     "prob": 0.998
+    },
+    {
+     "start": 181.0,
+     "end": 181.52,
+     "word": " you",
+     "prob": 0.95
+    },
+    {
+     "start": 181.52,
+     "end": 181.8,
+     "word": " have",
+     "prob": 0.999
+    },
+    {
+     "start": 181.8,
+     "end": 182.24,
+     "word": " the",
+     "prob": 0.997
+    }
+   ]
+  },
+  {
+   "start": 182.24,
+   "end": 185.9,
+   "text": " transformer model that's trained on the internet, then you fine tune it",
+   "words": [
+    {
+     "start": 182.24,
+     "end": 182.64,
+     "word": " transformer",
+     "prob": 0.725
+    },
+    {
+     "start": 182.64,
+     "end": 183.0,
+     "word": " model",
+     "prob": 0.996
+    },
+    {
+     "start": 183.0,
+     "end": 183.22,
+     "word": " that's",
+     "prob": 0.931
+    },
+    {
+     "start": 183.22,
+     "end": 183.4,
+     "word": " trained",
+     "prob": 0.994
+    },
+    {
+     "start": 183.4,
+     "end": 183.56,
+     "word": " on",
+     "prob": 0.999
+    },
+    {
+     "start": 183.56,
+     "end": 183.72,
+     "word": " the",
+     "prob": 1.0
+    },
+    {
+     "start": 183.72,
+     "end": 184.02,
+     "word": " internet,",
+     "prob": 0.84
+    },
+    {
+     "start": 184.58,
+     "end": 184.84,
+     "word": " then",
+     "prob": 0.994
+    },
+    {
+     "start": 184.84,
+     "end": 185.12,
+     "word": " you",
+     "prob": 0.997
+    },
+    {
+     "start": 185.12,
+     "end": 185.46,
+     "word": " fine",
+     "prob": 0.951
+    },
+    {
+     "start": 185.46,
+     "end": 185.66,
+     "word": " tune",
+     "prob": 0.794
+    },
+    {
+     "start": 185.66,
+     "end": 185.9,
+     "word": " it",
+     "prob": 0.996
+    }
+   ]
+  },
+  {
+   "start": 185.9,
+   "end": 191.1,
+   "text": " based on what people find helpful and useful in terms of responses, and",
+   "words": [
+    {
+     "start": 185.9,
+     "end": 186.2,
+     "word": " based",
+     "prob": 0.986
+    },
+    {
+     "start": 186.2,
+     "end": 186.74,
+     "word": " on",
+     "prob": 1.0
+    },
+    {
+     "start": 186.74,
+     "end": 187.28,
+     "word": " what",
+     "prob": 0.975
+    },
+    {
+     "start": 187.28,
+     "end": 187.5,
+     "word": " people",
+     "prob": 1.0
+    },
+    {
+     "start": 187.5,
+     "end": 187.8,
+     "word": " find",
+     "prob": 0.999
+    },
+    {
+     "start": 187.8,
+     "end": 188.16,
+     "word": " helpful",
+     "prob": 0.997
+    },
+    {
+     "start": 188.16,
+     "end": 188.62,
+     "word": " and",
+     "prob": 0.984
+    },
+    {
+     "start": 188.62,
+     "end": 188.98,
+     "word": " useful",
+     "prob": 1.0
+    },
+    {
+     "start": 188.98,
+     "end": 189.44,
+     "word": " in",
+     "prob": 0.968
+    },
+    {
+     "start": 189.44,
+     "end": 189.68,
+     "word": " terms",
+     "prob": 0.999
+    },
+    {
+     "start": 189.68,
+     "end": 189.9,
+     "word": " of",
+     "prob": 1.0
+    },
+    {
+     "start": 189.9,
+     "end": 190.5,
+     "word": " responses,",
+     "prob": 0.999
+    },
+    {
+     "start": 190.62,
+     "end": 191.1,
+     "word": " and",
+     "prob": 0.998
+    }
+   ]
+  },
+  {
+   "start": 191.1,
+   "end": 195.18,
+   "text": " then you optimize it based on policies so that when you get the results,",
+   "words": [
+    {
+     "start": 191.1,
+     "end": 191.22,
+     "word": " then",
+     "prob": 0.999
+    },
+    {
+     "start": 191.22,
+     "end": 191.38,
+     "word": " you",
+     "prob": 0.998
+    },
+    {
+     "start": 191.38,
+     "end": 191.9,
+     "word": " optimize",
+     "prob": 0.964
+    },
+    {
+     "start": 191.9,
+     "end": 192.26,
+     "word": " it",
+     "prob": 0.983
+    },
+    {
+     "start": 192.26,
+     "end": 192.46,
+     "word": " based",
+     "prob": 0.998
+    },
+    {
+     "start": 192.46,
+     "end": 192.7,
+     "word": " on",
+     "prob": 0.999
+    },
+    {
+     "start": 192.7,
+     "end": 193.12,
+     "word": " policies",
+     "prob": 0.988
+    },
+    {
+     "start": 193.12,
+     "end": 193.46,
+     "word": " so",
+     "prob": 0.702
+    },
+    {
+     "start": 193.46,
+     "end": 193.7,
+     "word": " that",
+     "prob": 0.999
+    },
+    {
+     "start": 193.7,
+     "end": 194.1,
+     "word": " when",
+     "prob": 0.981
+    },
+    {
+     "start": 194.1,
+     "end": 194.26,
+     "word": " you",
+     "prob": 1.0
+    },
+    {
+     "start": 194.26,
+     "end": 194.54,
+     "word": " get",
+     "prob": 0.999
+    },
+    {
+     "start": 194.54,
+     "end": 194.9,
+     "word": " the",
+     "prob": 0.992
+    },
+    {
+     "start": 194.9,
+     "end": 195.18,
+     "word": " results,",
+     "prob": 0.999
+    }
+   ]
+  },
+  {
+   "start": 195.18,
+   "end": 199.68,
+   "text": " you can be sure that they're much better on average than what you would",
+   "words": [
+    {
+     "start": 195.18,
+     "end": 195.52,
+     "word": " you",
+     "prob": 0.341
+    },
+    {
+     "start": 195.52,
+     "end": 195.76,
+     "word": " can",
+     "prob": 0.986
+    },
+    {
+     "start": 195.76,
+     "end": 196.28,
+     "word": " be",
+     "prob": 0.869
+    },
+    {
+     "start": 196.28,
+     "end": 196.52,
+     "word": " sure",
+     "prob": 0.996
+    },
+    {
+     "start": 196.52,
+     "end": 196.74,
+     "word": " that",
+     "prob": 0.926
+    },
+    {
+     "start": 196.74,
+     "end": 197.26,
+     "word": " they're",
+     "prob": 0.955
+    },
+    {
+     "start": 197.26,
+     "end": 197.5,
+     "word": " much",
+     "prob": 0.992
+    },
+    {
+     "start": 197.5,
+     "end": 197.76,
+     "word": " better",
+     "prob": 0.998
+    },
+    {
+     "start": 197.76,
+     "end": 197.96,
+     "word": " on",
+     "prob": 0.891
+    },
+    {
+     "start": 197.96,
+     "end": 198.34,
+     "word": " average",
+     "prob": 0.996
+    },
+    {
+     "start": 198.34,
+     "end": 199.06,
+     "word": " than",
+     "prob": 0.938
+    },
+    {
+     "start": 199.06,
+     "end": 199.34,
+     "word": " what",
+     "prob": 0.993
+    },
+    {
+     "start": 199.34,
+     "end": 199.54,
+     "word": " you",
+     "prob": 0.999
+    },
+    {
+     "start": 199.54,
+     "end": 199.68,
+     "word": " would",
+     "prob": 0.99
+    }
+   ]
+  },
+  {
+   "start": 199.68,
+   "end": 201.38,
+   "text": " get if you just use the foundation model.",
+   "words": [
+    {
+     "start": 199.68,
+     "end": 199.88,
+     "word": " get",
+     "prob": 0.998
+    },
+    {
+     "start": 199.88,
+     "end": 200.08,
+     "word": " if",
+     "prob": 0.971
+    },
+    {
+     "start": 200.08,
+     "end": 200.22,
+     "word": " you",
+     "prob": 0.999
+    },
+    {
+     "start": 200.22,
+     "end": 200.38,
+     "word": " just",
+     "prob": 0.987
+    },
+    {
+     "start": 200.38,
+     "end": 200.6,
+     "word": " use",
+     "prob": 0.688
+    },
+    {
+     "start": 200.6,
+     "end": 200.74,
+     "word": " the",
+     "prob": 0.995
+    },
+    {
+     "start": 200.74,
+     "end": 201.04,
+     "word": " foundation",
+     "prob": 0.686
+    },
+    {
+     "start": 201.04,
+     "end": 201.38,
+     "word": " model.",
+     "prob": 0.979
+    }
+   ]
+  },
+  {
+   "start": 201.88,
+   "end": 206.04,
+   "text": " It was created by OpenAI, but you can access it at chat.openai.com or",
+   "words": [
+    {
+     "start": 201.88,
+     "end": 202.06,
+     "word": " It",
+     "prob": 0.98
+    },
+    {
+     "start": 202.06,
+     "end": 202.18,
+     "word": " was",
+     "prob": 0.999
+    },
+    {
+     "start": 202.18,
+     "end": 202.46,
+     "word": " created",
+     "prob": 0.999
+    },
+    {
+     "start": 202.46,
+     "end": 202.8,
+     "word": " by",
+     "prob": 0.999
+    },
+    {
+     "start": 202.8,
+     "end": 203.28,
+     "word": " OpenAI,",
+     "prob": 0.92
+    },
+    {
+     "start": 203.64,
+     "end": 203.7,
+     "word": " but",
+     "prob": 0.335
+    },
+    {
+     "start": 203.7,
+     "end": 203.76,
+     "word": " you",
+     "prob": 0.996
+    },
+    {
+     "start": 203.76,
+     "end": 203.86,
+     "word": " can",
+     "prob": 0.999
+    },
+    {
+     "start": 203.86,
+     "end": 204.12,
+     "word": " access",
+     "prob": 0.995
+    },
+    {
+     "start": 204.12,
+     "end": 204.32,
+     "word": " it",
+     "prob": 0.928
+    },
+    {
+     "start": 204.32,
+     "end": 204.48,
+     "word": " at",
+     "prob": 0.938
+    },
+    {
+     "start": 204.48,
+     "end": 204.56,
+     "word": " chat",
+     "prob": 0.886
+    },
+    {
+     "start": 204.56,
+     "end": 205.28,
+     "word": ".openai",
+     "prob": 0.952
+    },
+    {
+     "start": 205.28,
+     "end": 205.86,
+     "word": ".com",
+     "prob": 0.995
+    },
+    {
+     "start": 205.86,
+     "end": 206.04,
+     "word": " or",
+     "prob": 0.916
+    }
+   ]
+  },
+  {
+   "start": 206.04,
+   "end": 207.18,
+   "text": " chatgbt.com.",
+   "words": [
+    {
+     "start": 206.04,
+     "end": 206.56,
+     "word": " chatgbt",
+     "prob": 0.875
+    },
+    {
+     "start": 206.56,
+     "end": 207.18,
+     "word": ".com.",
+     "prob": 0.998
+    }
+   ]
+  },
+  {
+   "start": 207.62,
+   "end": 211.18,
+   "text": " They have a free version that you can try out and the free version is",
+   "words": [
+    {
+     "start": 207.62,
+     "end": 207.88,
+     "word": " They",
+     "prob": 0.987
+    },
+    {
+     "start": 207.88,
+     "end": 208.04,
+     "word": " have",
+     "prob": 0.999
+    },
+    {
+     "start": 208.04,
+     "end": 208.14,
+     "word": " a",
+     "prob": 0.999
+    },
+    {
+     "start": 208.14,
+     "end": 208.32,
+     "word": " free",
+     "prob": 0.996
+    },
+    {
+     "start": 208.32,
+     "end": 208.64,
+     "word": " version",
+     "prob": 1.0
+    },
+    {
+     "start": 208.64,
+     "end": 208.92,
+     "word": " that",
+     "prob": 0.916
+    },
+    {
+     "start": 208.92,
+     "end": 209.02,
+     "word": " you",
+     "prob": 0.999
+    },
+    {
+     "start": 209.02,
+     "end": 209.16,
+     "word": " can",
+     "prob": 0.999
+    },
+    {
+     "start": 209.16,
+     "end": 209.38,
+     "word": " try",
+     "prob": 1.0
+    },
+    {
+     "start": 209.38,
+     "end": 209.64,
+     "word": " out",
+     "prob": 0.998
+    },
+    {
+     "start": 209.64,
+     "end": 210.5,
+     "word": " and",
+     "prob": 0.339
+    },
+    {
+     "start": 210.5,
+     "end": 210.6,
+     "word": " the",
+     "prob": 0.439
+    },
+    {
+     "start": 210.6,
+     "end": 210.76,
+     "word": " free",
+     "prob": 0.998
+    },
+    {
+     "start": 210.76,
+     "end": 211.0,
+     "word": " version",
+     "prob": 1.0
+    },
+    {
+     "start": 211.0,
+     "end": 211.18,
+     "word": " is",
+     "prob": 0.996
+    }
+   ]
+  },
+  {
+   "start": 211.18,
+   "end": 214.52,
+   "text": " pretty comprehensive and generous, but you can also buy a plus or pro",
+   "words": [
+    {
+     "start": 211.18,
+     "end": 211.38,
+     "word": " pretty",
+     "prob": 0.993
+    },
+    {
+     "start": 211.38,
+     "end": 211.82,
+     "word": " comprehensive",
+     "prob": 0.999
+    },
+    {
+     "start": 211.82,
+     "end": 212.1,
+     "word": " and",
+     "prob": 0.99
+    },
+    {
+     "start": 212.1,
+     "end": 212.44,
+     "word": " generous,",
+     "prob": 0.998
+    },
+    {
+     "start": 212.88,
+     "end": 213.04,
+     "word": " but",
+     "prob": 0.996
+    },
+    {
+     "start": 213.04,
+     "end": 213.14,
+     "word": " you",
+     "prob": 0.999
+    },
+    {
+     "start": 213.14,
+     "end": 213.26,
+     "word": " can",
+     "prob": 0.999
+    },
+    {
+     "start": 213.26,
+     "end": 213.48,
+     "word": " also",
+     "prob": 0.999
+    },
+    {
+     "start": 213.48,
+     "end": 213.78,
+     "word": " buy",
+     "prob": 0.995
+    },
+    {
+     "start": 213.78,
+     "end": 213.92,
+     "word": " a",
+     "prob": 0.806
+    },
+    {
+     "start": 213.92,
+     "end": 214.08,
+     "word": " plus",
+     "prob": 0.519
+    },
+    {
+     "start": 214.08,
+     "end": 214.3,
+     "word": " or",
+     "prob": 0.957
+    },
+    {
+     "start": 214.3,
+     "end": 214.52,
+     "word": " pro",
+     "prob": 0.81
+    }
+   ]
+  },
+  {
+   "start": 214.52,
+   "end": 217.98,
+   "text": " version, the pro version is $200 a month currently, and you get some",
+   "words": [
+    {
+     "start": 214.52,
+     "end": 214.88,
+     "word": " version,",
+     "prob": 0.993
+    },
+    {
+     "start": 215.06,
+     "end": 215.08,
+     "word": " the",
+     "prob": 0.963
+    },
+    {
+     "start": 215.08,
+     "end": 215.26,
+     "word": " pro",
+     "prob": 0.984
+    },
+    {
+     "start": 215.26,
+     "end": 215.52,
+     "word": " version",
+     "prob": 0.891
+    },
+    {
+     "start": 215.52,
+     "end": 215.7,
+     "word": " is",
+     "prob": 0.649
+    },
+    {
+     "start": 215.7,
+     "end": 216.02,
+     "word": " $200",
+     "prob": 0.971
+    },
+    {
+     "start": 216.02,
+     "end": 216.32,
+     "word": " a",
+     "prob": 0.942
+    },
+    {
+     "start": 216.32,
+     "end": 216.48,
+     "word": " month",
+     "prob": 1.0
+    },
+    {
+     "start": 216.48,
+     "end": 216.8,
+     "word": " currently,",
+     "prob": 0.967
+    },
+    {
+     "start": 216.8,
+     "end": 217.48,
+     "word": " and",
+     "prob": 0.998
+    },
+    {
+     "start": 217.48,
+     "end": 217.58,
+     "word": " you",
+     "prob": 0.999
+    },
+    {
+     "start": 217.58,
+     "end": 217.76,
+     "word": " get",
+     "prob": 0.996
+    },
+    {
+     "start": 217.76,
+     "end": 217.98,
+     "word": " some",
+     "prob": 0.999
+    }
+   ]
+  },
+  {
+   "start": 217.98,
+   "end": 219.68,
+   "text": " additional powerful models for that.",
+   "words": [
+    {
+     "start": 217.98,
+     "end": 218.3,
+     "word": " additional",
+     "prob": 0.999
+    },
+    {
+     "start": 218.3,
+     "end": 218.64,
+     "word": " powerful",
+     "prob": 0.985
+    },
+    {
+     "start": 218.64,
+     "end": 219.14,
+     "word": " models",
+     "prob": 0.999
+    },
+    {
+     "start": 219.14,
+     "end": 219.44,
+     "word": " for",
+     "prob": 0.975
+    },
+    {
+     "start": 219.44,
+     "end": 219.68,
+     "word": " that.",
+     "prob": 0.998
+    }
+   ]
+  },
+  {
+   "start": 219.84,
+   "end": 223.74,
+   "text": " The features are numerous and we're not going to cover all of them here,",
+   "words": [
+    {
+     "start": 219.84,
+     "end": 220.08,
+     "word": " The",
+     "prob": 0.99
+    },
+    {
+     "start": 220.08,
+     "end": 220.78,
+     "word": " features",
+     "prob": 0.999
+    },
+    {
+     "start": 220.78,
+     "end": 221.38,
+     "word": " are",
+     "prob": 0.982
+    },
+    {
+     "start": 221.38,
+     "end": 221.94,
+     "word": " numerous",
+     "prob": 0.995
+    },
+    {
+     "start": 221.94,
+     "end": 222.2,
+     "word": " and",
+     "prob": 0.434
+    },
+    {
+     "start": 222.2,
+     "end": 222.3,
+     "word": " we're",
+     "prob": 0.932
+    },
+    {
+     "start": 222.3,
+     "end": 222.5,
+     "word": " not",
+     "prob": 0.998
+    },
+    {
+     "start": 222.5,
+     "end": 222.6,
+     "word": " going",
+     "prob": 0.94
+    },
+    {
+     "start": 222.6,
+     "end": 222.7,
+     "word": " to",
+     "prob": 0.999
+    },
+    {
+     "start": 222.7,
+     "end": 222.9,
+     "word": " cover",
+     "prob": 1.0
+    },
+    {
+     "start": 222.9,
+     "end": 223.18,
+     "word": " all",
+     "prob": 0.999
+    },
+    {
+     "start": 223.18,
+     "end": 223.3,
+     "word": " of",
+     "prob": 0.998
+    },
+    {
+     "start": 223.3,
+     "end": 223.4,
+     "word": " them",
+     "prob": 0.998
+    },
+    {
+     "start": 223.4,
+     "end": 223.74,
+     "word": " here,",
+     "prob": 0.998
+    }
+   ]
+  },
+  {
+   "start": 223.74,
+   "end": 227.94,
+   "text": " but the main things that we find are useful day to day are the chat",
+   "words": [
+    {
+     "start": 223.74,
+     "end": 224.1,
+     "word": " but",
+     "prob": 0.208
+    },
+    {
+     "start": 224.1,
+     "end": 224.66,
+     "word": " the",
+     "prob": 0.939
+    },
+    {
+     "start": 224.66,
+     "end": 224.88,
+     "word": " main",
+     "prob": 0.997
+    },
+    {
+     "start": 224.88,
+     "end": 225.32,
+     "word": " things",
+     "prob": 0.978
+    },
+    {
+     "start": 225.32,
+     "end": 225.6,
+     "word": " that",
+     "prob": 0.938
+    },
+    {
+     "start": 225.6,
+     "end": 225.84,
+     "word": " we",
+     "prob": 0.987
+    },
+    {
+     "start": 225.84,
+     "end": 226.08,
+     "word": " find",
+     "prob": 0.989
+    },
+    {
+     "start": 226.08,
+     "end": 226.2,
+     "word": " are",
+     "prob": 0.699
+    },
+    {
+     "start": 226.2,
+     "end": 226.5,
+     "word": " useful",
+     "prob": 0.993
+    },
+    {
+     "start": 226.5,
+     "end": 226.96,
+     "word": " day",
+     "prob": 0.919
+    },
+    {
+     "start": 226.96,
+     "end": 227.08,
+     "word": " to",
+     "prob": 0.581
+    },
+    {
+     "start": 227.08,
+     "end": 227.28,
+     "word": " day",
+     "prob": 0.998
+    },
+    {
+     "start": 227.28,
+     "end": 227.54,
+     "word": " are",
+     "prob": 0.876
+    },
+    {
+     "start": 227.54,
+     "end": 227.7,
+     "word": " the",
+     "prob": 0.978
+    },
+    {
+     "start": 227.7,
+     "end": 227.94,
+     "word": " chat",
+     "prob": 0.984
+    }
+   ]
+  },
+  {
+   "start": 227.94,
+   "end": 231.62,
+   "text": " history, so being able to see what are the previous chats that you've",
+   "words": [
+    {
+     "start": 227.94,
+     "end": 228.32,
+     "word": " history,",
+     "prob": 0.993
+    },
+    {
+     "start": 228.6,
+     "end": 228.64,
+     "word": " so",
+     "prob": 0.948
+    },
+    {
+     "start": 228.64,
+     "end": 228.8,
+     "word": " being",
+     "prob": 0.983
+    },
+    {
+     "start": 228.8,
+     "end": 228.94,
+     "word": " able",
+     "prob": 0.998
+    },
+    {
+     "start": 228.94,
+     "end": 229.12,
+     "word": " to",
+     "prob": 0.999
+    },
+    {
+     "start": 229.12,
+     "end": 229.36,
+     "word": " see",
+     "prob": 0.998
+    },
+    {
+     "start": 229.36,
+     "end": 229.6,
+     "word": " what",
+     "prob": 0.931
+    },
+    {
+     "start": 229.6,
+     "end": 229.72,
+     "word": " are",
+     "prob": 0.969
+    },
+    {
+     "start": 229.72,
+     "end": 230.08,
+     "word": " the",
+     "prob": 0.993
+    },
+    {
+     "start": 230.08,
+     "end": 230.82,
+     "word": " previous",
+     "prob": 0.725
+    },
+    {
+     "start": 230.82,
+     "end": 231.24,
+     "word": " chats",
+     "prob": 0.996
+    },
+    {
+     "start": 231.24,
+     "end": 231.44,
+     "word": " that",
+     "prob": 0.964
+    },
+    {
+     "start": 231.44,
+     "end": 231.62,
+     "word": " you've",
+     "prob": 0.982
+    }
+   ]
+  },
+  {
+   "start": 231.62,
+   "end": 233.86,
+   "text": " had, just the ability to generate text.",
+   "words": [
+    {
+     "start": 231.62,
+     "end": 231.94,
+     "word": " had,",
+     "prob": 0.998
+    },
+    {
+     "start": 232.6,
+     "end": 232.72,
+     "word": " just",
+     "prob": 0.831
+    },
+    {
+     "start": 232.72,
+     "end": 232.84,
+     "word": " the",
+     "prob": 0.967
+    },
+    {
+     "start": 232.84,
+     "end": 233.02,
+     "word": " ability",
+     "prob": 0.998
+    },
+    {
+     "start": 233.02,
+     "end": 233.3,
+     "word": " to",
+     "prob": 0.998
+    },
+    {
+     "start": 233.3,
+     "end": 233.56,
+     "word": " generate",
+     "prob": 0.997
+    },
+    {
+     "start": 233.56,
+     "end": 233.86,
+     "word": " text.",
+     "prob": 0.925
+    }
+   ]
+  },
+  {
+   "start": 234.1,
+   "end": 238.18,
+   "text": " So you can ask it for a blog post or explain how the solar system",
+   "words": [
+    {
+     "start": 234.1,
+     "end": 234.12,
+     "word": " So",
+     "prob": 0.861
+    },
+    {
+     "start": 234.12,
+     "end": 234.26,
+     "word": " you",
+     "prob": 0.917
+    },
+    {
+     "start": 234.26,
+     "end": 234.42,
+     "word": " can",
+     "prob": 0.999
+    },
+    {
+     "start": 234.42,
+     "end": 234.86,
+     "word": " ask",
+     "prob": 0.999
+    },
+    {
+     "start": 234.86,
+     "end": 235.56,
+     "word": " it",
+     "prob": 0.955
+    },
+    {
+     "start": 235.56,
+     "end": 235.94,
+     "word": " for",
+     "prob": 0.999
+    },
+    {
+     "start": 235.94,
+     "end": 236.16,
+     "word": " a",
+     "prob": 0.984
+    },
+    {
+     "start": 236.16,
+     "end": 236.32,
+     "word": " blog",
+     "prob": 0.961
+    },
+    {
+     "start": 236.32,
+     "end": 236.62,
+     "word": " post",
+     "prob": 0.984
+    },
+    {
+     "start": 236.62,
+     "end": 237.02,
+     "word": " or",
+     "prob": 0.858
+    },
+    {
+     "start": 237.02,
+     "end": 237.46,
+     "word": " explain",
+     "prob": 0.982
+    },
+    {
+     "start": 237.46,
+     "end": 237.62,
+     "word": " how",
+     "prob": 0.996
+    },
+    {
+     "start": 237.62,
+     "end": 237.74,
+     "word": " the",
+     "prob": 0.988
+    },
+    {
+     "start": 237.74,
+     "end": 237.86,
+     "word": " solar",
+     "prob": 0.83
+    },
+    {
+     "start": 237.86,
+     "end": 238.18,
+     "word": " system",
+     "prob": 0.997
+    }
+   ]
+  },
+  {
+   "start": 238.18,
+   "end": 240.52,
+   "text": " was made or whatever it is you're trying to generate.",
+   "words": [
+    {
+     "start": 238.18,
+     "end": 238.36,
+     "word": " was",
+     "prob": 0.998
+    },
+    {
+     "start": 238.36,
+     "end": 238.7,
+     "word": " made",
+     "prob": 0.999
+    },
+    {
+     "start": 238.7,
+     "end": 239.0,
+     "word": " or",
+     "prob": 0.841
+    },
+    {
+     "start": 239.0,
+     "end": 239.3,
+     "word": " whatever",
+     "prob": 0.996
+    },
+    {
+     "start": 239.3,
+     "end": 239.46,
+     "word": " it",
+     "prob": 0.995
+    },
+    {
+     "start": 239.46,
+     "end": 239.6,
+     "word": " is",
+     "prob": 0.999
+    },
+    {
+     "start": 239.6,
+     "end": 239.8,
+     "word": " you're",
+     "prob": 0.971
+    },
+    {
+     "start": 239.8,
+     "end": 239.94,
+     "word": " trying",
+     "prob": 0.998
+    },
+    {
+     "start": 239.94,
+     "end": 240.12,
+     "word": " to",
+     "prob": 0.999
+    },
+    {
+     "start": 240.12,
+     "end": 240.52,
+     "word": " generate.",
+     "prob": 0.999
+    }
+   ]
+  },
+  {
+   "start": 240.96,
+   "end": 245.66,
+   "text": " And then also image generation is built into chatgbt through Dali.",
+   "words": [
+    {
+     "start": 240.96,
+     "end": 241.08,
+     "word": " And",
+     "prob": 0.963
+    },
+    {
+     "start": 241.08,
+     "end": 241.38,
+     "word": " then",
+     "prob": 0.998
+    },
+    {
+     "start": 241.38,
+     "end": 242.24,
+     "word": " also",
+     "prob": 0.957
+    },
+    {
+     "start": 242.24,
+     "end": 242.72,
+     "word": " image",
+     "prob": 0.836
+    },
+    {
+     "start": 242.72,
+     "end": 243.14,
+     "word": " generation",
+     "prob": 0.99
+    },
+    {
+     "start": 243.14,
+     "end": 243.52,
+     "word": " is",
+     "prob": 0.99
+    },
+    {
+     "start": 243.52,
+     "end": 243.74,
+     "word": " built",
+     "prob": 0.999
+    },
+    {
+     "start": 243.74,
+     "end": 244.38,
+     "word": " into",
+     "prob": 0.786
+    },
+    {
+     "start": 244.38,
+     "end": 244.98,
+     "word": " chatgbt",
+     "prob": 0.534
+    },
+    {
+     "start": 244.98,
+     "end": 245.36,
+     "word": " through",
+     "prob": 0.958
+    },
+    {
+     "start": 245.36,
+     "end": 245.66,
+     "word": " Dali.",
+     "prob": 0.563
+    }
+   ]
+  },
+  {
+   "start": 245.9,
+   "end": 248.54,
+   "text": " It has the ability to browse the web as we can get up to date",
+   "words": [
+    {
+     "start": 245.9,
+     "end": 246.06,
+     "word": " It",
+     "prob": 0.977
+    },
+    {
+     "start": 246.06,
+     "end": 246.2,
+     "word": " has",
+     "prob": 0.999
+    },
+    {
+     "start": 246.2,
+     "end": 246.32,
+     "word": " the",
+     "prob": 0.975
+    },
+    {
+     "start": 246.32,
+     "end": 246.48,
+     "word": " ability",
+     "prob": 0.999
+    },
+    {
+     "start": 246.48,
+     "end": 246.8,
+     "word": " to",
+     "prob": 1.0
+    },
+    {
+     "start": 246.8,
+     "end": 247.0,
+     "word": " browse",
+     "prob": 0.99
+    },
+    {
+     "start": 247.0,
+     "end": 247.18,
+     "word": " the",
+     "prob": 0.998
+    },
+    {
+     "start": 247.18,
+     "end": 247.34,
+     "word": " web",
+     "prob": 0.885
+    },
+    {
+     "start": 247.34,
+     "end": 247.74,
+     "word": " as",
+     "prob": 0.594
+    },
+    {
+     "start": 247.74,
+     "end": 247.84,
+     "word": " we",
+     "prob": 0.847
+    },
+    {
+     "start": 247.84,
+     "end": 247.94,
+     "word": " can",
+     "prob": 0.987
+    },
+    {
+     "start": 247.94,
+     "end": 248.08,
+     "word": " get",
+     "prob": 0.998
+    },
+    {
+     "start": 248.08,
+     "end": 248.24,
+     "word": " up",
+     "prob": 0.994
+    },
+    {
+     "start": 248.24,
+     "end": 248.38,
+     "word": " to",
+     "prob": 0.676
+    },
+    {
+     "start": 248.38,
+     "end": 248.54,
+     "word": " date",
+     "prob": 0.998
+    }
+   ]
+  },
+  {
+   "start": 248.54,
+   "end": 250.28,
+   "text": " current information, which is really powerful.",
+   "words": [
+    {
+     "start": 248.54,
+     "end": 248.76,
+     "word": " current",
+     "prob": 0.944
+    },
+    {
+     "start": 248.76,
+     "end": 249.2,
+     "word": " information,",
+     "prob": 0.999
+    },
+    {
+     "start": 249.2,
+     "end": 249.48,
+     "word": " which",
+     "prob": 1.0
+    },
+    {
+     "start": 249.48,
+     "end": 249.62,
+     "word": " is",
+     "prob": 0.997
+    },
+    {
+     "start": 249.62,
+     "end": 249.82,
+     "word": " really",
+     "prob": 0.998
+    },
+    {
+     "start": 249.82,
+     "end": 250.28,
+     "word": " powerful.",
+     "prob": 0.999
+    }
+   ]
+  },
+  {
+   "start": 250.96,
+   "end": 253.02,
+   "text": " The models themselves, a little bit confusing.",
+   "words": [
+    {
+     "start": 250.96,
+     "end": 251.04,
+     "word": " The",
+     "prob": 0.99
+    },
+    {
+     "start": 251.04,
+     "end": 251.44,
+     "word": " models",
+     "prob": 0.976
+    },
+    {
+     "start": 251.44,
+     "end": 252.14,
+     "word": " themselves,",
+     "prob": 0.968
+    },
+    {
+     "start": 252.32,
+     "end": 252.4,
+     "word": " a",
+     "prob": 0.813
+    },
+    {
+     "start": 252.4,
+     "end": 252.5,
+     "word": " little",
+     "prob": 0.991
+    },
+    {
+     "start": 252.5,
+     "end": 252.66,
+     "word": " bit",
+     "prob": 0.999
+    },
+    {
+     "start": 252.66,
+     "end": 253.02,
+     "word": " confusing.",
+     "prob": 0.998
+    }
+   ]
+  },
+  {
+   "start": 253.02,
+   "end": 256.08,
+   "text": " There's lots of different models and they change all the time, but",
+   "words": [
+    {
+     "start": 253.02,
+     "end": 253.36,
+     "word": " There's",
+     "prob": 0.672
+    },
+    {
+     "start": 253.36,
+     "end": 253.54,
+     "word": " lots",
+     "prob": 0.994
+    },
+    {
+     "start": 253.54,
+     "end": 253.72,
+     "word": " of",
+     "prob": 0.999
+    },
+    {
+     "start": 253.72,
+     "end": 253.92,
+     "word": " different",
+     "prob": 0.999
+    },
+    {
+     "start": 253.92,
+     "end": 254.18,
+     "word": " models",
+     "prob": 0.998
+    },
+    {
+     "start": 254.18,
+     "end": 254.4,
+     "word": " and",
+     "prob": 0.654
+    },
+    {
+     "start": 254.4,
+     "end": 254.5,
+     "word": " they",
+     "prob": 0.98
+    },
+    {
+     "start": 254.5,
+     "end": 254.76,
+     "word": " change",
+     "prob": 0.984
+    },
+    {
+     "start": 254.76,
+     "end": 254.96,
+     "word": " all",
+     "prob": 0.997
+    },
+    {
+     "start": 254.96,
+     "end": 255.1,
+     "word": " the",
+     "prob": 0.998
+    },
+    {
+     "start": 255.1,
+     "end": 255.44,
+     "word": " time,",
+     "prob": 1.0
+    },
+    {
+     "start": 255.78,
+     "end": 256.08,
+     "word": " but",
+     "prob": 0.997
+    }
+   ]
+  },
+  {
+   "start": 256.08,
+   "end": 259.68,
+   "text": " broadly speaking, we have GPT-40, which is the workhorse.",
+   "words": [
+    {
+     "start": 256.08,
+     "end": 256.4,
+     "word": " broadly",
+     "prob": 0.978
+    },
+    {
+     "start": 256.4,
+     "end": 256.8,
+     "word": " speaking,",
+     "prob": 0.993
+    },
+    {
+     "start": 257.04,
+     "end": 257.06,
+     "word": " we",
+     "prob": 0.998
+    },
+    {
+     "start": 257.06,
+     "end": 257.36,
+     "word": " have",
+     "prob": 0.999
+    },
+    {
+     "start": 257.36,
+     "end": 257.7,
+     "word": " GPT",
+     "prob": 0.898
+    },
+    {
+     "start": 257.7,
+     "end": 258.1,
+     "word": "-40,",
+     "prob": 0.796
+    },
+    {
+     "start": 258.62,
+     "end": 258.8,
+     "word": " which",
+     "prob": 0.998
+    },
+    {
+     "start": 258.8,
+     "end": 258.98,
+     "word": " is",
+     "prob": 0.999
+    },
+    {
+     "start": 258.98,
+     "end": 259.12,
+     "word": " the",
+     "prob": 0.997
+    },
+    {
+     "start": 259.12,
+     "end": 259.68,
+     "word": " workhorse.",
+     "prob": 0.961
+    }
+   ]
+  },
+  {
+   "start": 259.96,
+   "end": 263.4,
+   "text": " You know, they're really good, useful and scalable model that most",
+   "words": [
+    {
+     "start": 259.96,
+     "end": 259.98,
+     "word": " You",
+     "prob": 0.126
+    },
+    {
+     "start": 259.98,
+     "end": 260.12,
+     "word": " know,",
+     "prob": 0.998
+    },
+    {
+     "start": 260.16,
+     "end": 260.5,
+     "word": " they're",
+     "prob": 0.797
+    },
+    {
+     "start": 260.5,
+     "end": 260.66,
+     "word": " really",
+     "prob": 0.77
+    },
+    {
+     "start": 260.66,
+     "end": 261.02,
+     "word": " good,",
+     "prob": 0.991
+    },
+    {
+     "start": 261.02,
+     "end": 261.72,
+     "word": " useful",
+     "prob": 0.995
+    },
+    {
+     "start": 261.72,
+     "end": 262.06,
+     "word": " and",
+     "prob": 0.663
+    },
+    {
+     "start": 262.06,
+     "end": 262.54,
+     "word": " scalable",
+     "prob": 0.993
+    },
+    {
+     "start": 262.54,
+     "end": 262.92,
+     "word": " model",
+     "prob": 0.982
+    },
+    {
+     "start": 262.92,
+     "end": 263.24,
+     "word": " that",
+     "prob": 0.973
+    },
+    {
+     "start": 263.24,
+     "end": 263.4,
+     "word": " most",
+     "prob": 0.999
+    }
+   ]
+  },
+  {
+   "start": 263.4,
+   "end": 264.74,
+   "text": " people use for most questions.",
+   "words": [
+    {
+     "start": 263.4,
+     "end": 263.6,
+     "word": " people",
+     "prob": 0.998
+    },
+    {
+     "start": 263.6,
+     "end": 263.8,
+     "word": " use",
+     "prob": 0.994
+    },
+    {
+     "start": 263.8,
+     "end": 264.02,
+     "word": " for",
+     "prob": 0.97
+    },
+    {
+     "start": 264.02,
+     "end": 264.18,
+     "word": " most",
+     "prob": 0.993
+    },
+    {
+     "start": 264.18,
+     "end": 264.74,
+     "word": " questions.",
+     "prob": 0.999
+    }
+   ]
+  },
+  {
+   "start": 265.28,
+   "end": 268.6,
+   "text": " They have some of the research preview type models like GPT-4.5,",
+   "words": [
+    {
+     "start": 265.28,
+     "end": 265.3,
+     "word": " They",
+     "prob": 0.391
+    },
+    {
+     "start": 265.3,
+     "end": 265.52,
+     "word": " have",
+     "prob": 0.999
+    },
+    {
+     "start": 265.52,
+     "end": 265.84,
+     "word": " some",
+     "prob": 0.995
+    },
+    {
+     "start": 265.84,
+     "end": 265.96,
+     "word": " of",
+     "prob": 0.996
+    },
+    {
+     "start": 265.96,
+     "end": 266.0,
+     "word": " the",
+     "prob": 0.993
+    },
+    {
+     "start": 266.0,
+     "end": 266.26,
+     "word": " research",
+     "prob": 0.983
+    },
+    {
+     "start": 266.26,
+     "end": 266.7,
+     "word": " preview",
+     "prob": 0.99
+    },
+    {
+     "start": 266.7,
+     "end": 267.22,
+     "word": " type",
+     "prob": 0.864
+    },
+    {
+     "start": 267.22,
+     "end": 267.46,
+     "word": " models",
+     "prob": 0.988
+    },
+    {
+     "start": 267.46,
+     "end": 267.64,
+     "word": " like",
+     "prob": 0.681
+    },
+    {
+     "start": 267.64,
+     "end": 267.86,
+     "word": " GPT",
+     "prob": 0.973
+    },
+    {
+     "start": 267.86,
+     "end": 268.1,
+     "word": "-4",
+     "prob": 0.892
+    },
+    {
+     "start": 268.1,
+     "end": 268.6,
+     "word": ".5,",
+     "prob": 0.997
+    }
+   ]
+  },
+  {
+   "start": 268.6,
+   "end": 269.94,
+   "text": " which is a little bit more creative.",
+   "words": [
+    {
+     "start": 268.6,
+     "end": 268.8,
+     "word": " which",
+     "prob": 0.999
+    },
+    {
+     "start": 268.8,
+     "end": 269.0,
+     "word": " is",
+     "prob": 0.998
+    },
+    {
+     "start": 269.0,
+     "end": 269.12,
+     "word": " a",
+     "prob": 0.992
+    },
+    {
+     "start": 269.12,
+     "end": 269.18,
+     "word": " little",
+     "prob": 0.996
+    },
+    {
+     "start": 269.18,
+     "end": 269.32,
+     "word": " bit",
+     "prob": 0.998
+    },
+    {
+     "start": 269.32,
+     "end": 269.46,
+     "word": " more",
+     "prob": 0.999
+    },
+    {
+     "start": 269.46,
+     "end": 269.94,
+     "word": " creative.",
+     "prob": 0.999
+    }
+   ]
+  },
+  {
+   "start": 270.52,
+   "end": 274.24,
+   "text": " And then you have some of the reasoning models like 01, 03 mini, 01",
+   "words": [
+    {
+     "start": 270.52,
+     "end": 270.66,
+     "word": " And",
+     "prob": 0.954
+    },
+    {
+     "start": 270.66,
+     "end": 270.76,
+     "word": " then",
+     "prob": 0.998
+    },
+    {
+     "start": 270.76,
+     "end": 270.9,
+     "word": " you",
+     "prob": 0.991
+    },
+    {
+     "start": 270.9,
+     "end": 271.12,
+     "word": " have",
+     "prob": 1.0
+    },
+    {
+     "start": 271.12,
+     "end": 271.36,
+     "word": " some",
+     "prob": 0.999
+    },
+    {
+     "start": 271.36,
+     "end": 271.44,
+     "word": " of",
+     "prob": 0.998
+    },
+    {
+     "start": 271.44,
+     "end": 271.5,
+     "word": " the",
+     "prob": 0.988
+    },
+    {
+     "start": 271.5,
+     "end": 271.74,
+     "word": " reasoning",
+     "prob": 0.998
+    },
+    {
+     "start": 271.74,
+     "end": 272.14,
+     "word": " models",
+     "prob": 0.998
+    },
+    {
+     "start": 272.14,
+     "end": 272.34,
+     "word": " like",
+     "prob": 0.842
+    },
+    {
+     "start": 272.34,
+     "end": 272.64,
+     "word": " 01,",
+     "prob": 0.798
+    },
+    {
+     "start": 272.82,
+     "end": 273.16,
+     "word": " 03",
+     "prob": 0.958
+    },
+    {
+     "start": 273.16,
+     "end": 273.46,
+     "word": " mini,",
+     "prob": 0.284
+    },
+    {
+     "start": 274.06,
+     "end": 274.24,
+     "word": " 01",
+     "prob": 0.989
+    }
+   ]
+  },
+  {
+   "start": 274.24,
+   "end": 277.3,
+   "text": " pro mode, and these are the ones where they think first before",
+   "words": [
+    {
+     "start": 274.24,
+     "end": 274.54,
+     "word": " pro",
+     "prob": 0.746
+    },
+    {
+     "start": 274.54,
+     "end": 274.84,
+     "word": " mode,",
+     "prob": 0.955
+    },
+    {
+     "start": 275.1,
+     "end": 275.26,
+     "word": " and",
+     "prob": 0.993
+    },
+    {
+     "start": 275.26,
+     "end": 275.44,
+     "word": " these",
+     "prob": 0.999
+    },
+    {
+     "start": 275.44,
+     "end": 275.52,
+     "word": " are",
+     "prob": 0.995
+    },
+    {
+     "start": 275.52,
+     "end": 275.58,
+     "word": " the",
+     "prob": 0.989
+    },
+    {
+     "start": 275.58,
+     "end": 275.74,
+     "word": " ones",
+     "prob": 0.999
+    },
+    {
+     "start": 275.74,
+     "end": 275.92,
+     "word": " where",
+     "prob": 0.997
+    },
+    {
+     "start": 275.92,
+     "end": 276.08,
+     "word": " they",
+     "prob": 0.999
+    },
+    {
+     "start": 276.08,
+     "end": 276.38,
+     "word": " think",
+     "prob": 0.998
+    },
+    {
+     "start": 276.38,
+     "end": 276.74,
+     "word": " first",
+     "prob": 0.998
+    },
+    {
+     "start": 276.74,
+     "end": 277.3,
+     "word": " before",
+     "prob": 0.971
+    }
+   ]
+  },
+  {
+   "start": 277.3,
+   "end": 278.16,
+   "text": " giving you a response.",
+   "words": [
+    {
+     "start": 277.3,
+     "end": 277.58,
+     "word": " giving",
+     "prob": 0.997
+    },
+    {
+     "start": 277.58,
+     "end": 277.76,
+     "word": " you",
+     "prob": 0.939
+    },
+    {
+     "start": 277.76,
+     "end": 277.82,
+     "word": " a",
+     "prob": 0.856
+    },
+    {
+     "start": 277.82,
+     "end": 278.16,
+     "word": " response.",
+     "prob": 0.999
+    }
+   ]
+  },
+  {
+   "start": 278.46,
+   "end": 281.86,
+   "text": " So they're pretty good for mathematical questions or things where you",
+   "words": [
+    {
+     "start": 278.46,
+     "end": 278.6,
+     "word": " So",
+     "prob": 0.966
+    },
+    {
+     "start": 278.6,
+     "end": 278.8,
+     "word": " they're",
+     "prob": 0.967
+    },
+    {
+     "start": 278.8,
+     "end": 278.94,
+     "word": " pretty",
+     "prob": 0.999
+    },
+    {
+     "start": 278.94,
+     "end": 279.16,
+     "word": " good",
+     "prob": 0.999
+    },
+    {
+     "start": 279.16,
+     "end": 279.54,
+     "word": " for",
+     "prob": 0.999
+    },
+    {
+     "start": 279.54,
+     "end": 280.12,
+     "word": " mathematical",
+     "prob": 0.991
+    },
+    {
+     "start": 280.12,
+     "end": 280.82,
+     "word": " questions",
+     "prob": 0.998
+    },
+    {
+     "start": 280.82,
+     "end": 281.26,
+     "word": " or",
+     "prob": 0.975
+    },
+    {
+     "start": 281.26,
+     "end": 281.54,
+     "word": " things",
+     "prob": 0.994
+    },
+    {
+     "start": 281.54,
+     "end": 281.76,
+     "word": " where",
+     "prob": 0.997
+    },
+    {
+     "start": 281.76,
+     "end": 281.86,
+     "word": " you",
+     "prob": 1.0
+    }
+   ]
+  },
+  {
+   "start": 281.86,
+   "end": 282.72,
+   "text": " need a lot of logic.",
+   "words": [
+    {
+     "start": 281.86,
+     "end": 282.02,
+     "word": " need",
+     "prob": 0.999
+    },
+    {
+     "start": 282.02,
+     "end": 282.16,
+     "word": " a",
+     "prob": 0.999
+    },
+    {
+     "start": 282.16,
+     "end": 282.28,
+     "word": " lot",
+     "prob": 0.999
+    },
+    {
+     "start": 282.28,
+     "end": 282.42,
+     "word": " of",
+     "prob": 1.0
+    },
+    {
+     "start": 282.42,
+     "end": 282.72,
+     "word": " logic.",
+     "prob": 0.997
+    }
+   ]
+  },
+  {
+   "start": 283.02,
+   "end": 285.74,
+   "text": " There's also custom GPTs and you can think of these as custom",
+   "words": [
+    {
+     "start": 283.02,
+     "end": 283.16,
+     "word": " There's",
+     "prob": 0.84
+    },
+    {
+     "start": 283.16,
+     "end": 283.38,
+     "word": " also",
+     "prob": 0.983
+    },
+    {
+     "start": 283.38,
+     "end": 283.74,
+     "word": " custom",
+     "prob": 0.954
+    },
+    {
+     "start": 283.74,
+     "end": 284.34,
+     "word": " GPTs",
+     "prob": 0.843
+    },
+    {
+     "start": 284.34,
+     "end": 284.48,
+     "word": " and",
+     "prob": 0.346
+    },
+    {
+     "start": 284.48,
+     "end": 284.6,
+     "word": " you",
+     "prob": 0.988
+    },
+    {
+     "start": 284.6,
+     "end": 284.74,
+     "word": " can",
+     "prob": 0.996
+    },
+    {
+     "start": 284.74,
+     "end": 284.88,
+     "word": " think",
+     "prob": 0.995
+    },
+    {
+     "start": 284.88,
+     "end": 285.02,
+     "word": " of",
+     "prob": 0.998
+    },
+    {
+     "start": 285.02,
+     "end": 285.18,
+     "word": " these",
+     "prob": 0.989
+    },
+    {
+     "start": 285.18,
+     "end": 285.42,
+     "word": " as",
+     "prob": 0.982
+    },
+    {
+     "start": 285.42,
+     "end": 285.74,
+     "word": " custom",
+     "prob": 0.995
+    }
+   ]
+  },
+  {
+   "start": 285.74,
+   "end": 290.64,
+   "text": " prompts where they've given these versions of chatgbt a set of tools",
+   "words": [
+    {
+     "start": 285.74,
+     "end": 286.18,
+     "word": " prompts",
+     "prob": 0.998
+    },
+    {
+     "start": 286.18,
+     "end": 286.6,
+     "word": " where",
+     "prob": 0.801
+    },
+    {
+     "start": 286.6,
+     "end": 287.06,
+     "word": " they've",
+     "prob": 0.986
+    },
+    {
+     "start": 287.06,
+     "end": 287.6,
+     "word": " given",
+     "prob": 0.995
+    },
+    {
+     "start": 287.6,
+     "end": 288.22,
+     "word": " these",
+     "prob": 0.988
+    },
+    {
+     "start": 288.22,
+     "end": 288.9,
+     "word": " versions",
+     "prob": 0.99
+    },
+    {
+     "start": 288.9,
+     "end": 289.16,
+     "word": " of",
+     "prob": 0.998
+    },
+    {
+     "start": 289.16,
+     "end": 289.64,
+     "word": " chatgbt",
+     "prob": 0.546
+    },
+    {
+     "start": 289.64,
+     "end": 290.16,
+     "word": " a",
+     "prob": 0.482
+    },
+    {
+     "start": 290.16,
+     "end": 290.32,
+     "word": " set",
+     "prob": 0.979
+    },
+    {
+     "start": 290.32,
+     "end": 290.46,
+     "word": " of",
+     "prob": 0.995
+    },
+    {
+     "start": 290.46,
+     "end": 290.64,
+     "word": " tools",
+     "prob": 0.999
+    }
+   ]
+  },
+  {
+   "start": 290.64,
+   "end": 293.64,
+   "text": " they can use, maybe with the Expedia one, you can book a trip, but",
+   "words": [
+    {
+     "start": 290.64,
+     "end": 290.84,
+     "word": " they",
+     "prob": 0.885
+    },
+    {
+     "start": 290.84,
+     "end": 291.0,
+     "word": " can",
+     "prob": 0.998
+    },
+    {
+     "start": 291.0,
+     "end": 291.38,
+     "word": " use,",
+     "prob": 0.999
+    },
+    {
+     "start": 291.52,
+     "end": 291.66,
+     "word": " maybe",
+     "prob": 0.994
+    },
+    {
+     "start": 291.66,
+     "end": 292.04,
+     "word": " with",
+     "prob": 0.98
+    },
+    {
+     "start": 292.04,
+     "end": 292.16,
+     "word": " the",
+     "prob": 0.877
+    },
+    {
+     "start": 292.16,
+     "end": 292.46,
+     "word": " Expedia",
+     "prob": 0.791
+    },
+    {
+     "start": 292.46,
+     "end": 292.64,
+     "word": " one,",
+     "prob": 0.942
+    },
+    {
+     "start": 292.76,
+     "end": 292.78,
+     "word": " you",
+     "prob": 0.993
+    },
+    {
+     "start": 292.78,
+     "end": 292.88,
+     "word": " can",
+     "prob": 0.725
+    },
+    {
+     "start": 292.88,
+     "end": 293.02,
+     "word": " book",
+     "prob": 0.889
+    },
+    {
+     "start": 293.02,
+     "end": 293.16,
+     "word": " a",
+     "prob": 0.99
+    },
+    {
+     "start": 293.16,
+     "end": 293.34,
+     "word": " trip,",
+     "prob": 0.976
+    },
+    {
+     "start": 293.44,
+     "end": 293.64,
+     "word": " but",
+     "prob": 0.997
+    }
+   ]
+  },
+  {
+   "start": 293.64,
+   "end": 297.6,
+   "text": " also they have a certain set of instructions tells them how to behave.",
+   "words": [
+    {
+     "start": 293.64,
+     "end": 294.12,
+     "word": " also",
+     "prob": 0.995
+    },
+    {
+     "start": 294.12,
+     "end": 294.56,
+     "word": " they",
+     "prob": 0.949
+    },
+    {
+     "start": 294.56,
+     "end": 294.88,
+     "word": " have",
+     "prob": 0.999
+    },
+    {
+     "start": 294.88,
+     "end": 295.06,
+     "word": " a",
+     "prob": 0.971
+    },
+    {
+     "start": 295.06,
+     "end": 295.3,
+     "word": " certain",
+     "prob": 0.912
+    },
+    {
+     "start": 295.3,
+     "end": 295.58,
+     "word": " set",
+     "prob": 0.999
+    },
+    {
+     "start": 295.58,
+     "end": 295.7,
+     "word": " of",
+     "prob": 0.999
+    },
+    {
+     "start": 295.7,
+     "end": 296.22,
+     "word": " instructions",
+     "prob": 0.997
+    },
+    {
+     "start": 296.22,
+     "end": 296.72,
+     "word": " tells",
+     "prob": 0.198
+    },
+    {
+     "start": 296.72,
+     "end": 296.94,
+     "word": " them",
+     "prob": 0.995
+    },
+    {
+     "start": 296.94,
+     "end": 297.12,
+     "word": " how",
+     "prob": 0.998
+    },
+    {
+     "start": 297.12,
+     "end": 297.3,
+     "word": " to",
+     "prob": 1.0
+    },
+    {
+     "start": 297.3,
+     "end": 297.6,
+     "word": " behave.",
+     "prob": 0.999
+    }
+   ]
+  },
+  {
+   "start": 297.88,
+   "end": 301.14,
+   "text": " Things I use chatgbt for most, I would say creating blog posts.",
+   "words": [
+    {
+     "start": 297.88,
+     "end": 298.06,
+     "word": " Things",
+     "prob": 0.961
+    },
+    {
+     "start": 298.06,
+     "end": 298.22,
+     "word": " I",
+     "prob": 0.807
+    },
+    {
+     "start": 298.22,
+     "end": 298.44,
+     "word": " use",
+     "prob": 0.857
+    },
+    {
+     "start": 298.44,
+     "end": 299.12,
+     "word": " chatgbt",
+     "prob": 0.942
+    },
+    {
+     "start": 299.12,
+     "end": 299.42,
+     "word": " for",
+     "prob": 0.953
+    },
+    {
+     "start": 299.42,
+     "end": 299.78,
+     "word": " most,",
+     "prob": 0.965
+    },
+    {
+     "start": 299.98,
+     "end": 299.98,
+     "word": " I",
+     "prob": 0.945
+    },
+    {
+     "start": 299.98,
+     "end": 300.06,
+     "word": " would",
+     "prob": 0.942
+    },
+    {
+     "start": 300.06,
+     "end": 300.2,
+     "word": " say",
+     "prob": 0.998
+    },
+    {
+     "start": 300.2,
+     "end": 300.44,
+     "word": " creating",
+     "prob": 0.96
+    },
+    {
+     "start": 300.44,
+     "end": 300.72,
+     "word": " blog",
+     "prob": 0.999
+    },
+    {
+     "start": 300.72,
+     "end": 301.14,
+     "word": " posts.",
+     "prob": 0.988
+    }
+   ]
+  },
+  {
+   "start": 301.42,
+   "end": 304.36,
+   "text": " They have a canvas editor now, which is quite useful.",
+   "words": [
+    {
+     "start": 301.42,
+     "end": 301.48,
+     "word": " They",
+     "prob": 0.88
+    },
+    {
+     "start": 301.48,
+     "end": 301.98,
+     "word": " have",
+     "prob": 0.993
+    },
+    {
+     "start": 301.98,
+     "end": 302.12,
+     "word": " a",
+     "prob": 0.996
+    },
+    {
+     "start": 302.12,
+     "end": 302.58,
+     "word": " canvas",
+     "prob": 0.808
+    },
+    {
+     "start": 302.58,
+     "end": 302.96,
+     "word": " editor",
+     "prob": 0.996
+    },
+    {
+     "start": 302.96,
+     "end": 303.36,
+     "word": " now,",
+     "prob": 0.984
+    },
+    {
+     "start": 303.38,
+     "end": 303.54,
+     "word": " which",
+     "prob": 1.0
+    },
+    {
+     "start": 303.54,
+     "end": 303.7,
+     "word": " is",
+     "prob": 0.998
+    },
+    {
+     "start": 303.7,
+     "end": 303.9,
+     "word": " quite",
+     "prob": 0.999
+    },
+    {
+     "start": 303.9,
+     "end": 304.36,
+     "word": " useful.",
+     "prob": 0.999
+    }
+   ]
+  },
+  {
+   "start": 304.8,
+   "end": 307.26,
+   "text": " Creating social media posts, particularly if you want to create",
+   "words": [
+    {
+     "start": 304.8,
+     "end": 304.92,
+     "word": " Creating",
+     "prob": 0.89
+    },
+    {
+     "start": 304.92,
+     "end": 305.22,
+     "word": " social",
+     "prob": 0.992
+    },
+    {
+     "start": 305.22,
+     "end": 305.54,
+     "word": " media",
+     "prob": 1.0
+    },
+    {
+     "start": 305.54,
+     "end": 305.86,
+     "word": " posts,",
+     "prob": 0.983
+    },
+    {
+     "start": 305.98,
+     "end": 306.22,
+     "word": " particularly",
+     "prob": 0.997
+    },
+    {
+     "start": 306.22,
+     "end": 306.64,
+     "word": " if",
+     "prob": 0.97
+    },
+    {
+     "start": 306.64,
+     "end": 306.84,
+     "word": " you",
+     "prob": 0.999
+    },
+    {
+     "start": 306.84,
+     "end": 306.98,
+     "word": " want",
+     "prob": 0.968
+    },
+    {
+     "start": 306.98,
+     "end": 307.1,
+     "word": " to",
+     "prob": 0.999
+    },
+    {
+     "start": 307.1,
+     "end": 307.26,
+     "word": " create",
+     "prob": 0.999
+    }
+   ]
+  },
+  {
+   "start": 307.26,
+   "end": 310.76,
+   "text": " them in a specific style, it's very good at adhering to specific styles.",
+   "words": [
+    {
+     "start": 307.26,
+     "end": 307.38,
+     "word": " them",
+     "prob": 0.999
+    },
+    {
+     "start": 307.38,
+     "end": 307.46,
+     "word": " in",
+     "prob": 0.996
+    },
+    {
+     "start": 307.46,
+     "end": 307.56,
+     "word": " a",
+     "prob": 0.996
+    },
+    {
+     "start": 307.56,
+     "end": 307.86,
+     "word": " specific",
+     "prob": 1.0
+    },
+    {
+     "start": 307.86,
+     "end": 308.24,
+     "word": " style,",
+     "prob": 0.995
+    },
+    {
+     "start": 308.38,
+     "end": 308.42,
+     "word": " it's",
+     "prob": 0.938
+    },
+    {
+     "start": 308.42,
+     "end": 308.58,
+     "word": " very",
+     "prob": 0.997
+    },
+    {
+     "start": 308.58,
+     "end": 308.78,
+     "word": " good",
+     "prob": 0.997
+    },
+    {
+     "start": 308.78,
+     "end": 308.96,
+     "word": " at",
+     "prob": 0.962
+    },
+    {
+     "start": 308.96,
+     "end": 309.42,
+     "word": " adhering",
+     "prob": 0.879
+    },
+    {
+     "start": 309.42,
+     "end": 309.64,
+     "word": " to",
+     "prob": 0.971
+    },
+    {
+     "start": 309.64,
+     "end": 310.14,
+     "word": " specific",
+     "prob": 0.509
+    },
+    {
+     "start": 310.14,
+     "end": 310.76,
+     "word": " styles.",
+     "prob": 0.996
+    }
+   ]
+  },
+  {
+   "start": 311.02,
+   "end": 312.64,
+   "text": " And then automating tasks as well.",
+   "words": [
+    {
+     "start": 311.02,
+     "end": 311.14,
+     "word": " And",
+     "prob": 0.97
+    },
+    {
+     "start": 311.14,
+     "end": 311.32,
+     "word": " then",
+     "prob": 0.998
+    },
+    {
+     "start": 311.32,
+     "end": 311.82,
+     "word": " automating",
+     "prob": 0.98
+    },
+    {
+     "start": 311.82,
+     "end": 312.16,
+     "word": " tasks",
+     "prob": 0.998
+    },
+    {
+     "start": 312.16,
+     "end": 312.42,
+     "word": " as",
+     "prob": 0.976
+    },
+    {
+     "start": 312.42,
+     "end": 312.64,
+     "word": " well.",
+     "prob": 0.998
+    }
+   ]
+  },
+  {
+   "start": 312.64,
+   "end": 317.14,
+   "text": " Whenever I need to do something formal, fill in documentation or do my taxes",
+   "words": [
+    {
+     "start": 312.64,
+     "end": 313.08,
+     "word": " Whenever",
+     "prob": 0.384
+    },
+    {
+     "start": 313.08,
+     "end": 313.3,
+     "word": " I",
+     "prob": 0.984
+    },
+    {
+     "start": 313.3,
+     "end": 313.42,
+     "word": " need",
+     "prob": 0.985
+    },
+    {
+     "start": 313.42,
+     "end": 313.52,
+     "word": " to",
+     "prob": 0.988
+    },
+    {
+     "start": 313.52,
+     "end": 313.66,
+     "word": " do",
+     "prob": 0.986
+    },
+    {
+     "start": 313.66,
+     "end": 313.84,
+     "word": " something",
+     "prob": 0.978
+    },
+    {
+     "start": 313.84,
+     "end": 314.34,
+     "word": " formal,",
+     "prob": 0.961
+    },
+    {
+     "start": 314.82,
+     "end": 314.88,
+     "word": " fill",
+     "prob": 0.973
+    },
+    {
+     "start": 314.88,
+     "end": 315.0,
+     "word": " in",
+     "prob": 0.964
+    },
+    {
+     "start": 315.0,
+     "end": 315.56,
+     "word": " documentation",
+     "prob": 0.968
+    },
+    {
+     "start": 315.56,
+     "end": 316.28,
+     "word": " or",
+     "prob": 0.599
+    },
+    {
+     "start": 316.28,
+     "end": 316.56,
+     "word": " do",
+     "prob": 0.965
+    },
+    {
+     "start": 316.56,
+     "end": 316.68,
+     "word": " my",
+     "prob": 0.996
+    },
+    {
+     "start": 316.68,
+     "end": 317.14,
+     "word": " taxes",
+     "prob": 1.0
+    }
+   ]
+  },
+  {
+   "start": 317.14,
+   "end": 321.8,
+   "text": " or peel a parking ticket, then I tend to use chatgbt for that.",
+   "words": [
+    {
+     "start": 317.14,
+     "end": 317.54,
+     "word": " or",
+     "prob": 0.903
+    },
+    {
+     "start": 317.54,
+     "end": 317.94,
+     "word": " peel",
+     "prob": 0.27
+    },
+    {
+     "start": 317.94,
+     "end": 318.06,
+     "word": " a",
+     "prob": 0.763
+    },
+    {
+     "start": 318.06,
+     "end": 318.26,
+     "word": " parking",
+     "prob": 0.998
+    },
+    {
+     "start": 318.26,
+     "end": 318.66,
+     "word": " ticket,",
+     "prob": 0.999
+    },
+    {
+     "start": 319.08,
+     "end": 319.28,
+     "word": " then",
+     "prob": 0.927
+    },
+    {
+     "start": 319.28,
+     "end": 319.56,
+     "word": " I",
+     "prob": 0.992
+    },
+    {
+     "start": 319.56,
+     "end": 319.74,
+     "word": " tend",
+     "prob": 0.996
+    },
+    {
+     "start": 319.74,
+     "end": 320.02,
+     "word": " to",
+     "prob": 0.999
+    },
+    {
+     "start": 320.02,
+     "end": 320.48,
+     "word": " use",
+     "prob": 0.998
+    },
+    {
+     "start": 320.48,
+     "end": 321.28,
+     "word": " chatgbt",
+     "prob": 0.634
+    },
+    {
+     "start": 321.28,
+     "end": 321.6,
+     "word": " for",
+     "prob": 0.965
+    },
+    {
+     "start": 321.6,
+     "end": 321.8,
+     "word": " that.",
+     "prob": 0.996
+    }
+   ]
+  }
+ ]
+}

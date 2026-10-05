@@ -1,0 +1,2053 @@
+{
+ "lecture_id": "48151369",
+ "title": "chatgpt scheduled tasks",
+ "section": "04_deep-dive-on-chatgpt",
+ "video_path": "scripts/udemy-sync/videos/04_deep-dive-on-chatgpt/032_48151369_chatgpt-scheduled-tasks.mp4",
+ "duration_s": 99.68,
+ "model": "small.en",
+ "word_timestamps": true,
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 2.44,
+   "text": " So ChatGPT now has an additional functionality",
+   "words": [
+    {
+     "start": 0.0,
+     "end": 0.22,
+     "word": " So",
+     "prob": 0.965
+    },
+    {
+     "start": 0.22,
+     "end": 0.78,
+     "word": " ChatGPT",
+     "prob": 0.522
+    },
+    {
+     "start": 0.78,
+     "end": 1.18,
+     "word": " now",
+     "prob": 0.995
+    },
+    {
+     "start": 1.18,
+     "end": 1.48,
+     "word": " has",
+     "prob": 0.998
+    },
+    {
+     "start": 1.48,
+     "end": 1.66,
+     "word": " an",
+     "prob": 0.988
+    },
+    {
+     "start": 1.66,
+     "end": 2.02,
+     "word": " additional",
+     "prob": 0.998
+    },
+    {
+     "start": 2.02,
+     "end": 2.44,
+     "word": " functionality",
+     "prob": 0.999
+    }
+   ]
+  },
+  {
+   "start": 2.44,
+   "end": 3.94,
+   "text": " called Scheduled Tasks.",
+   "words": [
+    {
+     "start": 2.44,
+     "end": 2.9,
+     "word": " called",
+     "prob": 0.976
+    },
+    {
+     "start": 2.9,
+     "end": 3.42,
+     "word": " Scheduled",
+     "prob": 0.675
+    },
+    {
+     "start": 3.42,
+     "end": 3.94,
+     "word": " Tasks.",
+     "prob": 0.951
+    }
+   ]
+  },
+  {
+   "start": 4.36,
+   "end": 6.54,
+   "text": " This allows you to set up recurring work,",
+   "words": [
+    {
+     "start": 4.36,
+     "end": 4.56,
+     "word": " This",
+     "prob": 0.998
+    },
+    {
+     "start": 4.56,
+     "end": 4.84,
+     "word": " allows",
+     "prob": 0.998
+    },
+    {
+     "start": 4.84,
+     "end": 5.08,
+     "word": " you",
+     "prob": 0.999
+    },
+    {
+     "start": 5.08,
+     "end": 5.24,
+     "word": " to",
+     "prob": 0.997
+    },
+    {
+     "start": 5.24,
+     "end": 5.4,
+     "word": " set",
+     "prob": 0.935
+    },
+    {
+     "start": 5.4,
+     "end": 5.56,
+     "word": " up",
+     "prob": 0.997
+    },
+    {
+     "start": 5.56,
+     "end": 6.04,
+     "word": " recurring",
+     "prob": 0.987
+    },
+    {
+     "start": 6.04,
+     "end": 6.54,
+     "word": " work,",
+     "prob": 0.999
+    }
+   ]
+  },
+  {
+   "start": 6.62,
+   "end": 8.18,
+   "text": " whether it be daily or weekly,",
+   "words": [
+    {
+     "start": 6.62,
+     "end": 6.8,
+     "word": " whether",
+     "prob": 0.997
+    },
+    {
+     "start": 6.8,
+     "end": 6.94,
+     "word": " it",
+     "prob": 0.996
+    },
+    {
+     "start": 6.94,
+     "end": 7.1,
+     "word": " be",
+     "prob": 0.988
+    },
+    {
+     "start": 7.1,
+     "end": 7.36,
+     "word": " daily",
+     "prob": 0.997
+    },
+    {
+     "start": 7.36,
+     "end": 7.72,
+     "word": " or",
+     "prob": 0.987
+    },
+    {
+     "start": 7.72,
+     "end": 8.18,
+     "word": " weekly,",
+     "prob": 0.998
+    }
+   ]
+  },
+  {
+   "start": 8.2,
+   "end": 11.16,
+   "text": " so that you can automate some of your day-to-day activities",
+   "words": [
+    {
+     "start": 8.2,
+     "end": 8.84,
+     "word": " so",
+     "prob": 0.999
+    },
+    {
+     "start": 8.84,
+     "end": 9.0,
+     "word": " that",
+     "prob": 0.994
+    },
+    {
+     "start": 9.0,
+     "end": 9.12,
+     "word": " you",
+     "prob": 0.999
+    },
+    {
+     "start": 9.12,
+     "end": 9.26,
+     "word": " can",
+     "prob": 0.998
+    },
+    {
+     "start": 9.26,
+     "end": 9.66,
+     "word": " automate",
+     "prob": 0.998
+    },
+    {
+     "start": 9.66,
+     "end": 9.9,
+     "word": " some",
+     "prob": 0.999
+    },
+    {
+     "start": 9.9,
+     "end": 10.04,
+     "word": " of",
+     "prob": 0.999
+    },
+    {
+     "start": 10.04,
+     "end": 10.16,
+     "word": " your",
+     "prob": 0.996
+    },
+    {
+     "start": 10.16,
+     "end": 10.3,
+     "word": " day",
+     "prob": 0.994
+    },
+    {
+     "start": 10.3,
+     "end": 10.42,
+     "word": "-to",
+     "prob": 0.842
+    },
+    {
+     "start": 10.42,
+     "end": 10.54,
+     "word": "-day",
+     "prob": 0.998
+    },
+    {
+     "start": 10.54,
+     "end": 11.16,
+     "word": " activities",
+     "prob": 0.996
+    }
+   ]
+  },
+  {
+   "start": 11.16,
+   "end": 12.36,
+   "text": " using ChatGPT.",
+   "words": [
+    {
+     "start": 11.16,
+     "end": 11.66,
+     "word": " using",
+     "prob": 0.972
+    },
+    {
+     "start": 11.66,
+     "end": 12.36,
+     "word": " ChatGPT.",
+     "prob": 0.972
+    }
+   ]
+  },
+  {
+   "start": 12.66,
+   "end": 14.08,
+   "text": " To utilise this feature, what you need to do",
+   "words": [
+    {
+     "start": 12.66,
+     "end": 12.66,
+     "word": " To",
+     "prob": 0.846
+    },
+    {
+     "start": 12.66,
+     "end": 13.0,
+     "word": " utilise",
+     "prob": 0.642
+    },
+    {
+     "start": 13.0,
+     "end": 13.16,
+     "word": " this",
+     "prob": 0.997
+    },
+    {
+     "start": 13.16,
+     "end": 13.44,
+     "word": " feature,",
+     "prob": 0.998
+    },
+    {
+     "start": 13.5,
+     "end": 13.62,
+     "word": " what",
+     "prob": 0.995
+    },
+    {
+     "start": 13.62,
+     "end": 13.72,
+     "word": " you",
+     "prob": 0.996
+    },
+    {
+     "start": 13.72,
+     "end": 13.84,
+     "word": " need",
+     "prob": 0.997
+    },
+    {
+     "start": 13.84,
+     "end": 13.96,
+     "word": " to",
+     "prob": 0.998
+    },
+    {
+     "start": 13.96,
+     "end": 14.08,
+     "word": " do",
+     "prob": 0.993
+    }
+   ]
+  },
+  {
+   "start": 14.08,
+   "end": 15.34,
+   "text": " is go into the top left,",
+   "words": [
+    {
+     "start": 14.08,
+     "end": 14.2,
+     "word": " is",
+     "prob": 0.982
+    },
+    {
+     "start": 14.2,
+     "end": 14.38,
+     "word": " go",
+     "prob": 0.987
+    },
+    {
+     "start": 14.38,
+     "end": 14.54,
+     "word": " into",
+     "prob": 0.938
+    },
+    {
+     "start": 14.54,
+     "end": 14.72,
+     "word": " the",
+     "prob": 0.997
+    },
+    {
+     "start": 14.72,
+     "end": 14.98,
+     "word": " top",
+     "prob": 0.999
+    },
+    {
+     "start": 14.98,
+     "end": 15.34,
+     "word": " left,",
+     "prob": 0.889
+    }
+   ]
+  },
+  {
+   "start": 15.56,
+   "end": 18.24,
+   "text": " and then click on GPT-4o with Scheduled Tasks.",
+   "words": [
+    {
+     "start": 15.56,
+     "end": 15.66,
+     "word": " and",
+     "prob": 0.998
+    },
+    {
+     "start": 15.66,
+     "end": 15.8,
+     "word": " then",
+     "prob": 0.995
+    },
+    {
+     "start": 15.8,
+     "end": 15.98,
+     "word": " click",
+     "prob": 0.996
+    },
+    {
+     "start": 15.98,
+     "end": 16.24,
+     "word": " on",
+     "prob": 0.999
+    },
+    {
+     "start": 16.24,
+     "end": 16.66,
+     "word": " GPT",
+     "prob": 0.963
+    },
+    {
+     "start": 16.66,
+     "end": 17.12,
+     "word": "-4o",
+     "prob": 0.26
+    },
+    {
+     "start": 17.12,
+     "end": 17.32,
+     "word": " with",
+     "prob": 0.975
+    },
+    {
+     "start": 17.32,
+     "end": 17.72,
+     "word": " Scheduled",
+     "prob": 0.972
+    },
+    {
+     "start": 17.72,
+     "end": 18.24,
+     "word": " Tasks.",
+     "prob": 0.997
+    }
+   ]
+  },
+  {
+   "start": 18.98,
+   "end": 22.36,
+   "text": " Could say, let's create a task every day",
+   "words": [
+    {
+     "start": 18.98,
+     "end": 19.08,
+     "word": " Could",
+     "prob": 0.056
+    },
+    {
+     "start": 19.08,
+     "end": 19.48,
+     "word": " say,",
+     "prob": 0.998
+    },
+    {
+     "start": 19.76,
+     "end": 20.34,
+     "word": " let's",
+     "prob": 0.876
+    },
+    {
+     "start": 20.34,
+     "end": 20.68,
+     "word": " create",
+     "prob": 0.998
+    },
+    {
+     "start": 20.68,
+     "end": 21.1,
+     "word": " a",
+     "prob": 0.998
+    },
+    {
+     "start": 21.1,
+     "end": 21.56,
+     "word": " task",
+     "prob": 0.977
+    },
+    {
+     "start": 21.56,
+     "end": 21.98,
+     "word": " every",
+     "prob": 0.759
+    },
+    {
+     "start": 21.98,
+     "end": 22.36,
+     "word": " day",
+     "prob": 0.999
+    }
+   ]
+  },
+  {
+   "start": 22.78,
+   "end": 25.32,
+   "text": " to make a social media post",
+   "words": [
+    {
+     "start": 22.78,
+     "end": 23.06,
+     "word": " to",
+     "prob": 0.897
+    },
+    {
+     "start": 23.06,
+     "end": 23.46,
+     "word": " make",
+     "prob": 0.996
+    },
+    {
+     "start": 23.46,
+     "end": 23.74,
+     "word": " a",
+     "prob": 0.994
+    },
+    {
+     "start": 23.74,
+     "end": 24.16,
+     "word": " social",
+     "prob": 0.992
+    },
+    {
+     "start": 24.16,
+     "end": 24.74,
+     "word": " media",
+     "prob": 0.997
+    },
+    {
+     "start": 24.74,
+     "end": 25.32,
+     "word": " post",
+     "prob": 0.992
+    }
+   ]
+  },
+  {
+   "start": 26.12,
+   "end": 30.24,
+   "text": " for my data engineering consultancy.",
+   "words": [
+    {
+     "start": 26.12,
+     "end": 26.6,
+     "word": " for",
+     "prob": 0.182
+    },
+    {
+     "start": 26.6,
+     "end": 27.08,
+     "word": " my",
+     "prob": 0.97
+    },
+    {
+     "start": 27.08,
+     "end": 27.76,
+     "word": " data",
+     "prob": 0.803
+    },
+    {
+     "start": 27.76,
+     "end": 28.6,
+     "word": " engineering",
+     "prob": 0.98
+    },
+    {
+     "start": 28.6,
+     "end": 30.24,
+     "word": " consultancy.",
+     "prob": 0.937
+    }
+   ]
+  },
+  {
+   "start": 31.52,
+   "end": 39.36,
+   "text": " I want to make a new post at 8am every day.",
+   "words": [
+    {
+     "start": 31.52,
+     "end": 31.76,
+     "word": " I",
+     "prob": 0.958
+    },
+    {
+     "start": 31.76,
+     "end": 32.0,
+     "word": " want",
+     "prob": 0.991
+    },
+    {
+     "start": 32.0,
+     "end": 32.26,
+     "word": " to",
+     "prob": 0.983
+    },
+    {
+     "start": 32.26,
+     "end": 32.94,
+     "word": " make",
+     "prob": 0.489
+    },
+    {
+     "start": 32.94,
+     "end": 35.3,
+     "word": " a",
+     "prob": 0.993
+    },
+    {
+     "start": 35.3,
+     "end": 35.6,
+     "word": " new",
+     "prob": 0.995
+    },
+    {
+     "start": 35.6,
+     "end": 36.14,
+     "word": " post",
+     "prob": 0.997
+    },
+    {
+     "start": 36.14,
+     "end": 37.44,
+     "word": " at",
+     "prob": 0.96
+    },
+    {
+     "start": 37.44,
+     "end": 38.24,
+     "word": " 8am",
+     "prob": 0.626
+    },
+    {
+     "start": 38.24,
+     "end": 38.94,
+     "word": " every",
+     "prob": 0.588
+    },
+    {
+     "start": 38.94,
+     "end": 39.36,
+     "word": " day.",
+     "prob": 0.998
+    }
+   ]
+  },
+  {
+   "start": 40.54,
+   "end": 42.3,
+   "text": " And then ChatGPT task is gonna realise",
+   "words": [
+    {
+     "start": 40.54,
+     "end": 40.6,
+     "word": " And",
+     "prob": 0.848
+    },
+    {
+     "start": 40.6,
+     "end": 40.78,
+     "word": " then",
+     "prob": 0.982
+    },
+    {
+     "start": 40.78,
+     "end": 41.2,
+     "word": " ChatGPT",
+     "prob": 0.405
+    },
+    {
+     "start": 41.2,
+     "end": 41.48,
+     "word": " task",
+     "prob": 0.394
+    },
+    {
+     "start": 41.48,
+     "end": 41.72,
+     "word": " is",
+     "prob": 0.968
+    },
+    {
+     "start": 41.72,
+     "end": 41.9,
+     "word": " gonna",
+     "prob": 0.507
+    },
+    {
+     "start": 41.9,
+     "end": 42.3,
+     "word": " realise",
+     "prob": 0.197
+    }
+   ]
+  },
+  {
+   "start": 42.3,
+   "end": 44.0,
+   "text": " that this is a task that needs to be done.",
+   "words": [
+    {
+     "start": 42.3,
+     "end": 42.48,
+     "word": " that",
+     "prob": 0.935
+    },
+    {
+     "start": 42.48,
+     "end": 42.64,
+     "word": " this",
+     "prob": 0.991
+    },
+    {
+     "start": 42.64,
+     "end": 42.76,
+     "word": " is",
+     "prob": 0.985
+    },
+    {
+     "start": 42.76,
+     "end": 42.9,
+     "word": " a",
+     "prob": 0.982
+    },
+    {
+     "start": 42.9,
+     "end": 43.2,
+     "word": " task",
+     "prob": 0.998
+    },
+    {
+     "start": 43.2,
+     "end": 43.38,
+     "word": " that",
+     "prob": 0.967
+    },
+    {
+     "start": 43.38,
+     "end": 43.56,
+     "word": " needs",
+     "prob": 0.991
+    },
+    {
+     "start": 43.56,
+     "end": 43.72,
+     "word": " to",
+     "prob": 0.999
+    },
+    {
+     "start": 43.72,
+     "end": 43.82,
+     "word": " be",
+     "prob": 0.998
+    },
+    {
+     "start": 43.82,
+     "end": 44.0,
+     "word": " done.",
+     "prob": 0.999
+    }
+   ]
+  },
+  {
+   "start": 44.16,
+   "end": 45.9,
+   "text": " So you can see it says, create a task,",
+   "words": [
+    {
+     "start": 44.16,
+     "end": 44.18,
+     "word": " So",
+     "prob": 0.957
+    },
+    {
+     "start": 44.18,
+     "end": 44.26,
+     "word": " you",
+     "prob": 0.921
+    },
+    {
+     "start": 44.26,
+     "end": 44.34,
+     "word": " can",
+     "prob": 0.992
+    },
+    {
+     "start": 44.34,
+     "end": 44.5,
+     "word": " see",
+     "prob": 0.994
+    },
+    {
+     "start": 44.5,
+     "end": 44.6,
+     "word": " it",
+     "prob": 0.928
+    },
+    {
+     "start": 44.6,
+     "end": 44.82,
+     "word": " says,",
+     "prob": 0.99
+    },
+    {
+     "start": 44.84,
+     "end": 45.12,
+     "word": " create",
+     "prob": 0.569
+    },
+    {
+     "start": 45.12,
+     "end": 45.44,
+     "word": " a",
+     "prob": 0.996
+    },
+    {
+     "start": 45.44,
+     "end": 45.9,
+     "word": " task,",
+     "prob": 0.998
+    }
+   ]
+  },
+  {
+   "start": 46.12,
+   "end": 50.52,
+   "text": " and it's going to remind us every day at 8am.",
+   "words": [
+    {
+     "start": 46.12,
+     "end": 46.56,
+     "word": " and",
+     "prob": 0.997
+    },
+    {
+     "start": 46.56,
+     "end": 46.74,
+     "word": " it's",
+     "prob": 0.995
+    },
+    {
+     "start": 46.74,
+     "end": 46.92,
+     "word": " going",
+     "prob": 0.991
+    },
+    {
+     "start": 46.92,
+     "end": 47.26,
+     "word": " to",
+     "prob": 0.999
+    },
+    {
+     "start": 47.26,
+     "end": 47.88,
+     "word": " remind",
+     "prob": 0.999
+    },
+    {
+     "start": 47.88,
+     "end": 48.26,
+     "word": " us",
+     "prob": 0.999
+    },
+    {
+     "start": 48.26,
+     "end": 48.7,
+     "word": " every",
+     "prob": 0.89
+    },
+    {
+     "start": 48.7,
+     "end": 49.04,
+     "word": " day",
+     "prob": 0.999
+    },
+    {
+     "start": 49.04,
+     "end": 49.72,
+     "word": " at",
+     "prob": 0.932
+    },
+    {
+     "start": 49.72,
+     "end": 50.52,
+     "word": " 8am.",
+     "prob": 0.975
+    }
+   ]
+  },
+  {
+   "start": 50.68,
+   "end": 51.82,
+   "text": " If you click on the triple dots,",
+   "words": [
+    {
+     "start": 50.68,
+     "end": 50.78,
+     "word": " If",
+     "prob": 0.995
+    },
+    {
+     "start": 50.78,
+     "end": 50.9,
+     "word": " you",
+     "prob": 0.999
+    },
+    {
+     "start": 50.9,
+     "end": 51.04,
+     "word": " click",
+     "prob": 0.999
+    },
+    {
+     "start": 51.04,
+     "end": 51.2,
+     "word": " on",
+     "prob": 0.998
+    },
+    {
+     "start": 51.2,
+     "end": 51.32,
+     "word": " the",
+     "prob": 0.999
+    },
+    {
+     "start": 51.32,
+     "end": 51.56,
+     "word": " triple",
+     "prob": 0.97
+    },
+    {
+     "start": 51.56,
+     "end": 51.82,
+     "word": " dots,",
+     "prob": 0.938
+    }
+   ]
+  },
+  {
+   "start": 51.9,
+   "end": 54.54,
+   "text": " you can either pause the task, edit the task,",
+   "words": [
+    {
+     "start": 51.9,
+     "end": 52.04,
+     "word": " you",
+     "prob": 0.996
+    },
+    {
+     "start": 52.04,
+     "end": 52.14,
+     "word": " can",
+     "prob": 0.997
+    },
+    {
+     "start": 52.14,
+     "end": 52.38,
+     "word": " either",
+     "prob": 0.997
+    },
+    {
+     "start": 52.38,
+     "end": 52.72,
+     "word": " pause",
+     "prob": 0.997
+    },
+    {
+     "start": 52.72,
+     "end": 52.9,
+     "word": " the",
+     "prob": 0.999
+    },
+    {
+     "start": 52.9,
+     "end": 53.26,
+     "word": " task,",
+     "prob": 0.998
+    },
+    {
+     "start": 53.72,
+     "end": 53.94,
+     "word": " edit",
+     "prob": 0.998
+    },
+    {
+     "start": 53.94,
+     "end": 54.16,
+     "word": " the",
+     "prob": 0.998
+    },
+    {
+     "start": 54.16,
+     "end": 54.54,
+     "word": " task,",
+     "prob": 0.997
+    }
+   ]
+  },
+  {
+   "start": 54.54,
+   "end": 56.5,
+   "text": " and you can see this is the name of the task.",
+   "words": [
+    {
+     "start": 54.54,
+     "end": 54.76,
+     "word": " and",
+     "prob": 0.383
+    },
+    {
+     "start": 54.76,
+     "end": 54.86,
+     "word": " you",
+     "prob": 0.775
+    },
+    {
+     "start": 54.86,
+     "end": 54.98,
+     "word": " can",
+     "prob": 0.987
+    },
+    {
+     "start": 54.98,
+     "end": 55.2,
+     "word": " see",
+     "prob": 0.963
+    },
+    {
+     "start": 55.2,
+     "end": 55.5,
+     "word": " this",
+     "prob": 0.868
+    },
+    {
+     "start": 55.5,
+     "end": 55.64,
+     "word": " is",
+     "prob": 0.99
+    },
+    {
+     "start": 55.64,
+     "end": 55.78,
+     "word": " the",
+     "prob": 0.997
+    },
+    {
+     "start": 55.78,
+     "end": 55.92,
+     "word": " name",
+     "prob": 0.987
+    },
+    {
+     "start": 55.92,
+     "end": 56.04,
+     "word": " of",
+     "prob": 0.995
+    },
+    {
+     "start": 56.04,
+     "end": 56.14,
+     "word": " the",
+     "prob": 0.996
+    },
+    {
+     "start": 56.14,
+     "end": 56.5,
+     "word": " task.",
+     "prob": 0.996
+    }
+   ]
+  },
+  {
+   "start": 57.0,
+   "end": 59.5,
+   "text": " The instructions tell me to make a social media post,",
+   "words": [
+    {
+     "start": 57.0,
+     "end": 57.08,
+     "word": " The",
+     "prob": 0.949
+    },
+    {
+     "start": 57.08,
+     "end": 57.62,
+     "word": " instructions",
+     "prob": 0.994
+    },
+    {
+     "start": 57.62,
+     "end": 58.08,
+     "word": " tell",
+     "prob": 0.654
+    },
+    {
+     "start": 58.08,
+     "end": 58.22,
+     "word": " me",
+     "prob": 0.999
+    },
+    {
+     "start": 58.22,
+     "end": 58.34,
+     "word": " to",
+     "prob": 0.997
+    },
+    {
+     "start": 58.34,
+     "end": 58.48,
+     "word": " make",
+     "prob": 0.998
+    },
+    {
+     "start": 58.48,
+     "end": 58.66,
+     "word": " a",
+     "prob": 0.995
+    },
+    {
+     "start": 58.66,
+     "end": 58.86,
+     "word": " social",
+     "prob": 0.987
+    },
+    {
+     "start": 58.86,
+     "end": 59.12,
+     "word": " media",
+     "prob": 0.999
+    },
+    {
+     "start": 59.12,
+     "end": 59.5,
+     "word": " post,",
+     "prob": 0.998
+    }
+   ]
+  },
+  {
+   "start": 60.1,
+   "end": 61.04,
+   "text": " and we could also say,",
+   "words": [
+    {
+     "start": 60.1,
+     "end": 60.12,
+     "word": " and",
+     "prob": 0.96
+    },
+    {
+     "start": 60.12,
+     "end": 60.26,
+     "word": " we",
+     "prob": 0.989
+    },
+    {
+     "start": 60.26,
+     "end": 60.38,
+     "word": " could",
+     "prob": 0.55
+    },
+    {
+     "start": 60.38,
+     "end": 60.58,
+     "word": " also",
+     "prob": 0.965
+    },
+    {
+     "start": 60.58,
+     "end": 61.04,
+     "word": " say,",
+     "prob": 0.945
+    }
+   ]
+  },
+  {
+   "start": 61.42,
+   "end": 65.78,
+   "text": " we could change this to generate a social media post",
+   "words": [
+    {
+     "start": 61.42,
+     "end": 61.56,
+     "word": " we",
+     "prob": 0.965
+    },
+    {
+     "start": 61.56,
+     "end": 61.7,
+     "word": " could",
+     "prob": 0.844
+    },
+    {
+     "start": 61.7,
+     "end": 61.88,
+     "word": " change",
+     "prob": 0.992
+    },
+    {
+     "start": 61.88,
+     "end": 62.1,
+     "word": " this",
+     "prob": 0.964
+    },
+    {
+     "start": 62.1,
+     "end": 62.4,
+     "word": " to",
+     "prob": 0.993
+    },
+    {
+     "start": 62.4,
+     "end": 62.92,
+     "word": " generate",
+     "prob": 0.874
+    },
+    {
+     "start": 62.92,
+     "end": 64.86,
+     "word": " a",
+     "prob": 0.647
+    },
+    {
+     "start": 64.86,
+     "end": 65.16,
+     "word": " social",
+     "prob": 0.997
+    },
+    {
+     "start": 65.16,
+     "end": 65.48,
+     "word": " media",
+     "prob": 0.999
+    },
+    {
+     "start": 65.48,
+     "end": 65.78,
+     "word": " post",
+     "prob": 0.965
+    }
+   ]
+  },
+  {
+   "start": 66.88,
+   "end": 68.56,
+   "text": " for my data engineering consultancy.",
+   "words": [
+    {
+     "start": 66.88,
+     "end": 67.32,
+     "word": " for",
+     "prob": 0.709
+    },
+    {
+     "start": 67.32,
+     "end": 67.5,
+     "word": " my",
+     "prob": 0.975
+    },
+    {
+     "start": 67.5,
+     "end": 67.7,
+     "word": " data",
+     "prob": 0.824
+    },
+    {
+     "start": 67.7,
+     "end": 68.02,
+     "word": " engineering",
+     "prob": 0.964
+    },
+    {
+     "start": 68.02,
+     "end": 68.56,
+     "word": " consultancy.",
+     "prob": 0.994
+    }
+   ]
+  },
+  {
+   "start": 69.06,
+   "end": 70.1,
+   "text": " You can change the schedule",
+   "words": [
+    {
+     "start": 69.06,
+     "end": 69.16,
+     "word": " You",
+     "prob": 0.993
+    },
+    {
+     "start": 69.16,
+     "end": 69.28,
+     "word": " can",
+     "prob": 0.997
+    },
+    {
+     "start": 69.28,
+     "end": 69.52,
+     "word": " change",
+     "prob": 0.999
+    },
+    {
+     "start": 69.52,
+     "end": 69.72,
+     "word": " the",
+     "prob": 0.997
+    },
+    {
+     "start": 69.72,
+     "end": 70.1,
+     "word": " schedule",
+     "prob": 0.997
+    }
+   ]
+  },
+  {
+   "start": 70.1,
+   "end": 72.82,
+   "text": " to daily, weekly, monthly, annually, or custom.",
+   "words": [
+    {
+     "start": 70.1,
+     "end": 70.48,
+     "word": " to",
+     "prob": 0.995
+    },
+    {
+     "start": 70.48,
+     "end": 70.8,
+     "word": " daily,",
+     "prob": 0.971
+    },
+    {
+     "start": 70.9,
+     "end": 71.16,
+     "word": " weekly,",
+     "prob": 0.992
+    },
+    {
+     "start": 71.28,
+     "end": 71.52,
+     "word": " monthly,",
+     "prob": 0.996
+    },
+    {
+     "start": 71.76,
+     "end": 71.98,
+     "word": " annually,",
+     "prob": 0.955
+    },
+    {
+     "start": 72.1,
+     "end": 72.4,
+     "word": " or",
+     "prob": 0.997
+    },
+    {
+     "start": 72.4,
+     "end": 72.82,
+     "word": " custom.",
+     "prob": 0.998
+    }
+   ]
+  },
+  {
+   "start": 73.52,
+   "end": 74.42,
+   "text": " And then as well as that,",
+   "words": [
+    {
+     "start": 73.52,
+     "end": 73.54,
+     "word": " And",
+     "prob": 0.928
+    },
+    {
+     "start": 73.54,
+     "end": 73.7,
+     "word": " then",
+     "prob": 0.995
+    },
+    {
+     "start": 73.7,
+     "end": 73.84,
+     "word": " as",
+     "prob": 0.797
+    },
+    {
+     "start": 73.84,
+     "end": 74.0,
+     "word": " well",
+     "prob": 0.999
+    },
+    {
+     "start": 74.0,
+     "end": 74.18,
+     "word": " as",
+     "prob": 0.976
+    },
+    {
+     "start": 74.18,
+     "end": 74.42,
+     "word": " that,",
+     "prob": 0.994
+    }
+   ]
+  },
+  {
+   "start": 74.5,
+   "end": 76.68,
+   "text": " the other thing you'll want to do to activate this",
+   "words": [
+    {
+     "start": 74.5,
+     "end": 74.58,
+     "word": " the",
+     "prob": 0.998
+    },
+    {
+     "start": 74.58,
+     "end": 74.82,
+     "word": " other",
+     "prob": 1.0
+    },
+    {
+     "start": 74.82,
+     "end": 75.0,
+     "word": " thing",
+     "prob": 0.999
+    },
+    {
+     "start": 75.0,
+     "end": 75.2,
+     "word": " you'll",
+     "prob": 0.96
+    },
+    {
+     "start": 75.2,
+     "end": 75.32,
+     "word": " want",
+     "prob": 0.998
+    },
+    {
+     "start": 75.32,
+     "end": 75.52,
+     "word": " to",
+     "prob": 0.999
+    },
+    {
+     "start": 75.52,
+     "end": 75.78,
+     "word": " do",
+     "prob": 0.997
+    },
+    {
+     "start": 75.78,
+     "end": 76.04,
+     "word": " to",
+     "prob": 0.992
+    },
+    {
+     "start": 76.04,
+     "end": 76.42,
+     "word": " activate",
+     "prob": 0.998
+    },
+    {
+     "start": 76.42,
+     "end": 76.68,
+     "word": " this",
+     "prob": 0.998
+    }
+   ]
+  },
+  {
+   "start": 76.68,
+   "end": 80.4,
+   "text": " is make sure that you have desktop notifications turned on.",
+   "words": [
+    {
+     "start": 76.68,
+     "end": 76.86,
+     "word": " is",
+     "prob": 0.903
+    },
+    {
+     "start": 76.86,
+     "end": 77.1,
+     "word": " make",
+     "prob": 0.994
+    },
+    {
+     "start": 77.1,
+     "end": 77.32,
+     "word": " sure",
+     "prob": 1.0
+    },
+    {
+     "start": 77.32,
+     "end": 77.48,
+     "word": " that",
+     "prob": 0.995
+    },
+    {
+     "start": 77.48,
+     "end": 77.62,
+     "word": " you",
+     "prob": 0.999
+    },
+    {
+     "start": 77.62,
+     "end": 78.04,
+     "word": " have",
+     "prob": 0.999
+    },
+    {
+     "start": 78.04,
+     "end": 78.78,
+     "word": " desktop",
+     "prob": 0.983
+    },
+    {
+     "start": 78.78,
+     "end": 79.52,
+     "word": " notifications",
+     "prob": 0.998
+    },
+    {
+     "start": 79.52,
+     "end": 80.04,
+     "word": " turned",
+     "prob": 0.998
+    },
+    {
+     "start": 80.04,
+     "end": 80.4,
+     "word": " on.",
+     "prob": 0.999
+    }
+   ]
+  },
+  {
+   "start": 80.64,
+   "end": 81.92,
+   "text": " So remember to click allow there.",
+   "words": [
+    {
+     "start": 80.64,
+     "end": 80.66,
+     "word": " So",
+     "prob": 0.974
+    },
+    {
+     "start": 80.66,
+     "end": 80.96,
+     "word": " remember",
+     "prob": 0.868
+    },
+    {
+     "start": 80.96,
+     "end": 81.14,
+     "word": " to",
+     "prob": 0.991
+    },
+    {
+     "start": 81.14,
+     "end": 81.32,
+     "word": " click",
+     "prob": 0.997
+    },
+    {
+     "start": 81.32,
+     "end": 81.58,
+     "word": " allow",
+     "prob": 0.686
+    },
+    {
+     "start": 81.58,
+     "end": 81.92,
+     "word": " there.",
+     "prob": 0.888
+    }
+   ]
+  },
+  {
+   "start": 82.1,
+   "end": 83.62,
+   "text": " Your notifications are turned on.",
+   "words": [
+    {
+     "start": 82.1,
+     "end": 82.36,
+     "word": " Your",
+     "prob": 0.971
+    },
+    {
+     "start": 82.36,
+     "end": 82.92,
+     "word": " notifications",
+     "prob": 0.97
+    },
+    {
+     "start": 82.92,
+     "end": 83.22,
+     "word": " are",
+     "prob": 0.958
+    },
+    {
+     "start": 83.22,
+     "end": 83.42,
+     "word": " turned",
+     "prob": 0.999
+    },
+    {
+     "start": 83.42,
+     "end": 83.62,
+     "word": " on.",
+     "prob": 0.998
+    }
+   ]
+  },
+  {
+   "start": 83.62,
+   "end": 85.5,
+   "text": " Also, the other place you'll need to go",
+   "words": [
+    {
+     "start": 83.62,
+     "end": 83.96,
+     "word": " Also,",
+     "prob": 0.94
+    },
+    {
+     "start": 84.08,
+     "end": 84.16,
+     "word": " the",
+     "prob": 0.993
+    },
+    {
+     "start": 84.16,
+     "end": 84.34,
+     "word": " other",
+     "prob": 0.993
+    },
+    {
+     "start": 84.34,
+     "end": 84.62,
+     "word": " place",
+     "prob": 0.995
+    },
+    {
+     "start": 84.62,
+     "end": 85.0,
+     "word": " you'll",
+     "prob": 0.946
+    },
+    {
+     "start": 85.0,
+     "end": 85.12,
+     "word": " need",
+     "prob": 0.998
+    },
+    {
+     "start": 85.12,
+     "end": 85.26,
+     "word": " to",
+     "prob": 0.998
+    },
+    {
+     "start": 85.26,
+     "end": 85.5,
+     "word": " go",
+     "prob": 0.993
+    }
+   ]
+  },
+  {
+   "start": 85.5,
+   "end": 86.96,
+   "text": " to see all of your tasks",
+   "words": [
+    {
+     "start": 85.5,
+     "end": 85.84,
+     "word": " to",
+     "prob": 0.985
+    },
+    {
+     "start": 85.84,
+     "end": 86.18,
+     "word": " see",
+     "prob": 0.937
+    },
+    {
+     "start": 86.18,
+     "end": 86.36,
+     "word": " all",
+     "prob": 0.997
+    },
+    {
+     "start": 86.36,
+     "end": 86.48,
+     "word": " of",
+     "prob": 0.982
+    },
+    {
+     "start": 86.48,
+     "end": 86.6,
+     "word": " your",
+     "prob": 0.999
+    },
+    {
+     "start": 86.6,
+     "end": 86.96,
+     "word": " tasks",
+     "prob": 0.985
+    }
+   ]
+  },
+  {
+   "start": 86.96,
+   "end": 89.22,
+   "text": " is go on your profile icon in the top right,",
+   "words": [
+    {
+     "start": 86.96,
+     "end": 87.28,
+     "word": " is",
+     "prob": 0.938
+    },
+    {
+     "start": 87.28,
+     "end": 87.56,
+     "word": " go",
+     "prob": 0.919
+    },
+    {
+     "start": 87.56,
+     "end": 87.84,
+     "word": " on",
+     "prob": 0.981
+    },
+    {
+     "start": 87.84,
+     "end": 87.96,
+     "word": " your",
+     "prob": 0.996
+    },
+    {
+     "start": 87.96,
+     "end": 88.26,
+     "word": " profile",
+     "prob": 0.992
+    },
+    {
+     "start": 88.26,
+     "end": 88.52,
+     "word": " icon",
+     "prob": 0.98
+    },
+    {
+     "start": 88.52,
+     "end": 88.7,
+     "word": " in",
+     "prob": 0.935
+    },
+    {
+     "start": 88.7,
+     "end": 88.8,
+     "word": " the",
+     "prob": 0.999
+    },
+    {
+     "start": 88.8,
+     "end": 88.96,
+     "word": " top",
+     "prob": 1.0
+    },
+    {
+     "start": 88.96,
+     "end": 89.22,
+     "word": " right,",
+     "prob": 0.95
+    }
+   ]
+  },
+  {
+   "start": 89.54,
+   "end": 91.44,
+   "text": " click on that, go to tasks in beta,",
+   "words": [
+    {
+     "start": 89.54,
+     "end": 89.78,
+     "word": " click",
+     "prob": 0.995
+    },
+    {
+     "start": 89.78,
+     "end": 89.92,
+     "word": " on",
+     "prob": 0.998
+    },
+    {
+     "start": 89.92,
+     "end": 90.08,
+     "word": " that,",
+     "prob": 0.996
+    },
+    {
+     "start": 90.16,
+     "end": 90.26,
+     "word": " go",
+     "prob": 0.97
+    },
+    {
+     "start": 90.26,
+     "end": 90.48,
+     "word": " to",
+     "prob": 0.998
+    },
+    {
+     "start": 90.48,
+     "end": 90.84,
+     "word": " tasks",
+     "prob": 0.479
+    },
+    {
+     "start": 90.84,
+     "end": 91.2,
+     "word": " in",
+     "prob": 0.959
+    },
+    {
+     "start": 91.2,
+     "end": 91.44,
+     "word": " beta,",
+     "prob": 0.938
+    }
+   ]
+  },
+  {
+   "start": 91.84,
+   "end": 93.5,
+   "text": " and then you can see these are all the tasks",
+   "words": [
+    {
+     "start": 91.84,
+     "end": 92.0,
+     "word": " and",
+     "prob": 0.996
+    },
+    {
+     "start": 92.0,
+     "end": 92.12,
+     "word": " then",
+     "prob": 0.991
+    },
+    {
+     "start": 92.12,
+     "end": 92.24,
+     "word": " you",
+     "prob": 0.996
+    },
+    {
+     "start": 92.24,
+     "end": 92.36,
+     "word": " can",
+     "prob": 0.999
+    },
+    {
+     "start": 92.36,
+     "end": 92.52,
+     "word": " see",
+     "prob": 0.998
+    },
+    {
+     "start": 92.52,
+     "end": 92.76,
+     "word": " these",
+     "prob": 0.965
+    },
+    {
+     "start": 92.76,
+     "end": 92.94,
+     "word": " are",
+     "prob": 0.996
+    },
+    {
+     "start": 92.94,
+     "end": 93.1,
+     "word": " all",
+     "prob": 0.996
+    },
+    {
+     "start": 93.1,
+     "end": 93.22,
+     "word": " the",
+     "prob": 0.991
+    },
+    {
+     "start": 93.22,
+     "end": 93.5,
+     "word": " tasks",
+     "prob": 0.995
+    }
+   ]
+  },
+  {
+   "start": 93.5,
+   "end": 95.88,
+   "text": " that you've got where you can pause or delete a task,",
+   "words": [
+    {
+     "start": 93.5,
+     "end": 93.72,
+     "word": " that",
+     "prob": 0.983
+    },
+    {
+     "start": 93.72,
+     "end": 93.9,
+     "word": " you've",
+     "prob": 0.998
+    },
+    {
+     "start": 93.9,
+     "end": 94.06,
+     "word": " got",
+     "prob": 0.999
+    },
+    {
+     "start": 94.06,
+     "end": 94.28,
+     "word": " where",
+     "prob": 0.881
+    },
+    {
+     "start": 94.28,
+     "end": 94.38,
+     "word": " you",
+     "prob": 0.999
+    },
+    {
+     "start": 94.38,
+     "end": 94.54,
+     "word": " can",
+     "prob": 0.999
+    },
+    {
+     "start": 94.54,
+     "end": 94.98,
+     "word": " pause",
+     "prob": 0.999
+    },
+    {
+     "start": 94.98,
+     "end": 95.24,
+     "word": " or",
+     "prob": 0.971
+    },
+    {
+     "start": 95.24,
+     "end": 95.46,
+     "word": " delete",
+     "prob": 0.998
+    },
+    {
+     "start": 95.46,
+     "end": 95.6,
+     "word": " a",
+     "prob": 0.67
+    },
+    {
+     "start": 95.6,
+     "end": 95.88,
+     "word": " task,",
+     "prob": 0.998
+    }
+   ]
+  },
+  {
+   "start": 96.2,
+   "end": 98.02,
+   "text": " or you can edit a task as well there.",
+   "words": [
+    {
+     "start": 96.2,
+     "end": 96.42,
+     "word": " or",
+     "prob": 0.999
+    },
+    {
+     "start": 96.42,
+     "end": 96.54,
+     "word": " you",
+     "prob": 0.998
+    },
+    {
+     "start": 96.54,
+     "end": 96.68,
+     "word": " can",
+     "prob": 0.999
+    },
+    {
+     "start": 96.68,
+     "end": 96.9,
+     "word": " edit",
+     "prob": 0.997
+    },
+    {
+     "start": 96.9,
+     "end": 97.06,
+     "word": " a",
+     "prob": 0.996
+    },
+    {
+     "start": 97.06,
+     "end": 97.38,
+     "word": " task",
+     "prob": 0.998
+    },
+    {
+     "start": 97.38,
+     "end": 97.56,
+     "word": " as",
+     "prob": 0.974
+    },
+    {
+     "start": 97.56,
+     "end": 97.76,
+     "word": " well",
+     "prob": 1.0
+    },
+    {
+     "start": 97.76,
+     "end": 98.02,
+     "word": " there.",
+     "prob": 0.937
+    }
+   ]
+  }
+ ]
+}

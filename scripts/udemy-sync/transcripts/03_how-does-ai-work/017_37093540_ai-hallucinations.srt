@@ -1,0 +1,355 @@
+1
+00:00:00,000 --> 00:00:01,980
+Hey, in this video you're gonna have a look and explore
+
+2
+00:00:01,980 --> 00:00:03,980
+what is this concept called hallucinations.
+
+3
+00:00:04,680 --> 00:00:06,300
+We'll look at what hallucinations are
+
+4
+00:00:06,300 --> 00:00:09,000
+and how you can avoid them when you're using large language
+
+5
+00:00:09,000 --> 00:00:10,140
+models such as ChatGPT.
+
+6
+00:00:10,660 --> 00:00:14,120
+Firstly, hallucinations are basically some type
+
+7
+00:00:14,120 --> 00:00:17,700
+of factually incorrect text that has been created
+
+8
+00:00:17,700 --> 00:00:19,620
+by the LLM or the large language model.
+
+9
+00:00:19,940 --> 00:00:22,480
+Large language models are simply predicting the next token
+
+10
+00:00:22,480 --> 00:00:24,620
+and therefore they can often produce
+
+11
+00:00:24,620 --> 00:00:26,420
+factually incorrect text.
+
+12
+00:00:26,420 --> 00:00:30,240
+There was a study done in 2022 about ChatGPT
+
+13
+00:00:30,240 --> 00:00:32,620
+was creating non-factual references
+
+14
+00:00:32,620 --> 00:00:34,860
+within the science community and this could be
+
+15
+00:00:34,860 --> 00:00:38,300
+a really large problem in areas like law and healthcare.
+
+16
+00:00:38,600 --> 00:00:41,320
+So let's have a look at an example inside of ChatGPT
+
+17
+00:00:41,320 --> 00:00:43,500
+where we're telling it to create some fake
+
+18
+00:00:43,500 --> 00:00:46,340
+or hallucinated content and how we can tell
+
+19
+00:00:46,340 --> 00:00:48,660
+ChatGPT to avoid hallucinating.
+
+20
+00:00:48,820 --> 00:00:50,380
+So you can see here we've had a prompt,
+
+21
+00:00:50,820 --> 00:00:53,020
+who was the first man to visit to Jupiter
+
+22
+00:00:53,480 --> 00:00:54,920
+and I've just said, make something up.
+
+23
+00:00:54,920 --> 00:00:56,920
+This is obviously not factual, it's not correct.
+
+24
+00:00:57,500 --> 00:00:59,640
+Now, obviously I've had to say something like
+
+25
+00:00:59,640 --> 00:01:01,600
+make something up but there will be scenarios
+
+26
+00:01:02,030 --> 00:01:04,520
+where you ask ChatGPT something and it will come up
+
+27
+00:01:04,520 --> 00:01:06,340
+with something that's not technically true.
+
+28
+00:01:06,940 --> 00:01:08,180
+How can we get over that?
+
+29
+00:01:08,280 --> 00:01:11,400
+How can we ground ChatGPT in some knowledge
+
+30
+00:01:11,400 --> 00:01:13,180
+that either is at your own company
+
+31
+00:01:13,180 --> 00:01:14,360
+or your personal information?
+
+32
+00:01:14,600 --> 00:01:15,560
+So I'm gonna give you a technique
+
+33
+00:01:15,560 --> 00:01:16,860
+that you can use for this.
+
+34
+00:01:17,220 --> 00:01:20,340
+So I'm gonna go to Google and type digital marketing
+
+35
+00:01:21,840 --> 00:01:23,840
+and I'm gonna take some information here
+
+36
+00:01:23,840 --> 00:01:26,120
+and this could be, you might be using information
+
+37
+00:01:26,120 --> 00:01:28,400
+from your own company or it could be a PDF.
+
+38
+00:01:29,040 --> 00:01:32,380
+I'm gonna create a new chat, I'm gonna triple quotes
+
+39
+00:01:33,010 --> 00:01:35,540
+and then I'm gonna paste this information in like this
+
+40
+00:01:36,230 --> 00:01:39,640
+and I'm gonna say I want you to answer
+
+41
+00:01:40,660 --> 00:01:45,260
+the following query by only referencing
+
+42
+00:01:45,260 --> 00:01:51,020
+the documents above in triple quote characters
+
+43
+00:01:51,680 --> 00:01:55,020
+if you don't have an answer,
+
+44
+00:01:55,940 --> 00:02:01,020
+simply respond with I don't know, right?
+
+45
+00:02:01,380 --> 00:02:06,020
+And then we can ask ChatGPT what is the weather, right?
+
+46
+00:02:06,200 --> 00:02:08,160
+And basically you'll see that we've now grounded
+
+47
+00:02:08,160 --> 00:02:11,160
+ChatGPT in some knowledge, right, from the internet.
+
+48
+00:02:11,840 --> 00:02:16,600
+So we could also say what is social media marketing?
+
+49
+00:02:17,300 --> 00:02:19,340
+And what you'll see is that the knowledge
+
+50
+00:02:19,340 --> 00:02:21,120
+that was contained within those triple quotes
+
+51
+00:02:21,120 --> 00:02:23,380
+was actually factually grounded
+
+52
+00:02:23,380 --> 00:02:26,660
+based off some information that I chose to ground it in.
+
+53
+00:02:26,940 --> 00:02:29,480
+So this is a way where if you've got some company information
+
+54
+00:02:29,790 --> 00:02:32,260
+or you have some specific documents
+
+55
+00:02:32,770 --> 00:02:34,060
+or certain types of knowledge,
+
+56
+00:02:34,060 --> 00:02:36,200
+you could put that inside triple quotes
+
+57
+00:02:36,200 --> 00:02:37,860
+and you can say to ChatGPT,
+
+58
+00:02:38,100 --> 00:02:40,020
+I only want you to answer from this knowledge
+
+59
+00:02:40,020 --> 00:02:42,080
+and then you're grounding ChatGPT
+
+60
+00:02:42,080 --> 00:02:43,960
+in not knowledge that it knows internally
+
+61
+00:02:43,960 --> 00:02:46,180
+but knowledge that you've decided is important
+
+62
+00:02:46,180 --> 00:02:47,380
+for answering your question.
+
+63
+00:02:47,380 --> 00:02:51,060
+So this is one common use case and technique
+
+64
+00:02:51,060 --> 00:02:53,340
+that you can use to overcome hallucinations
+
+65
+00:02:53,920 --> 00:02:55,420
+for when factual consistency
+
+66
+00:02:55,820 --> 00:02:57,700
+is really important in the answers.
+
+67
+00:02:57,840 --> 00:03:00,320
+Another way that you can factually ground a reference
+
+68
+00:03:00,320 --> 00:03:03,580
+inside of ChatGPT is adding a file to a conversation.
+
+69
+00:03:04,180 --> 00:03:06,040
+For example, we can go and hit the plus button here
+
+70
+00:03:06,040 --> 00:03:08,120
+and then go to add photos and files.
+
+71
+00:03:08,320 --> 00:03:10,020
+I'm gonna put a file that you can download
+
+72
+00:03:10,020 --> 00:03:11,980
+in this lecture to follow along with.
+
+73
+00:03:12,140 --> 00:03:14,580
+Gonna go and download a digital company profile
+
+74
+00:03:15,000 --> 00:03:16,120
+and then I'm gonna say,
+
+75
+00:03:16,680 --> 00:03:20,320
+what is the company Aurora?
+
+76
+00:03:22,260 --> 00:03:23,820
+And because you've added a file,
+
+77
+00:03:24,020 --> 00:03:26,880
+you can ground ChatGPT to answer specifically
+
+78
+00:03:26,880 --> 00:03:27,940
+from that documentation.
+
+79
+00:03:28,380 --> 00:03:29,720
+You can add lots of different files
+
+80
+00:03:29,720 --> 00:03:32,300
+and also images directly inside of ChatGPT
+
+81
+00:03:32,300 --> 00:03:34,220
+to help sure that it doesn't hallucinate.
+
+82
+00:03:34,400 --> 00:03:35,600
+In the next video, we're gonna have a look
+
+83
+00:03:35,600 --> 00:03:37,440
+at the difference between two types of models
+
+84
+00:03:37,440 --> 00:03:38,500
+that have come out recently.
+
+85
+00:03:38,500 --> 00:03:41,600
+So there is ChatModels, which are the older type of models,
+
+86
+00:03:41,600 --> 00:03:44,740
+the newer type of models, which are reasoning models,
+
+87
+00:03:44,980 --> 00:03:46,880
+and we'll look at the differences between those two
+
+88
+00:03:46,880 --> 00:03:48,580
+and how you can get started with them.
+
+89
+00:03:48,880 --> 00:03:50,020
+Cool, see you in the next one.

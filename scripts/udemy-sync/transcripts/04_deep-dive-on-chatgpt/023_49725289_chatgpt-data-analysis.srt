@@ -1,0 +1,311 @@
+1
+00:00:00,000 --> 00:00:03,020
+So attached to this video will be a link to a CSV file.
+
+2
+00:00:03,540 --> 00:00:05,200
+Make sure to download that file.
+
+3
+00:00:05,360 --> 00:00:06,760
+It's called students.csv.
+
+4
+00:00:07,460 --> 00:00:09,660
+If we have a look at this, and I'm gonna go and open this up,
+
+5
+00:00:09,680 --> 00:00:11,780
+you can see we have some data about students.
+
+6
+00:00:12,300 --> 00:00:14,320
+So for example, the first name, the last name,
+
+7
+00:00:14,660 --> 00:00:17,300
+the gender of a student, the age, the grade level,
+
+8
+00:00:17,600 --> 00:00:20,200
+and some other things such as what type of degree they took,
+
+9
+00:00:20,540 --> 00:00:23,240
+their attendance rates, their extracurricular activities,
+
+10
+00:00:23,720 --> 00:00:24,240
+et cetera.
+
+11
+00:00:24,340 --> 00:00:26,240
+We're gonna use ChatGPT to analyze this dataset
+
+12
+00:00:26,240 --> 00:00:28,060
+rather than having to use Excel.
+
+13
+00:00:28,220 --> 00:00:29,160
+Cool, so the first thing is,
+
+14
+00:00:29,160 --> 00:00:31,000
+once you've got that downloaded, go to ChatGPT.
+
+15
+00:00:31,220 --> 00:00:32,620
+I want you to click on this plus sign,
+
+16
+00:00:33,080 --> 00:00:36,140
+click upload from computer, go to students.csv.
+
+17
+00:00:36,480 --> 00:00:39,900
+You can also drag the CSV or any file
+
+18
+00:00:39,900 --> 00:00:42,280
+directly into the chat box as well.
+
+19
+00:00:42,360 --> 00:00:43,140
+That's also possible.
+
+20
+00:00:43,700 --> 00:00:47,720
+Then we're gonna say, can you find out how many students
+
+21
+00:00:48,380 --> 00:00:49,980
+there are in this dataset?
+
+22
+00:00:56,320 --> 00:01:00,000
+And what it will do is ChatGPT will analyze and write code.
+
+23
+00:01:00,340 --> 00:01:02,040
+And you'll see if you click on this analyzing,
+
+24
+00:01:02,040 --> 00:01:03,660
+you can see that it's actually going
+
+25
+00:01:03,660 --> 00:01:06,000
+and generating some code in Python
+
+26
+00:01:06,400 --> 00:01:07,780
+and it's returning a result.
+
+27
+00:01:08,420 --> 00:01:10,900
+And then it shows you there are 50 students in the dataset.
+
+28
+00:01:11,400 --> 00:01:14,500
+So ChatGPT has a way of being able to run code for you
+
+29
+00:01:14,500 --> 00:01:17,060
+in Python, execute that code,
+
+30
+00:01:17,100 --> 00:01:19,240
+and then return the answer of that to you
+
+31
+00:01:19,240 --> 00:01:19,960
+in natural language.
+
+32
+00:01:20,400 --> 00:01:24,440
+We could say, how many males versus females
+
+33
+00:01:24,440 --> 00:01:26,320
+are there in the CSV?
+
+34
+00:01:29,070 --> 00:01:31,130
+And again, it's running some Python code.
+
+35
+00:01:31,250 --> 00:01:33,030
+You don't always have to show the details of this.
+
+36
+00:01:33,030 --> 00:01:35,170
+You can hide it, but I quite like to see
+
+37
+00:01:35,170 --> 00:01:36,510
+exactly what's been happening.
+
+38
+00:01:36,930 --> 00:01:38,810
+So you'll see here, it actually ran into an error.
+
+39
+00:01:38,990 --> 00:01:40,730
+See, there's this key error agenda.
+
+40
+00:01:41,230 --> 00:01:43,670
+And then it's decided to print out the columns
+
+41
+00:01:43,670 --> 00:01:45,870
+so that it can specifically figure out
+
+42
+00:01:45,870 --> 00:01:47,330
+which columns it needs to query.
+
+43
+00:01:47,690 --> 00:01:49,910
+It then creates a new specific piece of code.
+
+44
+00:01:50,250 --> 00:01:52,770
+And you can see here, it's doing a dot value counts
+
+45
+00:01:52,770 --> 00:01:55,210
+on the gender, which allows it to find out
+
+46
+00:01:55,210 --> 00:01:57,770
+that there's these 25 females and 25 males.
+
+47
+00:01:58,310 --> 00:02:00,910
+If we scroll up and have a look at the dataset,
+
+48
+00:02:02,210 --> 00:02:09,150
+we could also say which major has the highest attendance rate.
+
+49
+00:02:12,030 --> 00:02:14,770
+So now it's deciding to group it by the major
+
+50
+00:02:15,290 --> 00:02:17,050
+and it's using the attendance rate
+
+51
+00:02:17,050 --> 00:02:18,190
+and getting the mean of that.
+
+52
+00:02:18,470 --> 00:02:20,590
+And then it finds the one that has the highest maximum.
+
+53
+00:02:20,890 --> 00:02:22,510
+So math had the highest attendance rate.
+
+54
+00:02:22,950 --> 00:02:25,110
+And so you can see that we don't necessarily need
+
+55
+00:02:25,110 --> 00:02:27,710
+to put this data directly into Microsoft Excel.
+
+56
+00:02:28,030 --> 00:02:31,410
+We can just put a CSV directly inside of chat GPC
+
+57
+00:02:31,410 --> 00:02:33,710
+and start asking it natural language questions.
+
+58
+00:02:34,090 --> 00:02:35,210
+We can even plot bar charts.
+
+59
+00:02:35,410 --> 00:02:37,550
+So I can say, can you plot a bar chart
+
+60
+00:02:38,150 --> 00:02:42,330
+of attendance rates broken down by major?
+
+61
+00:02:46,100 --> 00:02:48,500
+And now it's decided to use a plotting library.
+
+62
+00:02:48,720 --> 00:02:49,880
+So this is just a piece of code
+
+63
+00:02:49,880 --> 00:02:52,460
+that allows it to generate graphs dynamically.
+
+64
+00:02:54,100 --> 00:02:55,700
+So we'll just wait for that to load.
+
+65
+00:02:55,800 --> 00:02:57,500
+And here you go, here's your bar chart
+
+66
+00:02:57,500 --> 00:02:59,820
+and you can easily download this or change this.
+
+67
+00:03:00,220 --> 00:03:01,600
+You can click on this download chart
+
+68
+00:03:01,600 --> 00:03:03,820
+and then you can download that directly to your desktop.
+
+69
+00:03:03,820 --> 00:03:05,400
+You can also click on right click
+
+70
+00:03:05,400 --> 00:03:07,440
+and then save image ads if you're on Mac.
+
+71
+00:03:08,280 --> 00:03:10,760
+So it's possible for you to not only ask questions
+
+72
+00:03:10,760 --> 00:03:11,500
+in the natural language,
+
+73
+00:03:11,720 --> 00:03:15,520
+but get automatic data visualizations made out of chat GPT.
+
+74
+00:03:16,060 --> 00:03:17,920
+As an exerciser, when you spend two minutes
+
+75
+00:03:17,920 --> 00:03:21,100
+asking chat GPT some follow-up questions on this dataset
+
+76
+00:03:21,100 --> 00:03:23,160
+and also playing around with what kind
+
+77
+00:03:23,160 --> 00:03:25,300
+of data visualizations you can get it to create.
+
+78
+00:03:25,880 --> 00:03:27,080
+Cool, I'll see you in the next one.

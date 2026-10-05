@@ -1,0 +1,2912 @@
+{
+ "lecture_id": "46777369",
+ "title": "chatgpt search",
+ "section": "04_deep-dive-on-chatgpt",
+ "video_path": "scripts/udemy-sync/videos/04_deep-dive-on-chatgpt/021_46777369_chatgpt-search.mp4",
+ "duration_s": 201.22,
+ "model": "small.en",
+ "word_timestamps": true,
+ "segments": [
+  {
+   "start": 0.18,
+   "end": 7.4,
+   "text": " Let me walk you through ChatGPT. This is a new addition to ChatGPT. It did have the ability",
+   "words": [
+    {
+     "start": 0.18,
+     "end": 0.66,
+     "word": " Let",
+     "prob": 0.516
+    },
+    {
+     "start": 0.66,
+     "end": 0.76,
+     "word": " me",
+     "prob": 0.998
+    },
+    {
+     "start": 0.76,
+     "end": 0.92,
+     "word": " walk",
+     "prob": 0.994
+    },
+    {
+     "start": 0.92,
+     "end": 1.1,
+     "word": " you",
+     "prob": 0.996
+    },
+    {
+     "start": 1.1,
+     "end": 1.32,
+     "word": " through",
+     "prob": 0.997
+    },
+    {
+     "start": 1.32,
+     "end": 2.08,
+     "word": " ChatGPT.",
+     "prob": 0.367
+    },
+    {
+     "start": 2.56,
+     "end": 3.12,
+     "word": " This",
+     "prob": 0.928
+    },
+    {
+     "start": 3.12,
+     "end": 3.6,
+     "word": " is",
+     "prob": 0.992
+    },
+    {
+     "start": 3.6,
+     "end": 4.02,
+     "word": " a",
+     "prob": 0.99
+    },
+    {
+     "start": 4.02,
+     "end": 4.36,
+     "word": " new",
+     "prob": 0.995
+    },
+    {
+     "start": 4.36,
+     "end": 4.78,
+     "word": " addition",
+     "prob": 0.705
+    },
+    {
+     "start": 4.78,
+     "end": 5.36,
+     "word": " to",
+     "prob": 0.992
+    },
+    {
+     "start": 5.36,
+     "end": 6.06,
+     "word": " ChatGPT.",
+     "prob": 0.881
+    },
+    {
+     "start": 6.42,
+     "end": 6.44,
+     "word": " It",
+     "prob": 0.974
+    },
+    {
+     "start": 6.44,
+     "end": 6.6,
+     "word": " did",
+     "prob": 0.992
+    },
+    {
+     "start": 6.6,
+     "end": 6.94,
+     "word": " have",
+     "prob": 0.999
+    },
+    {
+     "start": 6.94,
+     "end": 7.18,
+     "word": " the",
+     "prob": 0.996
+    },
+    {
+     "start": 7.18,
+     "end": 7.4,
+     "word": " ability",
+     "prob": 0.998
+    }
+   ]
+  },
+  {
+   "start": 7.4,
+   "end": 12.58,
+   "text": " to search before, but it's gotten a lot better and it looks at multiple sources. Let me just",
+   "words": [
+    {
+     "start": 7.4,
+     "end": 7.7,
+     "word": " to",
+     "prob": 0.998
+    },
+    {
+     "start": 7.7,
+     "end": 8.02,
+     "word": " search",
+     "prob": 0.993
+    },
+    {
+     "start": 8.02,
+     "end": 8.6,
+     "word": " before,",
+     "prob": 0.99
+    },
+    {
+     "start": 8.78,
+     "end": 9.24,
+     "word": " but",
+     "prob": 0.99
+    },
+    {
+     "start": 9.24,
+     "end": 9.56,
+     "word": " it's",
+     "prob": 0.987
+    },
+    {
+     "start": 9.56,
+     "end": 9.72,
+     "word": " gotten",
+     "prob": 0.964
+    },
+    {
+     "start": 9.72,
+     "end": 9.86,
+     "word": " a",
+     "prob": 0.996
+    },
+    {
+     "start": 9.86,
+     "end": 9.98,
+     "word": " lot",
+     "prob": 0.999
+    },
+    {
+     "start": 9.98,
+     "end": 10.28,
+     "word": " better",
+     "prob": 0.999
+    },
+    {
+     "start": 10.28,
+     "end": 10.58,
+     "word": " and",
+     "prob": 0.684
+    },
+    {
+     "start": 10.58,
+     "end": 10.7,
+     "word": " it",
+     "prob": 0.981
+    },
+    {
+     "start": 10.7,
+     "end": 10.86,
+     "word": " looks",
+     "prob": 0.997
+    },
+    {
+     "start": 10.86,
+     "end": 11.02,
+     "word": " at",
+     "prob": 0.978
+    },
+    {
+     "start": 11.02,
+     "end": 11.3,
+     "word": " multiple",
+     "prob": 0.987
+    },
+    {
+     "start": 11.3,
+     "end": 11.66,
+     "word": " sources.",
+     "prob": 0.948
+    },
+    {
+     "start": 12.22,
+     "end": 12.38,
+     "word": " Let",
+     "prob": 0.745
+    },
+    {
+     "start": 12.38,
+     "end": 12.38,
+     "word": " me",
+     "prob": 0.996
+    },
+    {
+     "start": 12.38,
+     "end": 12.58,
+     "word": " just",
+     "prob": 0.97
+    }
+   ]
+  },
+  {
+   "start": 12.58,
+   "end": 23.52,
+   "text": " search here for who won the election. It gives us the right answer now because it has up-to-date",
+   "words": [
+    {
+     "start": 12.58,
+     "end": 12.84,
+     "word": " search",
+     "prob": 0.996
+    },
+    {
+     "start": 12.84,
+     "end": 13.28,
+     "word": " here",
+     "prob": 0.96
+    },
+    {
+     "start": 13.28,
+     "end": 13.88,
+     "word": " for",
+     "prob": 0.956
+    },
+    {
+     "start": 13.88,
+     "end": 15.16,
+     "word": " who",
+     "prob": 0.279
+    },
+    {
+     "start": 15.16,
+     "end": 15.46,
+     "word": " won",
+     "prob": 0.998
+    },
+    {
+     "start": 15.46,
+     "end": 15.9,
+     "word": " the",
+     "prob": 0.981
+    },
+    {
+     "start": 15.9,
+     "end": 16.48,
+     "word": " election.",
+     "prob": 0.996
+    },
+    {
+     "start": 18.56,
+     "end": 18.92,
+     "word": " It",
+     "prob": 0.306
+    },
+    {
+     "start": 18.92,
+     "end": 20.52,
+     "word": " gives",
+     "prob": 0.717
+    },
+    {
+     "start": 20.52,
+     "end": 20.72,
+     "word": " us",
+     "prob": 0.974
+    },
+    {
+     "start": 20.72,
+     "end": 20.84,
+     "word": " the",
+     "prob": 0.98
+    },
+    {
+     "start": 20.84,
+     "end": 20.96,
+     "word": " right",
+     "prob": 0.996
+    },
+    {
+     "start": 20.96,
+     "end": 21.26,
+     "word": " answer",
+     "prob": 0.999
+    },
+    {
+     "start": 21.26,
+     "end": 21.58,
+     "word": " now",
+     "prob": 0.973
+    },
+    {
+     "start": 21.58,
+     "end": 21.98,
+     "word": " because",
+     "prob": 0.838
+    },
+    {
+     "start": 21.98,
+     "end": 22.78,
+     "word": " it",
+     "prob": 0.989
+    },
+    {
+     "start": 22.78,
+     "end": 23.0,
+     "word": " has",
+     "prob": 0.998
+    },
+    {
+     "start": 23.0,
+     "end": 23.2,
+     "word": " up",
+     "prob": 0.99
+    },
+    {
+     "start": 23.2,
+     "end": 23.34,
+     "word": "-to",
+     "prob": 0.807
+    },
+    {
+     "start": 23.34,
+     "end": 23.52,
+     "word": "-date",
+     "prob": 0.999
+    }
+   ]
+  },
+  {
+   "start": 23.52,
+   "end": 31.28,
+   "text": " information from the searches it did. It gives us a specific credit to the sources which",
+   "words": [
+    {
+     "start": 23.52,
+     "end": 24.02,
+     "word": " information",
+     "prob": 0.664
+    },
+    {
+     "start": 24.02,
+     "end": 24.68,
+     "word": " from",
+     "prob": 0.987
+    },
+    {
+     "start": 24.68,
+     "end": 24.96,
+     "word": " the",
+     "prob": 0.996
+    },
+    {
+     "start": 24.96,
+     "end": 25.24,
+     "word": " searches",
+     "prob": 0.94
+    },
+    {
+     "start": 25.24,
+     "end": 25.58,
+     "word": " it",
+     "prob": 0.859
+    },
+    {
+     "start": 25.58,
+     "end": 25.82,
+     "word": " did.",
+     "prob": 0.992
+    },
+    {
+     "start": 26.2,
+     "end": 26.3,
+     "word": " It",
+     "prob": 0.962
+    },
+    {
+     "start": 26.3,
+     "end": 26.56,
+     "word": " gives",
+     "prob": 0.715
+    },
+    {
+     "start": 26.56,
+     "end": 26.78,
+     "word": " us",
+     "prob": 0.578
+    },
+    {
+     "start": 26.78,
+     "end": 26.9,
+     "word": " a",
+     "prob": 0.777
+    },
+    {
+     "start": 26.9,
+     "end": 27.34,
+     "word": " specific",
+     "prob": 0.998
+    },
+    {
+     "start": 27.34,
+     "end": 28.62,
+     "word": " credit",
+     "prob": 0.95
+    },
+    {
+     "start": 28.62,
+     "end": 29.54,
+     "word": " to",
+     "prob": 0.991
+    },
+    {
+     "start": 29.54,
+     "end": 30.24,
+     "word": " the",
+     "prob": 0.992
+    },
+    {
+     "start": 30.24,
+     "end": 30.64,
+     "word": " sources",
+     "prob": 0.989
+    },
+    {
+     "start": 30.64,
+     "end": 31.28,
+     "word": " which",
+     "prob": 0.633
+    }
+   ]
+  },
+  {
+   "start": 31.28,
+   "end": 37.9,
+   "text": " is useful. In this case, it's on the Wall Street Journal and you can see here a bit more information.",
+   "words": [
+    {
+     "start": 31.28,
+     "end": 31.5,
+     "word": " is",
+     "prob": 0.941
+    },
+    {
+     "start": 31.5,
+     "end": 32.12,
+     "word": " useful.",
+     "prob": 0.974
+    },
+    {
+     "start": 32.86,
+     "end": 32.86,
+     "word": " In",
+     "prob": 0.665
+    },
+    {
+     "start": 32.86,
+     "end": 33.24,
+     "word": " this",
+     "prob": 0.997
+    },
+    {
+     "start": 33.24,
+     "end": 33.46,
+     "word": " case,",
+     "prob": 0.999
+    },
+    {
+     "start": 33.58,
+     "end": 33.66,
+     "word": " it's",
+     "prob": 0.981
+    },
+    {
+     "start": 33.66,
+     "end": 33.8,
+     "word": " on",
+     "prob": 0.619
+    },
+    {
+     "start": 33.8,
+     "end": 33.92,
+     "word": " the",
+     "prob": 0.958
+    },
+    {
+     "start": 33.92,
+     "end": 34.06,
+     "word": " Wall",
+     "prob": 0.9
+    },
+    {
+     "start": 34.06,
+     "end": 34.26,
+     "word": " Street",
+     "prob": 0.88
+    },
+    {
+     "start": 34.26,
+     "end": 34.62,
+     "word": " Journal",
+     "prob": 0.668
+    },
+    {
+     "start": 34.62,
+     "end": 35.66,
+     "word": " and",
+     "prob": 0.555
+    },
+    {
+     "start": 35.66,
+     "end": 35.76,
+     "word": " you",
+     "prob": 0.999
+    },
+    {
+     "start": 35.76,
+     "end": 35.9,
+     "word": " can",
+     "prob": 1.0
+    },
+    {
+     "start": 35.9,
+     "end": 36.3,
+     "word": " see",
+     "prob": 0.998
+    },
+    {
+     "start": 36.3,
+     "end": 37.0,
+     "word": " here",
+     "prob": 0.967
+    },
+    {
+     "start": 37.0,
+     "end": 37.1,
+     "word": " a",
+     "prob": 0.941
+    },
+    {
+     "start": 37.1,
+     "end": 37.16,
+     "word": " bit",
+     "prob": 0.983
+    },
+    {
+     "start": 37.16,
+     "end": 37.32,
+     "word": " more",
+     "prob": 0.997
+    },
+    {
+     "start": 37.32,
+     "end": 37.9,
+     "word": " information.",
+     "prob": 0.998
+    }
+   ]
+  },
+  {
+   "start": 38.92,
+   "end": 46.4,
+   "text": " Now if you look on citations, it shows this one specifically. There's also other ones",
+   "words": [
+    {
+     "start": 38.92,
+     "end": 38.92,
+     "word": " Now",
+     "prob": 0.938
+    },
+    {
+     "start": 38.92,
+     "end": 40.36,
+     "word": " if",
+     "prob": 0.453
+    },
+    {
+     "start": 40.36,
+     "end": 40.44,
+     "word": " you",
+     "prob": 0.981
+    },
+    {
+     "start": 40.44,
+     "end": 40.64,
+     "word": " look",
+     "prob": 0.997
+    },
+    {
+     "start": 40.64,
+     "end": 41.18,
+     "word": " on",
+     "prob": 0.832
+    },
+    {
+     "start": 41.18,
+     "end": 41.82,
+     "word": " citations,",
+     "prob": 0.976
+    },
+    {
+     "start": 42.56,
+     "end": 42.78,
+     "word": " it",
+     "prob": 0.901
+    },
+    {
+     "start": 42.78,
+     "end": 43.06,
+     "word": " shows",
+     "prob": 0.805
+    },
+    {
+     "start": 43.06,
+     "end": 43.38,
+     "word": " this",
+     "prob": 0.985
+    },
+    {
+     "start": 43.38,
+     "end": 43.58,
+     "word": " one",
+     "prob": 0.997
+    },
+    {
+     "start": 43.58,
+     "end": 44.2,
+     "word": " specifically.",
+     "prob": 0.985
+    },
+    {
+     "start": 44.72,
+     "end": 45.34,
+     "word": " There's",
+     "prob": 0.971
+    },
+    {
+     "start": 45.34,
+     "end": 45.72,
+     "word": " also",
+     "prob": 0.999
+    },
+    {
+     "start": 45.72,
+     "end": 46.06,
+     "word": " other",
+     "prob": 0.996
+    },
+    {
+     "start": 46.06,
+     "end": 46.4,
+     "word": " ones",
+     "prob": 0.999
+    }
+   ]
+  },
+  {
+   "start": 46.4,
+   "end": 52.88,
+   "text": " as well, so you can look at Arroyo's, click through specifically to see this. Now, the",
+   "words": [
+    {
+     "start": 46.4,
+     "end": 46.6,
+     "word": " as",
+     "prob": 0.355
+    },
+    {
+     "start": 46.6,
+     "end": 46.74,
+     "word": " well,",
+     "prob": 0.993
+    },
+    {
+     "start": 46.98,
+     "end": 47.02,
+     "word": " so",
+     "prob": 0.976
+    },
+    {
+     "start": 47.02,
+     "end": 47.2,
+     "word": " you",
+     "prob": 0.99
+    },
+    {
+     "start": 47.2,
+     "end": 47.36,
+     "word": " can",
+     "prob": 0.984
+    },
+    {
+     "start": 47.36,
+     "end": 47.5,
+     "word": " look",
+     "prob": 0.989
+    },
+    {
+     "start": 47.5,
+     "end": 47.94,
+     "word": " at",
+     "prob": 0.938
+    },
+    {
+     "start": 47.94,
+     "end": 48.72,
+     "word": " Arroyo's,",
+     "prob": 0.476
+    },
+    {
+     "start": 49.1,
+     "end": 49.62,
+     "word": " click",
+     "prob": 0.715
+    },
+    {
+     "start": 49.62,
+     "end": 49.96,
+     "word": " through",
+     "prob": 0.987
+    },
+    {
+     "start": 49.96,
+     "end": 50.48,
+     "word": " specifically",
+     "prob": 0.867
+    },
+    {
+     "start": 50.48,
+     "end": 50.96,
+     "word": " to",
+     "prob": 0.946
+    },
+    {
+     "start": 50.96,
+     "end": 51.16,
+     "word": " see",
+     "prob": 0.998
+    },
+    {
+     "start": 51.16,
+     "end": 51.5,
+     "word": " this.",
+     "prob": 0.996
+    },
+    {
+     "start": 52.14,
+     "end": 52.14,
+     "word": " Now,",
+     "prob": 0.953
+    },
+    {
+     "start": 52.54,
+     "end": 52.88,
+     "word": " the",
+     "prob": 0.997
+    }
+   ]
+  },
+  {
+   "start": 54.1,
+   "end": 60.04,
+   "text": " interesting thing that I found is even if you turn the search off, you say, who won",
+   "words": [
+    {
+     "start": 54.1,
+     "end": 54.72,
+     "word": " interesting",
+     "prob": 0.967
+    },
+    {
+     "start": 54.72,
+     "end": 55.12,
+     "word": " thing",
+     "prob": 0.996
+    },
+    {
+     "start": 55.12,
+     "end": 55.36,
+     "word": " that",
+     "prob": 0.995
+    },
+    {
+     "start": 55.36,
+     "end": 55.5,
+     "word": " I",
+     "prob": 0.998
+    },
+    {
+     "start": 55.5,
+     "end": 55.84,
+     "word": " found",
+     "prob": 0.914
+    },
+    {
+     "start": 55.84,
+     "end": 56.28,
+     "word": " is",
+     "prob": 0.946
+    },
+    {
+     "start": 56.28,
+     "end": 57.08,
+     "word": " even",
+     "prob": 0.289
+    },
+    {
+     "start": 57.08,
+     "end": 57.34,
+     "word": " if",
+     "prob": 0.991
+    },
+    {
+     "start": 57.34,
+     "end": 57.5,
+     "word": " you",
+     "prob": 0.996
+    },
+    {
+     "start": 57.5,
+     "end": 57.88,
+     "word": " turn",
+     "prob": 0.842
+    },
+    {
+     "start": 57.88,
+     "end": 58.0,
+     "word": " the",
+     "prob": 0.651
+    },
+    {
+     "start": 58.0,
+     "end": 58.2,
+     "word": " search",
+     "prob": 0.906
+    },
+    {
+     "start": 58.2,
+     "end": 58.48,
+     "word": " off,",
+     "prob": 0.685
+    },
+    {
+     "start": 59.14,
+     "end": 59.28,
+     "word": " you",
+     "prob": 0.77
+    },
+    {
+     "start": 59.28,
+     "end": 59.48,
+     "word": " say,",
+     "prob": 0.955
+    },
+    {
+     "start": 59.7,
+     "end": 59.74,
+     "word": " who",
+     "prob": 0.154
+    },
+    {
+     "start": 59.74,
+     "end": 60.04,
+     "word": " won",
+     "prob": 0.999
+    }
+   ]
+  },
+  {
+   "start": 60.04,
+   "end": 66.2,
+   "text": " the election? I will still do a search, so it's actually, I think as we speak right",
+   "words": [
+    {
+     "start": 60.04,
+     "end": 60.46,
+     "word": " the",
+     "prob": 0.991
+    },
+    {
+     "start": 60.46,
+     "end": 61.04,
+     "word": " election?",
+     "prob": 0.997
+    },
+    {
+     "start": 61.56,
+     "end": 61.72,
+     "word": " I",
+     "prob": 0.739
+    },
+    {
+     "start": 61.72,
+     "end": 61.86,
+     "word": " will",
+     "prob": 0.994
+    },
+    {
+     "start": 61.86,
+     "end": 62.18,
+     "word": " still",
+     "prob": 0.999
+    },
+    {
+     "start": 62.18,
+     "end": 62.4,
+     "word": " do",
+     "prob": 0.998
+    },
+    {
+     "start": 62.4,
+     "end": 62.5,
+     "word": " a",
+     "prob": 0.929
+    },
+    {
+     "start": 62.5,
+     "end": 62.82,
+     "word": " search,",
+     "prob": 0.999
+    },
+    {
+     "start": 63.12,
+     "end": 63.14,
+     "word": " so",
+     "prob": 0.935
+    },
+    {
+     "start": 63.14,
+     "end": 63.32,
+     "word": " it's",
+     "prob": 0.922
+    },
+    {
+     "start": 63.32,
+     "end": 63.76,
+     "word": " actually,",
+     "prob": 0.973
+    },
+    {
+     "start": 64.72,
+     "end": 64.9,
+     "word": " I",
+     "prob": 0.456
+    },
+    {
+     "start": 64.9,
+     "end": 65.02,
+     "word": " think",
+     "prob": 0.932
+    },
+    {
+     "start": 65.02,
+     "end": 65.28,
+     "word": " as",
+     "prob": 0.704
+    },
+    {
+     "start": 65.28,
+     "end": 65.64,
+     "word": " we",
+     "prob": 0.985
+    },
+    {
+     "start": 65.64,
+     "end": 66.02,
+     "word": " speak",
+     "prob": 0.99
+    },
+    {
+     "start": 66.02,
+     "end": 66.2,
+     "word": " right",
+     "prob": 0.987
+    }
+   ]
+  },
+  {
+   "start": 66.2,
+   "end": 72.5,
+   "text": " now, it's not actually possible to turn this feature off. It will bring this in regardless",
+   "words": [
+    {
+     "start": 66.2,
+     "end": 66.44,
+     "word": " now,",
+     "prob": 0.999
+    },
+    {
+     "start": 66.76,
+     "end": 66.98,
+     "word": " it's",
+     "prob": 0.856
+    },
+    {
+     "start": 66.98,
+     "end": 67.12,
+     "word": " not",
+     "prob": 0.986
+    },
+    {
+     "start": 67.12,
+     "end": 67.32,
+     "word": " actually",
+     "prob": 0.945
+    },
+    {
+     "start": 67.32,
+     "end": 67.66,
+     "word": " possible",
+     "prob": 0.984
+    },
+    {
+     "start": 67.66,
+     "end": 68.08,
+     "word": " to",
+     "prob": 0.995
+    },
+    {
+     "start": 68.08,
+     "end": 69.16,
+     "word": " turn",
+     "prob": 0.997
+    },
+    {
+     "start": 69.16,
+     "end": 69.36,
+     "word": " this",
+     "prob": 0.991
+    },
+    {
+     "start": 69.36,
+     "end": 69.68,
+     "word": " feature",
+     "prob": 0.998
+    },
+    {
+     "start": 69.68,
+     "end": 70.04,
+     "word": " off.",
+     "prob": 0.998
+    },
+    {
+     "start": 70.42,
+     "end": 70.46,
+     "word": " It",
+     "prob": 0.367
+    },
+    {
+     "start": 70.46,
+     "end": 70.78,
+     "word": " will",
+     "prob": 0.845
+    },
+    {
+     "start": 70.78,
+     "end": 71.1,
+     "word": " bring",
+     "prob": 0.995
+    },
+    {
+     "start": 71.1,
+     "end": 71.32,
+     "word": " this",
+     "prob": 0.995
+    },
+    {
+     "start": 71.32,
+     "end": 71.74,
+     "word": " in",
+     "prob": 0.996
+    },
+    {
+     "start": 71.74,
+     "end": 72.5,
+     "word": " regardless",
+     "prob": 0.721
+    }
+   ]
+  },
+  {
+   "start": 72.5,
+   "end": 79.5,
+   "text": " whenever you're asking for some to-date information, but it is quite useful. Now, if you want to",
+   "words": [
+    {
+     "start": 72.5,
+     "end": 73.08,
+     "word": " whenever",
+     "prob": 0.059
+    },
+    {
+     "start": 73.08,
+     "end": 73.34,
+     "word": " you're",
+     "prob": 0.973
+    },
+    {
+     "start": 73.34,
+     "end": 73.56,
+     "word": " asking",
+     "prob": 0.998
+    },
+    {
+     "start": 73.56,
+     "end": 73.76,
+     "word": " for",
+     "prob": 0.985
+    },
+    {
+     "start": 73.76,
+     "end": 73.98,
+     "word": " some",
+     "prob": 0.947
+    },
+    {
+     "start": 73.98,
+     "end": 74.32,
+     "word": " to",
+     "prob": 0.58
+    },
+    {
+     "start": 74.32,
+     "end": 74.48,
+     "word": "-date",
+     "prob": 0.499
+    },
+    {
+     "start": 74.48,
+     "end": 75.04,
+     "word": " information,",
+     "prob": 0.997
+    },
+    {
+     "start": 75.78,
+     "end": 76.12,
+     "word": " but",
+     "prob": 0.991
+    },
+    {
+     "start": 76.12,
+     "end": 76.58,
+     "word": " it",
+     "prob": 0.987
+    },
+    {
+     "start": 76.58,
+     "end": 76.8,
+     "word": " is",
+     "prob": 0.997
+    },
+    {
+     "start": 76.8,
+     "end": 77.04,
+     "word": " quite",
+     "prob": 0.893
+    },
+    {
+     "start": 77.04,
+     "end": 77.56,
+     "word": " useful.",
+     "prob": 0.998
+    },
+    {
+     "start": 78.18,
+     "end": 78.22,
+     "word": " Now,",
+     "prob": 0.921
+    },
+    {
+     "start": 78.28,
+     "end": 78.5,
+     "word": " if",
+     "prob": 0.997
+    },
+    {
+     "start": 78.5,
+     "end": 78.66,
+     "word": " you",
+     "prob": 0.996
+    },
+    {
+     "start": 78.66,
+     "end": 78.88,
+     "word": " want",
+     "prob": 0.977
+    },
+    {
+     "start": 78.88,
+     "end": 79.5,
+     "word": " to",
+     "prob": 0.998
+    }
+   ]
+  },
+  {
+   "start": 79.5,
+   "end": 86.44,
+   "text": " turn the search off, you could go into neutral and then if you just to judge it in classic,",
+   "words": [
+    {
+     "start": 79.5,
+     "end": 79.78,
+     "word": " turn",
+     "prob": 0.998
+    },
+    {
+     "start": 79.78,
+     "end": 80.0,
+     "word": " the",
+     "prob": 0.654
+    },
+    {
+     "start": 80.0,
+     "end": 80.2,
+     "word": " search",
+     "prob": 0.533
+    },
+    {
+     "start": 80.2,
+     "end": 80.56,
+     "word": " off,",
+     "prob": 0.267
+    },
+    {
+     "start": 81.16,
+     "end": 81.4,
+     "word": " you",
+     "prob": 0.955
+    },
+    {
+     "start": 81.4,
+     "end": 81.8,
+     "word": " could",
+     "prob": 0.987
+    },
+    {
+     "start": 81.8,
+     "end": 82.18,
+     "word": " go",
+     "prob": 0.94
+    },
+    {
+     "start": 82.18,
+     "end": 82.38,
+     "word": " into",
+     "prob": 0.806
+    },
+    {
+     "start": 82.38,
+     "end": 82.6,
+     "word": " neutral",
+     "prob": 0.143
+    },
+    {
+     "start": 82.6,
+     "end": 83.28,
+     "word": " and",
+     "prob": 0.213
+    },
+    {
+     "start": 83.28,
+     "end": 83.46,
+     "word": " then",
+     "prob": 0.97
+    },
+    {
+     "start": 83.46,
+     "end": 83.72,
+     "word": " if",
+     "prob": 0.715
+    },
+    {
+     "start": 83.72,
+     "end": 83.86,
+     "word": " you",
+     "prob": 0.993
+    },
+    {
+     "start": 83.86,
+     "end": 84.18,
+     "word": " just",
+     "prob": 0.876
+    },
+    {
+     "start": 84.18,
+     "end": 84.96,
+     "word": " to",
+     "prob": 0.326
+    },
+    {
+     "start": 84.96,
+     "end": 85.52,
+     "word": " judge",
+     "prob": 0.568
+    },
+    {
+     "start": 85.52,
+     "end": 85.7,
+     "word": " it",
+     "prob": 0.14
+    },
+    {
+     "start": 85.7,
+     "end": 85.92,
+     "word": " in",
+     "prob": 0.829
+    },
+    {
+     "start": 85.92,
+     "end": 86.44,
+     "word": " classic,",
+     "prob": 0.909
+    }
+   ]
+  },
+  {
+   "start": 87.28,
+   "end": 103.56,
+   "text": " you can say the election and it tells us it actually refuses. It's fun, but let's see",
+   "words": [
+    {
+     "start": 87.28,
+     "end": 87.28,
+     "word": " you",
+     "prob": 0.818
+    },
+    {
+     "start": 87.28,
+     "end": 87.38,
+     "word": " can",
+     "prob": 0.944
+    },
+    {
+     "start": 87.38,
+     "end": 87.68,
+     "word": " say",
+     "prob": 0.946
+    },
+    {
+     "start": 87.68,
+     "end": 88.56,
+     "word": " the",
+     "prob": 0.09
+    },
+    {
+     "start": 88.56,
+     "end": 89.38,
+     "word": " election",
+     "prob": 0.972
+    },
+    {
+     "start": 91.2,
+     "end": 92.34,
+     "word": " and",
+     "prob": 0.608
+    },
+    {
+     "start": 92.34,
+     "end": 92.6,
+     "word": " it",
+     "prob": 0.405
+    },
+    {
+     "start": 92.6,
+     "end": 94.64,
+     "word": " tells",
+     "prob": 0.969
+    },
+    {
+     "start": 94.64,
+     "end": 94.96,
+     "word": " us",
+     "prob": 0.974
+    },
+    {
+     "start": 94.96,
+     "end": 95.2,
+     "word": " it",
+     "prob": 0.267
+    },
+    {
+     "start": 95.2,
+     "end": 95.42,
+     "word": " actually",
+     "prob": 0.914
+    },
+    {
+     "start": 95.42,
+     "end": 95.86,
+     "word": " refuses.",
+     "prob": 0.985
+    },
+    {
+     "start": 96.52,
+     "end": 96.78,
+     "word": " It's",
+     "prob": 0.671
+    },
+    {
+     "start": 96.78,
+     "end": 97.36,
+     "word": " fun,",
+     "prob": 0.716
+    },
+    {
+     "start": 97.98,
+     "end": 98.24,
+     "word": " but",
+     "prob": 0.985
+    },
+    {
+     "start": 98.24,
+     "end": 103.5,
+     "word": " let's",
+     "prob": 0.852
+    },
+    {
+     "start": 103.5,
+     "end": 103.56,
+     "word": " see",
+     "prob": 0.996
+    }
+   ]
+  },
+  {
+   "start": 103.56,
+   "end": 115.98,
+   "text": " a very hot topic. That's probably why it appears interesting. So that's how the search works.",
+   "words": [
+    {
+     "start": 103.56,
+     "end": 104.04,
+     "word": " a",
+     "prob": 0.206
+    },
+    {
+     "start": 104.04,
+     "end": 104.62,
+     "word": " very",
+     "prob": 0.779
+    },
+    {
+     "start": 104.62,
+     "end": 105.32,
+     "word": " hot",
+     "prob": 0.938
+    },
+    {
+     "start": 105.32,
+     "end": 105.8,
+     "word": " topic.",
+     "prob": 0.997
+    },
+    {
+     "start": 106.18,
+     "end": 106.3,
+     "word": " That's",
+     "prob": 0.932
+    },
+    {
+     "start": 106.3,
+     "end": 106.5,
+     "word": " probably",
+     "prob": 0.975
+    },
+    {
+     "start": 106.5,
+     "end": 106.8,
+     "word": " why",
+     "prob": 0.891
+    },
+    {
+     "start": 106.8,
+     "end": 106.86,
+     "word": " it",
+     "prob": 0.322
+    },
+    {
+     "start": 106.86,
+     "end": 107.58,
+     "word": " appears",
+     "prob": 0.339
+    },
+    {
+     "start": 111.64,
+     "end": 112.8,
+     "word": " interesting.",
+     "prob": 0.697
+    },
+    {
+     "start": 113.54,
+     "end": 114.26,
+     "word": " So",
+     "prob": 0.526
+    },
+    {
+     "start": 114.26,
+     "end": 114.58,
+     "word": " that's",
+     "prob": 0.936
+    },
+    {
+     "start": 114.58,
+     "end": 114.68,
+     "word": " how",
+     "prob": 0.97
+    },
+    {
+     "start": 114.68,
+     "end": 114.88,
+     "word": " the",
+     "prob": 0.08
+    },
+    {
+     "start": 114.88,
+     "end": 115.08,
+     "word": " search",
+     "prob": 0.048
+    },
+    {
+     "start": 115.08,
+     "end": 115.98,
+     "word": " works.",
+     "prob": 0.636
+    }
+   ]
+  },
+  {
+   "start": 116.66,
+   "end": 122.54,
+   "text": " I would say it's useful, especially for specific situations where you need up-to-date information.",
+   "words": [
+    {
+     "start": 116.66,
+     "end": 116.66,
+     "word": " I",
+     "prob": 0.806
+    },
+    {
+     "start": 116.66,
+     "end": 116.74,
+     "word": " would",
+     "prob": 0.928
+    },
+    {
+     "start": 116.74,
+     "end": 116.96,
+     "word": " say",
+     "prob": 0.994
+    },
+    {
+     "start": 116.96,
+     "end": 117.3,
+     "word": " it's",
+     "prob": 0.915
+    },
+    {
+     "start": 117.3,
+     "end": 117.8,
+     "word": " useful,",
+     "prob": 0.516
+    },
+    {
+     "start": 118.22,
+     "end": 118.54,
+     "word": " especially",
+     "prob": 0.993
+    },
+    {
+     "start": 118.54,
+     "end": 119.04,
+     "word": " for",
+     "prob": 0.958
+    },
+    {
+     "start": 119.04,
+     "end": 119.64,
+     "word": " specific",
+     "prob": 0.743
+    },
+    {
+     "start": 119.64,
+     "end": 120.36,
+     "word": " situations",
+     "prob": 0.997
+    },
+    {
+     "start": 120.36,
+     "end": 120.86,
+     "word": " where",
+     "prob": 0.959
+    },
+    {
+     "start": 120.86,
+     "end": 121.42,
+     "word": " you",
+     "prob": 0.907
+    },
+    {
+     "start": 121.42,
+     "end": 121.62,
+     "word": " need",
+     "prob": 0.995
+    },
+    {
+     "start": 121.62,
+     "end": 121.78,
+     "word": " up",
+     "prob": 0.966
+    },
+    {
+     "start": 121.78,
+     "end": 121.92,
+     "word": "-to",
+     "prob": 0.698
+    },
+    {
+     "start": 121.92,
+     "end": 122.08,
+     "word": "-date",
+     "prob": 0.999
+    },
+    {
+     "start": 122.08,
+     "end": 122.54,
+     "word": " information.",
+     "prob": 0.998
+    }
+   ]
+  },
+  {
+   "start": 123.18,
+   "end": 129.04,
+   "text": " Another good example here is what are the latest trends amongst teens?",
+   "words": [
+    {
+     "start": 123.18,
+     "end": 123.3,
+     "word": " Another",
+     "prob": 0.988
+    },
+    {
+     "start": 123.3,
+     "end": 123.62,
+     "word": " good",
+     "prob": 0.998
+    },
+    {
+     "start": 123.62,
+     "end": 124.02,
+     "word": " example",
+     "prob": 0.999
+    },
+    {
+     "start": 124.02,
+     "end": 124.48,
+     "word": " here",
+     "prob": 0.952
+    },
+    {
+     "start": 124.48,
+     "end": 124.8,
+     "word": " is",
+     "prob": 0.989
+    },
+    {
+     "start": 124.8,
+     "end": 125.08,
+     "word": " what",
+     "prob": 0.369
+    },
+    {
+     "start": 125.08,
+     "end": 125.3,
+     "word": " are",
+     "prob": 0.992
+    },
+    {
+     "start": 125.3,
+     "end": 125.64,
+     "word": " the",
+     "prob": 0.998
+    },
+    {
+     "start": 125.64,
+     "end": 126.34,
+     "word": " latest",
+     "prob": 0.989
+    },
+    {
+     "start": 126.34,
+     "end": 127.36,
+     "word": " trends",
+     "prob": 0.977
+    },
+    {
+     "start": 127.36,
+     "end": 128.12,
+     "word": " amongst",
+     "prob": 0.687
+    },
+    {
+     "start": 128.12,
+     "end": 129.04,
+     "word": " teens?",
+     "prob": 0.962
+    }
+   ]
+  },
+  {
+   "start": 129.96,
+   "end": 142.35,
+   "text": " It's street fashion. Because it searches multiple articles, it can be quite useful and it can even",
+   "words": [
+    {
+     "start": 129.96,
+     "end": 130.48,
+     "word": " It's",
+     "prob": 0.19
+    },
+    {
+     "start": 130.48,
+     "end": 131.0,
+     "word": " street",
+     "prob": 0.005
+    },
+    {
+     "start": 131.0,
+     "end": 132.74,
+     "word": " fashion.",
+     "prob": 0.499
+    },
+    {
+     "start": 137.35,
+     "end": 137.67,
+     "word": " Because",
+     "prob": 0.359
+    },
+    {
+     "start": 137.67,
+     "end": 137.83,
+     "word": " it",
+     "prob": 0.967
+    },
+    {
+     "start": 137.83,
+     "end": 138.17,
+     "word": " searches",
+     "prob": 0.977
+    },
+    {
+     "start": 138.17,
+     "end": 138.87,
+     "word": " multiple",
+     "prob": 0.977
+    },
+    {
+     "start": 138.87,
+     "end": 140.09,
+     "word": " articles,",
+     "prob": 0.996
+    },
+    {
+     "start": 140.43,
+     "end": 140.47,
+     "word": " it",
+     "prob": 0.887
+    },
+    {
+     "start": 140.47,
+     "end": 140.71,
+     "word": " can",
+     "prob": 0.229
+    },
+    {
+     "start": 140.71,
+     "end": 140.73,
+     "word": " be",
+     "prob": 0.954
+    },
+    {
+     "start": 140.73,
+     "end": 141.05,
+     "word": " quite",
+     "prob": 0.994
+    },
+    {
+     "start": 141.05,
+     "end": 141.59,
+     "word": " useful",
+     "prob": 0.998
+    },
+    {
+     "start": 141.59,
+     "end": 141.89,
+     "word": " and",
+     "prob": 0.583
+    },
+    {
+     "start": 141.89,
+     "end": 141.99,
+     "word": " it",
+     "prob": 0.951
+    },
+    {
+     "start": 141.99,
+     "end": 142.15,
+     "word": " can",
+     "prob": 0.987
+    },
+    {
+     "start": 142.15,
+     "end": 142.35,
+     "word": " even",
+     "prob": 0.993
+    }
+   ]
+  },
+  {
+   "start": 142.35,
+   "end": 146.89,
+   "text": " bring back images and they can summarize all these different things. So here it's looking at",
+   "words": [
+    {
+     "start": 142.35,
+     "end": 142.57,
+     "word": " bring",
+     "prob": 0.996
+    },
+    {
+     "start": 142.57,
+     "end": 142.79,
+     "word": " back",
+     "prob": 0.987
+    },
+    {
+     "start": 142.79,
+     "end": 143.23,
+     "word": " images",
+     "prob": 0.998
+    },
+    {
+     "start": 143.23,
+     "end": 143.75,
+     "word": " and",
+     "prob": 0.296
+    },
+    {
+     "start": 143.75,
+     "end": 143.87,
+     "word": " they",
+     "prob": 0.45
+    },
+    {
+     "start": 143.87,
+     "end": 144.23,
+     "word": " can",
+     "prob": 0.985
+    },
+    {
+     "start": 144.23,
+     "end": 144.59,
+     "word": " summarize",
+     "prob": 0.916
+    },
+    {
+     "start": 144.59,
+     "end": 144.85,
+     "word": " all",
+     "prob": 0.995
+    },
+    {
+     "start": 144.85,
+     "end": 144.99,
+     "word": " these",
+     "prob": 0.98
+    },
+    {
+     "start": 144.99,
+     "end": 145.23,
+     "word": " different",
+     "prob": 0.998
+    },
+    {
+     "start": 145.23,
+     "end": 145.61,
+     "word": " things.",
+     "prob": 0.999
+    },
+    {
+     "start": 146.03,
+     "end": 146.05,
+     "word": " So",
+     "prob": 0.942
+    },
+    {
+     "start": 146.05,
+     "end": 146.31,
+     "word": " here",
+     "prob": 0.947
+    },
+    {
+     "start": 146.31,
+     "end": 146.53,
+     "word": " it's",
+     "prob": 0.844
+    },
+    {
+     "start": 146.53,
+     "end": 146.73,
+     "word": " looking",
+     "prob": 0.978
+    },
+    {
+     "start": 146.73,
+     "end": 146.89,
+     "word": " at",
+     "prob": 0.793
+    }
+   ]
+  },
+  {
+   "start": 146.89,
+   "end": 152.35,
+   "text": " the in-style, college fashion, a few different sites, and you can click through and see",
+   "words": [
+    {
+     "start": 146.89,
+     "end": 146.93,
+     "word": " the",
+     "prob": 0.647
+    },
+    {
+     "start": 146.93,
+     "end": 147.01,
+     "word": " in",
+     "prob": 0.502
+    },
+    {
+     "start": 147.01,
+     "end": 147.37,
+     "word": "-style,",
+     "prob": 0.722
+    },
+    {
+     "start": 148.21,
+     "end": 148.31,
+     "word": " college",
+     "prob": 0.457
+    },
+    {
+     "start": 148.31,
+     "end": 148.85,
+     "word": " fashion,",
+     "prob": 0.897
+    },
+    {
+     "start": 149.41,
+     "end": 149.59,
+     "word": " a",
+     "prob": 0.495
+    },
+    {
+     "start": 149.59,
+     "end": 149.75,
+     "word": " few",
+     "prob": 0.999
+    },
+    {
+     "start": 149.75,
+     "end": 150.07,
+     "word": " different",
+     "prob": 1.0
+    },
+    {
+     "start": 150.07,
+     "end": 150.77,
+     "word": " sites,",
+     "prob": 0.978
+    },
+    {
+     "start": 150.97,
+     "end": 151.07,
+     "word": " and",
+     "prob": 0.992
+    },
+    {
+     "start": 151.07,
+     "end": 151.21,
+     "word": " you",
+     "prob": 0.999
+    },
+    {
+     "start": 151.21,
+     "end": 151.37,
+     "word": " can",
+     "prob": 1.0
+    },
+    {
+     "start": 151.37,
+     "end": 151.57,
+     "word": " click",
+     "prob": 0.985
+    },
+    {
+     "start": 151.57,
+     "end": 151.81,
+     "word": " through",
+     "prob": 0.998
+    },
+    {
+     "start": 151.81,
+     "end": 152.01,
+     "word": " and",
+     "prob": 0.995
+    },
+    {
+     "start": 152.01,
+     "end": 152.35,
+     "word": " see",
+     "prob": 0.999
+    }
+   ]
+  },
+  {
+   "start": 152.81,
+   "end": 159.85,
+   "text": " the validation here if it's any good. The other thing I found it useful for is restaurants and",
+   "words": [
+    {
+     "start": 152.81,
+     "end": 153.07,
+     "word": " the",
+     "prob": 0.993
+    },
+    {
+     "start": 153.07,
+     "end": 153.47,
+     "word": " validation",
+     "prob": 0.995
+    },
+    {
+     "start": 153.47,
+     "end": 153.93,
+     "word": " here",
+     "prob": 0.966
+    },
+    {
+     "start": 153.93,
+     "end": 154.09,
+     "word": " if",
+     "prob": 0.791
+    },
+    {
+     "start": 154.09,
+     "end": 154.23,
+     "word": " it's",
+     "prob": 0.996
+    },
+    {
+     "start": 154.23,
+     "end": 154.39,
+     "word": " any",
+     "prob": 0.995
+    },
+    {
+     "start": 154.39,
+     "end": 154.61,
+     "word": " good.",
+     "prob": 0.999
+    },
+    {
+     "start": 155.67,
+     "end": 155.67,
+     "word": " The",
+     "prob": 0.976
+    },
+    {
+     "start": 155.67,
+     "end": 156.15,
+     "word": " other",
+     "prob": 0.905
+    },
+    {
+     "start": 156.15,
+     "end": 156.39,
+     "word": " thing",
+     "prob": 0.998
+    },
+    {
+     "start": 156.39,
+     "end": 156.53,
+     "word": " I",
+     "prob": 0.865
+    },
+    {
+     "start": 156.53,
+     "end": 156.79,
+     "word": " found",
+     "prob": 0.783
+    },
+    {
+     "start": 156.79,
+     "end": 156.95,
+     "word": " it",
+     "prob": 0.681
+    },
+    {
+     "start": 156.95,
+     "end": 157.53,
+     "word": " useful",
+     "prob": 0.981
+    },
+    {
+     "start": 157.53,
+     "end": 157.97,
+     "word": " for",
+     "prob": 0.994
+    },
+    {
+     "start": 157.97,
+     "end": 158.47,
+     "word": " is",
+     "prob": 0.963
+    },
+    {
+     "start": 158.47,
+     "end": 159.11,
+     "word": " restaurants",
+     "prob": 0.711
+    },
+    {
+     "start": 159.11,
+     "end": 159.85,
+     "word": " and",
+     "prob": 0.335
+    }
+   ]
+  },
+  {
+   "start": 159.85,
+   "end": 172.14,
+   "text": " is a restaurant meeting that sells and tries. Because it has your IP address, it will actually",
+   "words": [
+    {
+     "start": 159.85,
+     "end": 160.39,
+     "word": " is",
+     "prob": 0.341
+    },
+    {
+     "start": 160.39,
+     "end": 161.67,
+     "word": " a",
+     "prob": 0.565
+    },
+    {
+     "start": 161.67,
+     "end": 162.21,
+     "word": " restaurant",
+     "prob": 0.85
+    },
+    {
+     "start": 162.21,
+     "end": 164.31,
+     "word": " meeting",
+     "prob": 0.611
+    },
+    {
+     "start": 164.31,
+     "end": 164.69,
+     "word": " that",
+     "prob": 0.949
+    },
+    {
+     "start": 164.69,
+     "end": 165.49,
+     "word": " sells",
+     "prob": 0.993
+    },
+    {
+     "start": 165.49,
+     "end": 165.85,
+     "word": " and",
+     "prob": 0.116
+    },
+    {
+     "start": 165.85,
+     "end": 166.21,
+     "word": " tries.",
+     "prob": 0.874
+    },
+    {
+     "start": 168.62,
+     "end": 169.1,
+     "word": " Because",
+     "prob": 0.911
+    },
+    {
+     "start": 169.1,
+     "end": 169.52,
+     "word": " it",
+     "prob": 0.962
+    },
+    {
+     "start": 169.52,
+     "end": 169.98,
+     "word": " has",
+     "prob": 0.995
+    },
+    {
+     "start": 169.98,
+     "end": 170.32,
+     "word": " your",
+     "prob": 0.991
+    },
+    {
+     "start": 170.32,
+     "end": 170.74,
+     "word": " IP",
+     "prob": 0.986
+    },
+    {
+     "start": 170.74,
+     "end": 171.1,
+     "word": " address,",
+     "prob": 0.987
+    },
+    {
+     "start": 171.46,
+     "end": 171.48,
+     "word": " it",
+     "prob": 0.991
+    },
+    {
+     "start": 171.48,
+     "end": 171.64,
+     "word": " will",
+     "prob": 0.993
+    },
+    {
+     "start": 171.64,
+     "end": 172.14,
+     "word": " actually",
+     "prob": 0.993
+    }
+   ]
+  },
+  {
+   "start": 172.78,
+   "end": 178.0,
+   "text": " do a search for you. Unfortunately, it's not very accurate because it's just based on IP",
+   "words": [
+    {
+     "start": 172.78,
+     "end": 173.38,
+     "word": " do",
+     "prob": 0.986
+    },
+    {
+     "start": 173.38,
+     "end": 173.58,
+     "word": " a",
+     "prob": 0.981
+    },
+    {
+     "start": 173.58,
+     "end": 173.9,
+     "word": " search",
+     "prob": 0.997
+    },
+    {
+     "start": 173.9,
+     "end": 174.54,
+     "word": " for",
+     "prob": 0.968
+    },
+    {
+     "start": 174.54,
+     "end": 174.82,
+     "word": " you.",
+     "prob": 0.998
+    },
+    {
+     "start": 175.22,
+     "end": 175.46,
+     "word": " Unfortunately,",
+     "prob": 0.99
+    },
+    {
+     "start": 175.6,
+     "end": 175.76,
+     "word": " it's",
+     "prob": 0.967
+    },
+    {
+     "start": 175.76,
+     "end": 175.92,
+     "word": " not",
+     "prob": 0.999
+    },
+    {
+     "start": 175.92,
+     "end": 176.24,
+     "word": " very",
+     "prob": 0.995
+    },
+    {
+     "start": 176.24,
+     "end": 176.58,
+     "word": " accurate",
+     "prob": 0.999
+    },
+    {
+     "start": 176.58,
+     "end": 176.88,
+     "word": " because",
+     "prob": 0.829
+    },
+    {
+     "start": 176.88,
+     "end": 177.12,
+     "word": " it's",
+     "prob": 0.996
+    },
+    {
+     "start": 177.12,
+     "end": 177.28,
+     "word": " just",
+     "prob": 0.984
+    },
+    {
+     "start": 177.28,
+     "end": 177.48,
+     "word": " based",
+     "prob": 0.999
+    },
+    {
+     "start": 177.48,
+     "end": 177.68,
+     "word": " on",
+     "prob": 0.996
+    },
+    {
+     "start": 177.68,
+     "end": 178.0,
+     "word": " IP",
+     "prob": 0.959
+    }
+   ]
+  },
+  {
+   "start": 178.0,
+   "end": 183.68,
+   "text": " and I don't live in Birmingham, but that's where my IP address is. It is pretty good. It gives you",
+   "words": [
+    {
+     "start": 178.0,
+     "end": 178.26,
+     "word": " and",
+     "prob": 0.515
+    },
+    {
+     "start": 178.26,
+     "end": 178.52,
+     "word": " I",
+     "prob": 0.949
+    },
+    {
+     "start": 178.52,
+     "end": 178.88,
+     "word": " don't",
+     "prob": 0.991
+    },
+    {
+     "start": 178.88,
+     "end": 179.04,
+     "word": " live",
+     "prob": 0.963
+    },
+    {
+     "start": 179.04,
+     "end": 179.44,
+     "word": " in",
+     "prob": 0.966
+    },
+    {
+     "start": 179.44,
+     "end": 179.44,
+     "word": " Birmingham,",
+     "prob": 0.994
+    },
+    {
+     "start": 179.44,
+     "end": 179.74,
+     "word": " but",
+     "prob": 0.997
+    },
+    {
+     "start": 179.74,
+     "end": 179.98,
+     "word": " that's",
+     "prob": 0.997
+    },
+    {
+     "start": 179.98,
+     "end": 180.12,
+     "word": " where",
+     "prob": 0.714
+    },
+    {
+     "start": 180.12,
+     "end": 180.34,
+     "word": " my",
+     "prob": 0.998
+    },
+    {
+     "start": 180.34,
+     "end": 181.06,
+     "word": " IP",
+     "prob": 0.998
+    },
+    {
+     "start": 181.06,
+     "end": 181.28,
+     "word": " address",
+     "prob": 0.988
+    },
+    {
+     "start": 181.28,
+     "end": 181.64,
+     "word": " is.",
+     "prob": 0.993
+    },
+    {
+     "start": 182.0,
+     "end": 182.28,
+     "word": " It",
+     "prob": 0.93
+    },
+    {
+     "start": 182.28,
+     "end": 182.44,
+     "word": " is",
+     "prob": 0.995
+    },
+    {
+     "start": 182.44,
+     "end": 182.7,
+     "word": " pretty",
+     "prob": 0.999
+    },
+    {
+     "start": 182.7,
+     "end": 183.02,
+     "word": " good.",
+     "prob": 0.999
+    },
+    {
+     "start": 183.24,
+     "end": 183.38,
+     "word": " It",
+     "prob": 0.992
+    },
+    {
+     "start": 183.38,
+     "end": 183.52,
+     "word": " gives",
+     "prob": 0.996
+    },
+    {
+     "start": 183.52,
+     "end": 183.68,
+     "word": " you",
+     "prob": 0.997
+    }
+   ]
+  },
+  {
+   "start": 183.68,
+   "end": 189.36,
+   "text": " back a map here, a list, so really gunning for Google here. But again, I would recommend you",
+   "words": [
+    {
+     "start": 183.68,
+     "end": 183.92,
+     "word": " back",
+     "prob": 0.926
+    },
+    {
+     "start": 183.92,
+     "end": 184.12,
+     "word": " a",
+     "prob": 0.313
+    },
+    {
+     "start": 184.12,
+     "end": 184.32,
+     "word": " map",
+     "prob": 0.499
+    },
+    {
+     "start": 184.32,
+     "end": 184.64,
+     "word": " here,",
+     "prob": 0.828
+    },
+    {
+     "start": 185.08,
+     "end": 185.12,
+     "word": " a",
+     "prob": 0.872
+    },
+    {
+     "start": 185.12,
+     "end": 185.36,
+     "word": " list,",
+     "prob": 0.998
+    },
+    {
+     "start": 185.76,
+     "end": 185.8,
+     "word": " so",
+     "prob": 0.96
+    },
+    {
+     "start": 185.8,
+     "end": 186.22,
+     "word": " really",
+     "prob": 0.88
+    },
+    {
+     "start": 186.22,
+     "end": 186.58,
+     "word": " gunning",
+     "prob": 0.908
+    },
+    {
+     "start": 186.58,
+     "end": 186.74,
+     "word": " for",
+     "prob": 0.957
+    },
+    {
+     "start": 186.74,
+     "end": 187.0,
+     "word": " Google",
+     "prob": 0.979
+    },
+    {
+     "start": 187.0,
+     "end": 187.3,
+     "word": " here.",
+     "prob": 0.926
+    },
+    {
+     "start": 187.88,
+     "end": 188.0,
+     "word": " But",
+     "prob": 0.98
+    },
+    {
+     "start": 188.0,
+     "end": 188.3,
+     "word": " again,",
+     "prob": 0.93
+    },
+    {
+     "start": 188.6,
+     "end": 188.76,
+     "word": " I",
+     "prob": 0.973
+    },
+    {
+     "start": 188.76,
+     "end": 188.84,
+     "word": " would",
+     "prob": 0.845
+    },
+    {
+     "start": 188.84,
+     "end": 189.08,
+     "word": " recommend",
+     "prob": 0.949
+    },
+    {
+     "start": 189.08,
+     "end": 189.36,
+     "word": " you",
+     "prob": 0.935
+    }
+   ]
+  },
+  {
+   "start": 189.36,
+   "end": 196.04,
+   "text": " click through to check if search results first. Hopefully, that's useful. It's much better than",
+   "words": [
+    {
+     "start": 189.36,
+     "end": 189.56,
+     "word": " click",
+     "prob": 0.373
+    },
+    {
+     "start": 189.56,
+     "end": 189.8,
+     "word": " through",
+     "prob": 0.973
+    },
+    {
+     "start": 189.8,
+     "end": 190.04,
+     "word": " to",
+     "prob": 0.965
+    },
+    {
+     "start": 190.04,
+     "end": 190.44,
+     "word": " check",
+     "prob": 0.969
+    },
+    {
+     "start": 190.44,
+     "end": 190.72,
+     "word": " if",
+     "prob": 0.633
+    },
+    {
+     "start": 190.72,
+     "end": 190.9,
+     "word": " search",
+     "prob": 0.871
+    },
+    {
+     "start": 190.9,
+     "end": 191.16,
+     "word": " results",
+     "prob": 0.986
+    },
+    {
+     "start": 191.16,
+     "end": 191.68,
+     "word": " first.",
+     "prob": 0.919
+    },
+    {
+     "start": 193.5,
+     "end": 193.74,
+     "word": " Hopefully,",
+     "prob": 0.888
+    },
+    {
+     "start": 193.96,
+     "end": 194.16,
+     "word": " that's",
+     "prob": 0.899
+    },
+    {
+     "start": 194.16,
+     "end": 194.54,
+     "word": " useful.",
+     "prob": 0.873
+    },
+    {
+     "start": 194.86,
+     "end": 195.24,
+     "word": " It's",
+     "prob": 0.91
+    },
+    {
+     "start": 195.24,
+     "end": 195.5,
+     "word": " much",
+     "prob": 0.993
+    },
+    {
+     "start": 195.5,
+     "end": 195.8,
+     "word": " better",
+     "prob": 0.999
+    },
+    {
+     "start": 195.8,
+     "end": 196.04,
+     "word": " than",
+     "prob": 0.998
+    }
+   ]
+  },
+  {
+   "start": 196.04,
+   "end": 200.5,
+   "text": " the previous search, which would only search maybe one thing at a time. So I've been using this more",
+   "words": [
+    {
+     "start": 196.04,
+     "end": 196.14,
+     "word": " the",
+     "prob": 0.995
+    },
+    {
+     "start": 196.14,
+     "end": 196.38,
+     "word": " previous",
+     "prob": 1.0
+    },
+    {
+     "start": 196.38,
+     "end": 196.7,
+     "word": " search,",
+     "prob": 0.985
+    },
+    {
+     "start": 196.84,
+     "end": 196.96,
+     "word": " which",
+     "prob": 0.987
+    },
+    {
+     "start": 196.96,
+     "end": 197.08,
+     "word": " would",
+     "prob": 0.404
+    },
+    {
+     "start": 197.08,
+     "end": 197.24,
+     "word": " only",
+     "prob": 0.85
+    },
+    {
+     "start": 197.24,
+     "end": 197.52,
+     "word": " search",
+     "prob": 0.972
+    },
+    {
+     "start": 197.52,
+     "end": 197.78,
+     "word": " maybe",
+     "prob": 0.93
+    },
+    {
+     "start": 197.78,
+     "end": 198.06,
+     "word": " one",
+     "prob": 0.979
+    },
+    {
+     "start": 198.06,
+     "end": 198.28,
+     "word": " thing",
+     "prob": 0.934
+    },
+    {
+     "start": 198.28,
+     "end": 198.46,
+     "word": " at",
+     "prob": 0.922
+    },
+    {
+     "start": 198.46,
+     "end": 198.76,
+     "word": " a",
+     "prob": 0.982
+    },
+    {
+     "start": 198.76,
+     "end": 198.86,
+     "word": " time.",
+     "prob": 0.995
+    },
+    {
+     "start": 199.14,
+     "end": 199.2,
+     "word": " So",
+     "prob": 0.886
+    },
+    {
+     "start": 199.2,
+     "end": 199.82,
+     "word": " I've",
+     "prob": 0.861
+    },
+    {
+     "start": 199.82,
+     "end": 199.9,
+     "word": " been",
+     "prob": 0.997
+    },
+    {
+     "start": 199.9,
+     "end": 200.1,
+     "word": " using",
+     "prob": 0.999
+    },
+    {
+     "start": 200.1,
+     "end": 200.28,
+     "word": " this",
+     "prob": 0.995
+    },
+    {
+     "start": 200.28,
+     "end": 200.5,
+     "word": " more",
+     "prob": 0.96
+    }
+   ]
+  },
+  {
+   "start": 200.5,
+   "end": 200.72,
+   "text": " than a month. So I think it's really useful.",
+   "words": [
+    {
+     "start": 200.5,
+     "end": 200.5,
+     "word": " than",
+     "prob": 0.001
+    },
+    {
+     "start": 200.5,
+     "end": 200.5,
+     "word": " a",
+     "prob": 0.04
+    },
+    {
+     "start": 200.5,
+     "end": 200.5,
+     "word": " month.",
+     "prob": 0.012
+    },
+    {
+     "start": 200.5,
+     "end": 200.5,
+     "word": " So",
+     "prob": 0.05
+    },
+    {
+     "start": 200.5,
+     "end": 200.5,
+     "word": " I",
+     "prob": 0.077
+    },
+    {
+     "start": 200.5,
+     "end": 200.7,
+     "word": " think",
+     "prob": 0.238
+    },
+    {
+     "start": 200.7,
+     "end": 200.7,
+     "word": " it's",
+     "prob": 0.399
+    },
+    {
+     "start": 200.7,
+     "end": 200.7,
+     "word": " really",
+     "prob": 0.066
+    },
+    {
+     "start": 200.7,
+     "end": 200.72,
+     "word": " useful.",
+     "prob": 0.006
+    }
+   ]
+  }
+ ]
+}

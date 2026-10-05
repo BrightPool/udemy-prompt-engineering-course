@@ -1,0 +1,769 @@
+{
+ "lecture_id": "39228730",
+ "title": "chatgpt shortcuts",
+ "section": "04_deep-dive-on-chatgpt",
+ "video_path": "scripts/udemy-sync/videos/04_deep-dive-on-chatgpt/028_39228730_chatgpt-shortcuts.mp4",
+ "duration_s": 35.18,
+ "model": "small.en",
+ "word_timestamps": true,
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 3.5,
+   "text": " You can easily use shortcuts inside of the ChatGPT user interface",
+   "words": [
+    {
+     "start": 0.0,
+     "end": 0.0,
+     "word": " You",
+     "prob": 0.193
+    },
+    {
+     "start": 0.0,
+     "end": 0.08,
+     "word": " can",
+     "prob": 0.971
+    },
+    {
+     "start": 0.08,
+     "end": 0.46,
+     "word": " easily",
+     "prob": 0.975
+    },
+    {
+     "start": 0.46,
+     "end": 0.82,
+     "word": " use",
+     "prob": 0.987
+    },
+    {
+     "start": 0.82,
+     "end": 1.3,
+     "word": " shortcuts",
+     "prob": 0.978
+    },
+    {
+     "start": 1.3,
+     "end": 1.74,
+     "word": " inside",
+     "prob": 0.972
+    },
+    {
+     "start": 1.74,
+     "end": 1.92,
+     "word": " of",
+     "prob": 0.77
+    },
+    {
+     "start": 1.92,
+     "end": 2.12,
+     "word": " the",
+     "prob": 0.987
+    },
+    {
+     "start": 2.12,
+     "end": 2.68,
+     "word": " ChatGPT",
+     "prob": 0.297
+    },
+    {
+     "start": 2.68,
+     "end": 3.04,
+     "word": " user",
+     "prob": 0.939
+    },
+    {
+     "start": 3.04,
+     "end": 3.5,
+     "word": " interface",
+     "prob": 0.994
+    }
+   ]
+  },
+  {
+   "start": 3.5,
+   "end": 5.26,
+   "text": " so that you can go and do things",
+   "words": [
+    {
+     "start": 3.5,
+     "end": 3.94,
+     "word": " so",
+     "prob": 0.777
+    },
+    {
+     "start": 3.94,
+     "end": 4.1,
+     "word": " that",
+     "prob": 0.952
+    },
+    {
+     "start": 4.1,
+     "end": 4.26,
+     "word": " you",
+     "prob": 0.998
+    },
+    {
+     "start": 4.26,
+     "end": 4.44,
+     "word": " can",
+     "prob": 0.995
+    },
+    {
+     "start": 4.44,
+     "end": 4.66,
+     "word": " go",
+     "prob": 0.981
+    },
+    {
+     "start": 4.66,
+     "end": 4.86,
+     "word": " and",
+     "prob": 0.975
+    },
+    {
+     "start": 4.86,
+     "end": 5.0,
+     "word": " do",
+     "prob": 0.996
+    },
+    {
+     "start": 5.0,
+     "end": 5.26,
+     "word": " things",
+     "prob": 0.995
+    }
+   ]
+  },
+  {
+   "start": 5.26,
+   "end": 7.18,
+   "text": " such as toggle the sidebar like this,",
+   "words": [
+    {
+     "start": 5.26,
+     "end": 5.42,
+     "word": " such",
+     "prob": 0.916
+    },
+    {
+     "start": 5.42,
+     "end": 5.64,
+     "word": " as",
+     "prob": 0.997
+    },
+    {
+     "start": 5.64,
+     "end": 5.84,
+     "word": " toggle",
+     "prob": 0.949
+    },
+    {
+     "start": 5.84,
+     "end": 6.04,
+     "word": " the",
+     "prob": 0.986
+    },
+    {
+     "start": 6.04,
+     "end": 6.34,
+     "word": " sidebar",
+     "prob": 0.972
+    },
+    {
+     "start": 6.34,
+     "end": 6.68,
+     "word": " like",
+     "prob": 0.912
+    },
+    {
+     "start": 6.68,
+     "end": 7.18,
+     "word": " this,",
+     "prob": 0.999
+    }
+   ]
+  },
+  {
+   "start": 8.68,
+   "end": 11.4,
+   "text": " or even have a look at all the individual shortcuts.",
+   "words": [
+    {
+     "start": 8.68,
+     "end": 9.16,
+     "word": " or",
+     "prob": 0.976
+    },
+    {
+     "start": 9.16,
+     "end": 9.5,
+     "word": " even",
+     "prob": 0.975
+    },
+    {
+     "start": 9.5,
+     "end": 9.68,
+     "word": " have",
+     "prob": 0.981
+    },
+    {
+     "start": 9.68,
+     "end": 9.8,
+     "word": " a",
+     "prob": 0.991
+    },
+    {
+     "start": 9.8,
+     "end": 9.92,
+     "word": " look",
+     "prob": 0.997
+    },
+    {
+     "start": 9.92,
+     "end": 10.1,
+     "word": " at",
+     "prob": 0.961
+    },
+    {
+     "start": 10.1,
+     "end": 10.34,
+     "word": " all",
+     "prob": 0.996
+    },
+    {
+     "start": 10.34,
+     "end": 10.52,
+     "word": " the",
+     "prob": 0.968
+    },
+    {
+     "start": 10.52,
+     "end": 10.78,
+     "word": " individual",
+     "prob": 0.999
+    },
+    {
+     "start": 10.78,
+     "end": 11.4,
+     "word": " shortcuts.",
+     "prob": 0.998
+    }
+   ]
+  },
+  {
+   "start": 12.08,
+   "end": 13.9,
+   "text": " Hit Control, forward slash,",
+   "words": [
+    {
+     "start": 12.08,
+     "end": 12.22,
+     "word": " Hit",
+     "prob": 0.937
+    },
+    {
+     "start": 12.22,
+     "end": 12.88,
+     "word": " Control,",
+     "prob": 0.282
+    },
+    {
+     "start": 13.24,
+     "end": 13.52,
+     "word": " forward",
+     "prob": 0.78
+    },
+    {
+     "start": 13.52,
+     "end": 13.9,
+     "word": " slash,",
+     "prob": 0.958
+    }
+   ]
+  },
+  {
+   "start": 14.22,
+   "end": 16.72,
+   "text": " or if you're on Mac, hit Command, forward slash.",
+   "words": [
+    {
+     "start": 14.22,
+     "end": 14.34,
+     "word": " or",
+     "prob": 0.997
+    },
+    {
+     "start": 14.34,
+     "end": 14.46,
+     "word": " if",
+     "prob": 0.982
+    },
+    {
+     "start": 14.46,
+     "end": 14.62,
+     "word": " you're",
+     "prob": 0.991
+    },
+    {
+     "start": 14.62,
+     "end": 14.78,
+     "word": " on",
+     "prob": 0.998
+    },
+    {
+     "start": 14.78,
+     "end": 15.1,
+     "word": " Mac,",
+     "prob": 0.958
+    },
+    {
+     "start": 15.44,
+     "end": 15.64,
+     "word": " hit",
+     "prob": 0.989
+    },
+    {
+     "start": 15.64,
+     "end": 15.98,
+     "word": " Command,",
+     "prob": 0.83
+    },
+    {
+     "start": 16.12,
+     "end": 16.34,
+     "word": " forward",
+     "prob": 0.997
+    },
+    {
+     "start": 16.34,
+     "end": 16.72,
+     "word": " slash.",
+     "prob": 0.978
+    }
+   ]
+  },
+  {
+   "start": 17.22,
+   "end": 17.98,
+   "text": " You will then be presented",
+   "words": [
+    {
+     "start": 17.22,
+     "end": 17.3,
+     "word": " You",
+     "prob": 0.872
+    },
+    {
+     "start": 17.3,
+     "end": 17.36,
+     "word": " will",
+     "prob": 0.802
+    },
+    {
+     "start": 17.36,
+     "end": 17.48,
+     "word": " then",
+     "prob": 0.583
+    },
+    {
+     "start": 17.48,
+     "end": 17.64,
+     "word": " be",
+     "prob": 0.996
+    },
+    {
+     "start": 17.64,
+     "end": 17.98,
+     "word": " presented",
+     "prob": 0.998
+    }
+   ]
+  },
+  {
+   "start": 17.98,
+   "end": 19.86,
+   "text": " with something called keyboard shortcuts.",
+   "words": [
+    {
+     "start": 17.98,
+     "end": 18.3,
+     "word": " with",
+     "prob": 0.997
+    },
+    {
+     "start": 18.3,
+     "end": 18.52,
+     "word": " something",
+     "prob": 0.998
+    },
+    {
+     "start": 18.52,
+     "end": 18.96,
+     "word": " called",
+     "prob": 0.997
+    },
+    {
+     "start": 18.96,
+     "end": 19.38,
+     "word": " keyboard",
+     "prob": 0.783
+    },
+    {
+     "start": 19.38,
+     "end": 19.86,
+     "word": " shortcuts.",
+     "prob": 0.998
+    }
+   ]
+  },
+  {
+   "start": 20.36,
+   "end": 22.48,
+   "text": " As you can see, I was just toggling the sidebar.",
+   "words": [
+    {
+     "start": 20.36,
+     "end": 20.56,
+     "word": " As",
+     "prob": 0.999
+    },
+    {
+     "start": 20.56,
+     "end": 20.68,
+     "word": " you",
+     "prob": 1.0
+    },
+    {
+     "start": 20.68,
+     "end": 20.84,
+     "word": " can",
+     "prob": 0.999
+    },
+    {
+     "start": 20.84,
+     "end": 21.04,
+     "word": " see,",
+     "prob": 0.999
+    },
+    {
+     "start": 21.18,
+     "end": 21.32,
+     "word": " I",
+     "prob": 0.999
+    },
+    {
+     "start": 21.32,
+     "end": 21.44,
+     "word": " was",
+     "prob": 0.991
+    },
+    {
+     "start": 21.44,
+     "end": 21.64,
+     "word": " just",
+     "prob": 0.999
+    },
+    {
+     "start": 21.64,
+     "end": 21.98,
+     "word": " toggling",
+     "prob": 0.988
+    },
+    {
+     "start": 21.98,
+     "end": 22.14,
+     "word": " the",
+     "prob": 0.981
+    },
+    {
+     "start": 22.14,
+     "end": 22.48,
+     "word": " sidebar.",
+     "prob": 0.989
+    }
+   ]
+  },
+  {
+   "start": 23.1,
+   "end": 25.38,
+   "text": " We can also do other things such as deleting the chat,",
+   "words": [
+    {
+     "start": 23.1,
+     "end": 23.24,
+     "word": " We",
+     "prob": 0.996
+    },
+    {
+     "start": 23.24,
+     "end": 23.34,
+     "word": " can",
+     "prob": 0.998
+    },
+    {
+     "start": 23.34,
+     "end": 23.52,
+     "word": " also",
+     "prob": 0.999
+    },
+    {
+     "start": 23.52,
+     "end": 23.7,
+     "word": " do",
+     "prob": 0.997
+    },
+    {
+     "start": 23.7,
+     "end": 23.92,
+     "word": " other",
+     "prob": 0.998
+    },
+    {
+     "start": 23.92,
+     "end": 24.22,
+     "word": " things",
+     "prob": 0.999
+    },
+    {
+     "start": 24.22,
+     "end": 24.38,
+     "word": " such",
+     "prob": 0.888
+    },
+    {
+     "start": 24.38,
+     "end": 24.54,
+     "word": " as",
+     "prob": 0.999
+    },
+    {
+     "start": 24.54,
+     "end": 24.84,
+     "word": " deleting",
+     "prob": 0.994
+    },
+    {
+     "start": 24.84,
+     "end": 25.12,
+     "word": " the",
+     "prob": 0.997
+    },
+    {
+     "start": 25.12,
+     "end": 25.38,
+     "word": " chat,",
+     "prob": 0.906
+    }
+   ]
+  },
+  {
+   "start": 25.84,
+   "end": 28.54,
+   "text": " opening a new chat, focusing the chat input,",
+   "words": [
+    {
+     "start": 25.84,
+     "end": 26.2,
+     "word": " opening",
+     "prob": 0.999
+    },
+    {
+     "start": 26.2,
+     "end": 26.38,
+     "word": " a",
+     "prob": 0.997
+    },
+    {
+     "start": 26.38,
+     "end": 26.58,
+     "word": " new",
+     "prob": 0.999
+    },
+    {
+     "start": 26.58,
+     "end": 26.88,
+     "word": " chat,",
+     "prob": 0.992
+    },
+    {
+     "start": 27.32,
+     "end": 27.68,
+     "word": " focusing",
+     "prob": 0.995
+    },
+    {
+     "start": 27.68,
+     "end": 27.94,
+     "word": " the",
+     "prob": 0.998
+    },
+    {
+     "start": 27.94,
+     "end": 28.18,
+     "word": " chat",
+     "prob": 0.98
+    },
+    {
+     "start": 28.18,
+     "end": 28.54,
+     "word": " input,",
+     "prob": 0.965
+    }
+   ]
+  },
+  {
+   "start": 28.54,
+   "end": 31.64,
+   "text": " or even copying the last response or the last code block.",
+   "words": [
+    {
+     "start": 28.54,
+     "end": 29.08,
+     "word": " or",
+     "prob": 0.93
+    },
+    {
+     "start": 29.08,
+     "end": 29.28,
+     "word": " even",
+     "prob": 0.996
+    },
+    {
+     "start": 29.28,
+     "end": 29.6,
+     "word": " copying",
+     "prob": 0.99
+    },
+    {
+     "start": 29.6,
+     "end": 29.8,
+     "word": " the",
+     "prob": 0.996
+    },
+    {
+     "start": 29.8,
+     "end": 30.02,
+     "word": " last",
+     "prob": 0.962
+    },
+    {
+     "start": 30.02,
+     "end": 30.4,
+     "word": " response",
+     "prob": 0.969
+    },
+    {
+     "start": 30.4,
+     "end": 30.8,
+     "word": " or",
+     "prob": 0.941
+    },
+    {
+     "start": 30.8,
+     "end": 30.88,
+     "word": " the",
+     "prob": 0.991
+    },
+    {
+     "start": 30.88,
+     "end": 31.12,
+     "word": " last",
+     "prob": 0.994
+    },
+    {
+     "start": 31.12,
+     "end": 31.34,
+     "word": " code",
+     "prob": 0.984
+    },
+    {
+     "start": 31.34,
+     "end": 31.64,
+     "word": " block.",
+     "prob": 0.981
+    }
+   ]
+  },
+  {
+   "start": 32.14,
+   "end": 33.14,
+   "text": " Hopefully, this will help you",
+   "words": [
+    {
+     "start": 32.14,
+     "end": 32.38,
+     "word": " Hopefully,",
+     "prob": 0.991
+    },
+    {
+     "start": 32.44,
+     "end": 32.64,
+     "word": " this",
+     "prob": 0.997
+    },
+    {
+     "start": 32.64,
+     "end": 32.8,
+     "word": " will",
+     "prob": 0.993
+    },
+    {
+     "start": 32.8,
+     "end": 32.92,
+     "word": " help",
+     "prob": 0.998
+    },
+    {
+     "start": 32.92,
+     "end": 33.14,
+     "word": " you",
+     "prob": 0.998
+    }
+   ]
+  },
+  {
+   "start": 33.14,
+   "end": 34.72,
+   "text": " to speed up your ChatGPT workplace.",
+   "words": [
+    {
+     "start": 33.14,
+     "end": 33.26,
+     "word": " to",
+     "prob": 0.993
+    },
+    {
+     "start": 33.26,
+     "end": 33.46,
+     "word": " speed",
+     "prob": 0.998
+    },
+    {
+     "start": 33.46,
+     "end": 33.58,
+     "word": " up",
+     "prob": 0.996
+    },
+    {
+     "start": 33.58,
+     "end": 33.74,
+     "word": " your",
+     "prob": 0.997
+    },
+    {
+     "start": 33.74,
+     "end": 34.3,
+     "word": " ChatGPT",
+     "prob": 0.378
+    },
+    {
+     "start": 34.3,
+     "end": 34.72,
+     "word": " workplace.",
+     "prob": 0.516
+    }
+   ]
+  }
+ ]
+}

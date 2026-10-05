@@ -1,0 +1,151 @@
+1
+00:00:00,000 --> 00:00:02,440
+So ChatGPT now has an additional functionality
+
+2
+00:00:02,440 --> 00:00:03,940
+called Scheduled Tasks.
+
+3
+00:00:04,360 --> 00:00:06,540
+This allows you to set up recurring work,
+
+4
+00:00:06,620 --> 00:00:08,180
+whether it be daily or weekly,
+
+5
+00:00:08,200 --> 00:00:11,160
+so that you can automate some of your day-to-day activities
+
+6
+00:00:11,160 --> 00:00:12,360
+using ChatGPT.
+
+7
+00:00:12,660 --> 00:00:14,080
+To utilise this feature, what you need to do
+
+8
+00:00:14,080 --> 00:00:15,340
+is go into the top left,
+
+9
+00:00:15,560 --> 00:00:18,240
+and then click on GPT-4o with Scheduled Tasks.
+
+10
+00:00:18,980 --> 00:00:22,360
+Could say, let's create a task every day
+
+11
+00:00:22,780 --> 00:00:25,320
+to make a social media post
+
+12
+00:00:26,120 --> 00:00:30,240
+for my data engineering consultancy.
+
+13
+00:00:31,520 --> 00:00:39,360
+I want to make a new post at 8am every day.
+
+14
+00:00:40,540 --> 00:00:42,300
+And then ChatGPT task is gonna realise
+
+15
+00:00:42,300 --> 00:00:44,000
+that this is a task that needs to be done.
+
+16
+00:00:44,160 --> 00:00:45,900
+So you can see it says, create a task,
+
+17
+00:00:46,120 --> 00:00:50,520
+and it's going to remind us every day at 8am.
+
+18
+00:00:50,680 --> 00:00:51,820
+If you click on the triple dots,
+
+19
+00:00:51,900 --> 00:00:54,540
+you can either pause the task, edit the task,
+
+20
+00:00:54,540 --> 00:00:56,500
+and you can see this is the name of the task.
+
+21
+00:00:57,000 --> 00:00:59,500
+The instructions tell me to make a social media post,
+
+22
+00:01:00,100 --> 00:01:01,040
+and we could also say,
+
+23
+00:01:01,420 --> 00:01:05,780
+we could change this to generate a social media post
+
+24
+00:01:06,880 --> 00:01:08,560
+for my data engineering consultancy.
+
+25
+00:01:09,060 --> 00:01:10,100
+You can change the schedule
+
+26
+00:01:10,100 --> 00:01:12,820
+to daily, weekly, monthly, annually, or custom.
+
+27
+00:01:13,520 --> 00:01:14,420
+And then as well as that,
+
+28
+00:01:14,500 --> 00:01:16,680
+the other thing you'll want to do to activate this
+
+29
+00:01:16,680 --> 00:01:20,400
+is make sure that you have desktop notifications turned on.
+
+30
+00:01:20,640 --> 00:01:21,920
+So remember to click allow there.
+
+31
+00:01:22,100 --> 00:01:23,620
+Your notifications are turned on.
+
+32
+00:01:23,620 --> 00:01:25,500
+Also, the other place you'll need to go
+
+33
+00:01:25,500 --> 00:01:26,960
+to see all of your tasks
+
+34
+00:01:26,960 --> 00:01:29,220
+is go on your profile icon in the top right,
+
+35
+00:01:29,540 --> 00:01:31,440
+click on that, go to tasks in beta,
+
+36
+00:01:31,840 --> 00:01:33,500
+and then you can see these are all the tasks
+
+37
+00:01:33,500 --> 00:01:35,880
+that you've got where you can pause or delete a task,
+
+38
+00:01:36,200 --> 00:01:38,020
+or you can edit a task as well there.

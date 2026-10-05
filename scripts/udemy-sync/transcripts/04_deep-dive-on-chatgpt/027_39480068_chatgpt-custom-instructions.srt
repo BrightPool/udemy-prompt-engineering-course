@@ -1,0 +1,151 @@
+1
+00:00:00,000 --> 00:00:01,720
+If possible, to customize ChatGPT,
+
+2
+00:00:02,180 --> 00:00:04,000
+to give it more information about yourself
+
+3
+00:00:04,000 --> 00:00:05,540
+and to make sure that the responses
+
+4
+00:00:05,540 --> 00:00:06,920
+are a bit more tailored to you.
+
+5
+00:00:07,260 --> 00:00:08,000
+In order to do this,
+
+6
+00:00:08,020 --> 00:00:09,940
+we're gonna leverage something called custom instructions.
+
+7
+00:00:10,400 --> 00:00:12,640
+If you go into the top right of your page,
+
+8
+00:00:12,920 --> 00:00:14,500
+click on your profile icon.
+
+9
+00:00:15,000 --> 00:00:16,220
+After that, I want you to go
+
+10
+00:00:16,220 --> 00:00:18,120
+and click on Customize ChatGPT.
+
+11
+00:00:19,100 --> 00:00:21,440
+You can then go and click on the bottom left,
+
+12
+00:00:21,580 --> 00:00:23,040
+click on Enable for New Chats,
+
+13
+00:00:23,380 --> 00:00:26,260
+and then I can do things such as tell ChatGPT my name,
+
+14
+00:00:26,260 --> 00:00:27,220
+what I do,
+
+15
+00:00:28,000 --> 00:00:30,720
+and you can also give it some specific traits.
+
+16
+00:00:30,980 --> 00:00:32,840
+So how do you want ChatGPT to respond?
+
+17
+00:00:33,300 --> 00:00:34,360
+And is there anything else
+
+18
+00:00:34,360 --> 00:00:36,420
+that you want ChatGPT to know about you?
+
+19
+00:00:36,940 --> 00:00:38,180
+You can go to the Advanced section
+
+20
+00:00:38,180 --> 00:00:40,200
+and you can also change or toggle
+
+21
+00:00:40,200 --> 00:00:41,980
+what type of capabilities
+
+22
+00:00:41,980 --> 00:00:44,380
+you want ChatGPT to have access to.
+
+23
+00:00:44,480 --> 00:00:46,100
+So for example, web search,
+
+24
+00:00:46,500 --> 00:00:48,040
+Dalet, which would produce images,
+
+25
+00:00:48,660 --> 00:00:50,980
+code, i.e. can run and execute code,
+
+26
+00:00:51,720 --> 00:00:53,300
+canvas, and then you've also got advanced voice.
+
+27
+00:00:53,780 --> 00:00:55,780
+So what I want you to do is spend a couple of minutes
+
+28
+00:00:55,780 --> 00:00:57,480
+and it's thinking about what kind of traits
+
+29
+00:00:57,480 --> 00:00:59,620
+do you want to have ChatGPT using?
+
+30
+00:01:00,060 --> 00:01:02,220
+And also, is there anything else that you want to add in here
+
+31
+00:01:02,220 --> 00:01:04,900
+so that ChatGPT has more information about you?
+
+32
+00:01:05,240 --> 00:01:06,440
+Doing that, you can just click Save,
+
+33
+00:01:06,920 --> 00:01:09,240
+and then that'll basically customize your ChatGPT
+
+34
+00:01:09,240 --> 00:01:10,740
+for all of your future messages.
+
+35
+00:01:11,080 --> 00:01:12,040
+In the next video, we're gonna look at
+
+36
+00:01:12,040 --> 00:01:13,900
+how you can utilize ChatGPT memory
+
+37
+00:01:13,900 --> 00:01:16,080
+so that ChatGPT can understand information
+
+38
+00:01:16,080 --> 00:01:18,100
+across lots of your different chat histories.

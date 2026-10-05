@@ -1,0 +1,511 @@
+1
+00:00:00,000 --> 00:00:04,320
+Hey, so OpenAI released Canvas in October the 3rd, 2024.
+
+2
+00:00:04,640 --> 00:00:07,100
+I believe their goal is to compete against directly
+
+3
+00:00:07,100 --> 00:00:10,560
+with Claude, which provides an interactive coding editor,
+
+4
+00:00:10,560 --> 00:00:12,140
+which is a lot more collaborative
+
+5
+00:00:12,140 --> 00:00:15,140
+than trying to get everything done in the chat window.
+
+6
+00:00:15,460 --> 00:00:17,680
+Canvas is a great way to write code
+
+7
+00:00:17,680 --> 00:00:22,020
+and also to do article generation or content creation.
+
+8
+00:00:22,240 --> 00:00:24,080
+The OpenAI team decided to come up
+
+9
+00:00:24,080 --> 00:00:26,940
+with a different user interface for how you can write code
+
+10
+00:00:26,940 --> 00:00:28,940
+or how you can generate these blog posts
+
+11
+00:00:29,340 --> 00:00:30,620
+and they called it Canvas.
+
+12
+00:00:30,980 --> 00:00:32,840
+And basically it provides a bunch of shortcuts.
+
+13
+00:00:33,140 --> 00:00:35,360
+So for writing, it suggests like edits,
+
+14
+00:00:35,660 --> 00:00:37,800
+that you can adjust the length, change the reading level,
+
+15
+00:00:38,160 --> 00:00:40,360
+you can add a final polish or add emojis.
+
+16
+00:00:40,720 --> 00:00:42,240
+And this is what an example of it is
+
+17
+00:00:42,240 --> 00:00:44,100
+where you've got like this kind of full page
+
+18
+00:00:44,540 --> 00:00:46,940
+where you can edit a specific artefact,
+
+19
+00:00:47,400 --> 00:00:49,560
+which is very similar to a Claude artefact, right?
+
+20
+00:00:49,600 --> 00:00:51,840
+So it's a canvas and you can increase
+
+21
+00:00:51,840 --> 00:00:53,060
+or decrease the reading level.
+
+22
+00:00:53,320 --> 00:00:55,960
+And they've also got the ability to do this with Canvas.
+
+23
+00:00:56,020 --> 00:00:57,500
+So we can add specific bits
+
+24
+00:00:57,500 --> 00:01:01,420
+and these additional methods or add in this type of stuff.
+
+25
+00:01:01,580 --> 00:01:03,040
+And basically what they're trying to do
+
+26
+00:01:03,040 --> 00:01:05,000
+is come after the coding editor market
+
+27
+00:01:05,000 --> 00:01:06,840
+where you've got an interactive canvas
+
+28
+00:01:06,840 --> 00:01:08,240
+that you could then share with people
+
+29
+00:01:08,240 --> 00:01:09,960
+and you could do things like code review
+
+30
+00:01:09,960 --> 00:01:11,820
+or port to a different language or fix bugs,
+
+31
+00:01:11,940 --> 00:01:13,160
+add logs or add comments.
+
+32
+00:01:13,760 --> 00:01:16,240
+So Canvas is a different way of writing code
+
+33
+00:01:16,240 --> 00:01:17,820
+directly inside of chat GPT.
+
+34
+00:01:18,480 --> 00:01:20,260
+To turn on Canvas, all you need to do
+
+35
+00:01:20,260 --> 00:01:24,840
+is go into the top left and go to GPT40 with Canvas.
+
+36
+00:01:24,860 --> 00:01:26,020
+And this is in beta at the moment.
+
+37
+00:01:26,020 --> 00:01:27,700
+And then you can say, for example,
+
+38
+00:01:27,840 --> 00:01:31,980
+write a web server in Node.js.
+
+39
+00:01:32,720 --> 00:01:35,820
+And what it will do is it will actually generate an artefact
+
+40
+00:01:35,820 --> 00:01:36,900
+and it looks slightly different.
+
+41
+00:01:37,080 --> 00:01:37,800
+So you can see here,
+
+42
+00:01:37,820 --> 00:01:40,600
+you've got this chat window on the left-hand side.
+
+43
+00:01:40,960 --> 00:01:42,380
+And also if we have a look here,
+
+44
+00:01:42,400 --> 00:01:44,240
+we've got code reviews, port to a language,
+
+45
+00:01:44,400 --> 00:01:46,740
+fix bugs, add logs and comments like we saw earlier.
+
+46
+00:01:47,100 --> 00:01:49,500
+So for example, I could port this to TypeScript
+
+47
+00:01:49,940 --> 00:01:51,720
+and then I'm just gonna click on this button
+
+48
+00:01:51,720 --> 00:01:53,660
+and then it's gonna then know
+
+49
+00:01:53,660 --> 00:01:55,880
+that I want this web server to be written in TypeScript.
+
+50
+00:01:56,600 --> 00:01:57,700
+And I can also chat with it here
+
+51
+00:01:57,700 --> 00:02:00,880
+so I can say I want you to create a couple of endpoints.
+
+52
+00:02:01,900 --> 00:02:04,980
+So it's basically a full screen editor experience
+
+53
+00:02:05,500 --> 00:02:08,860
+where we can basically use a Canvas to do a specific task.
+
+54
+00:02:09,140 --> 00:02:11,120
+And you can still interact with the chat
+
+55
+00:02:11,120 --> 00:02:12,080
+on the left-hand side.
+
+56
+00:02:12,380 --> 00:02:13,720
+And you've got these keyboard shortcuts.
+
+57
+00:02:14,180 --> 00:02:15,820
+So we could say, fix bugs or add logs.
+
+58
+00:02:16,240 --> 00:02:17,760
+So let's go and add logs, for example.
+
+59
+00:02:18,160 --> 00:02:19,600
+And then it's just basically said,
+
+60
+00:02:19,660 --> 00:02:21,200
+I want you to add some endpoints.
+
+61
+00:02:21,540 --> 00:02:23,140
+And now we're adding some logging as well.
+
+62
+00:02:23,140 --> 00:02:24,920
+So we've got some console.logs,
+
+63
+00:02:24,920 --> 00:02:28,320
+which show what's gonna happen for those specific endpoints.
+
+64
+00:02:29,080 --> 00:02:30,120
+So yeah, so that's Canvas.
+
+65
+00:02:30,300 --> 00:02:31,720
+And obviously if we close this down,
+
+66
+00:02:32,020 --> 00:02:33,980
+you'll see that it falls in here.
+
+67
+00:02:34,260 --> 00:02:36,400
+And then we could also generate a different Canvas.
+
+68
+00:02:36,540 --> 00:02:42,420
+So I could say now I want you to create a blog post
+
+69
+00:02:42,420 --> 00:02:46,900
+on the benefits of using Node.js versus,
+
+70
+00:02:47,160 --> 00:02:49,500
+I don't know, we'll say PHP.
+
+71
+00:02:51,380 --> 00:02:53,840
+And now it's generated a different type of Canvas.
+
+72
+00:02:54,580 --> 00:02:57,860
+And in this Canvas, you have the ability to,
+
+73
+00:02:58,020 --> 00:02:59,280
+if we have a look at the keyboard shortcuts,
+
+74
+00:02:59,440 --> 00:03:00,700
+as often this is generated,
+
+75
+00:03:01,200 --> 00:03:02,720
+you'll see that these keyboard shortcuts,
+
+76
+00:03:02,880 --> 00:03:04,680
+you can tell it to suggest edits
+
+77
+00:03:04,680 --> 00:03:07,580
+where it's actually commenting specifically on the piece.
+
+78
+00:03:07,940 --> 00:03:08,960
+So it's very collaborative.
+
+79
+00:03:09,140 --> 00:03:10,820
+We could apply these edits directly.
+
+80
+00:03:11,580 --> 00:03:12,700
+And also if we have a look,
+
+81
+00:03:12,780 --> 00:03:14,260
+we can do things like we can adjust the length
+
+82
+00:03:14,260 --> 00:03:17,400
+so we can make it longer or we can make it shorter.
+
+83
+00:03:17,860 --> 00:03:20,040
+And we can do things like adjust the reading level.
+
+84
+00:03:20,040 --> 00:03:23,040
+So we can make it kindergarten versus graduate school.
+
+85
+00:03:23,520 --> 00:03:25,500
+And so there's lots of different things that we can do.
+
+86
+00:03:25,720 --> 00:03:28,020
+We can also add a final polish or add emojis.
+
+87
+00:03:28,060 --> 00:03:29,440
+Just like in the previous coding editor,
+
+88
+00:03:29,480 --> 00:03:34,800
+we can also say, I want you to continue with the blog post.
+
+89
+00:03:35,260 --> 00:03:37,220
+And it's able to take chat commands,
+
+90
+00:03:37,540 --> 00:03:38,500
+but you can see here,
+
+91
+00:03:38,520 --> 00:03:40,640
+it's actually a regeneration from the top down.
+
+92
+00:03:40,780 --> 00:03:42,360
+So this is a potential limitation,
+
+93
+00:03:42,860 --> 00:03:44,980
+but it should then make more information.
+
+94
+00:03:45,200 --> 00:03:45,620
+So you can see here,
+
+95
+00:03:45,620 --> 00:03:47,320
+we've got a little bit more of a conclusion.
+
+96
+00:03:48,220 --> 00:03:49,460
+We can also tell it to rewrite it.
+
+97
+00:03:49,520 --> 00:03:50,560
+We can apply these changes.
+
+98
+00:03:51,020 --> 00:03:54,020
+And also the other things that we can do is in the top,
+
+99
+00:03:54,160 --> 00:03:55,700
+we can also copy it as well.
+
+100
+00:03:56,100 --> 00:03:58,740
+And we can also see the changes that have happened.
+
+101
+00:03:59,140 --> 00:04:00,380
+And we can go back and look
+
+102
+00:04:00,380 --> 00:04:02,180
+and go through the change history.
+
+103
+00:04:02,700 --> 00:04:04,700
+So you've got some version control in there
+
+104
+00:04:04,700 --> 00:04:08,000
+and you can also click on copy and copy that.
+
+105
+00:04:08,100 --> 00:04:09,000
+If we now go back,
+
+106
+00:04:09,560 --> 00:04:11,220
+you can now see we've got two canvases.
+
+107
+00:04:11,460 --> 00:04:13,580
+We've got no JS, PHP benefits.
+
+108
+00:04:13,580 --> 00:04:15,760
+And I can also dive back into this canvas.
+
+109
+00:04:16,360 --> 00:04:18,320
+So they are creating these kind of like artifacts
+
+110
+00:04:18,320 --> 00:04:20,060
+and on the top, you'll see, we can see,
+
+111
+00:04:20,060 --> 00:04:21,420
+we've got these different canvases
+
+112
+00:04:21,420 --> 00:04:22,820
+that we can go into at any time.
+
+113
+00:04:23,180 --> 00:04:25,100
+And then if I go back and away from this,
+
+114
+00:04:25,100 --> 00:04:27,160
+then we can see I've got three canvases,
+
+115
+00:04:27,240 --> 00:04:29,820
+which are basically very similar to Claude artifacts.
+
+116
+00:04:30,220 --> 00:04:31,980
+So hopefully this gives you a good understanding
+
+117
+00:04:31,980 --> 00:04:33,360
+of what a canvas is
+
+118
+00:04:33,360 --> 00:04:35,000
+and how you might decide to use that.
+
+119
+00:04:35,100 --> 00:04:36,480
+It's more of a collaborative tool.
+
+120
+00:04:36,740 --> 00:04:40,600
+I see OpenAI trying to come after the coding editor,
+
+121
+00:04:40,980 --> 00:04:42,400
+the writing editor experience
+
+122
+00:04:42,400 --> 00:04:44,020
+directly inside of their platform.
+
+123
+00:04:44,380 --> 00:04:45,700
+I think that's the play here.
+
+124
+00:04:46,000 --> 00:04:48,520
+And I can see that they could maybe make this multiplayer
+
+125
+00:04:49,020 --> 00:04:50,860
+so that you could add all these friends
+
+126
+00:04:50,860 --> 00:04:53,100
+or these colleagues and you could communicate
+
+127
+00:04:53,100 --> 00:04:54,960
+and work on a piece of code
+
+128
+00:04:54,960 --> 00:04:58,640
+or work on a piece of content collaboratively using AI.

@@ -1,0 +1,719 @@
+1
+00:00:00,000 --> 00:00:03,360
+In this video you're gonna explore ChatGPT agent mode.
+
+2
+00:00:03,660 --> 00:00:06,000
+This came out and basically it allows you
+
+3
+00:00:06,000 --> 00:00:10,820
+to combine computer use so ChatGPT can spin up a computer
+
+4
+00:00:11,440 --> 00:00:13,660
+and then it can do operations on that.
+
+5
+00:00:13,900 --> 00:00:18,600
+It also has access to a browser so you can technically go
+
+6
+00:00:18,600 --> 00:00:21,360
+and tell it to autonomously do some web search
+
+7
+00:00:21,360 --> 00:00:24,120
+or some manual data entry and if you give it
+
+8
+00:00:24,120 --> 00:00:27,160
+some of the right logins it can do work on your behalf.
+
+9
+00:00:27,800 --> 00:00:29,460
+Let's have a look at how you can access this
+
+10
+00:00:29,460 --> 00:00:30,480
+inside of ChatGPT.
+
+11
+00:00:31,220 --> 00:00:34,520
+So go to chatgpt.com and what you'll need to do
+
+12
+00:00:34,520 --> 00:00:37,980
+is click on the plus symbol and then turn on agent mode.
+
+13
+00:00:38,420 --> 00:00:40,160
+Now you can see when you turn on agent mode
+
+14
+00:00:40,160 --> 00:00:42,440
+you have a certain number of credits.
+
+15
+00:00:42,940 --> 00:00:45,020
+In my case I've got 34 that remain
+
+16
+00:00:45,020 --> 00:00:48,340
+and that will be reset on August the 23rd.
+
+17
+00:00:48,560 --> 00:00:50,380
+So you get a certain amount of credits each month
+
+18
+00:00:50,380 --> 00:00:52,740
+and then once you turn on agent mode
+
+19
+00:00:52,740 --> 00:00:54,800
+it actually has a bunch of recommendations
+
+20
+00:00:54,800 --> 00:00:56,000
+that you can see here.
+
+21
+00:00:56,180 --> 00:00:58,160
+For example we could create a presentation
+
+22
+00:00:58,620 --> 00:01:02,040
+so we could do develop a go to mark strategy
+
+23
+00:01:02,680 --> 00:01:04,560
+for robotic pet launch.
+
+24
+00:01:04,720 --> 00:01:06,040
+So I'm gonna click that, I'm gonna click
+
+25
+00:01:06,380 --> 00:01:08,900
+and hit enter on this and then what's gonna happen
+
+26
+00:01:08,900 --> 00:01:12,280
+behind the scenes is that ChatGPT is gonna set up
+
+27
+00:01:12,280 --> 00:01:14,820
+its own desktop and that desktop is essentially
+
+28
+00:01:14,820 --> 00:01:17,600
+a Linux machine that lives on the cloud
+
+29
+00:01:17,600 --> 00:01:20,260
+and then because of that it can access
+
+30
+00:01:20,260 --> 00:01:23,600
+to things like Python using a browser.
+
+31
+00:01:24,180 --> 00:01:28,000
+Also as you can see here give you a live preview
+
+32
+00:01:28,000 --> 00:01:31,200
+of what ChatGPT is doing in the flow.
+
+33
+00:01:31,540 --> 00:01:33,320
+So you can see it's doing some searching,
+
+34
+00:01:33,840 --> 00:01:35,820
+it's then going to do a reading mode
+
+35
+00:01:35,820 --> 00:01:37,600
+and if you look on the bottom of this
+
+36
+00:01:37,600 --> 00:01:40,740
+we can actually scroll back and you can see
+
+37
+00:01:40,740 --> 00:01:44,880
+specifically what different bits the agent decided to take
+
+38
+00:01:44,880 --> 00:01:46,100
+and that's called a trajectory.
+
+39
+00:01:46,600 --> 00:01:49,420
+So what trajectory did the agent take?
+
+40
+00:01:50,040 --> 00:01:52,060
+Now interestingly go to the triple dots,
+
+41
+00:01:52,060 --> 00:01:55,040
+click on that and you'll see there's three things
+
+42
+00:01:55,040 --> 00:01:55,700
+here at the moment.
+
+43
+00:01:56,560 --> 00:01:58,620
+You can see the activities, it gives you a breakdown
+
+44
+00:01:58,620 --> 00:02:02,440
+of what this specific version has worked on.
+
+45
+00:02:02,800 --> 00:02:05,520
+That's quite useful to see how often it's searching,
+
+46
+00:02:05,560 --> 00:02:06,500
+how often it's reviewing.
+
+47
+00:02:07,160 --> 00:02:10,320
+If we go and do stop then obviously that will stop
+
+48
+00:02:10,320 --> 00:02:12,960
+the autonomous agent and the other thing
+
+49
+00:02:12,960 --> 00:02:14,920
+that we can do is we can take over the browser.
+
+50
+00:02:15,380 --> 00:02:18,080
+Now I'm gonna show you one that I did earlier
+
+51
+00:02:18,080 --> 00:02:19,500
+so let me go and show you that.
+
+52
+00:02:19,500 --> 00:02:24,620
+So I've got a broadband affordability analysis
+
+53
+00:02:25,060 --> 00:02:28,500
+and you can see that basically it went and worked
+
+54
+00:02:28,500 --> 00:02:32,800
+for 17 minutes and actually built a bunch of slides
+
+55
+00:02:32,800 --> 00:02:35,860
+and you can see it going and working on the terminal here
+
+56
+00:02:35,860 --> 00:02:38,840
+and doing lots of code and generating kind of
+
+57
+00:02:38,840 --> 00:02:42,060
+different types of visualizations and it worked
+
+58
+00:02:42,060 --> 00:02:44,620
+and then it actually created a presentation
+
+59
+00:02:44,620 --> 00:02:46,920
+like a download this as a PDF.
+
+60
+00:02:47,520 --> 00:02:50,300
+So again this is the kind of thing that you get
+
+61
+00:02:50,300 --> 00:02:53,000
+when you can use chatgbt to generate presentations
+
+62
+00:02:53,480 --> 00:02:55,780
+and you can see this is what it generated
+
+63
+00:02:55,780 --> 00:02:58,900
+on different types of broadband and the monthly cost
+
+64
+00:02:58,900 --> 00:03:00,000
+and all that kind of stuff.
+
+65
+00:03:00,100 --> 00:03:02,020
+That's what a report looks like when they're finished
+
+66
+00:03:02,020 --> 00:03:04,120
+now obviously if we go to the go to market strategy
+
+67
+00:03:04,120 --> 00:03:06,900
+you can see that chatgbt is working
+
+68
+00:03:07,460 --> 00:03:10,100
+and it's gonna take a while so now it's actually
+
+69
+00:03:10,100 --> 00:03:11,940
+in the machine and it's running lots of different
+
+70
+00:03:11,940 --> 00:03:14,660
+types of commands so that's quite useful for seeing
+
+71
+00:03:14,660 --> 00:03:16,980
+what's happening on the activity view
+
+72
+00:03:16,980 --> 00:03:18,840
+and obviously if you want you can look
+
+73
+00:03:18,840 --> 00:03:20,100
+at the desktop view as well.
+
+74
+00:03:20,780 --> 00:03:22,260
+Great so we've gone through,
+
+75
+00:03:22,520 --> 00:03:24,540
+I've shown you a report at the end
+
+76
+00:03:25,150 --> 00:03:27,140
+and obviously we could wait until this report's done
+
+77
+00:03:27,140 --> 00:03:29,620
+but it's gonna roughly produce some kind of PowerPoint.
+
+78
+00:03:29,860 --> 00:03:32,340
+The key insight I want you to take away from this
+
+79
+00:03:32,340 --> 00:03:34,180
+is that you could use this for anything
+
+80
+00:03:34,820 --> 00:03:38,300
+and we could go a step further and we could not only
+
+81
+00:03:38,300 --> 00:03:42,120
+use web search and Microsoft Excel and Microsoft PowerPoint
+
+82
+00:03:42,120 --> 00:03:45,360
+but we can also give chatgbt agent access
+
+83
+00:03:45,360 --> 00:03:48,780
+to our own websites so if I go and create a new chat
+
+84
+00:03:49,440 --> 00:03:52,500
+and then we'll go back and we'll go into agent mode
+
+85
+00:03:52,500 --> 00:03:54,280
+and then what I'm gonna do is I'm gonna click,
+
+86
+00:03:54,300 --> 00:03:56,340
+I'm actually gonna just not use the suggestion
+
+87
+00:03:56,340 --> 00:04:00,540
+so I'm gonna say I want to spin up a virtual VM
+
+88
+00:04:01,120 --> 00:04:03,740
+and I will log into a website.
+
+89
+00:04:04,940 --> 00:04:06,960
+And what I'm gonna show you is this other feature
+
+90
+00:04:06,960 --> 00:04:09,040
+of agent mode that we haven't seen yet.
+
+91
+00:04:09,040 --> 00:04:12,000
+Right to go into the triple dots, click take over browser
+
+92
+00:04:12,000 --> 00:04:13,440
+and then you can control the browser.
+
+93
+00:04:13,440 --> 00:04:16,860
+So I can go in here, I can sign into x.com
+
+94
+00:04:17,440 --> 00:04:20,480
+and if you've already signed in on your chatgbt account
+
+95
+00:04:20,480 --> 00:04:22,420
+then it should have access to that.
+
+96
+00:04:22,780 --> 00:04:25,340
+So you can see here I actually have access to this
+
+97
+00:04:25,340 --> 00:04:26,880
+and we can go and like this post.
+
+98
+00:04:27,780 --> 00:04:29,460
+So I've signed in with my accounts,
+
+99
+00:04:29,600 --> 00:04:31,340
+obviously you could sign into anything you want here,
+
+100
+00:04:31,420 --> 00:04:33,220
+you could go to Facebook, what have you.
+
+101
+00:04:33,700 --> 00:04:35,560
+That's the power of this is you just sign in
+
+102
+00:04:35,560 --> 00:04:36,720
+and then it's gonna remember you.
+
+103
+00:04:36,720 --> 00:04:39,040
+Click on the bottom right, finish controlling.
+
+104
+00:04:39,880 --> 00:04:42,520
+Then we can say I want you to create three posts
+
+105
+00:04:42,520 --> 00:04:48,420
+on x.com saying hello world from chatgbt agent mode.
+
+106
+00:04:49,080 --> 00:04:50,660
+Okay, so here's the powerful thing.
+
+107
+00:04:50,940 --> 00:04:54,740
+Now it's able to use logins that you've previously provided
+
+108
+00:04:55,400 --> 00:04:58,400
+and you can basically have that so it can do some work.
+
+109
+00:04:58,660 --> 00:05:01,460
+So it's decided that that page is Facebook.com
+
+110
+00:05:01,460 --> 00:05:03,440
+but you can now see if it's gone to x.com
+
+111
+00:05:03,960 --> 00:05:06,840
+and we can actually see it's gonna go up here
+
+112
+00:05:06,840 --> 00:05:07,780
+and it's gonna compose.
+
+113
+00:05:08,400 --> 00:05:11,100
+You will see that it asks you shall I click to publish it
+
+114
+00:05:11,100 --> 00:05:12,140
+and we'll say continue.
+
+115
+00:05:12,880 --> 00:05:15,340
+So sometimes it will ask for approval
+
+116
+00:05:15,900 --> 00:05:17,140
+which is absolutely fine.
+
+117
+00:05:18,420 --> 00:05:21,060
+We could probably be more specific with the prompt
+
+118
+00:05:21,060 --> 00:05:23,960
+like if you have to do anything then don't worry about it
+
+119
+00:05:23,960 --> 00:05:26,900
+and essentially yeah like you can see here
+
+120
+00:05:26,900 --> 00:05:29,120
+shall I click to publish it and there you go.
+
+121
+00:05:29,340 --> 00:05:32,000
+So now it's working and the second post is here
+
+122
+00:05:32,000 --> 00:05:34,800
+and again yeah you can rate these responses.
+
+123
+00:05:35,800 --> 00:05:36,580
+We can click to continue.
+
+124
+00:05:36,760 --> 00:05:39,300
+I'll say continue and post without permission.
+
+125
+00:05:39,420 --> 00:05:40,480
+Let's see if it does that
+
+126
+00:05:40,480 --> 00:05:42,080
+or whether it actually needs permission.
+
+127
+00:05:42,660 --> 00:05:44,060
+So I'm gonna just tell it continue
+
+128
+00:05:44,060 --> 00:05:45,620
+and post without permission.
+
+129
+00:05:46,300 --> 00:05:47,640
+So let's see, let's have a look.
+
+130
+00:05:51,800 --> 00:05:53,840
+Yeah, so you can see without further confirmation
+
+131
+00:05:54,480 --> 00:05:56,800
+prevents yeah so would you like to modify it?
+
+132
+00:05:56,920 --> 00:06:00,020
+So yeah, yeah modify it and make it unique
+
+133
+00:06:01,300 --> 00:06:02,660
+for three messages.
+
+134
+00:06:03,580 --> 00:06:08,020
+But we'll do five messages then and don't ask, just do.
+
+135
+00:06:08,500 --> 00:06:10,140
+So we're just gonna use some prompting techniques
+
+136
+00:06:10,140 --> 00:06:12,280
+to specifically lock it in and just tell it
+
+137
+00:06:12,280 --> 00:06:13,920
+it's absolutely fine, go do the work.
+
+138
+00:06:14,220 --> 00:06:15,180
+And that'd be the type of thing
+
+139
+00:06:15,180 --> 00:06:16,700
+that you'll put at the initial prompt
+
+140
+00:06:16,700 --> 00:06:18,840
+when you're doing whatever task you need to do.
+
+141
+00:06:19,040 --> 00:06:21,520
+It's just telling it don't ask for permission
+
+142
+00:06:21,520 --> 00:06:22,640
+or just do the work.
+
+143
+00:06:22,740 --> 00:06:24,480
+Now obviously you've got to be very careful with that
+
+144
+00:06:24,480 --> 00:06:26,420
+because you're giving a lot more agency
+
+145
+00:06:26,960 --> 00:06:29,380
+and you're giving a lot of delegation to agents
+
+146
+00:06:29,800 --> 00:06:32,760
+but just be aware that you can often open AI
+
+147
+00:06:32,760 --> 00:06:34,640
+will respect your prompts if you're saying
+
+148
+00:06:34,640 --> 00:06:35,580
+just do the work.
+
+149
+00:06:36,220 --> 00:06:38,620
+So I'm gonna go and open a fresh tab
+
+150
+00:06:38,620 --> 00:06:43,040
+and have a look on x.com and let's see what we've got.
+
+151
+00:06:43,180 --> 00:06:46,460
+So we've got one, we've got two, how are we doing?
+
+152
+00:06:46,700 --> 00:06:49,260
+So it says that it's thinking, it says it's thinking.
+
+153
+00:06:49,960 --> 00:06:52,520
+So here you go, so society is gonna modify these,
+
+154
+00:06:52,580 --> 00:06:54,620
+it's clicking send so you can see here.
+
+155
+00:06:55,600 --> 00:06:57,460
+So now I'm gonna do that
+
+156
+00:06:57,460 --> 00:06:59,620
+and then we're, what are we doing here?
+
+157
+00:06:59,740 --> 00:07:03,400
+So you've got a bunch of these, hello world, hello world.
+
+158
+00:07:04,180 --> 00:07:06,240
+Let's see, I'm sending the message
+
+159
+00:07:06,240 --> 00:07:08,180
+hello world from chatgbt, post two.
+
+160
+00:07:09,040 --> 00:07:11,040
+Here you go, so post three of five
+
+161
+00:07:11,580 --> 00:07:14,280
+and then it's clicking post and there we go.
+
+162
+00:07:14,600 --> 00:07:18,000
+So we've got our third message from chatgbt.
+
+163
+00:07:18,620 --> 00:07:22,340
+The agent mode, the agent model is now working.
+
+164
+00:07:22,580 --> 00:07:23,180
+So here you go.
+
+165
+00:07:23,480 --> 00:07:25,960
+So we learned about the fact that you could use agent mode
+
+166
+00:07:25,960 --> 00:07:27,620
+to build PowerPoints or presentations,
+
+167
+00:07:28,000 --> 00:07:30,200
+it has complete access to a virtual machine.
+
+168
+00:07:30,800 --> 00:07:34,400
+You've learned about how to add in additional types
+
+169
+00:07:34,400 --> 00:07:37,120
+of websites by using that takeover browser
+
+170
+00:07:37,720 --> 00:07:39,580
+and you've also learned about how to do
+
+171
+00:07:39,580 --> 00:07:41,620
+some clever prompt engineering techniques
+
+172
+00:07:41,620 --> 00:07:43,220
+so that we don't have to keep clicking
+
+173
+00:07:43,220 --> 00:07:44,300
+that continue button.
+
+174
+00:07:45,000 --> 00:07:46,600
+All right, the final thing I just wanna say on this
+
+175
+00:07:46,600 --> 00:07:48,080
+is you can also schedule these
+
+176
+00:07:48,480 --> 00:07:51,080
+and you can say how often you want them to come
+
+177
+00:07:51,620 --> 00:07:53,860
+and you can give a range of instructions
+
+178
+00:07:54,260 --> 00:07:56,200
+and you can tell it when to repeat as well.
+
+179
+00:07:56,560 --> 00:07:57,920
+So scheduling is also possible
+
+180
+00:07:58,500 --> 00:08:00,000
+and I will see you in the next one.

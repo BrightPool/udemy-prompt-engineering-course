@@ -1,0 +1,543 @@
+1
+00:00:00,000 --> 00:00:02,400
+Hey, in this video, we'll have a look at what tokens are,
+
+2
+00:00:02,580 --> 00:00:04,720
+and also we'll look at something called token limits
+
+3
+00:00:04,720 --> 00:00:07,160
+and how that relates to large language models.
+
+4
+00:00:07,760 --> 00:00:11,180
+Firstly, tokenization is the process of taking sentences
+
+5
+00:00:11,180 --> 00:00:15,320
+or words and making those into smaller units called tokens.
+
+6
+00:00:15,900 --> 00:00:17,380
+On the right here, you can see we've taken
+
+7
+00:00:17,380 --> 00:00:20,780
+a bunch of sentences and we slowly break that down
+
+8
+00:00:20,780 --> 00:00:24,180
+by a process called tokenization into tokens.
+
+9
+00:00:24,580 --> 00:00:26,520
+Now, a token doesn't always have to be a word.
+
+10
+00:00:26,520 --> 00:00:30,120
+You can have smaller amounts such as a character
+
+11
+00:00:30,120 --> 00:00:33,060
+or two letters, but the idea is that chat GPT
+
+12
+00:00:33,060 --> 00:00:37,220
+takes a series of words and converts that into tokens.
+
+13
+00:00:37,440 --> 00:00:39,820
+Each model has a different number of input tokens
+
+14
+00:00:39,820 --> 00:00:42,360
+and output tokens that can be used.
+
+15
+00:00:42,520 --> 00:00:47,440
+For example, GPT 5.2 has a $1.75 for input tokens
+
+16
+00:00:47,440 --> 00:00:50,120
+and $14 for output tokens.
+
+17
+00:00:50,360 --> 00:00:52,020
+If we have a look at a different model,
+
+18
+00:00:52,440 --> 00:00:54,120
+like for example, GPT 5 Mini,
+
+19
+00:00:54,120 --> 00:00:57,700
+you can see that the input tokens is 25 cents
+
+20
+00:00:58,170 --> 00:00:59,640
+and the output is $2.
+
+21
+00:00:59,760 --> 00:01:02,240
+Now, both of these have different context windows
+
+22
+00:01:02,240 --> 00:01:03,840
+and obviously as the models change,
+
+23
+00:01:04,020 --> 00:01:06,720
+these context windows will grow over time
+
+24
+00:01:06,720 --> 00:01:08,700
+and the prices will also get cheaper
+
+25
+00:01:08,700 --> 00:01:10,180
+for input and output tokens.
+
+26
+00:01:10,520 --> 00:01:12,060
+For example, in GPT 5 Mini,
+
+27
+00:01:12,080 --> 00:01:15,680
+you can see that this has 400,000 context windows
+
+28
+00:01:15,680 --> 00:01:19,820
+and it can output up to 128,000 max output tokens.
+
+29
+00:01:20,340 --> 00:01:23,640
+If we have a look and go back to see GPT 5.2,
+
+30
+00:01:23,640 --> 00:01:26,420
+you can see that this has the same context window.
+
+31
+00:01:26,900 --> 00:01:28,600
+So different models have different prices
+
+32
+00:01:28,600 --> 00:01:29,960
+and sometimes they have the same.
+
+33
+00:01:30,260 --> 00:01:31,960
+Different types of models can have different lengths
+
+34
+00:01:31,960 --> 00:01:32,900
+of context windows,
+
+35
+00:01:33,220 --> 00:01:35,440
+and also they could potentially generate
+
+36
+00:01:35,440 --> 00:01:36,900
+different numbers of output tokens.
+
+37
+00:01:37,160 --> 00:01:39,240
+They've also got different types of latency,
+
+38
+00:01:39,460 --> 00:01:42,560
+so you can see GPT 5 Nano is very fast,
+
+39
+00:01:42,960 --> 00:01:44,260
+but it has average reasoning,
+
+40
+00:01:44,440 --> 00:01:46,080
+so use that on smaller tasks
+
+41
+00:01:46,080 --> 00:01:48,820
+that you don't need a heavier model to use.
+
+42
+00:01:49,060 --> 00:01:51,340
+Whilst if we go back and have a look at GPT 5.2,
+
+43
+00:01:51,380 --> 00:01:52,840
+you can see it's got the highest reasoning,
+
+44
+00:01:52,840 --> 00:01:54,080
+its speed is medium,
+
+45
+00:01:54,440 --> 00:01:56,120
+and obviously it's their flagship model.
+
+46
+00:01:56,340 --> 00:01:58,520
+It costs quite a lot of money to run that at scale.
+
+47
+00:01:58,780 --> 00:01:59,600
+There's a really good page
+
+48
+00:01:59,600 --> 00:02:01,240
+that I'll put a link to in this video
+
+49
+00:02:01,240 --> 00:02:03,580
+where you can easily find lots of different types of models
+
+50
+00:02:03,580 --> 00:02:04,620
+that are on OpenAI
+
+51
+00:02:05,040 --> 00:02:06,620
+and all of their varying trade-offs
+
+52
+00:02:06,620 --> 00:02:09,200
+in terms of the input tokens versus output tokens.
+
+53
+00:02:09,600 --> 00:02:11,640
+You'll find that if the document is too large
+
+54
+00:02:11,640 --> 00:02:15,060
+in comparison to how many input tokens you can use,
+
+55
+00:02:15,140 --> 00:02:17,500
+then that basically will cause the model
+
+56
+00:02:17,500 --> 00:02:18,740
+to reject that response
+
+57
+00:02:18,740 --> 00:02:20,260
+and you won't be able to see anything.
+
+58
+00:02:20,360 --> 00:02:21,840
+So I've just produced a load of text
+
+59
+00:02:21,840 --> 00:02:23,200
+just to show you what this is like
+
+60
+00:02:23,200 --> 00:02:26,020
+and you'll see that actually I can't even submit this message
+
+61
+00:02:26,020 --> 00:02:27,600
+because the message is too long.
+
+62
+00:02:28,180 --> 00:02:31,060
+So every large language model has a restriction
+
+63
+00:02:31,060 --> 00:02:33,180
+on how many tokens it can go in
+
+64
+00:02:33,180 --> 00:02:36,500
+and how many tokens it will produce out as the response.
+
+65
+00:02:37,040 --> 00:02:38,380
+Okay, so the next thing I want you to do
+
+66
+00:02:38,380 --> 00:02:39,260
+is just a quick exercise.
+
+67
+00:02:39,640 --> 00:02:41,760
+I want you to go to your browser like Google Chrome.
+
+68
+00:02:42,160 --> 00:02:44,240
+I want you to type in OpenAI pricing.
+
+69
+00:02:44,860 --> 00:02:46,380
+I want you to click on the first result
+
+70
+00:02:46,380 --> 00:02:47,640
+and we're just gonna have a look
+
+71
+00:02:47,640 --> 00:02:49,000
+at the different types of pricing
+
+72
+00:02:49,000 --> 00:02:50,320
+for different types of models.
+
+73
+00:02:51,020 --> 00:02:53,760
+So I'm just gonna go to browser, to a browser,
+
+74
+00:02:53,940 --> 00:02:55,840
+get OpenAI pricing in Google
+
+75
+00:02:56,260 --> 00:02:57,600
+and then you're gonna click this one here,
+
+76
+00:02:57,720 --> 00:02:59,940
+the openai.com one and what you'll see
+
+77
+00:02:59,940 --> 00:03:02,160
+is you've got a range of different pricing
+
+78
+00:03:02,160 --> 00:03:03,800
+for different types of models.
+
+79
+00:03:04,200 --> 00:03:05,780
+So go and have a read of this, have a look.
+
+80
+00:03:05,940 --> 00:03:07,220
+There's some other different types of prices
+
+81
+00:03:07,220 --> 00:03:08,040
+that you can see here
+
+82
+00:03:08,040 --> 00:03:09,840
+but the main one I wanted you to look at
+
+83
+00:03:09,840 --> 00:03:12,440
+is for example, O1 versus O3 Mini
+
+84
+00:03:12,940 --> 00:03:15,180
+and it will also show you the context length
+
+85
+00:03:15,180 --> 00:03:16,400
+of these models too.
+
+86
+00:03:16,800 --> 00:03:18,020
+Have a look at the input price
+
+87
+00:03:18,500 --> 00:03:20,320
+and the output price are the ones
+
+88
+00:03:20,320 --> 00:03:21,680
+that you'll want to be concerned with
+
+89
+00:03:21,680 --> 00:03:22,360
+if you're a developer.
+
+90
+00:03:23,920 --> 00:03:25,440
+Now, let's say you've got some texts
+
+91
+00:03:25,440 --> 00:03:26,600
+and you're looking to find out
+
+92
+00:03:26,600 --> 00:03:28,420
+how many tokens are inside that text.
+
+93
+00:03:28,920 --> 00:03:31,720
+Well, OpenAI have built a really easy to use tool
+
+94
+00:03:31,720 --> 00:03:33,380
+called a tokenizer
+
+95
+00:03:34,000 --> 00:03:38,000
+which you can access by the platform.openai.com slash tokenizer.
+
+96
+00:03:38,500 --> 00:03:39,820
+If you go and click on this link,
+
+97
+00:03:40,280 --> 00:03:42,300
+basically it will take you to a webpage
+
+98
+00:03:42,780 --> 00:03:44,860
+and you can see different types of models.
+
+99
+00:03:45,220 --> 00:03:46,540
+You can put in some text here
+
+100
+00:03:46,540 --> 00:03:49,440
+and it will show you how many tokens that text has
+
+101
+00:03:49,440 --> 00:03:51,500
+and you can see if you look at the color
+
+102
+00:03:51,500 --> 00:03:52,940
+the separate tokens,
+
+103
+00:03:53,240 --> 00:03:54,700
+you can also click on a show example
+
+104
+00:03:55,000 --> 00:03:56,420
+and then you can see how many characters
+
+105
+00:03:56,420 --> 00:03:57,580
+and tokens those have.
+
+106
+00:03:57,780 --> 00:03:58,940
+They also have IDs.
+
+107
+00:03:59,560 --> 00:04:03,060
+So each token gets translated to a numeric value
+
+108
+00:04:03,560 --> 00:04:05,860
+which is allowing the large language model
+
+109
+00:04:05,860 --> 00:04:08,180
+to understand what that token is in real time.
+
+110
+00:04:08,340 --> 00:04:10,200
+It's also possible to automatically get
+
+111
+00:04:10,200 --> 00:04:13,060
+the token input size from text
+
+112
+00:04:13,060 --> 00:04:15,400
+by using a Python package called tick token.
+
+113
+00:04:15,400 --> 00:04:18,400
+This allows you to take any model that OpenAI offers,
+
+114
+00:04:18,800 --> 00:04:19,860
+put the model name in
+
+115
+00:04:19,860 --> 00:04:22,600
+and figure out how much the token count is
+
+116
+00:04:22,600 --> 00:04:23,680
+for a specific message.
+
+117
+00:04:24,020 --> 00:04:25,000
+There are lots of different techniques
+
+118
+00:04:25,000 --> 00:04:27,620
+that you can use to overcome the token limit.
+
+119
+00:04:27,880 --> 00:04:29,960
+The first one is if you are struggling
+
+120
+00:04:29,960 --> 00:04:32,440
+with the input size for what you're working with,
+
+121
+00:04:32,700 --> 00:04:34,900
+use a bigger model or a more powerful models.
+
+122
+00:04:35,100 --> 00:04:36,380
+You could also shorten your prompt
+
+123
+00:04:36,380 --> 00:04:38,880
+or the context that you're including into these models.
+
+124
+00:04:39,340 --> 00:04:40,300
+You can also chunk
+
+125
+00:04:40,300 --> 00:04:42,340
+which basically means rather than putting
+
+126
+00:04:42,340 --> 00:04:44,060
+all of the context in one go,
+
+127
+00:04:44,060 --> 00:04:46,060
+you could put that in several messages.
+
+128
+00:04:46,760 --> 00:04:48,660
+You can also do something called window chunks
+
+129
+00:04:48,660 --> 00:04:51,340
+which is you have a sliding window of chunks
+
+130
+00:04:51,340 --> 00:04:52,920
+and we'll talk about that later in the course
+
+131
+00:04:53,470 --> 00:04:55,160
+and also summarizing the chunks.
+
+132
+00:04:55,500 --> 00:04:57,260
+So when the message streams gets too long
+
+133
+00:04:57,260 --> 00:04:59,200
+or the context is too long,
+
+134
+00:04:59,460 --> 00:05:01,600
+asking for smaller summaries of the information
+
+135
+00:05:02,030 --> 00:05:04,220
+so that you can put those summaries in instead.
+
+136
+00:05:04,460 --> 00:05:05,420
+Cool, I'll see you in the next one.

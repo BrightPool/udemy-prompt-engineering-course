@@ -1,0 +1,3150 @@
+{
+ "lecture_id": "48151545",
+ "title": "chatgpt memory",
+ "section": "04_deep-dive-on-chatgpt",
+ "video_path": "scripts/udemy-sync/videos/04_deep-dive-on-chatgpt/030_48151545_chatgpt-memory.mp4",
+ "duration_s": 148.14,
+ "model": "small.en",
+ "word_timestamps": true,
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 1.52,
+   "text": " Hey, and in this video, we're gonna have a look",
+   "words": [
+    {
+     "start": 0.0,
+     "end": 0.16,
+     "word": " Hey,",
+     "prob": 0.523
+    },
+    {
+     "start": 0.32,
+     "end": 0.42,
+     "word": " and",
+     "prob": 0.952
+    },
+    {
+     "start": 0.42,
+     "end": 0.52,
+     "word": " in",
+     "prob": 0.958
+    },
+    {
+     "start": 0.52,
+     "end": 0.66,
+     "word": " this",
+     "prob": 0.999
+    },
+    {
+     "start": 0.66,
+     "end": 0.86,
+     "word": " video,",
+     "prob": 0.997
+    },
+    {
+     "start": 0.86,
+     "end": 1.08,
+     "word": " we're",
+     "prob": 0.99
+    },
+    {
+     "start": 1.08,
+     "end": 1.08,
+     "word": " gonna",
+     "prob": 0.632
+    },
+    {
+     "start": 1.08,
+     "end": 1.26,
+     "word": " have",
+     "prob": 0.996
+    },
+    {
+     "start": 1.26,
+     "end": 1.36,
+     "word": " a",
+     "prob": 0.994
+    },
+    {
+     "start": 1.36,
+     "end": 1.52,
+     "word": " look",
+     "prob": 0.998
+    }
+   ]
+  },
+  {
+   "start": 1.52,
+   "end": 3.14,
+   "text": " at something called ChatGPT Memory.",
+   "words": [
+    {
+     "start": 1.52,
+     "end": 1.72,
+     "word": " at",
+     "prob": 0.997
+    },
+    {
+     "start": 1.72,
+     "end": 1.94,
+     "word": " something",
+     "prob": 0.997
+    },
+    {
+     "start": 1.94,
+     "end": 2.2,
+     "word": " called",
+     "prob": 0.99
+    },
+    {
+     "start": 2.2,
+     "end": 2.84,
+     "word": " ChatGPT",
+     "prob": 0.575
+    },
+    {
+     "start": 2.84,
+     "end": 3.14,
+     "word": " Memory.",
+     "prob": 0.605
+    }
+   ]
+  },
+  {
+   "start": 3.56,
+   "end": 6.48,
+   "text": " This basically allows ChatGPT to store previous information",
+   "words": [
+    {
+     "start": 3.56,
+     "end": 3.72,
+     "word": " This",
+     "prob": 0.97
+    },
+    {
+     "start": 3.72,
+     "end": 4.12,
+     "word": " basically",
+     "prob": 0.994
+    },
+    {
+     "start": 4.12,
+     "end": 4.5,
+     "word": " allows",
+     "prob": 0.992
+    },
+    {
+     "start": 4.5,
+     "end": 5.0,
+     "word": " ChatGPT",
+     "prob": 0.945
+    },
+    {
+     "start": 5.0,
+     "end": 5.26,
+     "word": " to",
+     "prob": 0.997
+    },
+    {
+     "start": 5.26,
+     "end": 5.54,
+     "word": " store",
+     "prob": 0.998
+    },
+    {
+     "start": 5.54,
+     "end": 6.0,
+     "word": " previous",
+     "prob": 0.998
+    },
+    {
+     "start": 6.0,
+     "end": 6.48,
+     "word": " information",
+     "prob": 0.999
+    }
+   ]
+  },
+  {
+   "start": 6.48,
+   "end": 8.72,
+   "text": " from your recorded chat history sessions.",
+   "words": [
+    {
+     "start": 6.48,
+     "end": 6.88,
+     "word": " from",
+     "prob": 0.993
+    },
+    {
+     "start": 6.88,
+     "end": 7.08,
+     "word": " your",
+     "prob": 0.998
+    },
+    {
+     "start": 7.08,
+     "end": 7.7,
+     "word": " recorded",
+     "prob": 0.998
+    },
+    {
+     "start": 7.7,
+     "end": 8.02,
+     "word": " chat",
+     "prob": 0.944
+    },
+    {
+     "start": 8.02,
+     "end": 8.3,
+     "word": " history",
+     "prob": 0.998
+    },
+    {
+     "start": 8.3,
+     "end": 8.72,
+     "word": " sessions.",
+     "prob": 0.995
+    }
+   ]
+  },
+  {
+   "start": 9.06,
+   "end": 10.42,
+   "text": " You can prompt memory as well.",
+   "words": [
+    {
+     "start": 9.06,
+     "end": 9.24,
+     "word": " You",
+     "prob": 0.998
+    },
+    {
+     "start": 9.24,
+     "end": 9.4,
+     "word": " can",
+     "prob": 0.999
+    },
+    {
+     "start": 9.4,
+     "end": 9.7,
+     "word": " prompt",
+     "prob": 0.999
+    },
+    {
+     "start": 9.7,
+     "end": 10.0,
+     "word": " memory",
+     "prob": 0.986
+    },
+    {
+     "start": 10.0,
+     "end": 10.2,
+     "word": " as",
+     "prob": 0.943
+    },
+    {
+     "start": 10.2,
+     "end": 10.42,
+     "word": " well.",
+     "prob": 1.0
+    }
+   ]
+  },
+  {
+   "start": 10.66,
+   "end": 13.22,
+   "text": " So we're gonna go into the top left, go to GPT-4o,",
+   "words": [
+    {
+     "start": 10.66,
+     "end": 10.82,
+     "word": " So",
+     "prob": 0.981
+    },
+    {
+     "start": 10.82,
+     "end": 11.04,
+     "word": " we're",
+     "prob": 0.916
+    },
+    {
+     "start": 11.04,
+     "end": 11.04,
+     "word": " gonna",
+     "prob": 0.953
+    },
+    {
+     "start": 11.04,
+     "end": 11.24,
+     "word": " go",
+     "prob": 0.99
+    },
+    {
+     "start": 11.24,
+     "end": 11.44,
+     "word": " into",
+     "prob": 0.982
+    },
+    {
+     "start": 11.44,
+     "end": 11.62,
+     "word": " the",
+     "prob": 0.998
+    },
+    {
+     "start": 11.62,
+     "end": 11.78,
+     "word": " top",
+     "prob": 0.999
+    },
+    {
+     "start": 11.78,
+     "end": 12.0,
+     "word": " left,",
+     "prob": 0.943
+    },
+    {
+     "start": 12.18,
+     "end": 12.26,
+     "word": " go",
+     "prob": 0.966
+    },
+    {
+     "start": 12.26,
+     "end": 12.44,
+     "word": " to",
+     "prob": 0.996
+    },
+    {
+     "start": 12.44,
+     "end": 12.7,
+     "word": " GPT",
+     "prob": 0.863
+    },
+    {
+     "start": 12.7,
+     "end": 13.22,
+     "word": "-4o,",
+     "prob": 0.149
+    }
+   ]
+  },
+  {
+   "start": 13.56,
+   "end": 15.08,
+   "text": " and then what I'm gonna do is say,",
+   "words": [
+    {
+     "start": 13.56,
+     "end": 13.82,
+     "word": " and",
+     "prob": 0.997
+    },
+    {
+     "start": 13.82,
+     "end": 13.92,
+     "word": " then",
+     "prob": 0.98
+    },
+    {
+     "start": 13.92,
+     "end": 14.04,
+     "word": " what",
+     "prob": 0.988
+    },
+    {
+     "start": 14.04,
+     "end": 14.18,
+     "word": " I'm",
+     "prob": 0.999
+    },
+    {
+     "start": 14.18,
+     "end": 14.28,
+     "word": " gonna",
+     "prob": 0.977
+    },
+    {
+     "start": 14.28,
+     "end": 14.52,
+     "word": " do",
+     "prob": 0.993
+    },
+    {
+     "start": 14.52,
+     "end": 14.76,
+     "word": " is",
+     "prob": 0.979
+    },
+    {
+     "start": 14.76,
+     "end": 15.08,
+     "word": " say,",
+     "prob": 0.99
+    }
+   ]
+  },
+  {
+   "start": 16.14,
+   "end": 18.24,
+   "text": " remember that my name is James.",
+   "words": [
+    {
+     "start": 16.14,
+     "end": 16.62,
+     "word": " remember",
+     "prob": 0.469
+    },
+    {
+     "start": 16.62,
+     "end": 17.1,
+     "word": " that",
+     "prob": 0.858
+    },
+    {
+     "start": 17.1,
+     "end": 17.42,
+     "word": " my",
+     "prob": 0.988
+    },
+    {
+     "start": 17.42,
+     "end": 17.7,
+     "word": " name",
+     "prob": 0.997
+    },
+    {
+     "start": 17.7,
+     "end": 18.02,
+     "word": " is",
+     "prob": 0.929
+    },
+    {
+     "start": 18.02,
+     "end": 18.24,
+     "word": " James.",
+     "prob": 0.995
+    }
+   ]
+  },
+  {
+   "start": 18.8,
+   "end": 20.98,
+   "text": " And what you'll see is that ChatGPT is actually gonna say",
+   "words": [
+    {
+     "start": 18.8,
+     "end": 18.9,
+     "word": " And",
+     "prob": 0.952
+    },
+    {
+     "start": 18.9,
+     "end": 19.0,
+     "word": " what",
+     "prob": 0.997
+    },
+    {
+     "start": 19.0,
+     "end": 19.2,
+     "word": " you'll",
+     "prob": 0.997
+    },
+    {
+     "start": 19.2,
+     "end": 19.4,
+     "word": " see",
+     "prob": 0.999
+    },
+    {
+     "start": 19.4,
+     "end": 19.68,
+     "word": " is",
+     "prob": 0.98
+    },
+    {
+     "start": 19.68,
+     "end": 19.84,
+     "word": " that",
+     "prob": 0.865
+    },
+    {
+     "start": 19.84,
+     "end": 20.14,
+     "word": " ChatGPT",
+     "prob": 0.977
+    },
+    {
+     "start": 20.14,
+     "end": 20.38,
+     "word": " is",
+     "prob": 0.932
+    },
+    {
+     "start": 20.38,
+     "end": 20.58,
+     "word": " actually",
+     "prob": 0.994
+    },
+    {
+     "start": 20.58,
+     "end": 20.7,
+     "word": " gonna",
+     "prob": 0.961
+    },
+    {
+     "start": 20.7,
+     "end": 20.98,
+     "word": " say",
+     "prob": 0.995
+    }
+   ]
+  },
+  {
+   "start": 20.98,
+   "end": 22.66,
+   "text": " memory created or memory updated,",
+   "words": [
+    {
+     "start": 20.98,
+     "end": 21.34,
+     "word": " memory",
+     "prob": 0.432
+    },
+    {
+     "start": 21.34,
+     "end": 21.76,
+     "word": " created",
+     "prob": 0.933
+    },
+    {
+     "start": 21.76,
+     "end": 21.96,
+     "word": " or",
+     "prob": 0.865
+    },
+    {
+     "start": 21.96,
+     "end": 22.18,
+     "word": " memory",
+     "prob": 0.995
+    },
+    {
+     "start": 22.18,
+     "end": 22.66,
+     "word": " updated,",
+     "prob": 0.995
+    }
+   ]
+  },
+  {
+   "start": 23.22,
+   "end": 25.9,
+   "text": " and ChatGPT is able to then figure out",
+   "words": [
+    {
+     "start": 23.22,
+     "end": 23.52,
+     "word": " and",
+     "prob": 0.999
+    },
+    {
+     "start": 23.52,
+     "end": 24.28,
+     "word": " ChatGPT",
+     "prob": 0.986
+    },
+    {
+     "start": 24.28,
+     "end": 24.58,
+     "word": " is",
+     "prob": 0.999
+    },
+    {
+     "start": 24.58,
+     "end": 24.88,
+     "word": " able",
+     "prob": 0.993
+    },
+    {
+     "start": 24.88,
+     "end": 25.1,
+     "word": " to",
+     "prob": 0.999
+    },
+    {
+     "start": 25.1,
+     "end": 25.28,
+     "word": " then",
+     "prob": 0.994
+    },
+    {
+     "start": 25.28,
+     "end": 25.58,
+     "word": " figure",
+     "prob": 0.998
+    },
+    {
+     "start": 25.58,
+     "end": 25.9,
+     "word": " out",
+     "prob": 0.999
+    }
+   ]
+  },
+  {
+   "start": 25.9,
+   "end": 27.14,
+   "text": " that there's a memory here.",
+   "words": [
+    {
+     "start": 25.9,
+     "end": 26.16,
+     "word": " that",
+     "prob": 0.993
+    },
+    {
+     "start": 26.16,
+     "end": 26.4,
+     "word": " there's",
+     "prob": 0.96
+    },
+    {
+     "start": 26.4,
+     "end": 26.54,
+     "word": " a",
+     "prob": 0.998
+    },
+    {
+     "start": 26.54,
+     "end": 26.78,
+     "word": " memory",
+     "prob": 0.996
+    },
+    {
+     "start": 26.78,
+     "end": 27.14,
+     "word": " here.",
+     "prob": 0.997
+    }
+   ]
+  },
+  {
+   "start": 27.46,
+   "end": 28.78,
+   "text": " After clicking on Manage Memories,",
+   "words": [
+    {
+     "start": 27.46,
+     "end": 27.66,
+     "word": " After",
+     "prob": 0.998
+    },
+    {
+     "start": 27.66,
+     "end": 27.96,
+     "word": " clicking",
+     "prob": 0.998
+    },
+    {
+     "start": 27.96,
+     "end": 28.2,
+     "word": " on",
+     "prob": 0.999
+    },
+    {
+     "start": 28.2,
+     "end": 28.48,
+     "word": " Manage",
+     "prob": 0.758
+    },
+    {
+     "start": 28.48,
+     "end": 28.78,
+     "word": " Memories,",
+     "prob": 0.951
+    }
+   ]
+  },
+  {
+   "start": 28.78,
+   "end": 30.68,
+   "text": " you can see all of the memories that appear,",
+   "words": [
+    {
+     "start": 28.78,
+     "end": 29.14,
+     "word": " you",
+     "prob": 0.15
+    },
+    {
+     "start": 29.14,
+     "end": 29.28,
+     "word": " can",
+     "prob": 0.995
+    },
+    {
+     "start": 29.28,
+     "end": 29.44,
+     "word": " see",
+     "prob": 0.992
+    },
+    {
+     "start": 29.44,
+     "end": 29.62,
+     "word": " all",
+     "prob": 0.998
+    },
+    {
+     "start": 29.62,
+     "end": 29.72,
+     "word": " of",
+     "prob": 0.98
+    },
+    {
+     "start": 29.72,
+     "end": 29.82,
+     "word": " the",
+     "prob": 0.999
+    },
+    {
+     "start": 29.82,
+     "end": 30.08,
+     "word": " memories",
+     "prob": 0.976
+    },
+    {
+     "start": 30.08,
+     "end": 30.3,
+     "word": " that",
+     "prob": 0.995
+    },
+    {
+     "start": 30.3,
+     "end": 30.68,
+     "word": " appear,",
+     "prob": 0.997
+    }
+   ]
+  },
+  {
+   "start": 30.98,
+   "end": 32.6,
+   "text": " and you can also delete memories as well.",
+   "words": [
+    {
+     "start": 30.98,
+     "end": 31.02,
+     "word": " and",
+     "prob": 0.997
+    },
+    {
+     "start": 31.02,
+     "end": 31.12,
+     "word": " you",
+     "prob": 0.997
+    },
+    {
+     "start": 31.12,
+     "end": 31.24,
+     "word": " can",
+     "prob": 0.998
+    },
+    {
+     "start": 31.24,
+     "end": 31.5,
+     "word": " also",
+     "prob": 0.999
+    },
+    {
+     "start": 31.5,
+     "end": 31.82,
+     "word": " delete",
+     "prob": 0.999
+    },
+    {
+     "start": 31.82,
+     "end": 32.16,
+     "word": " memories",
+     "prob": 0.978
+    },
+    {
+     "start": 32.16,
+     "end": 32.38,
+     "word": " as",
+     "prob": 0.924
+    },
+    {
+     "start": 32.38,
+     "end": 32.6,
+     "word": " well.",
+     "prob": 0.999
+    }
+   ]
+  },
+  {
+   "start": 32.82,
+   "end": 34.22,
+   "text": " So I could delete that, you know,",
+   "words": [
+    {
+     "start": 32.82,
+     "end": 32.92,
+     "word": " So",
+     "prob": 0.954
+    },
+    {
+     "start": 32.92,
+     "end": 33.0,
+     "word": " I",
+     "prob": 0.833
+    },
+    {
+     "start": 33.0,
+     "end": 33.12,
+     "word": " could",
+     "prob": 0.947
+    },
+    {
+     "start": 33.12,
+     "end": 33.36,
+     "word": " delete",
+     "prob": 0.999
+    },
+    {
+     "start": 33.36,
+     "end": 33.76,
+     "word": " that,",
+     "prob": 0.919
+    },
+    {
+     "start": 33.86,
+     "end": 34.02,
+     "word": " you",
+     "prob": 0.748
+    },
+    {
+     "start": 34.02,
+     "end": 34.22,
+     "word": " know,",
+     "prob": 0.999
+    }
+   ]
+  },
+  {
+   "start": 34.4,
+   "end": 35.82,
+   "text": " ChatGPT knows that my name is James.",
+   "words": [
+    {
+     "start": 34.4,
+     "end": 34.62,
+     "word": " ChatGPT",
+     "prob": 0.343
+    },
+    {
+     "start": 34.62,
+     "end": 34.96,
+     "word": " knows",
+     "prob": 0.981
+    },
+    {
+     "start": 34.96,
+     "end": 35.18,
+     "word": " that",
+     "prob": 0.987
+    },
+    {
+     "start": 35.18,
+     "end": 35.32,
+     "word": " my",
+     "prob": 0.972
+    },
+    {
+     "start": 35.32,
+     "end": 35.46,
+     "word": " name",
+     "prob": 0.995
+    },
+    {
+     "start": 35.46,
+     "end": 35.62,
+     "word": " is",
+     "prob": 0.997
+    },
+    {
+     "start": 35.62,
+     "end": 35.82,
+     "word": " James.",
+     "prob": 0.988
+    }
+   ]
+  },
+  {
+   "start": 36.32,
+   "end": 39.58,
+   "text": " Now, why memory is so powerful is because we could go",
+   "words": [
+    {
+     "start": 36.32,
+     "end": 36.5,
+     "word": " Now,",
+     "prob": 0.993
+    },
+    {
+     "start": 36.78,
+     "end": 36.88,
+     "word": " why",
+     "prob": 0.99
+    },
+    {
+     "start": 36.88,
+     "end": 37.24,
+     "word": " memory",
+     "prob": 0.979
+    },
+    {
+     "start": 37.24,
+     "end": 37.52,
+     "word": " is",
+     "prob": 0.999
+    },
+    {
+     "start": 37.52,
+     "end": 37.74,
+     "word": " so",
+     "prob": 0.999
+    },
+    {
+     "start": 37.74,
+     "end": 38.38,
+     "word": " powerful",
+     "prob": 1.0
+    },
+    {
+     "start": 38.38,
+     "end": 38.66,
+     "word": " is",
+     "prob": 0.943
+    },
+    {
+     "start": 38.66,
+     "end": 38.92,
+     "word": " because",
+     "prob": 0.995
+    },
+    {
+     "start": 38.92,
+     "end": 39.2,
+     "word": " we",
+     "prob": 0.989
+    },
+    {
+     "start": 39.2,
+     "end": 39.38,
+     "word": " could",
+     "prob": 0.979
+    },
+    {
+     "start": 39.38,
+     "end": 39.58,
+     "word": " go",
+     "prob": 0.999
+    }
+   ]
+  },
+  {
+   "start": 39.58,
+   "end": 42.9,
+   "text": " to a new conversation and say, what is my name?",
+   "words": [
+    {
+     "start": 39.58,
+     "end": 39.76,
+     "word": " to",
+     "prob": 0.998
+    },
+    {
+     "start": 39.76,
+     "end": 39.94,
+     "word": " a",
+     "prob": 0.999
+    },
+    {
+     "start": 39.94,
+     "end": 40.26,
+     "word": " new",
+     "prob": 0.994
+    },
+    {
+     "start": 40.26,
+     "end": 40.72,
+     "word": " conversation",
+     "prob": 0.991
+    },
+    {
+     "start": 40.72,
+     "end": 41.56,
+     "word": " and",
+     "prob": 0.8
+    },
+    {
+     "start": 41.56,
+     "end": 41.82,
+     "word": " say,",
+     "prob": 0.999
+    },
+    {
+     "start": 41.92,
+     "end": 42.22,
+     "word": " what",
+     "prob": 0.472
+    },
+    {
+     "start": 42.22,
+     "end": 42.44,
+     "word": " is",
+     "prob": 0.999
+    },
+    {
+     "start": 42.44,
+     "end": 42.66,
+     "word": " my",
+     "prob": 0.997
+    },
+    {
+     "start": 42.66,
+     "end": 42.9,
+     "word": " name?",
+     "prob": 0.999
+    }
+   ]
+  },
+  {
+   "start": 45.42,
+   "end": 47.02,
+   "text": " And it knows that my name is James.",
+   "words": [
+    {
+     "start": 45.42,
+     "end": 45.68,
+     "word": " And",
+     "prob": 0.971
+    },
+    {
+     "start": 45.68,
+     "end": 45.78,
+     "word": " it",
+     "prob": 0.996
+    },
+    {
+     "start": 45.78,
+     "end": 46.08,
+     "word": " knows",
+     "prob": 0.999
+    },
+    {
+     "start": 46.08,
+     "end": 46.36,
+     "word": " that",
+     "prob": 0.997
+    },
+    {
+     "start": 46.36,
+     "end": 46.48,
+     "word": " my",
+     "prob": 0.997
+    },
+    {
+     "start": 46.48,
+     "end": 46.64,
+     "word": " name",
+     "prob": 1.0
+    },
+    {
+     "start": 46.64,
+     "end": 46.8,
+     "word": " is",
+     "prob": 0.999
+    },
+    {
+     "start": 46.8,
+     "end": 47.02,
+     "word": " James.",
+     "prob": 1.0
+    }
+   ]
+  },
+  {
+   "start": 47.34,
+   "end": 49.24,
+   "text": " And this is really good because this basically means",
+   "words": [
+    {
+     "start": 47.34,
+     "end": 47.42,
+     "word": " And",
+     "prob": 0.9
+    },
+    {
+     "start": 47.42,
+     "end": 47.52,
+     "word": " this",
+     "prob": 0.999
+    },
+    {
+     "start": 47.52,
+     "end": 47.64,
+     "word": " is",
+     "prob": 0.998
+    },
+    {
+     "start": 47.64,
+     "end": 47.8,
+     "word": " really",
+     "prob": 0.998
+    },
+    {
+     "start": 47.8,
+     "end": 48.02,
+     "word": " good",
+     "prob": 1.0
+    },
+    {
+     "start": 48.02,
+     "end": 48.24,
+     "word": " because",
+     "prob": 0.742
+    },
+    {
+     "start": 48.24,
+     "end": 48.46,
+     "word": " this",
+     "prob": 0.991
+    },
+    {
+     "start": 48.46,
+     "end": 48.8,
+     "word": " basically",
+     "prob": 0.998
+    },
+    {
+     "start": 48.8,
+     "end": 49.24,
+     "word": " means",
+     "prob": 0.999
+    }
+   ]
+  },
+  {
+   "start": 49.24,
+   "end": 53.44,
+   "text": " we can store or tell ChatGPT to store relevant information",
+   "words": [
+    {
+     "start": 49.24,
+     "end": 49.72,
+     "word": " we",
+     "prob": 0.963
+    },
+    {
+     "start": 49.72,
+     "end": 49.94,
+     "word": " can",
+     "prob": 0.999
+    },
+    {
+     "start": 49.94,
+     "end": 50.42,
+     "word": " store",
+     "prob": 0.998
+    },
+    {
+     "start": 50.42,
+     "end": 50.94,
+     "word": " or",
+     "prob": 0.707
+    },
+    {
+     "start": 50.94,
+     "end": 51.28,
+     "word": " tell",
+     "prob": 0.998
+    },
+    {
+     "start": 51.28,
+     "end": 51.84,
+     "word": " ChatGPT",
+     "prob": 0.976
+    },
+    {
+     "start": 51.84,
+     "end": 52.08,
+     "word": " to",
+     "prob": 0.992
+    },
+    {
+     "start": 52.08,
+     "end": 52.38,
+     "word": " store",
+     "prob": 0.999
+    },
+    {
+     "start": 52.38,
+     "end": 52.76,
+     "word": " relevant",
+     "prob": 0.999
+    },
+    {
+     "start": 52.76,
+     "end": 53.44,
+     "word": " information",
+     "prob": 1.0
+    }
+   ]
+  },
+  {
+   "start": 53.44,
+   "end": 55.98,
+   "text": " about our business, about our personal context,",
+   "words": [
+    {
+     "start": 53.44,
+     "end": 54.1,
+     "word": " about",
+     "prob": 0.987
+    },
+    {
+     "start": 54.1,
+     "end": 54.36,
+     "word": " our",
+     "prob": 0.997
+    },
+    {
+     "start": 54.36,
+     "end": 54.72,
+     "word": " business,",
+     "prob": 1.0
+    },
+    {
+     "start": 54.86,
+     "end": 55.0,
+     "word": " about",
+     "prob": 0.998
+    },
+    {
+     "start": 55.0,
+     "end": 55.18,
+     "word": " our",
+     "prob": 0.993
+    },
+    {
+     "start": 55.18,
+     "end": 55.5,
+     "word": " personal",
+     "prob": 0.998
+    },
+    {
+     "start": 55.5,
+     "end": 55.98,
+     "word": " context,",
+     "prob": 0.951
+    }
+   ]
+  },
+  {
+   "start": 56.3,
+   "end": 58.44,
+   "text": " and then that information is going to be dynamically",
+   "words": [
+    {
+     "start": 56.3,
+     "end": 56.56,
+     "word": " and",
+     "prob": 0.999
+    },
+    {
+     "start": 56.56,
+     "end": 56.72,
+     "word": " then",
+     "prob": 0.998
+    },
+    {
+     "start": 56.72,
+     "end": 56.94,
+     "word": " that",
+     "prob": 0.98
+    },
+    {
+     "start": 56.94,
+     "end": 57.26,
+     "word": " information",
+     "prob": 0.999
+    },
+    {
+     "start": 57.26,
+     "end": 57.54,
+     "word": " is",
+     "prob": 0.957
+    },
+    {
+     "start": 57.54,
+     "end": 57.66,
+     "word": " going",
+     "prob": 0.99
+    },
+    {
+     "start": 57.66,
+     "end": 57.76,
+     "word": " to",
+     "prob": 1.0
+    },
+    {
+     "start": 57.76,
+     "end": 57.9,
+     "word": " be",
+     "prob": 0.995
+    },
+    {
+     "start": 57.9,
+     "end": 58.44,
+     "word": " dynamically",
+     "prob": 0.999
+    }
+   ]
+  },
+  {
+   "start": 58.44,
+   "end": 61.94,
+   "text": " injected into the prompt and make the chat",
+   "words": [
+    {
+     "start": 58.44,
+     "end": 59.3,
+     "word": " injected",
+     "prob": 0.036
+    },
+    {
+     "start": 59.3,
+     "end": 59.98,
+     "word": " into",
+     "prob": 0.981
+    },
+    {
+     "start": 59.98,
+     "end": 60.14,
+     "word": " the",
+     "prob": 0.997
+    },
+    {
+     "start": 60.14,
+     "end": 60.5,
+     "word": " prompt",
+     "prob": 0.985
+    },
+    {
+     "start": 60.5,
+     "end": 61.0,
+     "word": " and",
+     "prob": 0.919
+    },
+    {
+     "start": 61.0,
+     "end": 61.24,
+     "word": " make",
+     "prob": 0.994
+    },
+    {
+     "start": 61.24,
+     "end": 61.56,
+     "word": " the",
+     "prob": 0.999
+    },
+    {
+     "start": 61.56,
+     "end": 61.94,
+     "word": " chat",
+     "prob": 0.993
+    }
+   ]
+  },
+  {
+   "start": 61.94,
+   "end": 64.1,
+   "text": " and the responses much more tailored to you",
+   "words": [
+    {
+     "start": 61.94,
+     "end": 62.08,
+     "word": " and",
+     "prob": 0.985
+    },
+    {
+     "start": 62.08,
+     "end": 62.16,
+     "word": " the",
+     "prob": 0.976
+    },
+    {
+     "start": 62.16,
+     "end": 62.56,
+     "word": " responses",
+     "prob": 0.932
+    },
+    {
+     "start": 62.56,
+     "end": 62.88,
+     "word": " much",
+     "prob": 0.983
+    },
+    {
+     "start": 62.88,
+     "end": 63.1,
+     "word": " more",
+     "prob": 0.997
+    },
+    {
+     "start": 63.1,
+     "end": 63.46,
+     "word": " tailored",
+     "prob": 0.996
+    },
+    {
+     "start": 63.46,
+     "end": 63.7,
+     "word": " to",
+     "prob": 0.998
+    },
+    {
+     "start": 63.7,
+     "end": 64.1,
+     "word": " you",
+     "prob": 0.999
+    }
+   ]
+  },
+  {
+   "start": 64.1,
+   "end": 65.64,
+   "text": " and your current situation.",
+   "words": [
+    {
+     "start": 64.1,
+     "end": 64.58,
+     "word": " and",
+     "prob": 0.987
+    },
+    {
+     "start": 64.58,
+     "end": 64.82,
+     "word": " your",
+     "prob": 0.994
+    },
+    {
+     "start": 64.82,
+     "end": 65.16,
+     "word": " current",
+     "prob": 0.998
+    },
+    {
+     "start": 65.16,
+     "end": 65.64,
+     "word": " situation.",
+     "prob": 0.991
+    }
+   ]
+  },
+  {
+   "start": 66.12,
+   "end": 67.6,
+   "text": " So remember, you can access your memories",
+   "words": [
+    {
+     "start": 66.12,
+     "end": 66.14,
+     "word": " So",
+     "prob": 0.967
+    },
+    {
+     "start": 66.14,
+     "end": 66.36,
+     "word": " remember,",
+     "prob": 0.892
+    },
+    {
+     "start": 66.48,
+     "end": 66.56,
+     "word": " you",
+     "prob": 0.999
+    },
+    {
+     "start": 66.56,
+     "end": 66.7,
+     "word": " can",
+     "prob": 0.999
+    },
+    {
+     "start": 66.7,
+     "end": 67.1,
+     "word": " access",
+     "prob": 0.999
+    },
+    {
+     "start": 67.1,
+     "end": 67.3,
+     "word": " your",
+     "prob": 0.998
+    },
+    {
+     "start": 67.3,
+     "end": 67.6,
+     "word": " memories",
+     "prob": 0.945
+    }
+   ]
+  },
+  {
+   "start": 67.6,
+   "end": 68.68,
+   "text": " by creating a memory.",
+   "words": [
+    {
+     "start": 67.6,
+     "end": 67.94,
+     "word": " by",
+     "prob": 0.998
+    },
+    {
+     "start": 67.94,
+     "end": 68.3,
+     "word": " creating",
+     "prob": 0.994
+    },
+    {
+     "start": 68.3,
+     "end": 68.46,
+     "word": " a",
+     "prob": 0.704
+    },
+    {
+     "start": 68.46,
+     "end": 68.68,
+     "word": " memory.",
+     "prob": 0.994
+    }
+   ]
+  },
+  {
+   "start": 68.92,
+   "end": 70.26,
+   "text": " You can also access your memories",
+   "words": [
+    {
+     "start": 68.92,
+     "end": 69.06,
+     "word": " You",
+     "prob": 0.998
+    },
+    {
+     "start": 69.06,
+     "end": 69.18,
+     "word": " can",
+     "prob": 0.999
+    },
+    {
+     "start": 69.18,
+     "end": 69.54,
+     "word": " also",
+     "prob": 0.999
+    },
+    {
+     "start": 69.54,
+     "end": 69.9,
+     "word": " access",
+     "prob": 0.999
+    },
+    {
+     "start": 69.9,
+     "end": 70.06,
+     "word": " your",
+     "prob": 0.99
+    },
+    {
+     "start": 70.06,
+     "end": 70.26,
+     "word": " memories",
+     "prob": 0.969
+    }
+   ]
+  },
+  {
+   "start": 70.26,
+   "end": 71.3,
+   "text": " if you go to the top right.",
+   "words": [
+    {
+     "start": 70.26,
+     "end": 70.42,
+     "word": " if",
+     "prob": 0.88
+    },
+    {
+     "start": 70.42,
+     "end": 70.5,
+     "word": " you",
+     "prob": 0.999
+    },
+    {
+     "start": 70.5,
+     "end": 70.6,
+     "word": " go",
+     "prob": 0.997
+    },
+    {
+     "start": 70.6,
+     "end": 70.72,
+     "word": " to",
+     "prob": 0.998
+    },
+    {
+     "start": 70.72,
+     "end": 70.82,
+     "word": " the",
+     "prob": 0.999
+    },
+    {
+     "start": 70.82,
+     "end": 71.0,
+     "word": " top",
+     "prob": 1.0
+    },
+    {
+     "start": 71.0,
+     "end": 71.3,
+     "word": " right.",
+     "prob": 0.953
+    }
+   ]
+  },
+  {
+   "start": 71.8,
+   "end": 75.28,
+   "text": " Go to Settings, and then once you're in Settings,",
+   "words": [
+    {
+     "start": 71.8,
+     "end": 72.1,
+     "word": " Go",
+     "prob": 0.995
+    },
+    {
+     "start": 72.1,
+     "end": 72.44,
+     "word": " to",
+     "prob": 0.999
+    },
+    {
+     "start": 72.44,
+     "end": 73.06,
+     "word": " Settings,",
+     "prob": 0.284
+    },
+    {
+     "start": 73.88,
+     "end": 74.02,
+     "word": " and",
+     "prob": 0.997
+    },
+    {
+     "start": 74.02,
+     "end": 74.14,
+     "word": " then",
+     "prob": 0.995
+    },
+    {
+     "start": 74.14,
+     "end": 74.48,
+     "word": " once",
+     "prob": 0.964
+    },
+    {
+     "start": 74.48,
+     "end": 74.7,
+     "word": " you're",
+     "prob": 0.996
+    },
+    {
+     "start": 74.7,
+     "end": 74.86,
+     "word": " in",
+     "prob": 0.999
+    },
+    {
+     "start": 74.86,
+     "end": 75.28,
+     "word": " Settings,",
+     "prob": 0.891
+    }
+   ]
+  },
+  {
+   "start": 75.6,
+   "end": 78.58,
+   "text": " click on Personalization, and then go to Manage,",
+   "words": [
+    {
+     "start": 75.6,
+     "end": 75.84,
+     "word": " click",
+     "prob": 0.996
+    },
+    {
+     "start": 75.84,
+     "end": 76.18,
+     "word": " on",
+     "prob": 0.996
+    },
+    {
+     "start": 76.18,
+     "end": 77.04,
+     "word": " Personalization,",
+     "prob": 0.86
+    },
+    {
+     "start": 77.26,
+     "end": 77.46,
+     "word": " and",
+     "prob": 0.997
+    },
+    {
+     "start": 77.46,
+     "end": 77.58,
+     "word": " then",
+     "prob": 0.998
+    },
+    {
+     "start": 77.58,
+     "end": 77.8,
+     "word": " go",
+     "prob": 0.996
+    },
+    {
+     "start": 77.8,
+     "end": 77.98,
+     "word": " to",
+     "prob": 0.999
+    },
+    {
+     "start": 77.98,
+     "end": 78.58,
+     "word": " Manage,",
+     "prob": 0.988
+    }
+   ]
+  },
+  {
+   "start": 78.68,
+   "end": 80.36,
+   "text": " and you'll see all of your memories here.",
+   "words": [
+    {
+     "start": 78.68,
+     "end": 78.8,
+     "word": " and",
+     "prob": 0.998
+    },
+    {
+     "start": 78.8,
+     "end": 78.98,
+     "word": " you'll",
+     "prob": 0.996
+    },
+    {
+     "start": 78.98,
+     "end": 79.18,
+     "word": " see",
+     "prob": 0.999
+    },
+    {
+     "start": 79.18,
+     "end": 79.52,
+     "word": " all",
+     "prob": 0.999
+    },
+    {
+     "start": 79.52,
+     "end": 79.64,
+     "word": " of",
+     "prob": 0.997
+    },
+    {
+     "start": 79.64,
+     "end": 79.74,
+     "word": " your",
+     "prob": 0.998
+    },
+    {
+     "start": 79.74,
+     "end": 80.0,
+     "word": " memories",
+     "prob": 0.979
+    },
+    {
+     "start": 80.0,
+     "end": 80.36,
+     "word": " here.",
+     "prob": 0.995
+    }
+   ]
+  },
+  {
+   "start": 80.56,
+   "end": 81.68,
+   "text": " You can clear all memories,",
+   "words": [
+    {
+     "start": 80.56,
+     "end": 80.7,
+     "word": " You",
+     "prob": 0.998
+    },
+    {
+     "start": 80.7,
+     "end": 80.86,
+     "word": " can",
+     "prob": 0.999
+    },
+    {
+     "start": 80.86,
+     "end": 81.12,
+     "word": " clear",
+     "prob": 0.978
+    },
+    {
+     "start": 81.12,
+     "end": 81.34,
+     "word": " all",
+     "prob": 0.996
+    },
+    {
+     "start": 81.34,
+     "end": 81.68,
+     "word": " memories,",
+     "prob": 0.983
+    }
+   ]
+  },
+  {
+   "start": 81.82,
+   "end": 83.08,
+   "text": " or you can clear a single memory,",
+   "words": [
+    {
+     "start": 81.82,
+     "end": 81.96,
+     "word": " or",
+     "prob": 0.999
+    },
+    {
+     "start": 81.96,
+     "end": 82.04,
+     "word": " you",
+     "prob": 0.999
+    },
+    {
+     "start": 82.04,
+     "end": 82.18,
+     "word": " can",
+     "prob": 0.998
+    },
+    {
+     "start": 82.18,
+     "end": 82.36,
+     "word": " clear",
+     "prob": 0.998
+    },
+    {
+     "start": 82.36,
+     "end": 82.48,
+     "word": " a",
+     "prob": 0.995
+    },
+    {
+     "start": 82.48,
+     "end": 82.7,
+     "word": " single",
+     "prob": 1.0
+    },
+    {
+     "start": 82.7,
+     "end": 83.08,
+     "word": " memory,",
+     "prob": 0.999
+    }
+   ]
+  },
+  {
+   "start": 83.6,
+   "end": 86.94,
+   "text": " and then over time, you will accumulate more memories.",
+   "words": [
+    {
+     "start": 83.6,
+     "end": 84.08,
+     "word": " and",
+     "prob": 0.995
+    },
+    {
+     "start": 84.08,
+     "end": 84.3,
+     "word": " then",
+     "prob": 0.998
+    },
+    {
+     "start": 84.3,
+     "end": 84.62,
+     "word": " over",
+     "prob": 0.931
+    },
+    {
+     "start": 84.62,
+     "end": 85.08,
+     "word": " time,",
+     "prob": 1.0
+    },
+    {
+     "start": 85.08,
+     "end": 85.4,
+     "word": " you",
+     "prob": 0.999
+    },
+    {
+     "start": 85.4,
+     "end": 85.6,
+     "word": " will",
+     "prob": 0.998
+    },
+    {
+     "start": 85.6,
+     "end": 86.12,
+     "word": " accumulate",
+     "prob": 0.998
+    },
+    {
+     "start": 86.12,
+     "end": 86.56,
+     "word": " more",
+     "prob": 0.999
+    },
+    {
+     "start": 86.56,
+     "end": 86.94,
+     "word": " memories.",
+     "prob": 0.996
+    }
+   ]
+  },
+  {
+   "start": 86.94,
+   "end": 89.18,
+   "text": " The last thing I wanna show you when it comes to memories",
+   "words": [
+    {
+     "start": 86.94,
+     "end": 87.36,
+     "word": " The",
+     "prob": 0.396
+    },
+    {
+     "start": 87.36,
+     "end": 87.54,
+     "word": " last",
+     "prob": 0.995
+    },
+    {
+     "start": 87.54,
+     "end": 87.7,
+     "word": " thing",
+     "prob": 0.995
+    },
+    {
+     "start": 87.7,
+     "end": 87.8,
+     "word": " I",
+     "prob": 0.973
+    },
+    {
+     "start": 87.8,
+     "end": 87.94,
+     "word": " wanna",
+     "prob": 0.058
+    },
+    {
+     "start": 87.94,
+     "end": 88.2,
+     "word": " show",
+     "prob": 0.987
+    },
+    {
+     "start": 88.2,
+     "end": 88.32,
+     "word": " you",
+     "prob": 0.994
+    },
+    {
+     "start": 88.32,
+     "end": 88.42,
+     "word": " when",
+     "prob": 0.979
+    },
+    {
+     "start": 88.42,
+     "end": 88.52,
+     "word": " it",
+     "prob": 0.998
+    },
+    {
+     "start": 88.52,
+     "end": 88.68,
+     "word": " comes",
+     "prob": 0.993
+    },
+    {
+     "start": 88.68,
+     "end": 88.9,
+     "word": " to",
+     "prob": 0.998
+    },
+    {
+     "start": 88.9,
+     "end": 89.18,
+     "word": " memories",
+     "prob": 0.888
+    }
+   ]
+  },
+  {
+   "start": 89.18,
+   "end": 92.18,
+   "text": " is how to explicitly inject memories into ChatGPT,",
+   "words": [
+    {
+     "start": 89.18,
+     "end": 89.48,
+     "word": " is",
+     "prob": 0.816
+    },
+    {
+     "start": 89.48,
+     "end": 89.66,
+     "word": " how",
+     "prob": 0.995
+    },
+    {
+     "start": 89.66,
+     "end": 89.88,
+     "word": " to",
+     "prob": 0.999
+    },
+    {
+     "start": 89.88,
+     "end": 90.4,
+     "word": " explicitly",
+     "prob": 0.997
+    },
+    {
+     "start": 90.4,
+     "end": 91.04,
+     "word": " inject",
+     "prob": 0.992
+    },
+    {
+     "start": 91.04,
+     "end": 91.44,
+     "word": " memories",
+     "prob": 0.976
+    },
+    {
+     "start": 91.44,
+     "end": 91.82,
+     "word": " into",
+     "prob": 0.98
+    },
+    {
+     "start": 91.82,
+     "end": 92.18,
+     "word": " ChatGPT,",
+     "prob": 0.303
+    }
+   ]
+  },
+  {
+   "start": 92.32,
+   "end": 93.24,
+   "text": " and that's just through prompting.",
+   "words": [
+    {
+     "start": 92.32,
+     "end": 92.4,
+     "word": " and",
+     "prob": 0.986
+    },
+    {
+     "start": 92.4,
+     "end": 92.6,
+     "word": " that's",
+     "prob": 0.996
+    },
+    {
+     "start": 92.6,
+     "end": 92.76,
+     "word": " just",
+     "prob": 0.998
+    },
+    {
+     "start": 92.76,
+     "end": 92.92,
+     "word": " through",
+     "prob": 0.776
+    },
+    {
+     "start": 92.92,
+     "end": 93.24,
+     "word": " prompting.",
+     "prob": 0.991
+    }
+   ]
+  },
+  {
+   "start": 93.9,
+   "end": 97.12,
+   "text": " So for example, I could say I want you to remember",
+   "words": [
+    {
+     "start": 93.9,
+     "end": 93.92,
+     "word": " So",
+     "prob": 0.981
+    },
+    {
+     "start": 93.92,
+     "end": 94.08,
+     "word": " for",
+     "prob": 0.718
+    },
+    {
+     "start": 94.08,
+     "end": 94.36,
+     "word": " example,",
+     "prob": 0.999
+    },
+    {
+     "start": 94.54,
+     "end": 94.78,
+     "word": " I",
+     "prob": 0.996
+    },
+    {
+     "start": 94.78,
+     "end": 94.92,
+     "word": " could",
+     "prob": 0.907
+    },
+    {
+     "start": 94.92,
+     "end": 95.14,
+     "word": " say",
+     "prob": 0.999
+    },
+    {
+     "start": 95.14,
+     "end": 95.38,
+     "word": " I",
+     "prob": 0.527
+    },
+    {
+     "start": 95.38,
+     "end": 95.66,
+     "word": " want",
+     "prob": 0.997
+    },
+    {
+     "start": 95.66,
+     "end": 96.12,
+     "word": " you",
+     "prob": 0.999
+    },
+    {
+     "start": 96.12,
+     "end": 96.5,
+     "word": " to",
+     "prob": 0.998
+    },
+    {
+     "start": 96.5,
+     "end": 97.12,
+     "word": " remember",
+     "prob": 0.988
+    }
+   ]
+  },
+  {
+   "start": 97.66,
+   "end": 100.94,
+   "text": " that my name is James Phoenix.",
+   "words": [
+    {
+     "start": 97.66,
+     "end": 98.14,
+     "word": " that",
+     "prob": 0.975
+    },
+    {
+     "start": 98.14,
+     "end": 98.62,
+     "word": " my",
+     "prob": 0.989
+    },
+    {
+     "start": 98.62,
+     "end": 98.92,
+     "word": " name",
+     "prob": 0.999
+    },
+    {
+     "start": 98.92,
+     "end": 99.3,
+     "word": " is",
+     "prob": 0.999
+    },
+    {
+     "start": 99.3,
+     "end": 99.84,
+     "word": " James",
+     "prob": 0.95
+    },
+    {
+     "start": 99.84,
+     "end": 100.94,
+     "word": " Phoenix.",
+     "prob": 0.823
+    }
+   ]
+  },
+  {
+   "start": 101.46,
+   "end": 103.32,
+   "text": " And then what we're basically doing to ChatGPT",
+   "words": [
+    {
+     "start": 101.46,
+     "end": 101.56,
+     "word": " And",
+     "prob": 0.989
+    },
+    {
+     "start": 101.56,
+     "end": 101.68,
+     "word": " then",
+     "prob": 0.996
+    },
+    {
+     "start": 101.68,
+     "end": 101.82,
+     "word": " what",
+     "prob": 0.982
+    },
+    {
+     "start": 101.82,
+     "end": 102.0,
+     "word": " we're",
+     "prob": 0.998
+    },
+    {
+     "start": 102.0,
+     "end": 102.28,
+     "word": " basically",
+     "prob": 0.999
+    },
+    {
+     "start": 102.28,
+     "end": 102.66,
+     "word": " doing",
+     "prob": 0.998
+    },
+    {
+     "start": 102.66,
+     "end": 102.92,
+     "word": " to",
+     "prob": 0.992
+    },
+    {
+     "start": 102.92,
+     "end": 103.32,
+     "word": " ChatGPT",
+     "prob": 0.932
+    }
+   ]
+  },
+  {
+   "start": 103.32,
+   "end": 105.6,
+   "text": " is explicitly injecting memories",
+   "words": [
+    {
+     "start": 103.32,
+     "end": 103.66,
+     "word": " is",
+     "prob": 0.976
+    },
+    {
+     "start": 103.66,
+     "end": 104.44,
+     "word": " explicitly",
+     "prob": 0.997
+    },
+    {
+     "start": 104.44,
+     "end": 105.06,
+     "word": " injecting",
+     "prob": 0.997
+    },
+    {
+     "start": 105.06,
+     "end": 105.6,
+     "word": " memories",
+     "prob": 0.995
+    }
+   ]
+  },
+  {
+   "start": 105.6,
+   "end": 106.64,
+   "text": " that are then gonna be saved.",
+   "words": [
+    {
+     "start": 105.6,
+     "end": 105.86,
+     "word": " that",
+     "prob": 0.992
+    },
+    {
+     "start": 105.86,
+     "end": 105.94,
+     "word": " are",
+     "prob": 0.992
+    },
+    {
+     "start": 105.94,
+     "end": 106.08,
+     "word": " then",
+     "prob": 0.994
+    },
+    {
+     "start": 106.08,
+     "end": 106.2,
+     "word": " gonna",
+     "prob": 0.927
+    },
+    {
+     "start": 106.2,
+     "end": 106.36,
+     "word": " be",
+     "prob": 0.997
+    },
+    {
+     "start": 106.36,
+     "end": 106.64,
+     "word": " saved.",
+     "prob": 0.999
+    }
+   ]
+  },
+  {
+   "start": 106.84,
+   "end": 109.58,
+   "text": " So you don't necessarily have to wait for ChatGPT",
+   "words": [
+    {
+     "start": 106.84,
+     "end": 107.0,
+     "word": " So",
+     "prob": 0.995
+    },
+    {
+     "start": 107.0,
+     "end": 107.54,
+     "word": " you",
+     "prob": 0.849
+    },
+    {
+     "start": 107.54,
+     "end": 107.72,
+     "word": " don't",
+     "prob": 1.0
+    },
+    {
+     "start": 107.72,
+     "end": 108.18,
+     "word": " necessarily",
+     "prob": 0.996
+    },
+    {
+     "start": 108.18,
+     "end": 108.58,
+     "word": " have",
+     "prob": 0.999
+    },
+    {
+     "start": 108.58,
+     "end": 108.82,
+     "word": " to",
+     "prob": 0.999
+    },
+    {
+     "start": 108.82,
+     "end": 109.0,
+     "word": " wait",
+     "prob": 1.0
+    },
+    {
+     "start": 109.0,
+     "end": 109.24,
+     "word": " for",
+     "prob": 0.999
+    },
+    {
+     "start": 109.24,
+     "end": 109.58,
+     "word": " ChatGPT",
+     "prob": 0.981
+    }
+   ]
+  },
+  {
+   "start": 109.58,
+   "end": 112.48,
+   "text": " to collect memories about what you want it",
+   "words": [
+    {
+     "start": 109.58,
+     "end": 110.16,
+     "word": " to",
+     "prob": 0.997
+    },
+    {
+     "start": 110.16,
+     "end": 110.88,
+     "word": " collect",
+     "prob": 0.995
+    },
+    {
+     "start": 110.88,
+     "end": 111.4,
+     "word": " memories",
+     "prob": 0.983
+    },
+    {
+     "start": 111.4,
+     "end": 111.72,
+     "word": " about",
+     "prob": 0.992
+    },
+    {
+     "start": 111.72,
+     "end": 111.96,
+     "word": " what",
+     "prob": 0.999
+    },
+    {
+     "start": 111.96,
+     "end": 112.14,
+     "word": " you",
+     "prob": 1.0
+    },
+    {
+     "start": 112.14,
+     "end": 112.32,
+     "word": " want",
+     "prob": 0.95
+    },
+    {
+     "start": 112.32,
+     "end": 112.48,
+     "word": " it",
+     "prob": 0.996
+    }
+   ]
+  },
+  {
+   "start": 112.48,
+   "end": 113.32,
+   "text": " to know all the time.",
+   "words": [
+    {
+     "start": 112.48,
+     "end": 112.62,
+     "word": " to",
+     "prob": 0.999
+    },
+    {
+     "start": 112.62,
+     "end": 112.8,
+     "word": " know",
+     "prob": 0.999
+    },
+    {
+     "start": 112.8,
+     "end": 112.94,
+     "word": " all",
+     "prob": 0.998
+    },
+    {
+     "start": 112.94,
+     "end": 113.04,
+     "word": " the",
+     "prob": 0.999
+    },
+    {
+     "start": 113.04,
+     "end": 113.32,
+     "word": " time.",
+     "prob": 1.0
+    }
+   ]
+  },
+  {
+   "start": 113.6,
+   "end": 116.24,
+   "text": " You could just keep asking ChatGPT to add memories",
+   "words": [
+    {
+     "start": 113.6,
+     "end": 113.76,
+     "word": " You",
+     "prob": 0.998
+    },
+    {
+     "start": 113.76,
+     "end": 113.86,
+     "word": " could",
+     "prob": 0.847
+    },
+    {
+     "start": 113.86,
+     "end": 114.04,
+     "word": " just",
+     "prob": 0.999
+    },
+    {
+     "start": 114.04,
+     "end": 114.26,
+     "word": " keep",
+     "prob": 0.997
+    },
+    {
+     "start": 114.26,
+     "end": 114.76,
+     "word": " asking",
+     "prob": 0.999
+    },
+    {
+     "start": 114.76,
+     "end": 115.24,
+     "word": " ChatGPT",
+     "prob": 0.978
+    },
+    {
+     "start": 115.24,
+     "end": 115.52,
+     "word": " to",
+     "prob": 0.997
+    },
+    {
+     "start": 115.52,
+     "end": 115.8,
+     "word": " add",
+     "prob": 0.995
+    },
+    {
+     "start": 115.8,
+     "end": 116.24,
+     "word": " memories",
+     "prob": 0.994
+    }
+   ]
+  },
+  {
+   "start": 116.24,
+   "end": 117.84,
+   "text": " or update existing memories.",
+   "words": [
+    {
+     "start": 116.24,
+     "end": 116.62,
+     "word": " or",
+     "prob": 0.52
+    },
+    {
+     "start": 116.62,
+     "end": 117.02,
+     "word": " update",
+     "prob": 0.693
+    },
+    {
+     "start": 117.02,
+     "end": 117.44,
+     "word": " existing",
+     "prob": 0.995
+    },
+    {
+     "start": 117.44,
+     "end": 117.84,
+     "word": " memories.",
+     "prob": 0.958
+    }
+   ]
+  },
+  {
+   "start": 118.4,
+   "end": 121.04,
+   "text": " You could say, can you update my age",
+   "words": [
+    {
+     "start": 118.4,
+     "end": 118.46,
+     "word": " You",
+     "prob": 0.825
+    },
+    {
+     "start": 118.46,
+     "end": 118.6,
+     "word": " could",
+     "prob": 0.878
+    },
+    {
+     "start": 118.6,
+     "end": 118.84,
+     "word": " say,",
+     "prob": 0.998
+    },
+    {
+     "start": 119.0,
+     "end": 119.06,
+     "word": " can",
+     "prob": 0.406
+    },
+    {
+     "start": 119.06,
+     "end": 119.48,
+     "word": " you",
+     "prob": 0.998
+    },
+    {
+     "start": 119.48,
+     "end": 120.26,
+     "word": " update",
+     "prob": 0.99
+    },
+    {
+     "start": 120.26,
+     "end": 120.54,
+     "word": " my",
+     "prob": 0.993
+    },
+    {
+     "start": 120.54,
+     "end": 121.04,
+     "word": " age",
+     "prob": 0.997
+    }
+   ]
+  },
+  {
+   "start": 121.5,
+   "end": 125.3,
+   "text": " based on the 13th of September 1992?",
+   "words": [
+    {
+     "start": 121.5,
+     "end": 121.84,
+     "word": " based",
+     "prob": 0.91
+    },
+    {
+     "start": 121.84,
+     "end": 122.46,
+     "word": " on",
+     "prob": 0.999
+    },
+    {
+     "start": 122.46,
+     "end": 122.8,
+     "word": " the",
+     "prob": 0.988
+    },
+    {
+     "start": 122.8,
+     "end": 123.38,
+     "word": " 13th",
+     "prob": 0.977
+    },
+    {
+     "start": 123.38,
+     "end": 123.5,
+     "word": " of",
+     "prob": 0.957
+    },
+    {
+     "start": 123.5,
+     "end": 124.04,
+     "word": " September",
+     "prob": 0.995
+    },
+    {
+     "start": 124.04,
+     "end": 125.3,
+     "word": " 1992?",
+     "prob": 0.737
+    }
+   ]
+  },
+  {
+   "start": 125.7,
+   "end": 128.32,
+   "text": " So you can specifically update memories as well,",
+   "words": [
+    {
+     "start": 125.7,
+     "end": 125.92,
+     "word": " So",
+     "prob": 0.979
+    },
+    {
+     "start": 125.92,
+     "end": 126.02,
+     "word": " you",
+     "prob": 0.911
+    },
+    {
+     "start": 126.02,
+     "end": 126.2,
+     "word": " can",
+     "prob": 0.995
+    },
+    {
+     "start": 126.2,
+     "end": 126.78,
+     "word": " specifically",
+     "prob": 0.994
+    },
+    {
+     "start": 126.78,
+     "end": 127.46,
+     "word": " update",
+     "prob": 0.986
+    },
+    {
+     "start": 127.46,
+     "end": 127.84,
+     "word": " memories",
+     "prob": 0.978
+    },
+    {
+     "start": 127.84,
+     "end": 128.06,
+     "word": " as",
+     "prob": 0.967
+    },
+    {
+     "start": 128.06,
+     "end": 128.32,
+     "word": " well,",
+     "prob": 1.0
+    }
+   ]
+  },
+  {
+   "start": 128.48,
+   "end": 130.52,
+   "text": " or delete memories by just prompting",
+   "words": [
+    {
+     "start": 128.48,
+     "end": 128.5,
+     "word": " or",
+     "prob": 0.967
+    },
+    {
+     "start": 128.5,
+     "end": 128.74,
+     "word": " delete",
+     "prob": 0.999
+    },
+    {
+     "start": 128.74,
+     "end": 129.26,
+     "word": " memories",
+     "prob": 0.997
+    },
+    {
+     "start": 129.26,
+     "end": 129.82,
+     "word": " by",
+     "prob": 0.686
+    },
+    {
+     "start": 129.82,
+     "end": 130.06,
+     "word": " just",
+     "prob": 0.998
+    },
+    {
+     "start": 130.06,
+     "end": 130.52,
+     "word": " prompting",
+     "prob": 0.997
+    }
+   ]
+  },
+  {
+   "start": 130.52,
+   "end": 131.62,
+   "text": " and talking to ChatGPT.",
+   "words": [
+    {
+     "start": 130.52,
+     "end": 130.78,
+     "word": " and",
+     "prob": 0.978
+    },
+    {
+     "start": 130.78,
+     "end": 131.08,
+     "word": " talking",
+     "prob": 0.999
+    },
+    {
+     "start": 131.08,
+     "end": 131.38,
+     "word": " to",
+     "prob": 0.994
+    },
+    {
+     "start": 131.38,
+     "end": 131.62,
+     "word": " ChatGPT.",
+     "prob": 0.493
+    }
+   ]
+  },
+  {
+   "start": 132.08,
+   "end": 134.22,
+   "text": " I find this is a really great way",
+   "words": [
+    {
+     "start": 132.08,
+     "end": 132.48,
+     "word": " I",
+     "prob": 0.998
+    },
+    {
+     "start": 132.48,
+     "end": 132.66,
+     "word": " find",
+     "prob": 0.999
+    },
+    {
+     "start": 132.66,
+     "end": 132.84,
+     "word": " this",
+     "prob": 0.993
+    },
+    {
+     "start": 132.84,
+     "end": 133.0,
+     "word": " is",
+     "prob": 0.96
+    },
+    {
+     "start": 133.0,
+     "end": 133.18,
+     "word": " a",
+     "prob": 0.998
+    },
+    {
+     "start": 133.18,
+     "end": 133.5,
+     "word": " really",
+     "prob": 0.998
+    },
+    {
+     "start": 133.5,
+     "end": 133.82,
+     "word": " great",
+     "prob": 0.999
+    },
+    {
+     "start": 133.82,
+     "end": 134.22,
+     "word": " way",
+     "prob": 0.999
+    }
+   ]
+  },
+  {
+   "start": 134.22,
+   "end": 136.2,
+   "text": " when I've had a very in-depth conversation",
+   "words": [
+    {
+     "start": 134.22,
+     "end": 134.52,
+     "word": " when",
+     "prob": 0.62
+    },
+    {
+     "start": 134.52,
+     "end": 134.7,
+     "word": " I've",
+     "prob": 0.996
+    },
+    {
+     "start": 134.7,
+     "end": 134.8,
+     "word": " had",
+     "prob": 0.998
+    },
+    {
+     "start": 134.8,
+     "end": 134.88,
+     "word": " a",
+     "prob": 0.997
+    },
+    {
+     "start": 134.88,
+     "end": 135.26,
+     "word": " very",
+     "prob": 0.999
+    },
+    {
+     "start": 135.26,
+     "end": 135.52,
+     "word": " in",
+     "prob": 0.993
+    },
+    {
+     "start": 135.52,
+     "end": 135.68,
+     "word": "-depth",
+     "prob": 0.847
+    },
+    {
+     "start": 135.68,
+     "end": 136.2,
+     "word": " conversation",
+     "prob": 0.999
+    }
+   ]
+  },
+  {
+   "start": 136.2,
+   "end": 140.12,
+   "text": " or I want to frame all of the conversations",
+   "words": [
+    {
+     "start": 136.2,
+     "end": 136.6,
+     "word": " or",
+     "prob": 0.662
+    },
+    {
+     "start": 136.6,
+     "end": 136.76,
+     "word": " I",
+     "prob": 0.962
+    },
+    {
+     "start": 136.76,
+     "end": 136.94,
+     "word": " want",
+     "prob": 0.994
+    },
+    {
+     "start": 136.94,
+     "end": 137.38,
+     "word": " to",
+     "prob": 0.999
+    },
+    {
+     "start": 137.38,
+     "end": 138.22,
+     "word": " frame",
+     "prob": 0.999
+    },
+    {
+     "start": 138.22,
+     "end": 138.6,
+     "word": " all",
+     "prob": 0.999
+    },
+    {
+     "start": 138.6,
+     "end": 138.76,
+     "word": " of",
+     "prob": 0.998
+    },
+    {
+     "start": 138.76,
+     "end": 139.08,
+     "word": " the",
+     "prob": 0.999
+    },
+    {
+     "start": 139.08,
+     "end": 140.12,
+     "word": " conversations",
+     "prob": 0.994
+    }
+   ]
+  },
+  {
+   "start": 140.52,
+   "end": 143.64,
+   "text": " for ChatGPT going forward with specific memories.",
+   "words": [
+    {
+     "start": 140.52,
+     "end": 140.86,
+     "word": " for",
+     "prob": 0.996
+    },
+    {
+     "start": 140.86,
+     "end": 141.3,
+     "word": " ChatGPT",
+     "prob": 0.985
+    },
+    {
+     "start": 141.3,
+     "end": 141.66,
+     "word": " going",
+     "prob": 0.991
+    },
+    {
+     "start": 141.66,
+     "end": 142.14,
+     "word": " forward",
+     "prob": 0.999
+    },
+    {
+     "start": 142.14,
+     "end": 142.66,
+     "word": " with",
+     "prob": 0.938
+    },
+    {
+     "start": 142.66,
+     "end": 143.16,
+     "word": " specific",
+     "prob": 1.0
+    },
+    {
+     "start": 143.16,
+     "end": 143.64,
+     "word": " memories.",
+     "prob": 0.997
+    }
+   ]
+  },
+  {
+   "start": 143.64,
+   "end": 146.48,
+   "text": " That's when I'll explicitly add these in",
+   "words": [
+    {
+     "start": 143.64,
+     "end": 144.08,
+     "word": " That's",
+     "prob": 0.583
+    },
+    {
+     "start": 144.08,
+     "end": 144.2,
+     "word": " when",
+     "prob": 0.997
+    },
+    {
+     "start": 144.2,
+     "end": 144.46,
+     "word": " I'll",
+     "prob": 0.942
+    },
+    {
+     "start": 144.46,
+     "end": 144.9,
+     "word": " explicitly",
+     "prob": 0.999
+    },
+    {
+     "start": 144.9,
+     "end": 145.48,
+     "word": " add",
+     "prob": 0.996
+    },
+    {
+     "start": 145.48,
+     "end": 145.82,
+     "word": " these",
+     "prob": 0.996
+    },
+    {
+     "start": 145.82,
+     "end": 146.48,
+     "word": " in",
+     "prob": 0.948
+    }
+   ]
+  },
+  {
+   "start": 146.48,
+   "end": 147.94,
+   "text": " so that they're always present.",
+   "words": [
+    {
+     "start": 146.48,
+     "end": 146.82,
+     "word": " so",
+     "prob": 0.909
+    },
+    {
+     "start": 146.82,
+     "end": 147.0,
+     "word": " that",
+     "prob": 0.995
+    },
+    {
+     "start": 147.0,
+     "end": 147.22,
+     "word": " they're",
+     "prob": 0.995
+    },
+    {
+     "start": 147.22,
+     "end": 147.5,
+     "word": " always",
+     "prob": 1.0
+    },
+    {
+     "start": 147.5,
+     "end": 147.94,
+     "word": " present.",
+     "prob": 0.999
+    }
+   ]
+  }
+ ]
+}

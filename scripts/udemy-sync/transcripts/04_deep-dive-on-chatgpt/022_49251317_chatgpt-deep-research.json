@@ -1,0 +1,3854 @@
+{
+ "lecture_id": "49251317",
+ "title": "chatgpt deep research",
+ "section": "04_deep-dive-on-chatgpt",
+ "video_path": "scripts/udemy-sync/videos/04_deep-dive-on-chatgpt/022_49251317_chatgpt-deep-research.mp4",
+ "duration_s": 243.11,
+ "model": "small.en",
+ "word_timestamps": true,
+ "segments": [
+  {
+   "start": 1.01,
+   "end": 4.77,
+   "text": " All right, I'm just going to walk you through ChatGPT deep research.",
+   "words": [
+    {
+     "start": 1.01,
+     "end": 1.51,
+     "word": " All",
+     "prob": 0.063
+    },
+    {
+     "start": 1.51,
+     "end": 1.65,
+     "word": " right,",
+     "prob": 0.98
+    },
+    {
+     "start": 1.65,
+     "end": 1.81,
+     "word": " I'm",
+     "prob": 0.726
+    },
+    {
+     "start": 1.81,
+     "end": 1.91,
+     "word": " just",
+     "prob": 0.944
+    },
+    {
+     "start": 1.91,
+     "end": 1.99,
+     "word": " going",
+     "prob": 0.449
+    },
+    {
+     "start": 1.99,
+     "end": 2.05,
+     "word": " to",
+     "prob": 0.998
+    },
+    {
+     "start": 2.05,
+     "end": 2.23,
+     "word": " walk",
+     "prob": 0.929
+    },
+    {
+     "start": 2.23,
+     "end": 2.49,
+     "word": " you",
+     "prob": 0.998
+    },
+    {
+     "start": 2.49,
+     "end": 2.95,
+     "word": " through",
+     "prob": 0.998
+    },
+    {
+     "start": 2.95,
+     "end": 3.87,
+     "word": " ChatGPT",
+     "prob": 0.15
+    },
+    {
+     "start": 3.87,
+     "end": 4.19,
+     "word": " deep",
+     "prob": 0.632
+    },
+    {
+     "start": 4.19,
+     "end": 4.77,
+     "word": " research.",
+     "prob": 0.989
+    }
+   ]
+  },
+  {
+   "start": 5.11,
+   "end": 9.15,
+   "text": " So it's a button here that you press, and you can deal with the different models.",
+   "words": [
+    {
+     "start": 5.11,
+     "end": 5.39,
+     "word": " So",
+     "prob": 0.963
+    },
+    {
+     "start": 5.39,
+     "end": 5.85,
+     "word": " it's",
+     "prob": 0.934
+    },
+    {
+     "start": 5.85,
+     "end": 5.93,
+     "word": " a",
+     "prob": 0.991
+    },
+    {
+     "start": 5.93,
+     "end": 6.09,
+     "word": " button",
+     "prob": 0.998
+    },
+    {
+     "start": 6.09,
+     "end": 6.39,
+     "word": " here",
+     "prob": 0.991
+    },
+    {
+     "start": 6.39,
+     "end": 6.55,
+     "word": " that",
+     "prob": 0.941
+    },
+    {
+     "start": 6.55,
+     "end": 6.65,
+     "word": " you",
+     "prob": 0.986
+    },
+    {
+     "start": 6.65,
+     "end": 6.97,
+     "word": " press,",
+     "prob": 0.994
+    },
+    {
+     "start": 7.01,
+     "end": 7.73,
+     "word": " and",
+     "prob": 0.989
+    },
+    {
+     "start": 7.73,
+     "end": 7.83,
+     "word": " you",
+     "prob": 0.999
+    },
+    {
+     "start": 7.83,
+     "end": 7.93,
+     "word": " can",
+     "prob": 0.631
+    },
+    {
+     "start": 7.93,
+     "end": 8.09,
+     "word": " deal",
+     "prob": 0.582
+    },
+    {
+     "start": 8.09,
+     "end": 8.35,
+     "word": " with",
+     "prob": 0.995
+    },
+    {
+     "start": 8.35,
+     "end": 8.55,
+     "word": " the",
+     "prob": 0.955
+    },
+    {
+     "start": 8.55,
+     "end": 8.77,
+     "word": " different",
+     "prob": 0.999
+    },
+    {
+     "start": 8.77,
+     "end": 9.15,
+     "word": " models.",
+     "prob": 0.998
+    }
+   ]
+  },
+  {
+   "start": 9.43,
+   "end": 16.11,
+   "text": " In particular, if you have the $200 a month pro account, then it works really well, because",
+   "words": [
+    {
+     "start": 9.43,
+     "end": 9.55,
+     "word": " In",
+     "prob": 0.983
+    },
+    {
+     "start": 9.55,
+     "end": 9.99,
+     "word": " particular,",
+     "prob": 0.998
+    },
+    {
+     "start": 10.17,
+     "end": 10.45,
+     "word": " if",
+     "prob": 0.996
+    },
+    {
+     "start": 10.45,
+     "end": 10.55,
+     "word": " you",
+     "prob": 1.0
+    },
+    {
+     "start": 10.55,
+     "end": 10.71,
+     "word": " have",
+     "prob": 1.0
+    },
+    {
+     "start": 10.71,
+     "end": 10.85,
+     "word": " the",
+     "prob": 0.994
+    },
+    {
+     "start": 10.85,
+     "end": 11.35,
+     "word": " $200",
+     "prob": 0.894
+    },
+    {
+     "start": 11.35,
+     "end": 12.31,
+     "word": " a",
+     "prob": 0.856
+    },
+    {
+     "start": 12.31,
+     "end": 12.55,
+     "word": " month",
+     "prob": 0.998
+    },
+    {
+     "start": 12.55,
+     "end": 13.13,
+     "word": " pro",
+     "prob": 0.604
+    },
+    {
+     "start": 13.13,
+     "end": 14.11,
+     "word": " account,",
+     "prob": 0.993
+    },
+    {
+     "start": 14.31,
+     "end": 14.55,
+     "word": " then",
+     "prob": 0.985
+    },
+    {
+     "start": 14.55,
+     "end": 14.83,
+     "word": " it",
+     "prob": 0.998
+    },
+    {
+     "start": 14.83,
+     "end": 15.03,
+     "word": " works",
+     "prob": 0.999
+    },
+    {
+     "start": 15.03,
+     "end": 15.25,
+     "word": " really",
+     "prob": 0.999
+    },
+    {
+     "start": 15.25,
+     "end": 15.55,
+     "word": " well,",
+     "prob": 0.998
+    },
+    {
+     "start": 15.63,
+     "end": 16.11,
+     "word": " because",
+     "prob": 0.996
+    }
+   ]
+  },
+  {
+   "start": 16.11,
+   "end": 20.31,
+   "text": " the pro model is much better at thinking through things, and then it can come up with",
+   "words": [
+    {
+     "start": 16.11,
+     "end": 16.85,
+     "word": " the",
+     "prob": 0.103
+    },
+    {
+     "start": 16.85,
+     "end": 16.99,
+     "word": " pro",
+     "prob": 0.862
+    },
+    {
+     "start": 16.99,
+     "end": 17.27,
+     "word": " model",
+     "prob": 0.991
+    },
+    {
+     "start": 17.27,
+     "end": 17.77,
+     "word": " is",
+     "prob": 0.998
+    },
+    {
+     "start": 17.77,
+     "end": 17.95,
+     "word": " much",
+     "prob": 0.996
+    },
+    {
+     "start": 17.95,
+     "end": 18.15,
+     "word": " better",
+     "prob": 0.999
+    },
+    {
+     "start": 18.15,
+     "end": 18.27,
+     "word": " at",
+     "prob": 0.928
+    },
+    {
+     "start": 18.27,
+     "end": 18.51,
+     "word": " thinking",
+     "prob": 0.998
+    },
+    {
+     "start": 18.51,
+     "end": 18.81,
+     "word": " through",
+     "prob": 0.998
+    },
+    {
+     "start": 18.81,
+     "end": 19.11,
+     "word": " things,",
+     "prob": 0.999
+    },
+    {
+     "start": 19.11,
+     "end": 19.41,
+     "word": " and",
+     "prob": 0.998
+    },
+    {
+     "start": 19.41,
+     "end": 19.55,
+     "word": " then",
+     "prob": 0.997
+    },
+    {
+     "start": 19.55,
+     "end": 19.69,
+     "word": " it",
+     "prob": 0.997
+    },
+    {
+     "start": 19.69,
+     "end": 19.89,
+     "word": " can",
+     "prob": 1.0
+    },
+    {
+     "start": 19.89,
+     "end": 20.07,
+     "word": " come",
+     "prob": 0.999
+    },
+    {
+     "start": 20.07,
+     "end": 20.17,
+     "word": " up",
+     "prob": 0.999
+    },
+    {
+     "start": 20.17,
+     "end": 20.31,
+     "word": " with",
+     "prob": 1.0
+    }
+   ]
+  },
+  {
+   "start": 20.31,
+   "end": 21.99,
+   "text": " better things to research.",
+   "words": [
+    {
+     "start": 20.31,
+     "end": 20.59,
+     "word": " better",
+     "prob": 0.997
+    },
+    {
+     "start": 20.59,
+     "end": 21.23,
+     "word": " things",
+     "prob": 0.996
+    },
+    {
+     "start": 21.23,
+     "end": 21.57,
+     "word": " to",
+     "prob": 0.992
+    },
+    {
+     "start": 21.57,
+     "end": 21.99,
+     "word": " research.",
+     "prob": 0.998
+    }
+   ]
+  },
+  {
+   "start": 22.27,
+   "end": 24.71,
+   "text": " Just going to ask a question here.",
+   "words": [
+    {
+     "start": 22.27,
+     "end": 22.43,
+     "word": " Just",
+     "prob": 0.729
+    },
+    {
+     "start": 22.43,
+     "end": 22.67,
+     "word": " going",
+     "prob": 0.995
+    },
+    {
+     "start": 22.67,
+     "end": 23.31,
+     "word": " to",
+     "prob": 0.999
+    },
+    {
+     "start": 23.31,
+     "end": 23.83,
+     "word": " ask",
+     "prob": 0.997
+    },
+    {
+     "start": 23.83,
+     "end": 24.01,
+     "word": " a",
+     "prob": 0.989
+    },
+    {
+     "start": 24.01,
+     "end": 24.35,
+     "word": " question",
+     "prob": 1.0
+    },
+    {
+     "start": 24.35,
+     "end": 24.71,
+     "word": " here.",
+     "prob": 0.981
+    }
+   ]
+  },
+  {
+   "start": 24.71,
+   "end": 31.81,
+   "text": " I use this primarily for researching scientific papers or topics that I need to understand deeply.",
+   "words": [
+    {
+     "start": 24.71,
+     "end": 25.29,
+     "word": " I",
+     "prob": 0.347
+    },
+    {
+     "start": 25.29,
+     "end": 25.85,
+     "word": " use",
+     "prob": 0.806
+    },
+    {
+     "start": 25.85,
+     "end": 26.05,
+     "word": " this",
+     "prob": 0.945
+    },
+    {
+     "start": 26.05,
+     "end": 26.79,
+     "word": " primarily",
+     "prob": 0.91
+    },
+    {
+     "start": 26.79,
+     "end": 27.57,
+     "word": " for",
+     "prob": 0.988
+    },
+    {
+     "start": 27.57,
+     "end": 28.45,
+     "word": " researching",
+     "prob": 0.679
+    },
+    {
+     "start": 28.45,
+     "end": 28.91,
+     "word": " scientific",
+     "prob": 0.978
+    },
+    {
+     "start": 28.91,
+     "end": 29.53,
+     "word": " papers",
+     "prob": 0.988
+    },
+    {
+     "start": 29.53,
+     "end": 30.11,
+     "word": " or",
+     "prob": 0.88
+    },
+    {
+     "start": 30.11,
+     "end": 30.53,
+     "word": " topics",
+     "prob": 0.986
+    },
+    {
+     "start": 30.53,
+     "end": 30.79,
+     "word": " that",
+     "prob": 0.916
+    },
+    {
+     "start": 30.79,
+     "end": 30.87,
+     "word": " I",
+     "prob": 0.964
+    },
+    {
+     "start": 30.87,
+     "end": 31.01,
+     "word": " need",
+     "prob": 0.99
+    },
+    {
+     "start": 31.01,
+     "end": 31.33,
+     "word": " to",
+     "prob": 0.998
+    },
+    {
+     "start": 31.33,
+     "end": 31.45,
+     "word": " understand",
+     "prob": 0.995
+    },
+    {
+     "start": 31.45,
+     "end": 31.81,
+     "word": " deeply.",
+     "prob": 0.992
+    }
+   ]
+  },
+  {
+   "start": 32.11,
+   "end": 40.17,
+   "text": " So I'm going to say, why didn't Mometix become a science versus a cultural evolution?",
+   "words": [
+    {
+     "start": 32.11,
+     "end": 32.11,
+     "word": " So",
+     "prob": 0.835
+    },
+    {
+     "start": 32.11,
+     "end": 32.77,
+     "word": " I'm",
+     "prob": 0.873
+    },
+    {
+     "start": 32.77,
+     "end": 32.85,
+     "word": " going",
+     "prob": 0.623
+    },
+    {
+     "start": 32.85,
+     "end": 33.01,
+     "word": " to",
+     "prob": 0.996
+    },
+    {
+     "start": 33.01,
+     "end": 33.39,
+     "word": " say,",
+     "prob": 0.995
+    },
+    {
+     "start": 34.11,
+     "end": 34.19,
+     "word": " why",
+     "prob": 0.7
+    },
+    {
+     "start": 34.19,
+     "end": 35.17,
+     "word": " didn't",
+     "prob": 0.989
+    },
+    {
+     "start": 35.17,
+     "end": 35.83,
+     "word": " Mometix",
+     "prob": 0.325
+    },
+    {
+     "start": 35.83,
+     "end": 36.65,
+     "word": " become",
+     "prob": 0.962
+    },
+    {
+     "start": 36.65,
+     "end": 37.23,
+     "word": " a",
+     "prob": 0.996
+    },
+    {
+     "start": 37.23,
+     "end": 37.93,
+     "word": " science",
+     "prob": 0.873
+    },
+    {
+     "start": 37.93,
+     "end": 38.79,
+     "word": " versus",
+     "prob": 0.871
+    },
+    {
+     "start": 38.79,
+     "end": 39.25,
+     "word": " a",
+     "prob": 0.892
+    },
+    {
+     "start": 39.25,
+     "end": 39.65,
+     "word": " cultural",
+     "prob": 0.982
+    },
+    {
+     "start": 39.65,
+     "end": 40.17,
+     "word": " evolution?",
+     "prob": 0.788
+    }
+   ]
+  },
+  {
+   "start": 41.65,
+   "end": 51.05,
+   "text": " Which seems to have become the dominant path for studying evolution of ideas.",
+   "words": [
+    {
+     "start": 41.65,
+     "end": 42.17,
+     "word": " Which",
+     "prob": 0.909
+    },
+    {
+     "start": 42.17,
+     "end": 42.53,
+     "word": " seems",
+     "prob": 0.998
+    },
+    {
+     "start": 42.53,
+     "end": 43.11,
+     "word": " to",
+     "prob": 0.998
+    },
+    {
+     "start": 43.11,
+     "end": 43.57,
+     "word": " have",
+     "prob": 0.965
+    },
+    {
+     "start": 43.57,
+     "end": 44.33,
+     "word": " become",
+     "prob": 0.674
+    },
+    {
+     "start": 46.25,
+     "end": 46.41,
+     "word": " the",
+     "prob": 0.988
+    },
+    {
+     "start": 46.41,
+     "end": 46.75,
+     "word": " dominant",
+     "prob": 0.997
+    },
+    {
+     "start": 46.75,
+     "end": 47.15,
+     "word": " path",
+     "prob": 0.991
+    },
+    {
+     "start": 47.15,
+     "end": 48.07,
+     "word": " for",
+     "prob": 0.992
+    },
+    {
+     "start": 48.07,
+     "end": 49.09,
+     "word": " studying",
+     "prob": 0.678
+    },
+    {
+     "start": 49.09,
+     "end": 50.39,
+     "word": " evolution",
+     "prob": 0.922
+    },
+    {
+     "start": 50.39,
+     "end": 50.65,
+     "word": " of",
+     "prob": 0.997
+    },
+    {
+     "start": 50.65,
+     "end": 51.05,
+     "word": " ideas.",
+     "prob": 0.999
+    }
+   ]
+  },
+  {
+   "start": 52.15,
+   "end": 56.81,
+   "text": " And when you submit, quite often it will ask you specific questions, because it wants to",
+   "words": [
+    {
+     "start": 52.15,
+     "end": 52.59,
+     "word": " And",
+     "prob": 0.109
+    },
+    {
+     "start": 52.59,
+     "end": 52.81,
+     "word": " when",
+     "prob": 0.874
+    },
+    {
+     "start": 52.81,
+     "end": 52.99,
+     "word": " you",
+     "prob": 0.997
+    },
+    {
+     "start": 52.99,
+     "end": 53.35,
+     "word": " submit,",
+     "prob": 0.998
+    },
+    {
+     "start": 53.65,
+     "end": 53.67,
+     "word": " quite",
+     "prob": 0.896
+    },
+    {
+     "start": 53.67,
+     "end": 53.89,
+     "word": " often",
+     "prob": 0.997
+    },
+    {
+     "start": 53.89,
+     "end": 54.01,
+     "word": " it",
+     "prob": 0.317
+    },
+    {
+     "start": 54.01,
+     "end": 54.09,
+     "word": " will",
+     "prob": 0.474
+    },
+    {
+     "start": 54.09,
+     "end": 54.39,
+     "word": " ask",
+     "prob": 0.977
+    },
+    {
+     "start": 54.39,
+     "end": 54.65,
+     "word": " you",
+     "prob": 0.994
+    },
+    {
+     "start": 54.65,
+     "end": 55.25,
+     "word": " specific",
+     "prob": 0.993
+    },
+    {
+     "start": 55.25,
+     "end": 55.93,
+     "word": " questions,",
+     "prob": 0.992
+    },
+    {
+     "start": 56.19,
+     "end": 56.39,
+     "word": " because",
+     "prob": 0.798
+    },
+    {
+     "start": 56.39,
+     "end": 56.49,
+     "word": " it",
+     "prob": 0.993
+    },
+    {
+     "start": 56.49,
+     "end": 56.63,
+     "word": " wants",
+     "prob": 0.993
+    },
+    {
+     "start": 56.63,
+     "end": 56.81,
+     "word": " to",
+     "prob": 0.994
+    }
+   ]
+  },
+  {
+   "start": 56.81,
+   "end": 57.29,
+   "text": " get it right.",
+   "words": [
+    {
+     "start": 56.81,
+     "end": 56.95,
+     "word": " get",
+     "prob": 0.998
+    },
+    {
+     "start": 56.95,
+     "end": 57.09,
+     "word": " it",
+     "prob": 0.994
+    },
+    {
+     "start": 57.09,
+     "end": 57.29,
+     "word": " right.",
+     "prob": 0.991
+    }
+   ]
+  },
+  {
+   "start": 57.67,
+   "end": 61.07,
+   "text": " And it is quite a lengthy process, so it is important that you answer it.",
+   "words": [
+    {
+     "start": 57.67,
+     "end": 57.79,
+     "word": " And",
+     "prob": 0.926
+    },
+    {
+     "start": 57.79,
+     "end": 58.03,
+     "word": " it",
+     "prob": 0.975
+    },
+    {
+     "start": 58.03,
+     "end": 58.21,
+     "word": " is",
+     "prob": 0.996
+    },
+    {
+     "start": 58.21,
+     "end": 58.39,
+     "word": " quite",
+     "prob": 0.998
+    },
+    {
+     "start": 58.39,
+     "end": 58.49,
+     "word": " a",
+     "prob": 0.995
+    },
+    {
+     "start": 58.49,
+     "end": 58.75,
+     "word": " lengthy",
+     "prob": 1.0
+    },
+    {
+     "start": 58.75,
+     "end": 59.19,
+     "word": " process,",
+     "prob": 0.999
+    },
+    {
+     "start": 59.27,
+     "end": 59.49,
+     "word": " so",
+     "prob": 0.988
+    },
+    {
+     "start": 59.49,
+     "end": 59.57,
+     "word": " it",
+     "prob": 0.993
+    },
+    {
+     "start": 59.57,
+     "end": 59.73,
+     "word": " is",
+     "prob": 0.993
+    },
+    {
+     "start": 59.73,
+     "end": 60.05,
+     "word": " important",
+     "prob": 0.997
+    },
+    {
+     "start": 60.05,
+     "end": 60.33,
+     "word": " that",
+     "prob": 0.995
+    },
+    {
+     "start": 60.33,
+     "end": 60.55,
+     "word": " you",
+     "prob": 0.999
+    },
+    {
+     "start": 60.55,
+     "end": 60.89,
+     "word": " answer",
+     "prob": 0.997
+    },
+    {
+     "start": 60.89,
+     "end": 61.07,
+     "word": " it.",
+     "prob": 0.899
+    }
+   ]
+  },
+  {
+   "start": 61.19,
+   "end": 65.59,
+   "text": " Normally, I would actually spend a lot more time on the prompt, depending on a few different",
+   "words": [
+    {
+     "start": 61.19,
+     "end": 61.37,
+     "word": " Normally,",
+     "prob": 0.984
+    },
+    {
+     "start": 61.45,
+     "end": 61.59,
+     "word": " I",
+     "prob": 0.997
+    },
+    {
+     "start": 61.59,
+     "end": 61.67,
+     "word": " would",
+     "prob": 0.986
+    },
+    {
+     "start": 61.67,
+     "end": 61.93,
+     "word": " actually",
+     "prob": 0.995
+    },
+    {
+     "start": 61.93,
+     "end": 62.17,
+     "word": " spend",
+     "prob": 0.996
+    },
+    {
+     "start": 62.17,
+     "end": 62.31,
+     "word": " a",
+     "prob": 0.994
+    },
+    {
+     "start": 62.31,
+     "end": 62.41,
+     "word": " lot",
+     "prob": 0.99
+    },
+    {
+     "start": 62.41,
+     "end": 62.57,
+     "word": " more",
+     "prob": 0.999
+    },
+    {
+     "start": 62.57,
+     "end": 62.93,
+     "word": " time",
+     "prob": 0.999
+    },
+    {
+     "start": 62.93,
+     "end": 63.27,
+     "word": " on",
+     "prob": 0.994
+    },
+    {
+     "start": 63.27,
+     "end": 63.37,
+     "word": " the",
+     "prob": 0.993
+    },
+    {
+     "start": 63.37,
+     "end": 63.71,
+     "word": " prompt,",
+     "prob": 0.99
+    },
+    {
+     "start": 64.61,
+     "end": 64.93,
+     "word": " depending",
+     "prob": 0.665
+    },
+    {
+     "start": 64.93,
+     "end": 65.15,
+     "word": " on",
+     "prob": 0.942
+    },
+    {
+     "start": 65.15,
+     "end": 65.27,
+     "word": " a",
+     "prob": 0.94
+    },
+    {
+     "start": 65.27,
+     "end": 65.35,
+     "word": " few",
+     "prob": 0.997
+    },
+    {
+     "start": 65.35,
+     "end": 65.59,
+     "word": " different",
+     "prob": 0.996
+    }
+   ]
+  },
+  {
+   "start": 65.59,
+   "end": 66.11,
+   "text": " directions.",
+   "words": [
+    {
+     "start": 65.59,
+     "end": 66.11,
+     "word": " directions.",
+     "prob": 0.999
+    }
+   ]
+  },
+  {
+   "start": 66.53,
+   "end": 76.15,
+   "text": " But specifically, why, from an incentive's point of view, did cultural evolution adopted",
+   "words": [
+    {
+     "start": 66.53,
+     "end": 66.63,
+     "word": " But",
+     "prob": 0.99
+    },
+    {
+     "start": 66.63,
+     "end": 67.91,
+     "word": " specifically,",
+     "prob": 0.851
+    },
+    {
+     "start": 68.75,
+     "end": 68.93,
+     "word": " why,",
+     "prob": 0.789
+    },
+    {
+     "start": 69.73,
+     "end": 69.95,
+     "word": " from",
+     "prob": 0.984
+    },
+    {
+     "start": 69.95,
+     "end": 70.07,
+     "word": " an",
+     "prob": 0.997
+    },
+    {
+     "start": 70.07,
+     "end": 70.77,
+     "word": " incentive's",
+     "prob": 0.771
+    },
+    {
+     "start": 70.77,
+     "end": 70.91,
+     "word": " point",
+     "prob": 0.997
+    },
+    {
+     "start": 70.91,
+     "end": 71.03,
+     "word": " of",
+     "prob": 0.992
+    },
+    {
+     "start": 71.03,
+     "end": 71.19,
+     "word": " view,",
+     "prob": 0.998
+    },
+    {
+     "start": 71.49,
+     "end": 71.49,
+     "word": " did",
+     "prob": 0.301
+    },
+    {
+     "start": 71.49,
+     "end": 71.91,
+     "word": " cultural",
+     "prob": 0.808
+    },
+    {
+     "start": 71.91,
+     "end": 72.59,
+     "word": " evolution",
+     "prob": 0.992
+    },
+    {
+     "start": 74.83,
+     "end": 76.15,
+     "word": " adopted",
+     "prob": 0.873
+    }
+   ]
+  },
+  {
+   "start": 76.15,
+   "end": 81.46,
+   "text": " over Mometix by scientists?",
+   "words": [
+    {
+     "start": 76.15,
+     "end": 76.89,
+     "word": " over",
+     "prob": 0.71
+    },
+    {
+     "start": 76.89,
+     "end": 77.71,
+     "word": " Mometix",
+     "prob": 0.033
+    },
+    {
+     "start": 77.71,
+     "end": 78.69,
+     "word": " by",
+     "prob": 0.886
+    },
+    {
+     "start": 81.06,
+     "end": 81.46,
+     "word": " scientists?",
+     "prob": 0.991
+    }
+   ]
+  },
+  {
+   "start": 89.19,
+   "end": 90.85,
+   "text": " Okay, and that's doing the research.",
+   "words": [
+    {
+     "start": 89.19,
+     "end": 89.43,
+     "word": " Okay,",
+     "prob": 0.456
+    },
+    {
+     "start": 89.57,
+     "end": 89.67,
+     "word": " and",
+     "prob": 0.747
+    },
+    {
+     "start": 89.67,
+     "end": 89.97,
+     "word": " that's",
+     "prob": 0.806
+    },
+    {
+     "start": 89.97,
+     "end": 90.19,
+     "word": " doing",
+     "prob": 0.99
+    },
+    {
+     "start": 90.19,
+     "end": 90.35,
+     "word": " the",
+     "prob": 0.984
+    },
+    {
+     "start": 90.35,
+     "end": 90.85,
+     "word": " research.",
+     "prob": 0.999
+    }
+   ]
+  },
+  {
+   "start": 93.88,
+   "end": 98.84,
+   "text": " It typically can take anywhere from a few minutes to 10, 20 minutes in some cases.",
+   "words": [
+    {
+     "start": 93.88,
+     "end": 94.32,
+     "word": " It",
+     "prob": 0.161
+    },
+    {
+     "start": 94.32,
+     "end": 94.66,
+     "word": " typically",
+     "prob": 0.833
+    },
+    {
+     "start": 94.66,
+     "end": 95.14,
+     "word": " can",
+     "prob": 0.994
+    },
+    {
+     "start": 95.14,
+     "end": 95.36,
+     "word": " take",
+     "prob": 0.996
+    },
+    {
+     "start": 95.36,
+     "end": 95.7,
+     "word": " anywhere",
+     "prob": 0.974
+    },
+    {
+     "start": 95.7,
+     "end": 95.92,
+     "word": " from",
+     "prob": 0.993
+    },
+    {
+     "start": 95.92,
+     "end": 96.08,
+     "word": " a",
+     "prob": 0.988
+    },
+    {
+     "start": 96.08,
+     "end": 96.22,
+     "word": " few",
+     "prob": 0.999
+    },
+    {
+     "start": 96.22,
+     "end": 96.52,
+     "word": " minutes",
+     "prob": 0.997
+    },
+    {
+     "start": 96.52,
+     "end": 97.02,
+     "word": " to",
+     "prob": 0.981
+    },
+    {
+     "start": 97.02,
+     "end": 97.62,
+     "word": " 10,",
+     "prob": 0.868
+    },
+    {
+     "start": 97.76,
+     "end": 97.92,
+     "word": " 20",
+     "prob": 0.99
+    },
+    {
+     "start": 97.92,
+     "end": 98.18,
+     "word": " minutes",
+     "prob": 0.992
+    },
+    {
+     "start": 98.18,
+     "end": 98.34,
+     "word": " in",
+     "prob": 0.724
+    },
+    {
+     "start": 98.34,
+     "end": 98.54,
+     "word": " some",
+     "prob": 0.999
+    },
+    {
+     "start": 98.54,
+     "end": 98.84,
+     "word": " cases.",
+     "prob": 0.998
+    }
+   ]
+  },
+  {
+   "start": 105.28,
+   "end": 109.66,
+   "text": " If you click on it, you can usually see what things it's read on the right hand side here.",
+   "words": [
+    {
+     "start": 105.28,
+     "end": 105.38,
+     "word": " If",
+     "prob": 0.843
+    },
+    {
+     "start": 105.38,
+     "end": 105.46,
+     "word": " you",
+     "prob": 0.998
+    },
+    {
+     "start": 105.46,
+     "end": 105.68,
+     "word": " click",
+     "prob": 0.998
+    },
+    {
+     "start": 105.68,
+     "end": 105.86,
+     "word": " on",
+     "prob": 0.999
+    },
+    {
+     "start": 105.86,
+     "end": 106.02,
+     "word": " it,",
+     "prob": 0.995
+    },
+    {
+     "start": 106.16,
+     "end": 106.24,
+     "word": " you",
+     "prob": 0.996
+    },
+    {
+     "start": 106.24,
+     "end": 106.38,
+     "word": " can",
+     "prob": 0.999
+    },
+    {
+     "start": 106.38,
+     "end": 106.64,
+     "word": " usually",
+     "prob": 0.995
+    },
+    {
+     "start": 106.64,
+     "end": 107.08,
+     "word": " see",
+     "prob": 0.999
+    },
+    {
+     "start": 107.08,
+     "end": 107.42,
+     "word": " what",
+     "prob": 0.994
+    },
+    {
+     "start": 107.42,
+     "end": 107.72,
+     "word": " things",
+     "prob": 0.949
+    },
+    {
+     "start": 107.72,
+     "end": 107.92,
+     "word": " it's",
+     "prob": 0.969
+    },
+    {
+     "start": 107.92,
+     "end": 108.12,
+     "word": " read",
+     "prob": 0.968
+    },
+    {
+     "start": 108.12,
+     "end": 108.62,
+     "word": " on",
+     "prob": 0.866
+    },
+    {
+     "start": 108.62,
+     "end": 108.72,
+     "word": " the",
+     "prob": 0.998
+    },
+    {
+     "start": 108.72,
+     "end": 108.88,
+     "word": " right",
+     "prob": 0.984
+    },
+    {
+     "start": 108.88,
+     "end": 109.02,
+     "word": " hand",
+     "prob": 0.593
+    },
+    {
+     "start": 109.02,
+     "end": 109.28,
+     "word": " side",
+     "prob": 0.998
+    },
+    {
+     "start": 109.28,
+     "end": 109.66,
+     "word": " here.",
+     "prob": 0.974
+    }
+   ]
+  },
+  {
+   "start": 110.02,
+   "end": 112.36,
+   "text": " You'll be able to see what sources it looks at, too.",
+   "words": [
+    {
+     "start": 110.02,
+     "end": 110.26,
+     "word": " You'll",
+     "prob": 0.865
+    },
+    {
+     "start": 110.26,
+     "end": 110.34,
+     "word": " be",
+     "prob": 0.993
+    },
+    {
+     "start": 110.34,
+     "end": 110.42,
+     "word": " able",
+     "prob": 0.998
+    },
+    {
+     "start": 110.42,
+     "end": 110.56,
+     "word": " to",
+     "prob": 0.999
+    },
+    {
+     "start": 110.56,
+     "end": 110.82,
+     "word": " see",
+     "prob": 0.999
+    },
+    {
+     "start": 110.82,
+     "end": 111.04,
+     "word": " what",
+     "prob": 0.993
+    },
+    {
+     "start": 111.04,
+     "end": 111.48,
+     "word": " sources",
+     "prob": 0.993
+    },
+    {
+     "start": 111.48,
+     "end": 111.72,
+     "word": " it",
+     "prob": 0.987
+    },
+    {
+     "start": 111.72,
+     "end": 111.88,
+     "word": " looks",
+     "prob": 0.998
+    },
+    {
+     "start": 111.88,
+     "end": 112.14,
+     "word": " at,",
+     "prob": 0.905
+    },
+    {
+     "start": 112.36,
+     "end": 112.36,
+     "word": " too.",
+     "prob": 0.996
+    }
+   ]
+  },
+  {
+   "start": 117.31,
+   "end": 124.11,
+   "text": " Okay, you can see here that it's gone through one of the sources already, this MIT source,",
+   "words": [
+    {
+     "start": 117.31,
+     "end": 117.41,
+     "word": " Okay,",
+     "prob": 0.399
+    },
+    {
+     "start": 117.43,
+     "end": 117.59,
+     "word": " you",
+     "prob": 0.996
+    },
+    {
+     "start": 117.59,
+     "end": 117.73,
+     "word": " can",
+     "prob": 0.999
+    },
+    {
+     "start": 117.73,
+     "end": 118.11,
+     "word": " see",
+     "prob": 0.999
+    },
+    {
+     "start": 118.11,
+     "end": 118.49,
+     "word": " here",
+     "prob": 0.996
+    },
+    {
+     "start": 118.49,
+     "end": 118.73,
+     "word": " that",
+     "prob": 0.99
+    },
+    {
+     "start": 118.73,
+     "end": 119.13,
+     "word": " it's",
+     "prob": 0.997
+    },
+    {
+     "start": 119.13,
+     "end": 119.35,
+     "word": " gone",
+     "prob": 0.98
+    },
+    {
+     "start": 119.35,
+     "end": 119.61,
+     "word": " through",
+     "prob": 0.999
+    },
+    {
+     "start": 119.61,
+     "end": 119.85,
+     "word": " one",
+     "prob": 0.996
+    },
+    {
+     "start": 119.85,
+     "end": 119.93,
+     "word": " of",
+     "prob": 0.999
+    },
+    {
+     "start": 119.93,
+     "end": 120.05,
+     "word": " the",
+     "prob": 0.979
+    },
+    {
+     "start": 120.05,
+     "end": 120.35,
+     "word": " sources",
+     "prob": 0.998
+    },
+    {
+     "start": 120.35,
+     "end": 120.91,
+     "word": " already,",
+     "prob": 0.984
+    },
+    {
+     "start": 121.65,
+     "end": 121.91,
+     "word": " this",
+     "prob": 0.989
+    },
+    {
+     "start": 121.91,
+     "end": 122.53,
+     "word": " MIT",
+     "prob": 0.948
+    },
+    {
+     "start": 122.53,
+     "end": 124.11,
+     "word": " source,",
+     "prob": 0.972
+    }
+   ]
+  },
+  {
+   "start": 124.13,
+   "end": 127.17,
+   "text": " and it's telling you what it's looking at.",
+   "words": [
+    {
+     "start": 124.13,
+     "end": 124.85,
+     "word": " and",
+     "prob": 0.998
+    },
+    {
+     "start": 124.85,
+     "end": 125.71,
+     "word": " it's",
+     "prob": 0.997
+    },
+    {
+     "start": 125.71,
+     "end": 126.03,
+     "word": " telling",
+     "prob": 0.994
+    },
+    {
+     "start": 126.03,
+     "end": 126.19,
+     "word": " you",
+     "prob": 0.998
+    },
+    {
+     "start": 126.19,
+     "end": 126.37,
+     "word": " what",
+     "prob": 0.999
+    },
+    {
+     "start": 126.37,
+     "end": 126.59,
+     "word": " it's",
+     "prob": 0.997
+    },
+    {
+     "start": 126.59,
+     "end": 126.89,
+     "word": " looking",
+     "prob": 0.999
+    },
+    {
+     "start": 126.89,
+     "end": 127.17,
+     "word": " at.",
+     "prob": 0.997
+    }
+   ]
+  },
+  {
+   "start": 127.39,
+   "end": 131.45,
+   "text": " It's going to keep doing that for a while, keep thinking, and then keep going back different",
+   "words": [
+    {
+     "start": 127.39,
+     "end": 127.57,
+     "word": " It's",
+     "prob": 0.821
+    },
+    {
+     "start": 127.57,
+     "end": 127.65,
+     "word": " going",
+     "prob": 0.785
+    },
+    {
+     "start": 127.65,
+     "end": 127.77,
+     "word": " to",
+     "prob": 0.998
+    },
+    {
+     "start": 127.77,
+     "end": 127.89,
+     "word": " keep",
+     "prob": 0.998
+    },
+    {
+     "start": 127.89,
+     "end": 128.11,
+     "word": " doing",
+     "prob": 0.999
+    },
+    {
+     "start": 128.11,
+     "end": 128.31,
+     "word": " that",
+     "prob": 0.999
+    },
+    {
+     "start": 128.31,
+     "end": 128.49,
+     "word": " for",
+     "prob": 0.998
+    },
+    {
+     "start": 128.49,
+     "end": 128.57,
+     "word": " a",
+     "prob": 0.95
+    },
+    {
+     "start": 128.57,
+     "end": 128.79,
+     "word": " while,",
+     "prob": 0.999
+    },
+    {
+     "start": 128.93,
+     "end": 129.07,
+     "word": " keep",
+     "prob": 0.991
+    },
+    {
+     "start": 129.07,
+     "end": 129.49,
+     "word": " thinking,",
+     "prob": 1.0
+    },
+    {
+     "start": 129.99,
+     "end": 130.35,
+     "word": " and",
+     "prob": 0.998
+    },
+    {
+     "start": 130.35,
+     "end": 130.49,
+     "word": " then",
+     "prob": 0.997
+    },
+    {
+     "start": 130.49,
+     "end": 130.65,
+     "word": " keep",
+     "prob": 0.994
+    },
+    {
+     "start": 130.65,
+     "end": 130.85,
+     "word": " going",
+     "prob": 0.998
+    },
+    {
+     "start": 130.85,
+     "end": 131.07,
+     "word": " back",
+     "prob": 0.999
+    },
+    {
+     "start": 131.07,
+     "end": 131.45,
+     "word": " different",
+     "prob": 0.614
+    }
+   ]
+  },
+  {
+   "start": 131.45,
+   "end": 131.83,
+   "text": " sources.",
+   "words": [
+    {
+     "start": 131.45,
+     "end": 131.83,
+     "word": " sources.",
+     "prob": 0.999
+    }
+   ]
+  },
+  {
+   "start": 132.19,
+   "end": 136.95,
+   "text": " It's actually writing the Google search queries in order to find these sources as well, which",
+   "words": [
+    {
+     "start": 132.19,
+     "end": 132.43,
+     "word": " It's",
+     "prob": 0.7
+    },
+    {
+     "start": 132.43,
+     "end": 132.65,
+     "word": " actually",
+     "prob": 0.984
+    },
+    {
+     "start": 132.65,
+     "end": 133.03,
+     "word": " writing",
+     "prob": 0.989
+    },
+    {
+     "start": 133.03,
+     "end": 133.33,
+     "word": " the",
+     "prob": 0.928
+    },
+    {
+     "start": 133.33,
+     "end": 133.61,
+     "word": " Google",
+     "prob": 0.922
+    },
+    {
+     "start": 133.61,
+     "end": 133.87,
+     "word": " search",
+     "prob": 0.894
+    },
+    {
+     "start": 133.87,
+     "end": 134.33,
+     "word": " queries",
+     "prob": 0.99
+    },
+    {
+     "start": 134.33,
+     "end": 135.17,
+     "word": " in",
+     "prob": 0.949
+    },
+    {
+     "start": 135.17,
+     "end": 135.29,
+     "word": " order",
+     "prob": 0.997
+    },
+    {
+     "start": 135.29,
+     "end": 135.45,
+     "word": " to",
+     "prob": 0.998
+    },
+    {
+     "start": 135.45,
+     "end": 135.69,
+     "word": " find",
+     "prob": 0.997
+    },
+    {
+     "start": 135.69,
+     "end": 135.87,
+     "word": " these",
+     "prob": 0.95
+    },
+    {
+     "start": 135.87,
+     "end": 136.23,
+     "word": " sources",
+     "prob": 0.992
+    },
+    {
+     "start": 136.23,
+     "end": 136.49,
+     "word": " as",
+     "prob": 0.98
+    },
+    {
+     "start": 136.49,
+     "end": 136.69,
+     "word": " well,",
+     "prob": 0.999
+    },
+    {
+     "start": 136.73,
+     "end": 136.95,
+     "word": " which",
+     "prob": 0.999
+    }
+   ]
+  },
+  {
+   "start": 136.95,
+   "end": 138.19,
+   "text": " is what makes it so powerful.",
+   "words": [
+    {
+     "start": 136.95,
+     "end": 137.11,
+     "word": " is",
+     "prob": 0.991
+    },
+    {
+     "start": 137.11,
+     "end": 137.27,
+     "word": " what",
+     "prob": 0.998
+    },
+    {
+     "start": 137.27,
+     "end": 137.45,
+     "word": " makes",
+     "prob": 0.996
+    },
+    {
+     "start": 137.45,
+     "end": 137.61,
+     "word": " it",
+     "prob": 0.972
+    },
+    {
+     "start": 137.61,
+     "end": 137.77,
+     "word": " so",
+     "prob": 0.989
+    },
+    {
+     "start": 137.77,
+     "end": 138.19,
+     "word": " powerful.",
+     "prob": 0.999
+    }
+   ]
+  },
+  {
+   "start": 139.19,
+   "end": 142.95,
+   "text": " And then we'll decide when it has enough information to give you your answer.",
+   "words": [
+    {
+     "start": 139.19,
+     "end": 139.21,
+     "word": " And",
+     "prob": 0.874
+    },
+    {
+     "start": 139.21,
+     "end": 139.33,
+     "word": " then",
+     "prob": 0.998
+    },
+    {
+     "start": 139.33,
+     "end": 139.63,
+     "word": " we'll",
+     "prob": 0.901
+    },
+    {
+     "start": 139.63,
+     "end": 140.07,
+     "word": " decide",
+     "prob": 0.999
+    },
+    {
+     "start": 140.07,
+     "end": 140.33,
+     "word": " when",
+     "prob": 0.997
+    },
+    {
+     "start": 140.33,
+     "end": 140.47,
+     "word": " it",
+     "prob": 0.999
+    },
+    {
+     "start": 140.47,
+     "end": 140.73,
+     "word": " has",
+     "prob": 0.999
+    },
+    {
+     "start": 140.73,
+     "end": 140.95,
+     "word": " enough",
+     "prob": 1.0
+    },
+    {
+     "start": 140.95,
+     "end": 141.41,
+     "word": " information",
+     "prob": 0.999
+    },
+    {
+     "start": 141.41,
+     "end": 141.91,
+     "word": " to",
+     "prob": 0.998
+    },
+    {
+     "start": 141.91,
+     "end": 142.17,
+     "word": " give",
+     "prob": 0.999
+    },
+    {
+     "start": 142.17,
+     "end": 142.39,
+     "word": " you",
+     "prob": 0.999
+    },
+    {
+     "start": 142.39,
+     "end": 142.61,
+     "word": " your",
+     "prob": 0.997
+    },
+    {
+     "start": 142.61,
+     "end": 142.95,
+     "word": " answer.",
+     "prob": 0.999
+    }
+   ]
+  },
+  {
+   "start": 143.47,
+   "end": 148.05,
+   "text": " So it will think a lot longer for things a bit more difficult, and it will come back",
+   "words": [
+    {
+     "start": 143.47,
+     "end": 143.77,
+     "word": " So",
+     "prob": 0.979
+    },
+    {
+     "start": 143.77,
+     "end": 144.29,
+     "word": " it",
+     "prob": 0.88
+    },
+    {
+     "start": 144.29,
+     "end": 144.41,
+     "word": " will",
+     "prob": 0.996
+    },
+    {
+     "start": 144.41,
+     "end": 144.59,
+     "word": " think",
+     "prob": 0.998
+    },
+    {
+     "start": 144.59,
+     "end": 144.75,
+     "word": " a",
+     "prob": 0.967
+    },
+    {
+     "start": 144.75,
+     "end": 144.85,
+     "word": " lot",
+     "prob": 0.99
+    },
+    {
+     "start": 144.85,
+     "end": 145.15,
+     "word": " longer",
+     "prob": 0.873
+    },
+    {
+     "start": 145.15,
+     "end": 145.39,
+     "word": " for",
+     "prob": 0.962
+    },
+    {
+     "start": 145.39,
+     "end": 145.71,
+     "word": " things",
+     "prob": 0.997
+    },
+    {
+     "start": 145.71,
+     "end": 146.19,
+     "word": " a",
+     "prob": 0.799
+    },
+    {
+     "start": 146.19,
+     "end": 146.29,
+     "word": " bit",
+     "prob": 0.996
+    },
+    {
+     "start": 146.29,
+     "end": 146.45,
+     "word": " more",
+     "prob": 0.999
+    },
+    {
+     "start": 146.45,
+     "end": 146.81,
+     "word": " difficult,",
+     "prob": 0.998
+    },
+    {
+     "start": 146.81,
+     "end": 147.45,
+     "word": " and",
+     "prob": 0.997
+    },
+    {
+     "start": 147.45,
+     "end": 147.59,
+     "word": " it",
+     "prob": 0.998
+    },
+    {
+     "start": 147.59,
+     "end": 147.69,
+     "word": " will",
+     "prob": 0.712
+    },
+    {
+     "start": 147.69,
+     "end": 147.83,
+     "word": " come",
+     "prob": 0.999
+    },
+    {
+     "start": 147.83,
+     "end": 148.05,
+     "word": " back",
+     "prob": 1.0
+    }
+   ]
+  },
+  {
+   "start": 148.05,
+   "end": 150.63,
+   "text": " much more directly if it gets an answer quicker.",
+   "words": [
+    {
+     "start": 148.05,
+     "end": 148.29,
+     "word": " much",
+     "prob": 0.991
+    },
+    {
+     "start": 148.29,
+     "end": 148.49,
+     "word": " more",
+     "prob": 0.999
+    },
+    {
+     "start": 148.49,
+     "end": 148.99,
+     "word": " directly",
+     "prob": 0.999
+    },
+    {
+     "start": 148.99,
+     "end": 149.63,
+     "word": " if",
+     "prob": 0.87
+    },
+    {
+     "start": 149.63,
+     "end": 149.75,
+     "word": " it",
+     "prob": 0.979
+    },
+    {
+     "start": 149.75,
+     "end": 149.93,
+     "word": " gets",
+     "prob": 0.977
+    },
+    {
+     "start": 149.93,
+     "end": 150.07,
+     "word": " an",
+     "prob": 0.989
+    },
+    {
+     "start": 150.07,
+     "end": 150.33,
+     "word": " answer",
+     "prob": 0.999
+    },
+    {
+     "start": 150.33,
+     "end": 150.63,
+     "word": " quicker.",
+     "prob": 0.991
+    }
+   ]
+  },
+  {
+   "start": 153.03,
+   "end": 157.85,
+   "text": " Okay, it looks like we have everything back, and it did an astounding amount of work.",
+   "words": [
+    {
+     "start": 153.03,
+     "end": 153.39,
+     "word": " Okay,",
+     "prob": 0.403
+    },
+    {
+     "start": 153.59,
+     "end": 153.71,
+     "word": " it",
+     "prob": 0.911
+    },
+    {
+     "start": 153.71,
+     "end": 153.85,
+     "word": " looks",
+     "prob": 0.999
+    },
+    {
+     "start": 153.85,
+     "end": 154.07,
+     "word": " like",
+     "prob": 0.998
+    },
+    {
+     "start": 154.07,
+     "end": 154.27,
+     "word": " we",
+     "prob": 0.999
+    },
+    {
+     "start": 154.27,
+     "end": 154.51,
+     "word": " have",
+     "prob": 0.999
+    },
+    {
+     "start": 154.51,
+     "end": 154.81,
+     "word": " everything",
+     "prob": 0.999
+    },
+    {
+     "start": 154.81,
+     "end": 155.11,
+     "word": " back,",
+     "prob": 0.999
+    },
+    {
+     "start": 155.45,
+     "end": 155.85,
+     "word": " and",
+     "prob": 0.998
+    },
+    {
+     "start": 155.85,
+     "end": 155.99,
+     "word": " it",
+     "prob": 0.999
+    },
+    {
+     "start": 155.99,
+     "end": 156.17,
+     "word": " did",
+     "prob": 0.999
+    },
+    {
+     "start": 156.17,
+     "end": 156.41,
+     "word": " an",
+     "prob": 0.995
+    },
+    {
+     "start": 156.41,
+     "end": 156.99,
+     "word": " astounding",
+     "prob": 0.997
+    },
+    {
+     "start": 156.99,
+     "end": 157.41,
+     "word": " amount",
+     "prob": 0.999
+    },
+    {
+     "start": 157.41,
+     "end": 157.57,
+     "word": " of",
+     "prob": 1.0
+    },
+    {
+     "start": 157.57,
+     "end": 157.85,
+     "word": " work.",
+     "prob": 1.0
+    }
+   ]
+  },
+  {
+   "start": 157.85,
+   "end": 166.95,
+   "text": " It looked at 28 different sources from Stanford to like Wikipedia and neuroanthropology.net.",
+   "words": [
+    {
+     "start": 157.85,
+     "end": 158.15,
+     "word": " It",
+     "prob": 0.147
+    },
+    {
+     "start": 158.15,
+     "end": 158.43,
+     "word": " looked",
+     "prob": 0.932
+    },
+    {
+     "start": 158.43,
+     "end": 158.65,
+     "word": " at",
+     "prob": 0.981
+    },
+    {
+     "start": 158.65,
+     "end": 159.25,
+     "word": " 28",
+     "prob": 0.971
+    },
+    {
+     "start": 159.25,
+     "end": 159.71,
+     "word": " different",
+     "prob": 0.976
+    },
+    {
+     "start": 159.71,
+     "end": 160.19,
+     "word": " sources",
+     "prob": 0.993
+    },
+    {
+     "start": 160.19,
+     "end": 161.31,
+     "word": " from",
+     "prob": 0.649
+    },
+    {
+     "start": 161.31,
+     "end": 161.87,
+     "word": " Stanford",
+     "prob": 0.842
+    },
+    {
+     "start": 161.87,
+     "end": 162.45,
+     "word": " to",
+     "prob": 0.866
+    },
+    {
+     "start": 162.45,
+     "end": 162.63,
+     "word": " like",
+     "prob": 0.522
+    },
+    {
+     "start": 162.63,
+     "end": 163.53,
+     "word": " Wikipedia",
+     "prob": 0.368
+    },
+    {
+     "start": 163.53,
+     "end": 164.77,
+     "word": " and",
+     "prob": 0.92
+    },
+    {
+     "start": 164.77,
+     "end": 166.43,
+     "word": " neuroanthropology",
+     "prob": 0.793
+    },
+    {
+     "start": 166.43,
+     "end": 166.95,
+     "word": ".net.",
+     "prob": 0.954
+    }
+   ]
+  },
+  {
+   "start": 167.21,
+   "end": 171.75,
+   "text": " Tons of really interesting sources that you could always go and check for yourself, but",
+   "words": [
+    {
+     "start": 167.21,
+     "end": 167.37,
+     "word": " Tons",
+     "prob": 0.93
+    },
+    {
+     "start": 167.37,
+     "end": 167.65,
+     "word": " of",
+     "prob": 0.995
+    },
+    {
+     "start": 167.65,
+     "end": 167.83,
+     "word": " really",
+     "prob": 0.915
+    },
+    {
+     "start": 167.83,
+     "end": 168.19,
+     "word": " interesting",
+     "prob": 0.998
+    },
+    {
+     "start": 168.19,
+     "end": 168.61,
+     "word": " sources",
+     "prob": 0.996
+    },
+    {
+     "start": 168.61,
+     "end": 168.87,
+     "word": " that",
+     "prob": 0.975
+    },
+    {
+     "start": 168.87,
+     "end": 169.03,
+     "word": " you",
+     "prob": 0.999
+    },
+    {
+     "start": 169.03,
+     "end": 169.13,
+     "word": " could",
+     "prob": 0.935
+    },
+    {
+     "start": 169.13,
+     "end": 169.33,
+     "word": " always",
+     "prob": 0.997
+    },
+    {
+     "start": 169.33,
+     "end": 169.55,
+     "word": " go",
+     "prob": 0.997
+    },
+    {
+     "start": 169.55,
+     "end": 169.75,
+     "word": " and",
+     "prob": 0.972
+    },
+    {
+     "start": 169.75,
+     "end": 170.39,
+     "word": " check",
+     "prob": 0.996
+    },
+    {
+     "start": 170.39,
+     "end": 170.89,
+     "word": " for",
+     "prob": 0.997
+    },
+    {
+     "start": 170.89,
+     "end": 171.25,
+     "word": " yourself,",
+     "prob": 0.999
+    },
+    {
+     "start": 171.25,
+     "end": 171.75,
+     "word": " but",
+     "prob": 0.997
+    }
+   ]
+  },
+  {
+   "start": 172.05,
+   "end": 177.17,
+   "text": " it also gives you all the thinking that went into this, and you can understand this thought",
+   "words": [
+    {
+     "start": 172.05,
+     "end": 172.35,
+     "word": " it",
+     "prob": 0.983
+    },
+    {
+     "start": 172.35,
+     "end": 172.83,
+     "word": " also",
+     "prob": 0.998
+    },
+    {
+     "start": 172.83,
+     "end": 173.13,
+     "word": " gives",
+     "prob": 0.997
+    },
+    {
+     "start": 173.13,
+     "end": 173.49,
+     "word": " you",
+     "prob": 0.999
+    },
+    {
+     "start": 173.49,
+     "end": 174.11,
+     "word": " all",
+     "prob": 0.994
+    },
+    {
+     "start": 174.11,
+     "end": 174.27,
+     "word": " the",
+     "prob": 0.982
+    },
+    {
+     "start": 174.27,
+     "end": 174.57,
+     "word": " thinking",
+     "prob": 0.999
+    },
+    {
+     "start": 174.57,
+     "end": 174.81,
+     "word": " that",
+     "prob": 0.999
+    },
+    {
+     "start": 174.81,
+     "end": 174.97,
+     "word": " went",
+     "prob": 0.999
+    },
+    {
+     "start": 174.97,
+     "end": 175.21,
+     "word": " into",
+     "prob": 0.999
+    },
+    {
+     "start": 175.21,
+     "end": 175.53,
+     "word": " this,",
+     "prob": 0.998
+    },
+    {
+     "start": 175.71,
+     "end": 175.81,
+     "word": " and",
+     "prob": 0.991
+    },
+    {
+     "start": 175.81,
+     "end": 176.37,
+     "word": " you",
+     "prob": 0.761
+    },
+    {
+     "start": 176.37,
+     "end": 176.47,
+     "word": " can",
+     "prob": 0.983
+    },
+    {
+     "start": 176.47,
+     "end": 176.77,
+     "word": " understand",
+     "prob": 0.993
+    },
+    {
+     "start": 176.77,
+     "end": 176.95,
+     "word": " this",
+     "prob": 0.593
+    },
+    {
+     "start": 176.95,
+     "end": 177.17,
+     "word": " thought",
+     "prob": 0.99
+    }
+   ]
+  },
+  {
+   "start": 177.17,
+   "end": 178.75,
+   "text": " process as it comes on.",
+   "words": [
+    {
+     "start": 177.17,
+     "end": 177.55,
+     "word": " process",
+     "prob": 0.99
+    },
+    {
+     "start": 177.55,
+     "end": 177.89,
+     "word": " as",
+     "prob": 0.99
+    },
+    {
+     "start": 177.89,
+     "end": 178.05,
+     "word": " it",
+     "prob": 0.998
+    },
+    {
+     "start": 178.05,
+     "end": 178.35,
+     "word": " comes",
+     "prob": 0.998
+    },
+    {
+     "start": 178.35,
+     "end": 178.75,
+     "word": " on.",
+     "prob": 0.974
+    }
+   ]
+  },
+  {
+   "start": 179.45,
+   "end": 183.87,
+   "text": " All right, so we have like now a pretty comprehensive report.",
+   "words": [
+    {
+     "start": 179.45,
+     "end": 179.49,
+     "word": " All",
+     "prob": 0.632
+    },
+    {
+     "start": 179.49,
+     "end": 179.55,
+     "word": " right,",
+     "prob": 0.999
+    },
+    {
+     "start": 179.59,
+     "end": 179.81,
+     "word": " so",
+     "prob": 0.992
+    },
+    {
+     "start": 179.81,
+     "end": 180.93,
+     "word": " we",
+     "prob": 0.881
+    },
+    {
+     "start": 180.93,
+     "end": 181.19,
+     "word": " have",
+     "prob": 0.999
+    },
+    {
+     "start": 181.19,
+     "end": 181.39,
+     "word": " like",
+     "prob": 0.696
+    },
+    {
+     "start": 181.39,
+     "end": 181.69,
+     "word": " now",
+     "prob": 0.952
+    },
+    {
+     "start": 181.69,
+     "end": 182.13,
+     "word": " a",
+     "prob": 0.935
+    },
+    {
+     "start": 182.13,
+     "end": 182.69,
+     "word": " pretty",
+     "prob": 0.99
+    },
+    {
+     "start": 182.69,
+     "end": 183.33,
+     "word": " comprehensive",
+     "prob": 1.0
+    },
+    {
+     "start": 183.33,
+     "end": 183.87,
+     "word": " report.",
+     "prob": 0.997
+    }
+   ]
+  },
+  {
+   "start": 184.34,
+   "end": 189.33,
+   "text": " One of the main things is that memetics was less testable.",
+   "words": [
+    {
+     "start": 184.34,
+     "end": 184.67,
+     "word": " One",
+     "prob": 0.664
+    },
+    {
+     "start": 184.67,
+     "end": 184.75,
+     "word": " of",
+     "prob": 0.998
+    },
+    {
+     "start": 184.75,
+     "end": 184.89,
+     "word": " the",
+     "prob": 0.999
+    },
+    {
+     "start": 184.89,
+     "end": 185.17,
+     "word": " main",
+     "prob": 0.995
+    },
+    {
+     "start": 185.17,
+     "end": 185.81,
+     "word": " things",
+     "prob": 0.996
+    },
+    {
+     "start": 185.81,
+     "end": 186.29,
+     "word": " is",
+     "prob": 0.978
+    },
+    {
+     "start": 186.29,
+     "end": 186.95,
+     "word": " that",
+     "prob": 0.995
+    },
+    {
+     "start": 186.95,
+     "end": 187.87,
+     "word": " memetics",
+     "prob": 0.67
+    },
+    {
+     "start": 187.87,
+     "end": 188.29,
+     "word": " was",
+     "prob": 0.991
+    },
+    {
+     "start": 188.29,
+     "end": 188.73,
+     "word": " less",
+     "prob": 0.993
+    },
+    {
+     "start": 188.73,
+     "end": 189.33,
+     "word": " testable.",
+     "prob": 0.994
+    }
+   ]
+  },
+  {
+   "start": 189.71,
+   "end": 193.27,
+   "text": " There's also more interdisciplinary integration in Cultural Revolution.",
+   "words": [
+    {
+     "start": 189.71,
+     "end": 189.87,
+     "word": " There's",
+     "prob": 0.949
+    },
+    {
+     "start": 189.87,
+     "end": 190.03,
+     "word": " also",
+     "prob": 0.998
+    },
+    {
+     "start": 190.03,
+     "end": 190.29,
+     "word": " more",
+     "prob": 0.984
+    },
+    {
+     "start": 190.29,
+     "end": 191.05,
+     "word": " interdisciplinary",
+     "prob": 0.993
+    },
+    {
+     "start": 191.05,
+     "end": 192.07,
+     "word": " integration",
+     "prob": 0.999
+    },
+    {
+     "start": 192.07,
+     "end": 192.61,
+     "word": " in",
+     "prob": 0.993
+    },
+    {
+     "start": 192.61,
+     "end": 192.77,
+     "word": " Cultural",
+     "prob": 0.448
+    },
+    {
+     "start": 192.77,
+     "end": 193.27,
+     "word": " Revolution.",
+     "prob": 0.981
+    }
+   ]
+  },
+  {
+   "start": 194.43,
+   "end": 200.21,
+   "text": " And also there were better institutional funding incentives because it was easier to get at",
+   "words": [
+    {
+     "start": 194.43,
+     "end": 194.67,
+     "word": " And",
+     "prob": 0.907
+    },
+    {
+     "start": 194.67,
+     "end": 195.11,
+     "word": " also",
+     "prob": 0.953
+    },
+    {
+     "start": 195.11,
+     "end": 195.33,
+     "word": " there",
+     "prob": 0.779
+    },
+    {
+     "start": 195.33,
+     "end": 195.51,
+     "word": " were",
+     "prob": 0.902
+    },
+    {
+     "start": 195.51,
+     "end": 196.01,
+     "word": " better",
+     "prob": 0.993
+    },
+    {
+     "start": 196.01,
+     "end": 196.65,
+     "word": " institutional",
+     "prob": 0.987
+    },
+    {
+     "start": 196.65,
+     "end": 197.23,
+     "word": " funding",
+     "prob": 0.642
+    },
+    {
+     "start": 197.23,
+     "end": 197.77,
+     "word": " incentives",
+     "prob": 0.991
+    },
+    {
+     "start": 197.77,
+     "end": 198.09,
+     "word": " because",
+     "prob": 0.392
+    },
+    {
+     "start": 198.09,
+     "end": 198.19,
+     "word": " it",
+     "prob": 0.999
+    },
+    {
+     "start": 198.19,
+     "end": 198.31,
+     "word": " was",
+     "prob": 0.999
+    },
+    {
+     "start": 198.31,
+     "end": 198.71,
+     "word": " easier",
+     "prob": 0.998
+    },
+    {
+     "start": 198.71,
+     "end": 199.09,
+     "word": " to",
+     "prob": 0.999
+    },
+    {
+     "start": 199.09,
+     "end": 199.99,
+     "word": " get",
+     "prob": 0.946
+    },
+    {
+     "start": 199.99,
+     "end": 200.21,
+     "word": " at",
+     "prob": 0.898
+    }
+   ]
+  },
+  {
+   "start": 200.21,
+   "end": 204.37,
+   "text": " some of the big questions of Cultural Revolution with these existing funding",
+   "words": [
+    {
+     "start": 200.21,
+     "end": 200.39,
+     "word": " some",
+     "prob": 0.993
+    },
+    {
+     "start": 200.39,
+     "end": 200.49,
+     "word": " of",
+     "prob": 0.998
+    },
+    {
+     "start": 200.49,
+     "end": 200.53,
+     "word": " the",
+     "prob": 0.999
+    },
+    {
+     "start": 200.53,
+     "end": 200.73,
+     "word": " big",
+     "prob": 0.999
+    },
+    {
+     "start": 200.73,
+     "end": 201.19,
+     "word": " questions",
+     "prob": 0.999
+    },
+    {
+     "start": 201.19,
+     "end": 201.39,
+     "word": " of",
+     "prob": 0.997
+    },
+    {
+     "start": 201.39,
+     "end": 201.53,
+     "word": " Cultural",
+     "prob": 0.965
+    },
+    {
+     "start": 201.53,
+     "end": 202.19,
+     "word": " Revolution",
+     "prob": 0.997
+    },
+    {
+     "start": 202.19,
+     "end": 203.15,
+     "word": " with",
+     "prob": 0.908
+    },
+    {
+     "start": 203.15,
+     "end": 203.45,
+     "word": " these",
+     "prob": 0.991
+    },
+    {
+     "start": 203.45,
+     "end": 203.97,
+     "word": " existing",
+     "prob": 0.999
+    },
+    {
+     "start": 203.97,
+     "end": 204.37,
+     "word": " funding",
+     "prob": 0.999
+    }
+   ]
+  },
+  {
+   "start": 204.37,
+   "end": 205.07,
+   "text": " mechanisms.",
+   "words": [
+    {
+     "start": 204.37,
+     "end": 205.07,
+     "word": " mechanisms.",
+     "prob": 0.997
+    }
+   ]
+  },
+  {
+   "start": 205.91,
+   "end": 206.69,
+   "text": " Yeah, pretty interesting.",
+   "words": [
+    {
+     "start": 205.91,
+     "end": 205.97,
+     "word": " Yeah,",
+     "prob": 0.957
+    },
+    {
+     "start": 206.03,
+     "end": 206.23,
+     "word": " pretty",
+     "prob": 0.997
+    },
+    {
+     "start": 206.23,
+     "end": 206.69,
+     "word": " interesting.",
+     "prob": 0.999
+    }
+   ]
+  },
+  {
+   "start": 207.55,
+   "end": 209.59,
+   "text": " You could go read all these references if you want.",
+   "words": [
+    {
+     "start": 207.55,
+     "end": 207.63,
+     "word": " You",
+     "prob": 0.826
+    },
+    {
+     "start": 207.63,
+     "end": 207.75,
+     "word": " could",
+     "prob": 0.936
+    },
+    {
+     "start": 207.75,
+     "end": 208.11,
+     "word": " go",
+     "prob": 0.651
+    },
+    {
+     "start": 208.11,
+     "end": 208.45,
+     "word": " read",
+     "prob": 0.976
+    },
+    {
+     "start": 208.45,
+     "end": 208.57,
+     "word": " all",
+     "prob": 0.998
+    },
+    {
+     "start": 208.57,
+     "end": 208.69,
+     "word": " these",
+     "prob": 0.99
+    },
+    {
+     "start": 208.69,
+     "end": 209.01,
+     "word": " references",
+     "prob": 0.999
+    },
+    {
+     "start": 209.01,
+     "end": 209.29,
+     "word": " if",
+     "prob": 0.872
+    },
+    {
+     "start": 209.29,
+     "end": 209.39,
+     "word": " you",
+     "prob": 0.999
+    },
+    {
+     "start": 209.39,
+     "end": 209.59,
+     "word": " want.",
+     "prob": 0.993
+    }
+   ]
+  },
+  {
+   "start": 209.59,
+   "end": 211.19,
+   "text": " You could also ask it more information.",
+   "words": [
+    {
+     "start": 209.59,
+     "end": 209.83,
+     "word": " You",
+     "prob": 0.476
+    },
+    {
+     "start": 209.83,
+     "end": 209.97,
+     "word": " could",
+     "prob": 0.521
+    },
+    {
+     "start": 209.97,
+     "end": 210.11,
+     "word": " also",
+     "prob": 0.963
+    },
+    {
+     "start": 210.11,
+     "end": 210.33,
+     "word": " ask",
+     "prob": 0.98
+    },
+    {
+     "start": 210.33,
+     "end": 210.47,
+     "word": " it",
+     "prob": 0.944
+    },
+    {
+     "start": 210.47,
+     "end": 210.65,
+     "word": " more",
+     "prob": 0.964
+    },
+    {
+     "start": 210.65,
+     "end": 211.19,
+     "word": " information.",
+     "prob": 0.986
+    }
+   ]
+  },
+  {
+   "start": 211.61,
+   "end": 213.55,
+   "text": " Now it has these sources that it's found.",
+   "words": [
+    {
+     "start": 211.61,
+     "end": 211.71,
+     "word": " Now",
+     "prob": 0.684
+    },
+    {
+     "start": 211.71,
+     "end": 211.81,
+     "word": " it",
+     "prob": 0.803
+    },
+    {
+     "start": 211.81,
+     "end": 212.01,
+     "word": " has",
+     "prob": 0.998
+    },
+    {
+     "start": 212.01,
+     "end": 212.25,
+     "word": " these",
+     "prob": 0.742
+    },
+    {
+     "start": 212.25,
+     "end": 212.67,
+     "word": " sources",
+     "prob": 0.992
+    },
+    {
+     "start": 212.67,
+     "end": 212.99,
+     "word": " that",
+     "prob": 0.954
+    },
+    {
+     "start": 212.99,
+     "end": 213.25,
+     "word": " it's",
+     "prob": 0.918
+    },
+    {
+     "start": 213.25,
+     "end": 213.55,
+     "word": " found.",
+     "prob": 0.999
+    }
+   ]
+  },
+  {
+   "start": 214.03,
+   "end": 216.55,
+   "text": " It could also go and add more stuff to it as well.",
+   "words": [
+    {
+     "start": 214.03,
+     "end": 214.11,
+     "word": " It",
+     "prob": 0.643
+    },
+    {
+     "start": 214.11,
+     "end": 214.21,
+     "word": " could",
+     "prob": 0.95
+    },
+    {
+     "start": 214.21,
+     "end": 214.43,
+     "word": " also",
+     "prob": 0.997
+    },
+    {
+     "start": 214.43,
+     "end": 214.69,
+     "word": " go",
+     "prob": 0.998
+    },
+    {
+     "start": 214.69,
+     "end": 214.95,
+     "word": " and",
+     "prob": 0.99
+    },
+    {
+     "start": 214.95,
+     "end": 215.19,
+     "word": " add",
+     "prob": 0.998
+    },
+    {
+     "start": 215.19,
+     "end": 215.37,
+     "word": " more",
+     "prob": 0.999
+    },
+    {
+     "start": 215.37,
+     "end": 215.65,
+     "word": " stuff",
+     "prob": 0.999
+    },
+    {
+     "start": 215.65,
+     "end": 216.03,
+     "word": " to",
+     "prob": 0.991
+    },
+    {
+     "start": 216.03,
+     "end": 216.19,
+     "word": " it",
+     "prob": 0.998
+    },
+    {
+     "start": 216.19,
+     "end": 216.33,
+     "word": " as",
+     "prob": 0.924
+    },
+    {
+     "start": 216.33,
+     "end": 216.55,
+     "word": " well.",
+     "prob": 0.999
+    }
+   ]
+  },
+  {
+   "start": 216.95,
+   "end": 219.15,
+   "text": " You could also ask to summarize if you needed to.",
+   "words": [
+    {
+     "start": 216.95,
+     "end": 217.01,
+     "word": " You",
+     "prob": 0.942
+    },
+    {
+     "start": 217.01,
+     "end": 217.13,
+     "word": " could",
+     "prob": 0.732
+    },
+    {
+     "start": 217.13,
+     "end": 217.27,
+     "word": " also",
+     "prob": 0.999
+    },
+    {
+     "start": 217.27,
+     "end": 217.59,
+     "word": " ask",
+     "prob": 0.99
+    },
+    {
+     "start": 217.59,
+     "end": 217.85,
+     "word": " to",
+     "prob": 0.991
+    },
+    {
+     "start": 217.85,
+     "end": 218.17,
+     "word": " summarize",
+     "prob": 0.901
+    },
+    {
+     "start": 218.17,
+     "end": 218.49,
+     "word": " if",
+     "prob": 0.894
+    },
+    {
+     "start": 218.49,
+     "end": 218.63,
+     "word": " you",
+     "prob": 0.995
+    },
+    {
+     "start": 218.63,
+     "end": 218.81,
+     "word": " needed",
+     "prob": 0.695
+    },
+    {
+     "start": 218.81,
+     "end": 219.15,
+     "word": " to.",
+     "prob": 0.986
+    }
+   ]
+  },
+  {
+   "start": 220.25,
+   "end": 224.73,
+   "text": " Typically, I'll take this and I'll copy it, and I'll paste it into Claude.",
+   "words": [
+    {
+     "start": 220.25,
+     "end": 220.69,
+     "word": " Typically,",
+     "prob": 0.993
+    },
+    {
+     "start": 220.73,
+     "end": 220.93,
+     "word": " I'll",
+     "prob": 0.997
+    },
+    {
+     "start": 220.93,
+     "end": 221.15,
+     "word": " take",
+     "prob": 0.999
+    },
+    {
+     "start": 221.15,
+     "end": 221.45,
+     "word": " this",
+     "prob": 0.999
+    },
+    {
+     "start": 221.45,
+     "end": 221.59,
+     "word": " and",
+     "prob": 0.929
+    },
+    {
+     "start": 221.59,
+     "end": 221.75,
+     "word": " I'll",
+     "prob": 0.981
+    },
+    {
+     "start": 221.75,
+     "end": 221.93,
+     "word": " copy",
+     "prob": 0.999
+    },
+    {
+     "start": 221.93,
+     "end": 222.19,
+     "word": " it,",
+     "prob": 0.999
+    },
+    {
+     "start": 222.33,
+     "end": 222.35,
+     "word": " and",
+     "prob": 0.991
+    },
+    {
+     "start": 222.35,
+     "end": 222.61,
+     "word": " I'll",
+     "prob": 0.983
+    },
+    {
+     "start": 222.61,
+     "end": 222.85,
+     "word": " paste",
+     "prob": 0.998
+    },
+    {
+     "start": 222.85,
+     "end": 223.11,
+     "word": " it",
+     "prob": 0.998
+    },
+    {
+     "start": 223.11,
+     "end": 223.93,
+     "word": " into",
+     "prob": 0.963
+    },
+    {
+     "start": 223.93,
+     "end": 224.73,
+     "word": " Claude.",
+     "prob": 0.213
+    }
+   ]
+  },
+  {
+   "start": 225.25,
+   "end": 230.47,
+   "text": " And then I will ask Claude to summarize it in a tweet or something like that.",
+   "words": [
+    {
+     "start": 225.25,
+     "end": 225.35,
+     "word": " And",
+     "prob": 0.825
+    },
+    {
+     "start": 225.35,
+     "end": 225.73,
+     "word": " then",
+     "prob": 0.997
+    },
+    {
+     "start": 225.73,
+     "end": 226.27,
+     "word": " I",
+     "prob": 0.904
+    },
+    {
+     "start": 226.27,
+     "end": 226.53,
+     "word": " will",
+     "prob": 0.997
+    },
+    {
+     "start": 226.53,
+     "end": 226.89,
+     "word": " ask",
+     "prob": 0.996
+    },
+    {
+     "start": 226.89,
+     "end": 227.33,
+     "word": " Claude",
+     "prob": 0.998
+    },
+    {
+     "start": 227.33,
+     "end": 228.01,
+     "word": " to",
+     "prob": 0.989
+    },
+    {
+     "start": 228.01,
+     "end": 228.53,
+     "word": " summarize",
+     "prob": 0.992
+    },
+    {
+     "start": 228.53,
+     "end": 228.93,
+     "word": " it",
+     "prob": 0.997
+    },
+    {
+     "start": 228.93,
+     "end": 229.23,
+     "word": " in",
+     "prob": 0.997
+    },
+    {
+     "start": 229.23,
+     "end": 229.39,
+     "word": " a",
+     "prob": 0.998
+    },
+    {
+     "start": 229.39,
+     "end": 229.55,
+     "word": " tweet",
+     "prob": 0.675
+    },
+    {
+     "start": 229.55,
+     "end": 229.83,
+     "word": " or",
+     "prob": 0.936
+    },
+    {
+     "start": 229.83,
+     "end": 230.01,
+     "word": " something",
+     "prob": 1.0
+    },
+    {
+     "start": 230.01,
+     "end": 230.27,
+     "word": " like",
+     "prob": 0.992
+    },
+    {
+     "start": 230.27,
+     "end": 230.47,
+     "word": " that.",
+     "prob": 0.997
+    }
+   ]
+  },
+  {
+   "start": 230.65,
+   "end": 234.67,
+   "text": " Claude is a little bit more creative, and these reports end up being relatively dry.",
+   "words": [
+    {
+     "start": 230.65,
+     "end": 230.81,
+     "word": " Claude",
+     "prob": 0.979
+    },
+    {
+     "start": 230.81,
+     "end": 230.95,
+     "word": " is",
+     "prob": 0.99
+    },
+    {
+     "start": 230.95,
+     "end": 231.05,
+     "word": " a",
+     "prob": 0.992
+    },
+    {
+     "start": 231.05,
+     "end": 231.13,
+     "word": " little",
+     "prob": 0.997
+    },
+    {
+     "start": 231.13,
+     "end": 231.25,
+     "word": " bit",
+     "prob": 0.998
+    },
+    {
+     "start": 231.25,
+     "end": 231.41,
+     "word": " more",
+     "prob": 0.999
+    },
+    {
+     "start": 231.41,
+     "end": 231.89,
+     "word": " creative,",
+     "prob": 0.999
+    },
+    {
+     "start": 231.91,
+     "end": 232.19,
+     "word": " and",
+     "prob": 0.999
+    },
+    {
+     "start": 232.19,
+     "end": 232.41,
+     "word": " these",
+     "prob": 0.999
+    },
+    {
+     "start": 232.41,
+     "end": 232.71,
+     "word": " reports",
+     "prob": 0.998
+    },
+    {
+     "start": 232.71,
+     "end": 232.89,
+     "word": " end",
+     "prob": 0.979
+    },
+    {
+     "start": 232.89,
+     "end": 233.07,
+     "word": " up",
+     "prob": 1.0
+    },
+    {
+     "start": 233.07,
+     "end": 233.35,
+     "word": " being",
+     "prob": 0.999
+    },
+    {
+     "start": 233.35,
+     "end": 234.25,
+     "word": " relatively",
+     "prob": 0.999
+    },
+    {
+     "start": 234.25,
+     "end": 234.67,
+     "word": " dry.",
+     "prob": 0.999
+    }
+   ]
+  },
+  {
+   "start": 234.89,
+   "end": 239.13,
+   "text": " But they are amazingly well researched, and that's the main reason to use",
+   "words": [
+    {
+     "start": 234.89,
+     "end": 235.15,
+     "word": " But",
+     "prob": 0.986
+    },
+    {
+     "start": 235.15,
+     "end": 235.59,
+     "word": " they",
+     "prob": 0.926
+    },
+    {
+     "start": 235.59,
+     "end": 235.79,
+     "word": " are",
+     "prob": 0.999
+    },
+    {
+     "start": 235.79,
+     "end": 236.25,
+     "word": " amazingly",
+     "prob": 0.999
+    },
+    {
+     "start": 236.25,
+     "end": 236.59,
+     "word": " well",
+     "prob": 0.997
+    },
+    {
+     "start": 236.59,
+     "end": 236.95,
+     "word": " researched,",
+     "prob": 0.489
+    },
+    {
+     "start": 236.95,
+     "end": 237.37,
+     "word": " and",
+     "prob": 0.999
+    },
+    {
+     "start": 237.37,
+     "end": 237.77,
+     "word": " that's",
+     "prob": 0.999
+    },
+    {
+     "start": 237.77,
+     "end": 237.97,
+     "word": " the",
+     "prob": 0.999
+    },
+    {
+     "start": 237.97,
+     "end": 238.33,
+     "word": " main",
+     "prob": 1.0
+    },
+    {
+     "start": 238.33,
+     "end": 238.67,
+     "word": " reason",
+     "prob": 1.0
+    },
+    {
+     "start": 238.67,
+     "end": 238.91,
+     "word": " to",
+     "prob": 0.999
+    },
+    {
+     "start": 238.91,
+     "end": 239.13,
+     "word": " use",
+     "prob": 0.999
+    }
+   ]
+  },
+  {
+   "start": 239.13,
+   "end": 241.01,
+   "text": " something like deep research.",
+   "words": [
+    {
+     "start": 239.13,
+     "end": 239.43,
+     "word": " something",
+     "prob": 0.925
+    },
+    {
+     "start": 239.43,
+     "end": 239.97,
+     "word": " like",
+     "prob": 0.996
+    },
+    {
+     "start": 239.97,
+     "end": 240.57,
+     "word": " deep",
+     "prob": 0.777
+    },
+    {
+     "start": 240.57,
+     "end": 241.01,
+     "word": " research.",
+     "prob": 0.998
+    }
+   ]
+  }
+ ]
+}

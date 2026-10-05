@@ -29,10 +29,23 @@ The full course includes non-coding lessons, platform walkthroughs, and conceptu
 If you are new to the repo, pick a track below:
 
 ### OpenAI Foundations
+
+- [OpenAI Playground: browser introduction and links](openai_features_and_functionality/resources/openai_api_start_here.md#openai-playground)
+- [Introduction to the Responses API](openai_features_and_functionality/resources/openai_api_start_here.md#introduction-to-the-responses-api)
 - [Chat Completions vs Responses API](openai_features_and_functionality/chat_completions_vs_responses_api.ipynb)
 - [Responses API & Messages](openai_features_and_functionality/responses_api_and_messages.ipynb)
 - [Structured Outputs](openai_features_and_functionality/structured_outputs_using_openai.ipynb)
 - [Tool Calling](openai_features_and_functionality/tool_calling.ipynb)
+- [Code Interpreter: Python in a Sandbox](openai_features_and_functionality/code_interpreter.ipynb)
+- [Computer Use Through the API](openai_features_and_functionality/computer_use.ipynb)
+- [Managed Agents: The Agents API](openai_features_and_functionality/managed_agents_api.ipynb)
+
+### Anthropic / Claude API
+
+- [Claude section: lesson order and comparison notes](anthropic_features_and_functionality/README.md)
+- [Anthropic Features and Functionality](anthropic_features_and_functionality/anthropic_features_and_functionality.ipynb)
+- [Claude Prompting and Python Tools](anthropic_features_and_functionality/claude_prompting_and_tools.ipynb)
+- [Claude Computer Use](anthropic_features_and_functionality/claude_computer_use.ipynb), optional live demo disabled by default
 
 ### Prompt Engineering Techniques
 - [Few-Shot Learning](advanced_text_model_techniques/few_shot_learning.ipynb)
@@ -49,7 +62,12 @@ If you are new to the repo, pick a track below:
 ### Agents
 - [Multi-Source Customer Support Agent](building_ai_agents/multi_source_customer_support_agent.ipynb)
 - [Introduction to OpenAI Agents SDK](building_ai_agents/introduction_to_openai_ai_agents_sdk.ipynb)
+- [Skills Based Agents](building_ai_agents/skills_based_agents.ipynb)
 - [Blog Post Generator Agent](building_ai_agents/blog_post_generator_agent.ipynb)
+
+### Model Gateways
+- [OpenRouter Features and Functionality](model_gateways/openrouter_features_and_agent.ipynb)
+- [Building a Small Agent with OpenRouter](model_gateways/building_a_small_agent_with_openrouter.ipynb)
 
 ### LangGraph
 - [Simple LangGraph](deep_dive_on_langgraph/1_simple_langgraph.ipynb) through [Time Travel](deep_dive_on_langgraph/6_time_travel.ipynb)
@@ -64,6 +82,7 @@ If you are new to the repo, pick a track below:
 | Area | Folders | What you'll find |
 | --- | --- | --- |
 | Core prompting and OpenAI | `openai_features_and_functionality/`, `advanced_text_model_techniques/` | Responses API, structured outputs, tool calling, streaming, async requests, few-shot prompting, ReAct, self-consistency, prompt optimization |
+| Anthropic / Claude | `anthropic_features_and_functionality/` | Native Messages API, OpenAI comparison, structured output, Python tools, optional computer use |
 | Retrieval and agents | `retrieval_embeddings_and_vector_databases/`, `advanced_retrieval_techniques/`, `building_ai_agents/`, `agent_architectures/` | Embeddings, hybrid retrieval, retriever evaluation, support agents, OpenAI Agents SDK, orchestration patterns |
 | Framework deep dives | `deep_dive_on_langchain/`, `deep_dive_on_langgraph/` | LangChain chat models, LCEL, vectorstores, agents, LangGraph state, persistence, human-in-the-loop, RAG, streaming |
 | Projects and evals | `ai_text_model_projects/`, `prompt_optimization_and_evals/`, `evaluating_quality/` | Blog generation, long-document summarization, transcription, DSPy, SAMMO, eval metrics |
@@ -96,7 +115,7 @@ Do not commit API keys or secrets to git.
 
 Most notebooks can be run with just `OPENAI_API_KEY`, but some sections need extra services:
 
-- `ANTHROPIC_API_KEY` for some prompt-caching comparisons
+- `ANTHROPIC_API_KEY` for the Claude API section and prompt-caching comparisons
 - `SUPABASE_URL` and `SUPABASE_KEY` for pgvector examples
 - `LANGCHAIN_API_KEY` and `TAVILY_API_KEY` for some agent and tracing workflows
 - `FAL_KEY` for several FLUX image-generation notebooks

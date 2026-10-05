@@ -1,0 +1,7167 @@
+{
+ "lecture_id": "44003766",
+ "title": "chatgpt desktop application",
+ "section": "04_deep-dive-on-chatgpt",
+ "video_path": "scripts/udemy-sync/videos/04_deep-dive-on-chatgpt/035_44003766_chatgpt-desktop-application.mp4",
+ "duration_s": 325.78,
+ "model": "small.en",
+ "word_timestamps": true,
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 0.44,
+   "text": " Hey, welcome.",
+   "words": [
+    {
+     "start": 0.0,
+     "end": 0.16,
+     "word": " Hey,",
+     "prob": 0.728
+    },
+    {
+     "start": 0.24,
+     "end": 0.44,
+     "word": " welcome.",
+     "prob": 0.992
+    }
+   ]
+  },
+  {
+   "start": 0.8,
+   "end": 2.2,
+   "text": " And in this video, we're just gonna have a look",
+   "words": [
+    {
+     "start": 0.8,
+     "end": 0.88,
+     "word": " And",
+     "prob": 0.897
+    },
+    {
+     "start": 0.88,
+     "end": 1.04,
+     "word": " in",
+     "prob": 0.97
+    },
+    {
+     "start": 1.04,
+     "end": 1.18,
+     "word": " this",
+     "prob": 1.0
+    },
+    {
+     "start": 1.18,
+     "end": 1.42,
+     "word": " video,",
+     "prob": 0.999
+    },
+    {
+     "start": 1.44,
+     "end": 1.54,
+     "word": " we're",
+     "prob": 0.987
+    },
+    {
+     "start": 1.54,
+     "end": 1.66,
+     "word": " just",
+     "prob": 0.996
+    },
+    {
+     "start": 1.66,
+     "end": 1.78,
+     "word": " gonna",
+     "prob": 0.583
+    },
+    {
+     "start": 1.78,
+     "end": 1.96,
+     "word": " have",
+     "prob": 0.998
+    },
+    {
+     "start": 1.96,
+     "end": 2.06,
+     "word": " a",
+     "prob": 0.998
+    },
+    {
+     "start": 2.06,
+     "end": 2.2,
+     "word": " look",
+     "prob": 0.999
+    }
+   ]
+  },
+  {
+   "start": 2.2,
+   "end": 5.62,
+   "text": " at how you can use the new ChatGPT desktop application.",
+   "words": [
+    {
+     "start": 2.2,
+     "end": 2.4,
+     "word": " at",
+     "prob": 0.972
+    },
+    {
+     "start": 2.4,
+     "end": 2.58,
+     "word": " how",
+     "prob": 0.999
+    },
+    {
+     "start": 2.58,
+     "end": 2.78,
+     "word": " you",
+     "prob": 0.998
+    },
+    {
+     "start": 2.78,
+     "end": 2.94,
+     "word": " can",
+     "prob": 0.996
+    },
+    {
+     "start": 2.94,
+     "end": 3.2,
+     "word": " use",
+     "prob": 0.999
+    },
+    {
+     "start": 3.2,
+     "end": 3.42,
+     "word": " the",
+     "prob": 0.998
+    },
+    {
+     "start": 3.42,
+     "end": 3.98,
+     "word": " new",
+     "prob": 0.998
+    },
+    {
+     "start": 3.98,
+     "end": 4.56,
+     "word": " ChatGPT",
+     "prob": 0.484
+    },
+    {
+     "start": 4.56,
+     "end": 4.92,
+     "word": " desktop",
+     "prob": 0.695
+    },
+    {
+     "start": 4.92,
+     "end": 5.62,
+     "word": " application.",
+     "prob": 0.978
+    }
+   ]
+  },
+  {
+   "start": 5.8,
+   "end": 7.88,
+   "text": " Okay, so to download ChatGPT for your desktop,",
+   "words": [
+    {
+     "start": 5.8,
+     "end": 5.9,
+     "word": " Okay,",
+     "prob": 0.92
+    },
+    {
+     "start": 6.04,
+     "end": 6.26,
+     "word": " so",
+     "prob": 0.982
+    },
+    {
+     "start": 6.26,
+     "end": 6.46,
+     "word": " to",
+     "prob": 0.955
+    },
+    {
+     "start": 6.46,
+     "end": 6.82,
+     "word": " download",
+     "prob": 0.999
+    },
+    {
+     "start": 6.82,
+     "end": 7.3,
+     "word": " ChatGPT",
+     "prob": 0.96
+    },
+    {
+     "start": 7.3,
+     "end": 7.52,
+     "word": " for",
+     "prob": 0.966
+    },
+    {
+     "start": 7.52,
+     "end": 7.62,
+     "word": " your",
+     "prob": 0.906
+    },
+    {
+     "start": 7.62,
+     "end": 7.88,
+     "word": " desktop,",
+     "prob": 0.995
+    }
+   ]
+  },
+  {
+   "start": 8.08,
+   "end": 11.64,
+   "text": " go to openai.com slash chatgpt slash desktop.",
+   "words": [
+    {
+     "start": 8.08,
+     "end": 8.2,
+     "word": " go",
+     "prob": 0.996
+    },
+    {
+     "start": 8.2,
+     "end": 8.4,
+     "word": " to",
+     "prob": 0.998
+    },
+    {
+     "start": 8.4,
+     "end": 8.86,
+     "word": " openai",
+     "prob": 0.879
+    },
+    {
+     "start": 8.86,
+     "end": 9.82,
+     "word": ".com",
+     "prob": 0.999
+    },
+    {
+     "start": 9.82,
+     "end": 10.04,
+     "word": " slash",
+     "prob": 0.002
+    },
+    {
+     "start": 10.04,
+     "end": 10.58,
+     "word": " chatgpt",
+     "prob": 0.818
+    },
+    {
+     "start": 10.58,
+     "end": 11.12,
+     "word": " slash",
+     "prob": 0.961
+    },
+    {
+     "start": 11.12,
+     "end": 11.64,
+     "word": " desktop.",
+     "prob": 0.994
+    }
+   ]
+  },
+  {
+   "start": 11.86,
+   "end": 13.24,
+   "text": " I'll put that link in this video,",
+   "words": [
+    {
+     "start": 11.86,
+     "end": 12.1,
+     "word": " I'll",
+     "prob": 0.991
+    },
+    {
+     "start": 12.1,
+     "end": 12.2,
+     "word": " put",
+     "prob": 0.972
+    },
+    {
+     "start": 12.2,
+     "end": 12.36,
+     "word": " that",
+     "prob": 0.981
+    },
+    {
+     "start": 12.36,
+     "end": 12.5,
+     "word": " link",
+     "prob": 0.998
+    },
+    {
+     "start": 12.5,
+     "end": 12.76,
+     "word": " in",
+     "prob": 0.999
+    },
+    {
+     "start": 12.76,
+     "end": 12.94,
+     "word": " this",
+     "prob": 1.0
+    },
+    {
+     "start": 12.94,
+     "end": 13.24,
+     "word": " video,",
+     "prob": 1.0
+    }
+   ]
+  },
+  {
+   "start": 13.24,
+   "end": 16.5,
+   "text": " and you can download it for either your macOS or Windows.",
+   "words": [
+    {
+     "start": 13.24,
+     "end": 13.68,
+     "word": " and",
+     "prob": 0.999
+    },
+    {
+     "start": 13.68,
+     "end": 13.76,
+     "word": " you",
+     "prob": 1.0
+    },
+    {
+     "start": 13.76,
+     "end": 13.9,
+     "word": " can",
+     "prob": 0.999
+    },
+    {
+     "start": 13.9,
+     "end": 14.2,
+     "word": " download",
+     "prob": 0.999
+    },
+    {
+     "start": 14.2,
+     "end": 14.36,
+     "word": " it",
+     "prob": 0.999
+    },
+    {
+     "start": 14.36,
+     "end": 14.54,
+     "word": " for",
+     "prob": 0.982
+    },
+    {
+     "start": 14.54,
+     "end": 14.76,
+     "word": " either",
+     "prob": 0.994
+    },
+    {
+     "start": 14.76,
+     "end": 15.0,
+     "word": " your",
+     "prob": 0.995
+    },
+    {
+     "start": 15.0,
+     "end": 15.22,
+     "word": " macOS",
+     "prob": 0.696
+    },
+    {
+     "start": 15.22,
+     "end": 16.06,
+     "word": " or",
+     "prob": 0.954
+    },
+    {
+     "start": 16.06,
+     "end": 16.5,
+     "word": " Windows.",
+     "prob": 0.987
+    }
+   ]
+  },
+  {
+   "start": 16.96,
+   "end": 19.34,
+   "text": " All right, so now that ChatGPT desktop is open,",
+   "words": [
+    {
+     "start": 16.96,
+     "end": 17.08,
+     "word": " All",
+     "prob": 0.858
+    },
+    {
+     "start": 17.08,
+     "end": 17.24,
+     "word": " right,",
+     "prob": 1.0
+    },
+    {
+     "start": 17.3,
+     "end": 17.44,
+     "word": " so",
+     "prob": 0.997
+    },
+    {
+     "start": 17.44,
+     "end": 17.58,
+     "word": " now",
+     "prob": 0.996
+    },
+    {
+     "start": 17.58,
+     "end": 17.76,
+     "word": " that",
+     "prob": 0.893
+    },
+    {
+     "start": 17.76,
+     "end": 18.22,
+     "word": " ChatGPT",
+     "prob": 0.948
+    },
+    {
+     "start": 18.22,
+     "end": 18.54,
+     "word": " desktop",
+     "prob": 0.893
+    },
+    {
+     "start": 18.54,
+     "end": 18.94,
+     "word": " is",
+     "prob": 0.999
+    },
+    {
+     "start": 18.94,
+     "end": 19.34,
+     "word": " open,",
+     "prob": 0.989
+    }
+   ]
+  },
+  {
+   "start": 19.44,
+   "end": 20.56,
+   "text": " there's a couple of different things",
+   "words": [
+    {
+     "start": 19.44,
+     "end": 19.66,
+     "word": " there's",
+     "prob": 0.997
+    },
+    {
+     "start": 19.66,
+     "end": 19.76,
+     "word": " a",
+     "prob": 0.998
+    },
+    {
+     "start": 19.76,
+     "end": 19.88,
+     "word": " couple",
+     "prob": 0.998
+    },
+    {
+     "start": 19.88,
+     "end": 20.0,
+     "word": " of",
+     "prob": 0.995
+    },
+    {
+     "start": 20.0,
+     "end": 20.24,
+     "word": " different",
+     "prob": 0.999
+    },
+    {
+     "start": 20.24,
+     "end": 20.56,
+     "word": " things",
+     "prob": 1.0
+    }
+   ]
+  },
+  {
+   "start": 20.56,
+   "end": 21.58,
+   "text": " I'd like to point out here.",
+   "words": [
+    {
+     "start": 20.56,
+     "end": 20.78,
+     "word": " I'd",
+     "prob": 0.959
+    },
+    {
+     "start": 20.78,
+     "end": 20.9,
+     "word": " like",
+     "prob": 0.999
+    },
+    {
+     "start": 20.9,
+     "end": 21.04,
+     "word": " to",
+     "prob": 0.998
+    },
+    {
+     "start": 21.04,
+     "end": 21.18,
+     "word": " point",
+     "prob": 0.998
+    },
+    {
+     "start": 21.18,
+     "end": 21.38,
+     "word": " out",
+     "prob": 0.998
+    },
+    {
+     "start": 21.38,
+     "end": 21.58,
+     "word": " here.",
+     "prob": 0.997
+    }
+   ]
+  },
+  {
+   "start": 21.7,
+   "end": 23.96,
+   "text": " You've got your chat history on the left hand",
+   "words": [
+    {
+     "start": 21.7,
+     "end": 21.84,
+     "word": " You've",
+     "prob": 0.95
+    },
+    {
+     "start": 21.84,
+     "end": 21.96,
+     "word": " got",
+     "prob": 0.99
+    },
+    {
+     "start": 21.96,
+     "end": 22.24,
+     "word": " your",
+     "prob": 0.315
+    },
+    {
+     "start": 22.24,
+     "end": 22.62,
+     "word": " chat",
+     "prob": 0.774
+    },
+    {
+     "start": 22.62,
+     "end": 23.02,
+     "word": " history",
+     "prob": 0.998
+    },
+    {
+     "start": 23.02,
+     "end": 23.3,
+     "word": " on",
+     "prob": 0.983
+    },
+    {
+     "start": 23.3,
+     "end": 23.5,
+     "word": " the",
+     "prob": 0.997
+    },
+    {
+     "start": 23.5,
+     "end": 23.72,
+     "word": " left",
+     "prob": 0.998
+    },
+    {
+     "start": 23.72,
+     "end": 23.96,
+     "word": " hand",
+     "prob": 0.698
+    }
+   ]
+  },
+  {
+   "start": 23.96,
+   "end": 24.68,
+   "text": " that you can see here.",
+   "words": [
+    {
+     "start": 23.96,
+     "end": 24.08,
+     "word": " that",
+     "prob": 0.234
+    },
+    {
+     "start": 24.08,
+     "end": 24.12,
+     "word": " you",
+     "prob": 0.999
+    },
+    {
+     "start": 24.12,
+     "end": 24.26,
+     "word": " can",
+     "prob": 0.999
+    },
+    {
+     "start": 24.26,
+     "end": 24.44,
+     "word": " see",
+     "prob": 1.0
+    },
+    {
+     "start": 24.44,
+     "end": 24.68,
+     "word": " here.",
+     "prob": 0.999
+    }
+   ]
+  },
+  {
+   "start": 24.8,
+   "end": 28.06,
+   "text": " If you go down to the bottom left and you click on settings,",
+   "words": [
+    {
+     "start": 24.8,
+     "end": 24.96,
+     "word": " If",
+     "prob": 0.998
+    },
+    {
+     "start": 24.96,
+     "end": 25.08,
+     "word": " you",
+     "prob": 0.999
+    },
+    {
+     "start": 25.08,
+     "end": 25.24,
+     "word": " go",
+     "prob": 0.998
+    },
+    {
+     "start": 25.24,
+     "end": 25.44,
+     "word": " down",
+     "prob": 0.999
+    },
+    {
+     "start": 25.44,
+     "end": 25.62,
+     "word": " to",
+     "prob": 0.999
+    },
+    {
+     "start": 25.62,
+     "end": 25.78,
+     "word": " the",
+     "prob": 0.999
+    },
+    {
+     "start": 25.78,
+     "end": 26.1,
+     "word": " bottom",
+     "prob": 1.0
+    },
+    {
+     "start": 26.1,
+     "end": 26.46,
+     "word": " left",
+     "prob": 0.984
+    },
+    {
+     "start": 26.46,
+     "end": 27.1,
+     "word": " and",
+     "prob": 0.711
+    },
+    {
+     "start": 27.1,
+     "end": 27.2,
+     "word": " you",
+     "prob": 0.996
+    },
+    {
+     "start": 27.2,
+     "end": 27.38,
+     "word": " click",
+     "prob": 0.999
+    },
+    {
+     "start": 27.38,
+     "end": 27.64,
+     "word": " on",
+     "prob": 0.999
+    },
+    {
+     "start": 27.64,
+     "end": 28.06,
+     "word": " settings,",
+     "prob": 0.478
+    }
+   ]
+  },
+  {
+   "start": 28.72,
+   "end": 30.02,
+   "text": " a settings panel will load,",
+   "words": [
+    {
+     "start": 28.72,
+     "end": 28.96,
+     "word": " a",
+     "prob": 0.316
+    },
+    {
+     "start": 28.96,
+     "end": 29.3,
+     "word": " settings",
+     "prob": 0.928
+    },
+    {
+     "start": 29.3,
+     "end": 29.56,
+     "word": " panel",
+     "prob": 0.998
+    },
+    {
+     "start": 29.56,
+     "end": 29.74,
+     "word": " will",
+     "prob": 0.963
+    },
+    {
+     "start": 29.74,
+     "end": 30.02,
+     "word": " load,",
+     "prob": 0.998
+    }
+   ]
+  },
+  {
+   "start": 30.22,
+   "end": 32.66,
+   "text": " and you can optimize and improve the experience.",
+   "words": [
+    {
+     "start": 30.22,
+     "end": 30.26,
+     "word": " and",
+     "prob": 0.992
+    },
+    {
+     "start": 30.26,
+     "end": 30.38,
+     "word": " you",
+     "prob": 0.998
+    },
+    {
+     "start": 30.38,
+     "end": 30.64,
+     "word": " can",
+     "prob": 0.999
+    },
+    {
+     "start": 30.64,
+     "end": 31.28,
+     "word": " optimize",
+     "prob": 0.971
+    },
+    {
+     "start": 31.28,
+     "end": 31.7,
+     "word": " and",
+     "prob": 0.972
+    },
+    {
+     "start": 31.7,
+     "end": 32.06,
+     "word": " improve",
+     "prob": 0.999
+    },
+    {
+     "start": 32.06,
+     "end": 32.24,
+     "word": " the",
+     "prob": 0.998
+    },
+    {
+     "start": 32.24,
+     "end": 32.66,
+     "word": " experience.",
+     "prob": 0.998
+    }
+   ]
+  },
+  {
+   "start": 32.92,
+   "end": 34.96,
+   "text": " So for example, you can say",
+   "words": [
+    {
+     "start": 32.92,
+     "end": 32.92,
+     "word": " So",
+     "prob": 0.897
+    },
+    {
+     "start": 32.92,
+     "end": 33.12,
+     "word": " for",
+     "prob": 0.821
+    },
+    {
+     "start": 33.12,
+     "end": 33.46,
+     "word": " example,",
+     "prob": 0.999
+    },
+    {
+     "start": 33.9,
+     "end": 34.08,
+     "word": " you",
+     "prob": 0.929
+    },
+    {
+     "start": 34.08,
+     "end": 34.42,
+     "word": " can",
+     "prob": 0.999
+    },
+    {
+     "start": 34.42,
+     "end": 34.96,
+     "word": " say",
+     "prob": 0.988
+    }
+   ]
+  },
+  {
+   "start": 34.96,
+   "end": 36.64,
+   "text": " whether you want to use for chat training,",
+   "words": [
+    {
+     "start": 34.96,
+     "end": 35.18,
+     "word": " whether",
+     "prob": 0.86
+    },
+    {
+     "start": 35.18,
+     "end": 35.36,
+     "word": " you",
+     "prob": 0.999
+    },
+    {
+     "start": 35.36,
+     "end": 35.5,
+     "word": " want",
+     "prob": 0.997
+    },
+    {
+     "start": 35.5,
+     "end": 35.68,
+     "word": " to",
+     "prob": 0.999
+    },
+    {
+     "start": 35.68,
+     "end": 35.9,
+     "word": " use",
+     "prob": 0.999
+    },
+    {
+     "start": 35.9,
+     "end": 36.06,
+     "word": " for",
+     "prob": 0.91
+    },
+    {
+     "start": 36.06,
+     "end": 36.24,
+     "word": " chat",
+     "prob": 0.979
+    },
+    {
+     "start": 36.24,
+     "end": 36.64,
+     "word": " training,",
+     "prob": 0.993
+    }
+   ]
+  },
+  {
+   "start": 37.16,
+   "end": 40.82,
+   "text": " you can also do things like customize your ChatGPT",
+   "words": [
+    {
+     "start": 37.16,
+     "end": 37.4,
+     "word": " you",
+     "prob": 0.99
+    },
+    {
+     "start": 37.4,
+     "end": 37.64,
+     "word": " can",
+     "prob": 1.0
+    },
+    {
+     "start": 37.64,
+     "end": 37.98,
+     "word": " also",
+     "prob": 0.999
+    },
+    {
+     "start": 37.98,
+     "end": 38.32,
+     "word": " do",
+     "prob": 0.999
+    },
+    {
+     "start": 38.32,
+     "end": 38.68,
+     "word": " things",
+     "prob": 0.999
+    },
+    {
+     "start": 38.68,
+     "end": 39.06,
+     "word": " like",
+     "prob": 0.991
+    },
+    {
+     "start": 39.06,
+     "end": 39.7,
+     "word": " customize",
+     "prob": 0.982
+    },
+    {
+     "start": 39.7,
+     "end": 40.26,
+     "word": " your",
+     "prob": 0.996
+    },
+    {
+     "start": 40.26,
+     "end": 40.82,
+     "word": " ChatGPT",
+     "prob": 0.245
+    }
+   ]
+  },
+  {
+   "start": 40.82,
+   "end": 42.78,
+   "text": " so you can add on custom instructions.",
+   "words": [
+    {
+     "start": 40.82,
+     "end": 41.26,
+     "word": " so",
+     "prob": 0.369
+    },
+    {
+     "start": 41.26,
+     "end": 41.38,
+     "word": " you",
+     "prob": 0.995
+    },
+    {
+     "start": 41.38,
+     "end": 41.52,
+     "word": " can",
+     "prob": 0.998
+    },
+    {
+     "start": 41.52,
+     "end": 41.76,
+     "word": " add",
+     "prob": 0.999
+    },
+    {
+     "start": 41.76,
+     "end": 41.96,
+     "word": " on",
+     "prob": 0.995
+    },
+    {
+     "start": 41.96,
+     "end": 42.22,
+     "word": " custom",
+     "prob": 0.955
+    },
+    {
+     "start": 42.22,
+     "end": 42.78,
+     "word": " instructions.",
+     "prob": 0.995
+    }
+   ]
+  },
+  {
+   "start": 43.38,
+   "end": 44.56,
+   "text": " So that can be quite nice.",
+   "words": [
+    {
+     "start": 43.38,
+     "end": 43.52,
+     "word": " So",
+     "prob": 0.637
+    },
+    {
+     "start": 43.52,
+     "end": 43.68,
+     "word": " that",
+     "prob": 0.986
+    },
+    {
+     "start": 43.68,
+     "end": 43.82,
+     "word": " can",
+     "prob": 0.989
+    },
+    {
+     "start": 43.82,
+     "end": 43.96,
+     "word": " be",
+     "prob": 1.0
+    },
+    {
+     "start": 43.96,
+     "end": 44.16,
+     "word": " quite",
+     "prob": 0.998
+    },
+    {
+     "start": 44.16,
+     "end": 44.56,
+     "word": " nice.",
+     "prob": 1.0
+    }
+   ]
+  },
+  {
+   "start": 45.02,
+   "end": 46.92,
+   "text": " And you can also turn on or off",
+   "words": [
+    {
+     "start": 45.02,
+     "end": 45.1,
+     "word": " And",
+     "prob": 0.989
+    },
+    {
+     "start": 45.1,
+     "end": 45.2,
+     "word": " you",
+     "prob": 0.997
+    },
+    {
+     "start": 45.2,
+     "end": 45.32,
+     "word": " can",
+     "prob": 0.999
+    },
+    {
+     "start": 45.32,
+     "end": 45.64,
+     "word": " also",
+     "prob": 0.999
+    },
+    {
+     "start": 45.64,
+     "end": 45.98,
+     "word": " turn",
+     "prob": 0.997
+    },
+    {
+     "start": 45.98,
+     "end": 46.32,
+     "word": " on",
+     "prob": 0.977
+    },
+    {
+     "start": 46.32,
+     "end": 46.62,
+     "word": " or",
+     "prob": 0.978
+    },
+    {
+     "start": 46.62,
+     "end": 46.92,
+     "word": " off",
+     "prob": 0.998
+    }
+   ]
+  },
+  {
+   "start": 46.92,
+   "end": 48.92,
+   "text": " different types of GPT for capabilities.",
+   "words": [
+    {
+     "start": 46.92,
+     "end": 47.24,
+     "word": " different",
+     "prob": 0.983
+    },
+    {
+     "start": 47.24,
+     "end": 47.56,
+     "word": " types",
+     "prob": 0.999
+    },
+    {
+     "start": 47.56,
+     "end": 47.82,
+     "word": " of",
+     "prob": 0.998
+    },
+    {
+     "start": 47.82,
+     "end": 48.02,
+     "word": " GPT",
+     "prob": 0.725
+    },
+    {
+     "start": 48.02,
+     "end": 48.32,
+     "word": " for",
+     "prob": 0.823
+    },
+    {
+     "start": 48.32,
+     "end": 48.92,
+     "word": " capabilities.",
+     "prob": 0.908
+    }
+   ]
+  },
+  {
+   "start": 49.28,
+   "end": 51.16,
+   "text": " So you can see we've got browsing, delay, and code.",
+   "words": [
+    {
+     "start": 49.28,
+     "end": 49.32,
+     "word": " So",
+     "prob": 0.749
+    },
+    {
+     "start": 49.32,
+     "end": 49.36,
+     "word": " you",
+     "prob": 0.988
+    },
+    {
+     "start": 49.36,
+     "end": 49.46,
+     "word": " can",
+     "prob": 0.991
+    },
+    {
+     "start": 49.46,
+     "end": 49.58,
+     "word": " see",
+     "prob": 0.994
+    },
+    {
+     "start": 49.58,
+     "end": 49.72,
+     "word": " we've",
+     "prob": 0.868
+    },
+    {
+     "start": 49.72,
+     "end": 49.88,
+     "word": " got",
+     "prob": 0.998
+    },
+    {
+     "start": 49.88,
+     "end": 50.2,
+     "word": " browsing,",
+     "prob": 0.959
+    },
+    {
+     "start": 50.4,
+     "end": 50.58,
+     "word": " delay,",
+     "prob": 0.17
+    },
+    {
+     "start": 50.76,
+     "end": 50.86,
+     "word": " and",
+     "prob": 0.999
+    },
+    {
+     "start": 50.86,
+     "end": 51.16,
+     "word": " code.",
+     "prob": 0.996
+    }
+   ]
+  },
+  {
+   "start": 51.66,
+   "end": 52.62,
+   "text": " So these are the types of things",
+   "words": [
+    {
+     "start": 51.66,
+     "end": 51.74,
+     "word": " So",
+     "prob": 0.985
+    },
+    {
+     "start": 51.74,
+     "end": 51.92,
+     "word": " these",
+     "prob": 0.986
+    },
+    {
+     "start": 51.92,
+     "end": 52.02,
+     "word": " are",
+     "prob": 0.999
+    },
+    {
+     "start": 52.02,
+     "end": 52.12,
+     "word": " the",
+     "prob": 0.997
+    },
+    {
+     "start": 52.12,
+     "end": 52.3,
+     "word": " types",
+     "prob": 0.996
+    },
+    {
+     "start": 52.3,
+     "end": 52.44,
+     "word": " of",
+     "prob": 1.0
+    },
+    {
+     "start": 52.44,
+     "end": 52.62,
+     "word": " things",
+     "prob": 1.0
+    }
+   ]
+  },
+  {
+   "start": 52.62,
+   "end": 54.52,
+   "text": " you can optimize in the settings.",
+   "words": [
+    {
+     "start": 52.62,
+     "end": 52.78,
+     "word": " you",
+     "prob": 0.993
+    },
+    {
+     "start": 52.78,
+     "end": 53.04,
+     "word": " can",
+     "prob": 1.0
+    },
+    {
+     "start": 53.04,
+     "end": 53.76,
+     "word": " optimize",
+     "prob": 0.993
+    },
+    {
+     "start": 53.76,
+     "end": 54.04,
+     "word": " in",
+     "prob": 0.998
+    },
+    {
+     "start": 54.04,
+     "end": 54.16,
+     "word": " the",
+     "prob": 0.999
+    },
+    {
+     "start": 54.16,
+     "end": 54.52,
+     "word": " settings.",
+     "prob": 0.987
+    }
+   ]
+  },
+  {
+   "start": 55.02,
+   "end": 56.34,
+   "text": " The other thing that's good to know",
+   "words": [
+    {
+     "start": 55.02,
+     "end": 55.16,
+     "word": " The",
+     "prob": 0.998
+    },
+    {
+     "start": 55.16,
+     "end": 55.36,
+     "word": " other",
+     "prob": 1.0
+    },
+    {
+     "start": 55.36,
+     "end": 55.58,
+     "word": " thing",
+     "prob": 0.999
+    },
+    {
+     "start": 55.58,
+     "end": 55.82,
+     "word": " that's",
+     "prob": 0.998
+    },
+    {
+     "start": 55.82,
+     "end": 55.94,
+     "word": " good",
+     "prob": 1.0
+    },
+    {
+     "start": 55.94,
+     "end": 56.1,
+     "word": " to",
+     "prob": 1.0
+    },
+    {
+     "start": 56.1,
+     "end": 56.34,
+     "word": " know",
+     "prob": 0.969
+    }
+   ]
+  },
+  {
+   "start": 56.34,
+   "end": 59.1,
+   "text": " is there's a keyboard shortcut for the desktop launcher.",
+   "words": [
+    {
+     "start": 56.34,
+     "end": 56.5,
+     "word": " is",
+     "prob": 0.393
+    },
+    {
+     "start": 56.5,
+     "end": 56.66,
+     "word": " there's",
+     "prob": 0.762
+    },
+    {
+     "start": 56.66,
+     "end": 56.78,
+     "word": " a",
+     "prob": 0.991
+    },
+    {
+     "start": 56.78,
+     "end": 57.22,
+     "word": " keyboard",
+     "prob": 0.986
+    },
+    {
+     "start": 57.22,
+     "end": 57.8,
+     "word": " shortcut",
+     "prob": 0.997
+    },
+    {
+     "start": 57.8,
+     "end": 58.18,
+     "word": " for",
+     "prob": 0.982
+    },
+    {
+     "start": 58.18,
+     "end": 58.34,
+     "word": " the",
+     "prob": 0.976
+    },
+    {
+     "start": 58.34,
+     "end": 58.56,
+     "word": " desktop",
+     "prob": 0.971
+    },
+    {
+     "start": 58.56,
+     "end": 59.1,
+     "word": " launcher.",
+     "prob": 0.994
+    }
+   ]
+  },
+  {
+   "start": 59.72,
+   "end": 61.94,
+   "text": " So this is useful for when you're creating,",
+   "words": [
+    {
+     "start": 59.72,
+     "end": 59.96,
+     "word": " So",
+     "prob": 0.886
+    },
+    {
+     "start": 59.96,
+     "end": 60.24,
+     "word": " this",
+     "prob": 0.847
+    },
+    {
+     "start": 60.24,
+     "end": 60.4,
+     "word": " is",
+     "prob": 0.997
+    },
+    {
+     "start": 60.4,
+     "end": 60.72,
+     "word": " useful",
+     "prob": 0.999
+    },
+    {
+     "start": 60.72,
+     "end": 60.86,
+     "word": " for",
+     "prob": 0.543
+    },
+    {
+     "start": 60.86,
+     "end": 61.08,
+     "word": " when",
+     "prob": 0.986
+    },
+    {
+     "start": 61.08,
+     "end": 61.38,
+     "word": " you're",
+     "prob": 0.996
+    },
+    {
+     "start": 61.38,
+     "end": 61.94,
+     "word": " creating,",
+     "prob": 0.839
+    }
+   ]
+  },
+  {
+   "start": 62.42,
+   "end": 63.84,
+   "text": " when you're wanting to launch it.",
+   "words": [
+    {
+     "start": 62.42,
+     "end": 62.64,
+     "word": " when",
+     "prob": 0.981
+    },
+    {
+     "start": 62.64,
+     "end": 62.8,
+     "word": " you're",
+     "prob": 0.988
+    },
+    {
+     "start": 62.8,
+     "end": 62.98,
+     "word": " wanting",
+     "prob": 0.997
+    },
+    {
+     "start": 62.98,
+     "end": 63.22,
+     "word": " to",
+     "prob": 0.999
+    },
+    {
+     "start": 63.22,
+     "end": 63.52,
+     "word": " launch",
+     "prob": 0.999
+    },
+    {
+     "start": 63.52,
+     "end": 63.84,
+     "word": " it.",
+     "prob": 0.999
+    }
+   ]
+  },
+  {
+   "start": 64.16,
+   "end": 66.62,
+   "text": " And also you can choose a different voice.",
+   "words": [
+    {
+     "start": 64.16,
+     "end": 64.38,
+     "word": " And",
+     "prob": 0.986
+    },
+    {
+     "start": 64.38,
+     "end": 64.62,
+     "word": " also",
+     "prob": 0.997
+    },
+    {
+     "start": 64.62,
+     "end": 64.86,
+     "word": " you",
+     "prob": 0.941
+    },
+    {
+     "start": 64.86,
+     "end": 65.08,
+     "word": " can",
+     "prob": 0.999
+    },
+    {
+     "start": 65.08,
+     "end": 65.66,
+     "word": " choose",
+     "prob": 0.998
+    },
+    {
+     "start": 65.66,
+     "end": 65.94,
+     "word": " a",
+     "prob": 0.999
+    },
+    {
+     "start": 65.94,
+     "end": 66.24,
+     "word": " different",
+     "prob": 1.0
+    },
+    {
+     "start": 66.24,
+     "end": 66.62,
+     "word": " voice.",
+     "prob": 0.995
+    }
+   ]
+  },
+  {
+   "start": 66.98,
+   "end": 69.02,
+   "text": " So you can choose between Ember, Juniper,",
+   "words": [
+    {
+     "start": 66.98,
+     "end": 67.02,
+     "word": " So",
+     "prob": 0.996
+    },
+    {
+     "start": 67.02,
+     "end": 67.12,
+     "word": " you",
+     "prob": 0.995
+    },
+    {
+     "start": 67.12,
+     "end": 67.26,
+     "word": " can",
+     "prob": 0.999
+    },
+    {
+     "start": 67.26,
+     "end": 67.46,
+     "word": " choose",
+     "prob": 0.99
+    },
+    {
+     "start": 67.46,
+     "end": 67.78,
+     "word": " between",
+     "prob": 0.994
+    },
+    {
+     "start": 67.78,
+     "end": 68.3,
+     "word": " Ember,",
+     "prob": 0.739
+    },
+    {
+     "start": 68.66,
+     "end": 69.02,
+     "word": " Juniper,",
+     "prob": 0.994
+    }
+   ]
+  },
+  {
+   "start": 69.78,
+   "end": 71.54,
+   "text": " Breeze, or Cove at the moment.",
+   "words": [
+    {
+     "start": 69.78,
+     "end": 70.3,
+     "word": " Breeze,",
+     "prob": 0.902
+    },
+    {
+     "start": 70.38,
+     "end": 70.64,
+     "word": " or",
+     "prob": 0.994
+    },
+    {
+     "start": 70.64,
+     "end": 70.92,
+     "word": " Cove",
+     "prob": 0.863
+    },
+    {
+     "start": 70.92,
+     "end": 71.28,
+     "word": " at",
+     "prob": 0.618
+    },
+    {
+     "start": 71.28,
+     "end": 71.38,
+     "word": " the",
+     "prob": 0.999
+    },
+    {
+     "start": 71.38,
+     "end": 71.54,
+     "word": " moment.",
+     "prob": 0.998
+    }
+   ]
+  },
+  {
+   "start": 71.72,
+   "end": 73.5,
+   "text": " I personally really like Juniper's voice.",
+   "words": [
+    {
+     "start": 71.72,
+     "end": 71.86,
+     "word": " I",
+     "prob": 0.998
+    },
+    {
+     "start": 71.86,
+     "end": 72.16,
+     "word": " personally",
+     "prob": 0.997
+    },
+    {
+     "start": 72.16,
+     "end": 72.44,
+     "word": " really",
+     "prob": 0.995
+    },
+    {
+     "start": 72.44,
+     "end": 72.76,
+     "word": " like",
+     "prob": 0.665
+    },
+    {
+     "start": 72.76,
+     "end": 73.3,
+     "word": " Juniper's",
+     "prob": 0.981
+    },
+    {
+     "start": 73.3,
+     "end": 73.5,
+     "word": " voice.",
+     "prob": 0.984
+    }
+   ]
+  },
+  {
+   "start": 74.26,
+   "end": 75.58,
+   "text": " And this is one of the benefits",
+   "words": [
+    {
+     "start": 74.26,
+     "end": 74.5,
+     "word": " And",
+     "prob": 0.987
+    },
+    {
+     "start": 74.5,
+     "end": 74.82,
+     "word": " this",
+     "prob": 0.985
+    },
+    {
+     "start": 74.82,
+     "end": 74.96,
+     "word": " is",
+     "prob": 0.998
+    },
+    {
+     "start": 74.96,
+     "end": 75.08,
+     "word": " one",
+     "prob": 0.997
+    },
+    {
+     "start": 75.08,
+     "end": 75.16,
+     "word": " of",
+     "prob": 1.0
+    },
+    {
+     "start": 75.16,
+     "end": 75.28,
+     "word": " the",
+     "prob": 1.0
+    },
+    {
+     "start": 75.28,
+     "end": 75.58,
+     "word": " benefits",
+     "prob": 0.999
+    }
+   ]
+  },
+  {
+   "start": 75.58,
+   "end": 77.54,
+   "text": " of using ChatGPT on desktop",
+   "words": [
+    {
+     "start": 75.58,
+     "end": 75.84,
+     "word": " of",
+     "prob": 0.999
+    },
+    {
+     "start": 75.84,
+     "end": 76.38,
+     "word": " using",
+     "prob": 0.997
+    },
+    {
+     "start": 76.38,
+     "end": 76.88,
+     "word": " ChatGPT",
+     "prob": 0.415
+    },
+    {
+     "start": 76.88,
+     "end": 77.18,
+     "word": " on",
+     "prob": 0.994
+    },
+    {
+     "start": 77.18,
+     "end": 77.54,
+     "word": " desktop",
+     "prob": 0.908
+    }
+   ]
+  },
+  {
+   "start": 77.92,
+   "end": 79.46,
+   "text": " is you can do voice conversation.",
+   "words": [
+    {
+     "start": 77.92,
+     "end": 78.18,
+     "word": " is",
+     "prob": 0.562
+    },
+    {
+     "start": 78.18,
+     "end": 78.32,
+     "word": " you",
+     "prob": 0.943
+    },
+    {
+     "start": 78.32,
+     "end": 78.48,
+     "word": " can",
+     "prob": 0.992
+    },
+    {
+     "start": 78.48,
+     "end": 78.68,
+     "word": " do",
+     "prob": 0.999
+    },
+    {
+     "start": 78.68,
+     "end": 78.98,
+     "word": " voice",
+     "prob": 0.993
+    },
+    {
+     "start": 78.98,
+     "end": 79.46,
+     "word": " conversation.",
+     "prob": 0.774
+    }
+   ]
+  },
+  {
+   "start": 79.84,
+   "end": 80.76,
+   "text": " If you look at the bottom,",
+   "words": [
+    {
+     "start": 79.84,
+     "end": 79.92,
+     "word": " If",
+     "prob": 0.996
+    },
+    {
+     "start": 79.92,
+     "end": 80.04,
+     "word": " you",
+     "prob": 0.999
+    },
+    {
+     "start": 80.04,
+     "end": 80.22,
+     "word": " look",
+     "prob": 0.999
+    },
+    {
+     "start": 80.22,
+     "end": 80.38,
+     "word": " at",
+     "prob": 0.997
+    },
+    {
+     "start": 80.38,
+     "end": 80.5,
+     "word": " the",
+     "prob": 1.0
+    },
+    {
+     "start": 80.5,
+     "end": 80.76,
+     "word": " bottom,",
+     "prob": 0.998
+    }
+   ]
+  },
+  {
+   "start": 80.94,
+   "end": 81.92,
+   "text": " we can click on the headphones",
+   "words": [
+    {
+     "start": 80.94,
+     "end": 81.02,
+     "word": " we",
+     "prob": 0.8
+    },
+    {
+     "start": 81.02,
+     "end": 81.14,
+     "word": " can",
+     "prob": 0.999
+    },
+    {
+     "start": 81.14,
+     "end": 81.32,
+     "word": " click",
+     "prob": 0.997
+    },
+    {
+     "start": 81.32,
+     "end": 81.42,
+     "word": " on",
+     "prob": 0.999
+    },
+    {
+     "start": 81.42,
+     "end": 81.52,
+     "word": " the",
+     "prob": 0.998
+    },
+    {
+     "start": 81.52,
+     "end": 81.92,
+     "word": " headphones",
+     "prob": 0.982
+    }
+   ]
+  },
+  {
+   "start": 82.3,
+   "end": 85.3,
+   "text": " and then ChatGPT will enter a voice communication.",
+   "words": [
+    {
+     "start": 82.3,
+     "end": 82.56,
+     "word": " and",
+     "prob": 0.812
+    },
+    {
+     "start": 82.56,
+     "end": 82.76,
+     "word": " then",
+     "prob": 0.993
+    },
+    {
+     "start": 82.76,
+     "end": 83.44,
+     "word": " ChatGPT",
+     "prob": 0.91
+    },
+    {
+     "start": 83.44,
+     "end": 83.78,
+     "word": " will",
+     "prob": 0.986
+    },
+    {
+     "start": 83.78,
+     "end": 84.16,
+     "word": " enter",
+     "prob": 0.998
+    },
+    {
+     "start": 84.16,
+     "end": 84.36,
+     "word": " a",
+     "prob": 0.996
+    },
+    {
+     "start": 84.36,
+     "end": 84.74,
+     "word": " voice",
+     "prob": 0.993
+    },
+    {
+     "start": 84.74,
+     "end": 85.3,
+     "word": " communication.",
+     "prob": 0.999
+    }
+   ]
+  },
+  {
+   "start": 85.3,
+   "end": 88.3,
+   "text": " And we can talk to ChatGPT in real time.",
+   "words": [
+    {
+     "start": 85.3,
+     "end": 85.82,
+     "word": " And",
+     "prob": 0.045
+    },
+    {
+     "start": 85.82,
+     "end": 86.1,
+     "word": " we",
+     "prob": 0.905
+    },
+    {
+     "start": 86.1,
+     "end": 86.24,
+     "word": " can",
+     "prob": 0.965
+    },
+    {
+     "start": 86.24,
+     "end": 86.4,
+     "word": " talk",
+     "prob": 0.99
+    },
+    {
+     "start": 86.4,
+     "end": 86.62,
+     "word": " to",
+     "prob": 0.97
+    },
+    {
+     "start": 86.62,
+     "end": 86.96,
+     "word": " ChatGPT",
+     "prob": 0.215
+    },
+    {
+     "start": 86.96,
+     "end": 87.32,
+     "word": " in",
+     "prob": 0.978
+    },
+    {
+     "start": 87.32,
+     "end": 87.54,
+     "word": " real",
+     "prob": 0.996
+    },
+    {
+     "start": 87.54,
+     "end": 88.3,
+     "word": " time.",
+     "prob": 0.885
+    }
+   ]
+  },
+  {
+   "start": 88.64,
+   "end": 89.74,
+   "text": " And so now ChatGPT,",
+   "words": [
+    {
+     "start": 88.64,
+     "end": 88.64,
+     "word": " And",
+     "prob": 0.673
+    },
+    {
+     "start": 88.64,
+     "end": 88.96,
+     "word": " so",
+     "prob": 0.955
+    },
+    {
+     "start": 88.96,
+     "end": 89.22,
+     "word": " now",
+     "prob": 0.959
+    },
+    {
+     "start": 89.22,
+     "end": 89.74,
+     "word": " ChatGPT,",
+     "prob": 0.907
+    }
+   ]
+  },
+  {
+   "start": 89.94,
+   "end": 91.68,
+   "text": " you're just being talked about on a course.",
+   "words": [
+    {
+     "start": 89.94,
+     "end": 89.98,
+     "word": " you're",
+     "prob": 0.798
+    },
+    {
+     "start": 89.98,
+     "end": 90.16,
+     "word": " just",
+     "prob": 0.992
+    },
+    {
+     "start": 90.16,
+     "end": 90.4,
+     "word": " being",
+     "prob": 0.998
+    },
+    {
+     "start": 90.4,
+     "end": 90.68,
+     "word": " talked",
+     "prob": 0.992
+    },
+    {
+     "start": 90.68,
+     "end": 90.98,
+     "word": " about",
+     "prob": 0.999
+    },
+    {
+     "start": 90.98,
+     "end": 91.28,
+     "word": " on",
+     "prob": 0.981
+    },
+    {
+     "start": 91.28,
+     "end": 91.4,
+     "word": " a",
+     "prob": 0.87
+    },
+    {
+     "start": 91.4,
+     "end": 91.68,
+     "word": " course.",
+     "prob": 0.994
+    }
+   ]
+  },
+  {
+   "start": 92.36,
+   "end": 94.12,
+   "text": " So how does that make you feel ChatGPT?",
+   "words": [
+    {
+     "start": 92.36,
+     "end": 92.48,
+     "word": " So",
+     "prob": 0.984
+    },
+    {
+     "start": 92.48,
+     "end": 92.88,
+     "word": " how",
+     "prob": 0.853
+    },
+    {
+     "start": 92.88,
+     "end": 93.0,
+     "word": " does",
+     "prob": 0.999
+    },
+    {
+     "start": 93.0,
+     "end": 93.14,
+     "word": " that",
+     "prob": 0.997
+    },
+    {
+     "start": 93.14,
+     "end": 93.28,
+     "word": " make",
+     "prob": 0.996
+    },
+    {
+     "start": 93.28,
+     "end": 93.44,
+     "word": " you",
+     "prob": 0.995
+    },
+    {
+     "start": 93.44,
+     "end": 93.62,
+     "word": " feel",
+     "prob": 0.997
+    },
+    {
+     "start": 93.62,
+     "end": 94.12,
+     "word": " ChatGPT?",
+     "prob": 0.841
+    }
+   ]
+  },
+  {
+   "start": 94.84,
+   "end": 97.12,
+   "text": " I'm glad to hear that prompt engineering courses",
+   "words": [
+    {
+     "start": 94.84,
+     "end": 94.98,
+     "word": " I'm",
+     "prob": 0.675
+    },
+    {
+     "start": 94.98,
+     "end": 95.18,
+     "word": " glad",
+     "prob": 0.998
+    },
+    {
+     "start": 95.18,
+     "end": 95.36,
+     "word": " to",
+     "prob": 0.998
+    },
+    {
+     "start": 95.36,
+     "end": 95.54,
+     "word": " hear",
+     "prob": 0.996
+    },
+    {
+     "start": 95.54,
+     "end": 95.76,
+     "word": " that",
+     "prob": 0.994
+    },
+    {
+     "start": 95.76,
+     "end": 96.06,
+     "word": " prompt",
+     "prob": 0.93
+    },
+    {
+     "start": 96.06,
+     "end": 96.58,
+     "word": " engineering",
+     "prob": 0.992
+    },
+    {
+     "start": 96.58,
+     "end": 97.12,
+     "word": " courses",
+     "prob": 0.995
+    }
+   ]
+  },
+  {
+   "start": 97.12,
+   "end": 98.38,
+   "text": " are becoming more popular.",
+   "words": [
+    {
+     "start": 97.12,
+     "end": 97.38,
+     "word": " are",
+     "prob": 0.992
+    },
+    {
+     "start": 97.38,
+     "end": 97.68,
+     "word": " becoming",
+     "prob": 0.998
+    },
+    {
+     "start": 97.68,
+     "end": 97.94,
+     "word": " more",
+     "prob": 0.999
+    },
+    {
+     "start": 97.94,
+     "end": 98.38,
+     "word": " popular.",
+     "prob": 0.999
+    }
+   ]
+  },
+  {
+   "start": 98.86,
+   "end": 101.32,
+   "text": " It's an important skill for getting the most out of AI.",
+   "words": [
+    {
+     "start": 98.86,
+     "end": 99.02,
+     "word": " It's",
+     "prob": 0.993
+    },
+    {
+     "start": 99.02,
+     "end": 99.1,
+     "word": " an",
+     "prob": 0.997
+    },
+    {
+     "start": 99.1,
+     "end": 99.44,
+     "word": " important",
+     "prob": 0.999
+    },
+    {
+     "start": 99.44,
+     "end": 99.9,
+     "word": " skill",
+     "prob": 0.997
+    },
+    {
+     "start": 99.9,
+     "end": 100.18,
+     "word": " for",
+     "prob": 0.992
+    },
+    {
+     "start": 100.18,
+     "end": 100.36,
+     "word": " getting",
+     "prob": 0.999
+    },
+    {
+     "start": 100.36,
+     "end": 100.54,
+     "word": " the",
+     "prob": 0.998
+    },
+    {
+     "start": 100.54,
+     "end": 100.72,
+     "word": " most",
+     "prob": 0.999
+    },
+    {
+     "start": 100.72,
+     "end": 100.92,
+     "word": " out",
+     "prob": 0.996
+    },
+    {
+     "start": 100.92,
+     "end": 101.06,
+     "word": " of",
+     "prob": 0.996
+    },
+    {
+     "start": 101.06,
+     "end": 101.32,
+     "word": " AI.",
+     "prob": 0.965
+    }
+   ]
+  },
+  {
+   "start": 101.96,
+   "end": 103.66,
+   "text": " What kind of things are they covering in the course?",
+   "words": [
+    {
+     "start": 101.96,
+     "end": 102.12,
+     "word": " What",
+     "prob": 0.991
+    },
+    {
+     "start": 102.12,
+     "end": 102.32,
+     "word": " kind",
+     "prob": 0.943
+    },
+    {
+     "start": 102.32,
+     "end": 102.42,
+     "word": " of",
+     "prob": 0.999
+    },
+    {
+     "start": 102.42,
+     "end": 102.6,
+     "word": " things",
+     "prob": 0.998
+    },
+    {
+     "start": 102.6,
+     "end": 102.76,
+     "word": " are",
+     "prob": 0.998
+    },
+    {
+     "start": 102.76,
+     "end": 102.86,
+     "word": " they",
+     "prob": 0.989
+    },
+    {
+     "start": 102.86,
+     "end": 103.14,
+     "word": " covering",
+     "prob": 0.995
+    },
+    {
+     "start": 103.14,
+     "end": 103.38,
+     "word": " in",
+     "prob": 0.932
+    },
+    {
+     "start": 103.38,
+     "end": 103.5,
+     "word": " the",
+     "prob": 0.993
+    },
+    {
+     "start": 103.5,
+     "end": 103.66,
+     "word": " course?",
+     "prob": 0.969
+    }
+   ]
+  },
+  {
+   "start": 104.28,
+   "end": 105.52,
+   "text": " Oh, we're covering quite a lot.",
+   "words": [
+    {
+     "start": 104.28,
+     "end": 104.56,
+     "word": " Oh,",
+     "prob": 0.56
+    },
+    {
+     "start": 104.64,
+     "end": 104.7,
+     "word": " we're",
+     "prob": 0.917
+    },
+    {
+     "start": 104.7,
+     "end": 104.86,
+     "word": " covering",
+     "prob": 0.998
+    },
+    {
+     "start": 104.86,
+     "end": 105.18,
+     "word": " quite",
+     "prob": 0.968
+    },
+    {
+     "start": 105.18,
+     "end": 105.32,
+     "word": " a",
+     "prob": 0.998
+    },
+    {
+     "start": 105.32,
+     "end": 105.52,
+     "word": " lot.",
+     "prob": 0.998
+    }
+   ]
+  },
+  {
+   "start": 105.92,
+   "end": 107.94,
+   "text": " And so thanks for having that chat with us, ChatGPT.",
+   "words": [
+    {
+     "start": 105.92,
+     "end": 105.96,
+     "word": " And",
+     "prob": 0.896
+    },
+    {
+     "start": 105.96,
+     "end": 106.14,
+     "word": " so",
+     "prob": 0.992
+    },
+    {
+     "start": 106.14,
+     "end": 106.36,
+     "word": " thanks",
+     "prob": 0.962
+    },
+    {
+     "start": 106.36,
+     "end": 106.54,
+     "word": " for",
+     "prob": 0.999
+    },
+    {
+     "start": 106.54,
+     "end": 106.74,
+     "word": " having",
+     "prob": 0.999
+    },
+    {
+     "start": 106.74,
+     "end": 106.92,
+     "word": " that",
+     "prob": 0.992
+    },
+    {
+     "start": 106.92,
+     "end": 107.12,
+     "word": " chat",
+     "prob": 0.988
+    },
+    {
+     "start": 107.12,
+     "end": 107.26,
+     "word": " with",
+     "prob": 0.936
+    },
+    {
+     "start": 107.26,
+     "end": 107.4,
+     "word": " us,",
+     "prob": 0.995
+    },
+    {
+     "start": 107.54,
+     "end": 107.94,
+     "word": " ChatGPT.",
+     "prob": 0.964
+    }
+   ]
+  },
+  {
+   "start": 108.6,
+   "end": 110.14,
+   "text": " So when you're finished with ChatGPT,",
+   "words": [
+    {
+     "start": 108.6,
+     "end": 108.98,
+     "word": " So",
+     "prob": 0.872
+    },
+    {
+     "start": 108.98,
+     "end": 109.26,
+     "word": " when",
+     "prob": 0.921
+    },
+    {
+     "start": 109.26,
+     "end": 109.42,
+     "word": " you're",
+     "prob": 0.99
+    },
+    {
+     "start": 109.42,
+     "end": 109.6,
+     "word": " finished",
+     "prob": 0.928
+    },
+    {
+     "start": 109.6,
+     "end": 109.78,
+     "word": " with",
+     "prob": 0.959
+    },
+    {
+     "start": 109.78,
+     "end": 110.14,
+     "word": " ChatGPT,",
+     "prob": 0.969
+    }
+   ]
+  },
+  {
+   "start": 110.26,
+   "end": 113.14,
+   "text": " if you look in the top, you can click on the pause.",
+   "words": [
+    {
+     "start": 110.26,
+     "end": 110.4,
+     "word": " if",
+     "prob": 0.982
+    },
+    {
+     "start": 110.4,
+     "end": 110.48,
+     "word": " you",
+     "prob": 0.997
+    },
+    {
+     "start": 110.48,
+     "end": 110.62,
+     "word": " look",
+     "prob": 0.974
+    },
+    {
+     "start": 110.62,
+     "end": 110.74,
+     "word": " in",
+     "prob": 0.963
+    },
+    {
+     "start": 110.74,
+     "end": 110.84,
+     "word": " the",
+     "prob": 0.999
+    },
+    {
+     "start": 110.84,
+     "end": 111.02,
+     "word": " top,",
+     "prob": 0.997
+    },
+    {
+     "start": 111.16,
+     "end": 111.24,
+     "word": " you",
+     "prob": 0.996
+    },
+    {
+     "start": 111.24,
+     "end": 111.44,
+     "word": " can",
+     "prob": 0.999
+    },
+    {
+     "start": 111.44,
+     "end": 111.72,
+     "word": " click",
+     "prob": 0.998
+    },
+    {
+     "start": 111.72,
+     "end": 112.06,
+     "word": " on",
+     "prob": 0.999
+    },
+    {
+     "start": 112.06,
+     "end": 112.66,
+     "word": " the",
+     "prob": 0.988
+    },
+    {
+     "start": 112.66,
+     "end": 113.14,
+     "word": " pause.",
+     "prob": 0.937
+    }
+   ]
+  },
+  {
+   "start": 113.74,
+   "end": 114.94,
+   "text": " And then after that,",
+   "words": [
+    {
+     "start": 113.74,
+     "end": 114.14,
+     "word": " And",
+     "prob": 0.991
+    },
+    {
+     "start": 114.14,
+     "end": 114.26,
+     "word": " then",
+     "prob": 0.994
+    },
+    {
+     "start": 114.26,
+     "end": 114.54,
+     "word": " after",
+     "prob": 0.982
+    },
+    {
+     "start": 114.54,
+     "end": 114.94,
+     "word": " that,",
+     "prob": 0.997
+    }
+   ]
+  },
+  {
+   "start": 115.43,
+   "end": 117.14,
+   "text": " you can also cancel it as well.",
+   "words": [
+    {
+     "start": 115.43,
+     "end": 115.62,
+     "word": " you",
+     "prob": 0.04
+    },
+    {
+     "start": 115.62,
+     "end": 115.78,
+     "word": " can",
+     "prob": 0.808
+    },
+    {
+     "start": 115.78,
+     "end": 116.08,
+     "word": " also",
+     "prob": 0.624
+    },
+    {
+     "start": 116.08,
+     "end": 116.58,
+     "word": " cancel",
+     "prob": 0.845
+    },
+    {
+     "start": 116.58,
+     "end": 116.8,
+     "word": " it",
+     "prob": 0.921
+    },
+    {
+     "start": 116.8,
+     "end": 116.9,
+     "word": " as",
+     "prob": 0.87
+    },
+    {
+     "start": 116.9,
+     "end": 117.14,
+     "word": " well.",
+     "prob": 0.981
+    }
+   ]
+  },
+  {
+   "start": 117.4,
+   "end": 119.56,
+   "text": " So the way I like to do it is I like to pause it in the top",
+   "words": [
+    {
+     "start": 117.4,
+     "end": 117.4,
+     "word": " So",
+     "prob": 0.584
+    },
+    {
+     "start": 117.4,
+     "end": 117.82,
+     "word": " the",
+     "prob": 0.758
+    },
+    {
+     "start": 117.82,
+     "end": 117.94,
+     "word": " way",
+     "prob": 0.997
+    },
+    {
+     "start": 117.94,
+     "end": 118.1,
+     "word": " I",
+     "prob": 0.922
+    },
+    {
+     "start": 118.1,
+     "end": 118.24,
+     "word": " like",
+     "prob": 0.991
+    },
+    {
+     "start": 118.24,
+     "end": 118.34,
+     "word": " to",
+     "prob": 0.994
+    },
+    {
+     "start": 118.34,
+     "end": 118.44,
+     "word": " do",
+     "prob": 0.992
+    },
+    {
+     "start": 118.44,
+     "end": 118.52,
+     "word": " it",
+     "prob": 0.766
+    },
+    {
+     "start": 118.52,
+     "end": 118.62,
+     "word": " is",
+     "prob": 0.776
+    },
+    {
+     "start": 118.62,
+     "end": 118.66,
+     "word": " I",
+     "prob": 0.86
+    },
+    {
+     "start": 118.66,
+     "end": 118.78,
+     "word": " like",
+     "prob": 0.99
+    },
+    {
+     "start": 118.78,
+     "end": 118.92,
+     "word": " to",
+     "prob": 0.996
+    },
+    {
+     "start": 118.92,
+     "end": 119.1,
+     "word": " pause",
+     "prob": 0.996
+    },
+    {
+     "start": 119.1,
+     "end": 119.28,
+     "word": " it",
+     "prob": 0.714
+    },
+    {
+     "start": 119.28,
+     "end": 119.32,
+     "word": " in",
+     "prob": 0.772
+    },
+    {
+     "start": 119.32,
+     "end": 119.42,
+     "word": " the",
+     "prob": 0.989
+    },
+    {
+     "start": 119.42,
+     "end": 119.56,
+     "word": " top",
+     "prob": 0.991
+    }
+   ]
+  },
+  {
+   "start": 119.56,
+   "end": 121.38,
+   "text": " and then I like to go to the top left.",
+   "words": [
+    {
+     "start": 119.56,
+     "end": 119.78,
+     "word": " and",
+     "prob": 0.586
+    },
+    {
+     "start": 119.78,
+     "end": 119.88,
+     "word": " then",
+     "prob": 0.948
+    },
+    {
+     "start": 119.88,
+     "end": 120.0,
+     "word": " I",
+     "prob": 0.971
+    },
+    {
+     "start": 120.0,
+     "end": 120.16,
+     "word": " like",
+     "prob": 0.86
+    },
+    {
+     "start": 120.16,
+     "end": 120.3,
+     "word": " to",
+     "prob": 0.996
+    },
+    {
+     "start": 120.3,
+     "end": 120.4,
+     "word": " go",
+     "prob": 0.985
+    },
+    {
+     "start": 120.4,
+     "end": 120.52,
+     "word": " to",
+     "prob": 0.994
+    },
+    {
+     "start": 120.52,
+     "end": 120.68,
+     "word": " the",
+     "prob": 0.997
+    },
+    {
+     "start": 120.68,
+     "end": 120.92,
+     "word": " top",
+     "prob": 0.984
+    },
+    {
+     "start": 120.92,
+     "end": 121.38,
+     "word": " left.",
+     "prob": 0.971
+    }
+   ]
+  },
+  {
+   "start": 122.12,
+   "end": 124.2,
+   "text": " And then you'll now see that you've got a voice chat",
+   "words": [
+    {
+     "start": 122.12,
+     "end": 122.14,
+     "word": " And",
+     "prob": 0.879
+    },
+    {
+     "start": 122.14,
+     "end": 122.28,
+     "word": " then",
+     "prob": 0.99
+    },
+    {
+     "start": 122.28,
+     "end": 122.56,
+     "word": " you'll",
+     "prob": 0.905
+    },
+    {
+     "start": 122.56,
+     "end": 122.8,
+     "word": " now",
+     "prob": 0.994
+    },
+    {
+     "start": 122.8,
+     "end": 123.1,
+     "word": " see",
+     "prob": 0.999
+    },
+    {
+     "start": 123.1,
+     "end": 123.26,
+     "word": " that",
+     "prob": 0.997
+    },
+    {
+     "start": 123.26,
+     "end": 123.48,
+     "word": " you've",
+     "prob": 0.985
+    },
+    {
+     "start": 123.48,
+     "end": 123.56,
+     "word": " got",
+     "prob": 0.996
+    },
+    {
+     "start": 123.56,
+     "end": 123.7,
+     "word": " a",
+     "prob": 0.954
+    },
+    {
+     "start": 123.7,
+     "end": 123.9,
+     "word": " voice",
+     "prob": 0.949
+    },
+    {
+     "start": 123.9,
+     "end": 124.2,
+     "word": " chat",
+     "prob": 0.97
+    }
+   ]
+  },
+  {
+   "start": 124.2,
+   "end": 125.02,
+   "text": " that's just ended.",
+   "words": [
+    {
+     "start": 124.2,
+     "end": 124.48,
+     "word": " that's",
+     "prob": 0.954
+    },
+    {
+     "start": 124.48,
+     "end": 124.62,
+     "word": " just",
+     "prob": 0.998
+    },
+    {
+     "start": 124.62,
+     "end": 125.02,
+     "word": " ended.",
+     "prob": 0.996
+    }
+   ]
+  },
+  {
+   "start": 125.54,
+   "end": 126.96,
+   "text": " And what's interesting about this",
+   "words": [
+    {
+     "start": 125.54,
+     "end": 125.62,
+     "word": " And",
+     "prob": 0.969
+    },
+    {
+     "start": 125.62,
+     "end": 125.88,
+     "word": " what's",
+     "prob": 0.998
+    },
+    {
+     "start": 125.88,
+     "end": 126.22,
+     "word": " interesting",
+     "prob": 0.999
+    },
+    {
+     "start": 126.22,
+     "end": 126.58,
+     "word": " about",
+     "prob": 0.999
+    },
+    {
+     "start": 126.58,
+     "end": 126.96,
+     "word": " this",
+     "prob": 0.998
+    }
+   ]
+  },
+  {
+   "start": 126.96,
+   "end": 130.16,
+   "text": " is basically you have your voice chat here",
+   "words": [
+    {
+     "start": 126.96,
+     "end": 127.64,
+     "word": " is",
+     "prob": 0.944
+    },
+    {
+     "start": 127.64,
+     "end": 128.16,
+     "word": " basically",
+     "prob": 0.96
+    },
+    {
+     "start": 128.16,
+     "end": 128.76,
+     "word": " you",
+     "prob": 0.871
+    },
+    {
+     "start": 128.76,
+     "end": 129.12,
+     "word": " have",
+     "prob": 0.993
+    },
+    {
+     "start": 129.12,
+     "end": 129.3,
+     "word": " your",
+     "prob": 0.992
+    },
+    {
+     "start": 129.3,
+     "end": 129.54,
+     "word": " voice",
+     "prob": 0.997
+    },
+    {
+     "start": 129.54,
+     "end": 129.78,
+     "word": " chat",
+     "prob": 0.995
+    },
+    {
+     "start": 129.78,
+     "end": 130.16,
+     "word": " here",
+     "prob": 0.996
+    }
+   ]
+  },
+  {
+   "start": 130.57,
+   "end": 131.66,
+   "text": " and you can see all the messages",
+   "words": [
+    {
+     "start": 130.57,
+     "end": 130.76,
+     "word": " and",
+     "prob": 0.698
+    },
+    {
+     "start": 130.76,
+     "end": 130.84,
+     "word": " you",
+     "prob": 0.999
+    },
+    {
+     "start": 130.84,
+     "end": 130.98,
+     "word": " can",
+     "prob": 0.999
+    },
+    {
+     "start": 130.98,
+     "end": 131.14,
+     "word": " see",
+     "prob": 0.998
+    },
+    {
+     "start": 131.14,
+     "end": 131.22,
+     "word": " all",
+     "prob": 0.945
+    },
+    {
+     "start": 131.22,
+     "end": 131.32,
+     "word": " the",
+     "prob": 0.999
+    },
+    {
+     "start": 131.32,
+     "end": 131.66,
+     "word": " messages",
+     "prob": 0.998
+    }
+   ]
+  },
+  {
+   "start": 131.66,
+   "end": 133.32,
+   "text": " that we were talking about with ChatGPT.",
+   "words": [
+    {
+     "start": 131.66,
+     "end": 131.9,
+     "word": " that",
+     "prob": 0.995
+    },
+    {
+     "start": 131.9,
+     "end": 132.06,
+     "word": " we",
+     "prob": 0.998
+    },
+    {
+     "start": 132.06,
+     "end": 132.18,
+     "word": " were",
+     "prob": 0.998
+    },
+    {
+     "start": 132.18,
+     "end": 132.44,
+     "word": " talking",
+     "prob": 0.999
+    },
+    {
+     "start": 132.44,
+     "end": 132.68,
+     "word": " about",
+     "prob": 0.999
+    },
+    {
+     "start": 132.68,
+     "end": 132.86,
+     "word": " with",
+     "prob": 0.985
+    },
+    {
+     "start": 132.86,
+     "end": 133.32,
+     "word": " ChatGPT.",
+     "prob": 0.261
+    }
+   ]
+  },
+  {
+   "start": 133.98,
+   "end": 135.82,
+   "text": " One thing that you can do as well",
+   "words": [
+    {
+     "start": 133.98,
+     "end": 134.18,
+     "word": " One",
+     "prob": 0.991
+    },
+    {
+     "start": 134.18,
+     "end": 134.42,
+     "word": " thing",
+     "prob": 0.999
+    },
+    {
+     "start": 134.42,
+     "end": 134.56,
+     "word": " that",
+     "prob": 0.996
+    },
+    {
+     "start": 134.56,
+     "end": 134.72,
+     "word": " you",
+     "prob": 1.0
+    },
+    {
+     "start": 134.72,
+     "end": 134.94,
+     "word": " can",
+     "prob": 0.998
+    },
+    {
+     "start": 134.94,
+     "end": 135.16,
+     "word": " do",
+     "prob": 0.999
+    },
+    {
+     "start": 135.16,
+     "end": 135.32,
+     "word": " as",
+     "prob": 0.982
+    },
+    {
+     "start": 135.32,
+     "end": 135.82,
+     "word": " well",
+     "prob": 0.999
+    }
+   ]
+  },
+  {
+   "start": 136.24,
+   "end": 138.88,
+   "text": " is you can have a voice conversation with ChatGPT,",
+   "words": [
+    {
+     "start": 136.24,
+     "end": 136.62,
+     "word": " is",
+     "prob": 0.793
+    },
+    {
+     "start": 136.62,
+     "end": 136.76,
+     "word": " you",
+     "prob": 0.982
+    },
+    {
+     "start": 136.76,
+     "end": 136.86,
+     "word": " can",
+     "prob": 0.996
+    },
+    {
+     "start": 136.86,
+     "end": 137.0,
+     "word": " have",
+     "prob": 0.999
+    },
+    {
+     "start": 137.0,
+     "end": 137.16,
+     "word": " a",
+     "prob": 0.999
+    },
+    {
+     "start": 137.16,
+     "end": 137.4,
+     "word": " voice",
+     "prob": 0.998
+    },
+    {
+     "start": 137.4,
+     "end": 137.92,
+     "word": " conversation",
+     "prob": 0.999
+    },
+    {
+     "start": 137.92,
+     "end": 138.24,
+     "word": " with",
+     "prob": 0.996
+    },
+    {
+     "start": 138.24,
+     "end": 138.88,
+     "word": " ChatGPT,",
+     "prob": 0.934
+    }
+   ]
+  },
+  {
+   "start": 139.37,
+   "end": 141.72,
+   "text": " but then in a separate window on the browser,",
+   "words": [
+    {
+     "start": 139.37,
+     "end": 139.56,
+     "word": " but",
+     "prob": 0.995
+    },
+    {
+     "start": 139.56,
+     "end": 139.74,
+     "word": " then",
+     "prob": 0.999
+    },
+    {
+     "start": 139.74,
+     "end": 139.9,
+     "word": " in",
+     "prob": 0.986
+    },
+    {
+     "start": 139.9,
+     "end": 140.08,
+     "word": " a",
+     "prob": 0.989
+    },
+    {
+     "start": 140.08,
+     "end": 140.56,
+     "word": " separate",
+     "prob": 0.999
+    },
+    {
+     "start": 140.56,
+     "end": 141.04,
+     "word": " window",
+     "prob": 0.998
+    },
+    {
+     "start": 141.04,
+     "end": 141.2,
+     "word": " on",
+     "prob": 0.681
+    },
+    {
+     "start": 141.2,
+     "end": 141.32,
+     "word": " the",
+     "prob": 0.845
+    },
+    {
+     "start": 141.32,
+     "end": 141.72,
+     "word": " browser,",
+     "prob": 0.995
+    }
+   ]
+  },
+  {
+   "start": 142.1,
+   "end": 145.04,
+   "text": " you can have a different ChatGPT session going.",
+   "words": [
+    {
+     "start": 142.1,
+     "end": 142.34,
+     "word": " you",
+     "prob": 0.27
+    },
+    {
+     "start": 142.34,
+     "end": 142.5,
+     "word": " can",
+     "prob": 0.974
+    },
+    {
+     "start": 142.5,
+     "end": 142.68,
+     "word": " have",
+     "prob": 0.994
+    },
+    {
+     "start": 142.68,
+     "end": 142.82,
+     "word": " a",
+     "prob": 0.995
+    },
+    {
+     "start": 142.82,
+     "end": 143.16,
+     "word": " different",
+     "prob": 0.994
+    },
+    {
+     "start": 143.16,
+     "end": 143.78,
+     "word": " ChatGPT",
+     "prob": 0.148
+    },
+    {
+     "start": 143.78,
+     "end": 144.5,
+     "word": " session",
+     "prob": 0.985
+    },
+    {
+     "start": 144.5,
+     "end": 145.04,
+     "word": " going.",
+     "prob": 0.988
+    }
+   ]
+  },
+  {
+   "start": 145.66,
+   "end": 146.72,
+   "text": " And this can be quite useful.",
+   "words": [
+    {
+     "start": 145.66,
+     "end": 145.7,
+     "word": " And",
+     "prob": 0.772
+    },
+    {
+     "start": 145.7,
+     "end": 145.86,
+     "word": " this",
+     "prob": 0.994
+    },
+    {
+     "start": 145.86,
+     "end": 146.0,
+     "word": " can",
+     "prob": 0.988
+    },
+    {
+     "start": 146.0,
+     "end": 146.18,
+     "word": " be",
+     "prob": 1.0
+    },
+    {
+     "start": 146.18,
+     "end": 146.34,
+     "word": " quite",
+     "prob": 0.997
+    },
+    {
+     "start": 146.34,
+     "end": 146.72,
+     "word": " useful.",
+     "prob": 0.999
+    }
+   ]
+  },
+  {
+   "start": 147.04,
+   "end": 149.48,
+   "text": " So for example, we can have one window",
+   "words": [
+    {
+     "start": 147.04,
+     "end": 147.1,
+     "word": " So",
+     "prob": 0.903
+    },
+    {
+     "start": 147.1,
+     "end": 147.28,
+     "word": " for",
+     "prob": 0.786
+    },
+    {
+     "start": 147.28,
+     "end": 147.6,
+     "word": " example,",
+     "prob": 0.999
+    },
+    {
+     "start": 147.7,
+     "end": 147.9,
+     "word": " we",
+     "prob": 0.997
+    },
+    {
+     "start": 147.9,
+     "end": 148.08,
+     "word": " can",
+     "prob": 0.997
+    },
+    {
+     "start": 148.08,
+     "end": 148.5,
+     "word": " have",
+     "prob": 0.999
+    },
+    {
+     "start": 148.5,
+     "end": 149.1,
+     "word": " one",
+     "prob": 0.992
+    },
+    {
+     "start": 149.1,
+     "end": 149.48,
+     "word": " window",
+     "prob": 0.992
+    }
+   ]
+  },
+  {
+   "start": 149.48,
+   "end": 152.8,
+   "text": " where we're using ChatGPT and we're using it to do text,",
+   "words": [
+    {
+     "start": 149.48,
+     "end": 149.7,
+     "word": " where",
+     "prob": 0.984
+    },
+    {
+     "start": 149.7,
+     "end": 149.9,
+     "word": " we're",
+     "prob": 0.992
+    },
+    {
+     "start": 149.9,
+     "end": 150.16,
+     "word": " using",
+     "prob": 0.999
+    },
+    {
+     "start": 150.16,
+     "end": 150.76,
+     "word": " ChatGPT",
+     "prob": 0.951
+    },
+    {
+     "start": 150.76,
+     "end": 151.56,
+     "word": " and",
+     "prob": 0.723
+    },
+    {
+     "start": 151.56,
+     "end": 151.74,
+     "word": " we're",
+     "prob": 0.995
+    },
+    {
+     "start": 151.74,
+     "end": 151.98,
+     "word": " using",
+     "prob": 0.999
+    },
+    {
+     "start": 151.98,
+     "end": 152.14,
+     "word": " it",
+     "prob": 0.998
+    },
+    {
+     "start": 152.14,
+     "end": 152.26,
+     "word": " to",
+     "prob": 0.999
+    },
+    {
+     "start": 152.26,
+     "end": 152.44,
+     "word": " do",
+     "prob": 0.995
+    },
+    {
+     "start": 152.44,
+     "end": 152.8,
+     "word": " text,",
+     "prob": 0.405
+    }
+   ]
+  },
+  {
+   "start": 152.98,
+   "end": 156.12,
+   "text": " another where we're just using ChatGPT to keep us company",
+   "words": [
+    {
+     "start": 152.98,
+     "end": 153.32,
+     "word": " another",
+     "prob": 0.826
+    },
+    {
+     "start": 153.32,
+     "end": 153.58,
+     "word": " where",
+     "prob": 0.805
+    },
+    {
+     "start": 153.58,
+     "end": 153.74,
+     "word": " we're",
+     "prob": 0.964
+    },
+    {
+     "start": 153.74,
+     "end": 153.88,
+     "word": " just",
+     "prob": 0.995
+    },
+    {
+     "start": 153.88,
+     "end": 154.34,
+     "word": " using",
+     "prob": 0.998
+    },
+    {
+     "start": 154.34,
+     "end": 155.18,
+     "word": " ChatGPT",
+     "prob": 0.976
+    },
+    {
+     "start": 155.18,
+     "end": 155.42,
+     "word": " to",
+     "prob": 0.987
+    },
+    {
+     "start": 155.42,
+     "end": 155.58,
+     "word": " keep",
+     "prob": 0.999
+    },
+    {
+     "start": 155.58,
+     "end": 155.74,
+     "word": " us",
+     "prob": 0.979
+    },
+    {
+     "start": 155.74,
+     "end": 156.12,
+     "word": " company",
+     "prob": 0.999
+    }
+   ]
+  },
+  {
+   "start": 156.12,
+   "end": 158.06,
+   "text": " or to bounce ideas off immediately.",
+   "words": [
+    {
+     "start": 156.12,
+     "end": 156.64,
+     "word": " or",
+     "prob": 0.797
+    },
+    {
+     "start": 156.64,
+     "end": 156.8,
+     "word": " to",
+     "prob": 0.995
+    },
+    {
+     "start": 156.8,
+     "end": 157.06,
+     "word": " bounce",
+     "prob": 0.889
+    },
+    {
+     "start": 157.06,
+     "end": 157.44,
+     "word": " ideas",
+     "prob": 0.997
+    },
+    {
+     "start": 157.44,
+     "end": 157.68,
+     "word": " off",
+     "prob": 0.983
+    },
+    {
+     "start": 157.68,
+     "end": 158.06,
+     "word": " immediately.",
+     "prob": 0.99
+    }
+   ]
+  },
+  {
+   "start": 158.66,
+   "end": 159.7,
+   "text": " So that can be quite useful.",
+   "words": [
+    {
+     "start": 158.66,
+     "end": 158.82,
+     "word": " So",
+     "prob": 0.997
+    },
+    {
+     "start": 158.82,
+     "end": 158.96,
+     "word": " that",
+     "prob": 0.992
+    },
+    {
+     "start": 158.96,
+     "end": 159.1,
+     "word": " can",
+     "prob": 0.997
+    },
+    {
+     "start": 159.1,
+     "end": 159.22,
+     "word": " be",
+     "prob": 1.0
+    },
+    {
+     "start": 159.22,
+     "end": 159.4,
+     "word": " quite",
+     "prob": 0.999
+    },
+    {
+     "start": 159.4,
+     "end": 159.7,
+     "word": " useful.",
+     "prob": 1.0
+    }
+   ]
+  },
+  {
+   "start": 159.88,
+   "end": 162.34,
+   "text": " So for example, we can spin up a chat session here",
+   "words": [
+    {
+     "start": 159.88,
+     "end": 159.9,
+     "word": " So",
+     "prob": 0.987
+    },
+    {
+     "start": 159.9,
+     "end": 160.1,
+     "word": " for",
+     "prob": 0.919
+    },
+    {
+     "start": 160.1,
+     "end": 160.38,
+     "word": " example,",
+     "prob": 0.999
+    },
+    {
+     "start": 160.56,
+     "end": 160.64,
+     "word": " we",
+     "prob": 0.996
+    },
+    {
+     "start": 160.64,
+     "end": 160.8,
+     "word": " can",
+     "prob": 0.997
+    },
+    {
+     "start": 160.8,
+     "end": 161.14,
+     "word": " spin",
+     "prob": 0.483
+    },
+    {
+     "start": 161.14,
+     "end": 161.28,
+     "word": " up",
+     "prob": 0.997
+    },
+    {
+     "start": 161.28,
+     "end": 161.4,
+     "word": " a",
+     "prob": 0.997
+    },
+    {
+     "start": 161.4,
+     "end": 161.62,
+     "word": " chat",
+     "prob": 0.916
+    },
+    {
+     "start": 161.62,
+     "end": 162.02,
+     "word": " session",
+     "prob": 0.999
+    },
+    {
+     "start": 162.02,
+     "end": 162.34,
+     "word": " here",
+     "prob": 0.998
+    }
+   ]
+  },
+  {
+   "start": 162.34,
+   "end": 163.96,
+   "text": " and at the same time say,",
+   "words": [
+    {
+     "start": 162.34,
+     "end": 162.9,
+     "word": " and",
+     "prob": 0.627
+    },
+    {
+     "start": 162.9,
+     "end": 163.04,
+     "word": " at",
+     "prob": 0.853
+    },
+    {
+     "start": 163.04,
+     "end": 163.2,
+     "word": " the",
+     "prob": 0.999
+    },
+    {
+     "start": 163.2,
+     "end": 163.38,
+     "word": " same",
+     "prob": 1.0
+    },
+    {
+     "start": 163.38,
+     "end": 163.64,
+     "word": " time",
+     "prob": 0.994
+    },
+    {
+     "start": 163.64,
+     "end": 163.96,
+     "word": " say,",
+     "prob": 0.734
+    }
+   ]
+  },
+  {
+   "start": 163.98,
+   "end": 166.94,
+   "text": " we're currently learning about prompt engineering.",
+   "words": [
+    {
+     "start": 163.98,
+     "end": 164.46,
+     "word": " we're",
+     "prob": 0.876
+    },
+    {
+     "start": 164.46,
+     "end": 164.96,
+     "word": " currently",
+     "prob": 0.998
+    },
+    {
+     "start": 164.96,
+     "end": 165.9,
+     "word": " learning",
+     "prob": 0.998
+    },
+    {
+     "start": 165.9,
+     "end": 166.36,
+     "word": " about",
+     "prob": 0.998
+    },
+    {
+     "start": 166.36,
+     "end": 166.6,
+     "word": " prompt",
+     "prob": 0.931
+    },
+    {
+     "start": 166.6,
+     "end": 166.94,
+     "word": " engineering.",
+     "prob": 0.932
+    }
+   ]
+  },
+  {
+   "start": 172.28,
+   "end": 176.78,
+   "text": " Learning about prompt aspects of prompt engineering,",
+   "words": [
+    {
+     "start": 172.28,
+     "end": 172.6,
+     "word": " Learning",
+     "prob": 0.023
+    },
+    {
+     "start": 172.6,
+     "end": 172.98,
+     "word": " about",
+     "prob": 0.998
+    },
+    {
+     "start": 172.98,
+     "end": 173.42,
+     "word": " prompt",
+     "prob": 0.595
+    },
+    {
+     "start": 175.34,
+     "end": 175.82,
+     "word": " aspects",
+     "prob": 0.964
+    },
+    {
+     "start": 175.82,
+     "end": 176.1,
+     "word": " of",
+     "prob": 0.939
+    },
+    {
+     "start": 176.1,
+     "end": 176.34,
+     "word": " prompt",
+     "prob": 0.984
+    },
+    {
+     "start": 176.34,
+     "end": 176.78,
+     "word": " engineering,",
+     "prob": 0.997
+    }
+   ]
+  },
+  {
+   "start": 176.78,
+   "end": 179.2,
+   "text": " are you focusing on right now?",
+   "words": [
+    {
+     "start": 176.78,
+     "end": 177.42,
+     "word": " are",
+     "prob": 0.046
+    },
+    {
+     "start": 177.42,
+     "end": 177.56,
+     "word": " you",
+     "prob": 0.985
+    },
+    {
+     "start": 177.56,
+     "end": 177.86,
+     "word": " focusing",
+     "prob": 0.969
+    },
+    {
+     "start": 177.86,
+     "end": 178.14,
+     "word": " on",
+     "prob": 0.994
+    },
+    {
+     "start": 178.14,
+     "end": 178.34,
+     "word": " right",
+     "prob": 0.977
+    },
+    {
+     "start": 178.34,
+     "end": 179.2,
+     "word": " now?",
+     "prob": 0.999
+    }
+   ]
+  },
+  {
+   "start": 180.38,
+   "end": 181.52,
+   "text": " So I'm just gonna pause ChatGPT",
+   "words": [
+    {
+     "start": 180.38,
+     "end": 180.38,
+     "word": " So",
+     "prob": 0.654
+    },
+    {
+     "start": 180.38,
+     "end": 180.46,
+     "word": " I'm",
+     "prob": 0.895
+    },
+    {
+     "start": 180.46,
+     "end": 180.58,
+     "word": " just",
+     "prob": 0.992
+    },
+    {
+     "start": 180.58,
+     "end": 180.74,
+     "word": " gonna",
+     "prob": 0.32
+    },
+    {
+     "start": 180.74,
+     "end": 181.02,
+     "word": " pause",
+     "prob": 0.988
+    },
+    {
+     "start": 181.02,
+     "end": 181.52,
+     "word": " ChatGPT",
+     "prob": 0.302
+    }
+   ]
+  },
+  {
+   "start": 181.52,
+   "end": 183.12,
+   "text": " and then what I want you to see",
+   "words": [
+    {
+     "start": 181.52,
+     "end": 181.92,
+     "word": " and",
+     "prob": 0.76
+    },
+    {
+     "start": 181.92,
+     "end": 182.06,
+     "word": " then",
+     "prob": 0.977
+    },
+    {
+     "start": 182.06,
+     "end": 182.26,
+     "word": " what",
+     "prob": 0.985
+    },
+    {
+     "start": 182.26,
+     "end": 182.38,
+     "word": " I",
+     "prob": 0.993
+    },
+    {
+     "start": 182.38,
+     "end": 182.54,
+     "word": " want",
+     "prob": 0.995
+    },
+    {
+     "start": 182.54,
+     "end": 182.7,
+     "word": " you",
+     "prob": 0.998
+    },
+    {
+     "start": 182.7,
+     "end": 182.84,
+     "word": " to",
+     "prob": 0.999
+    },
+    {
+     "start": 182.84,
+     "end": 183.12,
+     "word": " see",
+     "prob": 0.999
+    }
+   ]
+  },
+  {
+   "start": 183.12,
+   "end": 185.26,
+   "text": " is if I refresh this browser,",
+   "words": [
+    {
+     "start": 183.12,
+     "end": 183.68,
+     "word": " is",
+     "prob": 0.866
+    },
+    {
+     "start": 183.68,
+     "end": 183.8,
+     "word": " if",
+     "prob": 0.89
+    },
+    {
+     "start": 183.8,
+     "end": 183.98,
+     "word": " I",
+     "prob": 0.992
+    },
+    {
+     "start": 183.98,
+     "end": 184.38,
+     "word": " refresh",
+     "prob": 0.994
+    },
+    {
+     "start": 184.38,
+     "end": 184.72,
+     "word": " this",
+     "prob": 0.998
+    },
+    {
+     "start": 184.72,
+     "end": 185.26,
+     "word": " browser,",
+     "prob": 0.993
+    }
+   ]
+  },
+  {
+   "start": 185.7,
+   "end": 187.54,
+   "text": " you'll see ChatGPT has given us some information",
+   "words": [
+    {
+     "start": 185.7,
+     "end": 185.98,
+     "word": " you'll",
+     "prob": 0.965
+    },
+    {
+     "start": 185.98,
+     "end": 186.12,
+     "word": " see",
+     "prob": 0.997
+    },
+    {
+     "start": 186.12,
+     "end": 186.5,
+     "word": " ChatGPT",
+     "prob": 0.86
+    },
+    {
+     "start": 186.5,
+     "end": 186.68,
+     "word": " has",
+     "prob": 0.43
+    },
+    {
+     "start": 186.68,
+     "end": 186.86,
+     "word": " given",
+     "prob": 0.996
+    },
+    {
+     "start": 186.86,
+     "end": 187.04,
+     "word": " us",
+     "prob": 0.992
+    },
+    {
+     "start": 187.04,
+     "end": 187.2,
+     "word": " some",
+     "prob": 0.996
+    },
+    {
+     "start": 187.2,
+     "end": 187.54,
+     "word": " information",
+     "prob": 0.998
+    }
+   ]
+  },
+  {
+   "start": 187.54,
+   "end": 188.26,
+   "text": " on the tags.",
+   "words": [
+    {
+     "start": 187.54,
+     "end": 187.76,
+     "word": " on",
+     "prob": 0.986
+    },
+    {
+     "start": 187.76,
+     "end": 187.9,
+     "word": " the",
+     "prob": 0.999
+    },
+    {
+     "start": 187.9,
+     "end": 188.26,
+     "word": " tags.",
+     "prob": 0.893
+    }
+   ]
+  },
+  {
+   "start": 188.76,
+   "end": 191.3,
+   "text": " But if I rephrase this browser, refresh this browser,",
+   "words": [
+    {
+     "start": 188.76,
+     "end": 188.9,
+     "word": " But",
+     "prob": 0.93
+    },
+    {
+     "start": 188.9,
+     "end": 189.02,
+     "word": " if",
+     "prob": 0.983
+    },
+    {
+     "start": 189.02,
+     "end": 189.2,
+     "word": " I",
+     "prob": 0.995
+    },
+    {
+     "start": 189.2,
+     "end": 189.7,
+     "word": " rephrase",
+     "prob": 0.976
+    },
+    {
+     "start": 189.7,
+     "end": 189.9,
+     "word": " this",
+     "prob": 0.983
+    },
+    {
+     "start": 189.9,
+     "end": 190.16,
+     "word": " browser,",
+     "prob": 0.842
+    },
+    {
+     "start": 190.38,
+     "end": 190.58,
+     "word": " refresh",
+     "prob": 0.956
+    },
+    {
+     "start": 190.58,
+     "end": 190.84,
+     "word": " this",
+     "prob": 0.977
+    },
+    {
+     "start": 190.84,
+     "end": 191.3,
+     "word": " browser,",
+     "prob": 0.999
+    }
+   ]
+  },
+  {
+   "start": 191.6,
+   "end": 193.36,
+   "text": " you'll see that we've also got",
+   "words": [
+    {
+     "start": 191.6,
+     "end": 192.08,
+     "word": " you'll",
+     "prob": 0.955
+    },
+    {
+     "start": 192.08,
+     "end": 192.28,
+     "word": " see",
+     "prob": 0.998
+    },
+    {
+     "start": 192.28,
+     "end": 192.44,
+     "word": " that",
+     "prob": 0.993
+    },
+    {
+     "start": 192.44,
+     "end": 192.64,
+     "word": " we've",
+     "prob": 0.992
+    },
+    {
+     "start": 192.64,
+     "end": 193.0,
+     "word": " also",
+     "prob": 0.998
+    },
+    {
+     "start": 193.0,
+     "end": 193.36,
+     "word": " got",
+     "prob": 0.994
+    }
+   ]
+  },
+  {
+   "start": 193.36,
+   "end": 195.3,
+   "text": " prompt engineering basics as well.",
+   "words": [
+    {
+     "start": 193.36,
+     "end": 193.58,
+     "word": " prompt",
+     "prob": 0.107
+    },
+    {
+     "start": 193.58,
+     "end": 193.96,
+     "word": " engineering",
+     "prob": 0.543
+    },
+    {
+     "start": 193.96,
+     "end": 194.34,
+     "word": " basics",
+     "prob": 0.997
+    },
+    {
+     "start": 194.34,
+     "end": 194.9,
+     "word": " as",
+     "prob": 0.961
+    },
+    {
+     "start": 194.9,
+     "end": 195.3,
+     "word": " well.",
+     "prob": 1.0
+    }
+   ]
+  },
+  {
+   "start": 195.76,
+   "end": 198.2,
+   "text": " And so when we end this chat session,",
+   "words": [
+    {
+     "start": 195.76,
+     "end": 195.76,
+     "word": " And",
+     "prob": 0.832
+    },
+    {
+     "start": 195.76,
+     "end": 196.1,
+     "word": " so",
+     "prob": 0.997
+    },
+    {
+     "start": 196.1,
+     "end": 196.58,
+     "word": " when",
+     "prob": 0.844
+    },
+    {
+     "start": 196.58,
+     "end": 196.76,
+     "word": " we",
+     "prob": 0.999
+    },
+    {
+     "start": 196.76,
+     "end": 197.0,
+     "word": " end",
+     "prob": 0.995
+    },
+    {
+     "start": 197.0,
+     "end": 197.36,
+     "word": " this",
+     "prob": 0.999
+    },
+    {
+     "start": 197.36,
+     "end": 197.68,
+     "word": " chat",
+     "prob": 0.962
+    },
+    {
+     "start": 197.68,
+     "end": 198.2,
+     "word": " session,",
+     "prob": 0.999
+    }
+   ]
+  },
+  {
+   "start": 198.66,
+   "end": 200.88,
+   "text": " this will also appear up as a separate one.",
+   "words": [
+    {
+     "start": 198.66,
+     "end": 198.94,
+     "word": " this",
+     "prob": 0.998
+    },
+    {
+     "start": 198.94,
+     "end": 199.1,
+     "word": " will",
+     "prob": 0.999
+    },
+    {
+     "start": 199.1,
+     "end": 199.36,
+     "word": " also",
+     "prob": 0.999
+    },
+    {
+     "start": 199.36,
+     "end": 199.6,
+     "word": " appear",
+     "prob": 0.993
+    },
+    {
+     "start": 199.6,
+     "end": 199.78,
+     "word": " up",
+     "prob": 0.941
+    },
+    {
+     "start": 199.78,
+     "end": 199.98,
+     "word": " as",
+     "prob": 0.997
+    },
+    {
+     "start": 199.98,
+     "end": 200.1,
+     "word": " a",
+     "prob": 0.995
+    },
+    {
+     "start": 200.1,
+     "end": 200.56,
+     "word": " separate",
+     "prob": 0.999
+    },
+    {
+     "start": 200.56,
+     "end": 200.88,
+     "word": " one.",
+     "prob": 0.991
+    }
+   ]
+  },
+  {
+   "start": 201.12,
+   "end": 202.7,
+   "text": " So what you'll see is the voice chat ended",
+   "words": [
+    {
+     "start": 201.12,
+     "end": 201.22,
+     "word": " So",
+     "prob": 0.996
+    },
+    {
+     "start": 201.22,
+     "end": 201.36,
+     "word": " what",
+     "prob": 0.99
+    },
+    {
+     "start": 201.36,
+     "end": 201.54,
+     "word": " you'll",
+     "prob": 0.989
+    },
+    {
+     "start": 201.54,
+     "end": 201.7,
+     "word": " see",
+     "prob": 1.0
+    },
+    {
+     "start": 201.7,
+     "end": 201.82,
+     "word": " is",
+     "prob": 0.986
+    },
+    {
+     "start": 201.82,
+     "end": 201.94,
+     "word": " the",
+     "prob": 0.992
+    },
+    {
+     "start": 201.94,
+     "end": 202.1,
+     "word": " voice",
+     "prob": 0.91
+    },
+    {
+     "start": 202.1,
+     "end": 202.34,
+     "word": " chat",
+     "prob": 0.996
+    },
+    {
+     "start": 202.34,
+     "end": 202.7,
+     "word": " ended",
+     "prob": 0.992
+    }
+   ]
+  },
+  {
+   "start": 202.7,
+   "end": 204.38,
+   "text": " and then you've got this one here.",
+   "words": [
+    {
+     "start": 202.7,
+     "end": 203.34,
+     "word": " and",
+     "prob": 0.526
+    },
+    {
+     "start": 203.34,
+     "end": 203.5,
+     "word": " then",
+     "prob": 0.999
+    },
+    {
+     "start": 203.5,
+     "end": 203.74,
+     "word": " you've",
+     "prob": 0.865
+    },
+    {
+     "start": 203.74,
+     "end": 203.82,
+     "word": " got",
+     "prob": 0.999
+    },
+    {
+     "start": 203.82,
+     "end": 204.0,
+     "word": " this",
+     "prob": 0.999
+    },
+    {
+     "start": 204.0,
+     "end": 204.14,
+     "word": " one",
+     "prob": 0.999
+    },
+    {
+     "start": 204.14,
+     "end": 204.38,
+     "word": " here.",
+     "prob": 0.999
+    }
+   ]
+  },
+  {
+   "start": 204.38,
+   "end": 206.58,
+   "text": " So this exciting one here",
+   "words": [
+    {
+     "start": 204.38,
+     "end": 204.58,
+     "word": " So",
+     "prob": 0.729
+    },
+    {
+     "start": 204.58,
+     "end": 205.04,
+     "word": " this",
+     "prob": 0.439
+    },
+    {
+     "start": 205.04,
+     "end": 205.82,
+     "word": " exciting",
+     "prob": 0.092
+    },
+    {
+     "start": 205.82,
+     "end": 206.2,
+     "word": " one",
+     "prob": 0.994
+    },
+    {
+     "start": 206.2,
+     "end": 206.58,
+     "word": " here",
+     "prob": 0.998
+    }
+   ]
+  },
+  {
+   "start": 206.58,
+   "end": 208.58,
+   "text": " and this is the one we're talking about.",
+   "words": [
+    {
+     "start": 206.58,
+     "end": 207.18,
+     "word": " and",
+     "prob": 0.535
+    },
+    {
+     "start": 207.18,
+     "end": 207.34,
+     "word": " this",
+     "prob": 0.999
+    },
+    {
+     "start": 207.34,
+     "end": 207.48,
+     "word": " is",
+     "prob": 0.999
+    },
+    {
+     "start": 207.48,
+     "end": 207.62,
+     "word": " the",
+     "prob": 0.999
+    },
+    {
+     "start": 207.62,
+     "end": 207.76,
+     "word": " one",
+     "prob": 0.999
+    },
+    {
+     "start": 207.76,
+     "end": 207.96,
+     "word": " we're",
+     "prob": 0.993
+    },
+    {
+     "start": 207.96,
+     "end": 208.24,
+     "word": " talking",
+     "prob": 0.999
+    },
+    {
+     "start": 208.24,
+     "end": 208.58,
+     "word": " about.",
+     "prob": 0.998
+    }
+   ]
+  },
+  {
+   "start": 209.04,
+   "end": 210.48,
+   "text": " So what I want you to think about",
+   "words": [
+    {
+     "start": 209.04,
+     "end": 209.04,
+     "word": " So",
+     "prob": 0.928
+    },
+    {
+     "start": 209.04,
+     "end": 209.38,
+     "word": " what",
+     "prob": 0.907
+    },
+    {
+     "start": 209.38,
+     "end": 209.5,
+     "word": " I",
+     "prob": 0.768
+    },
+    {
+     "start": 209.5,
+     "end": 209.9,
+     "word": " want",
+     "prob": 0.934
+    },
+    {
+     "start": 209.9,
+     "end": 210.06,
+     "word": " you",
+     "prob": 0.984
+    },
+    {
+     "start": 210.06,
+     "end": 210.12,
+     "word": " to",
+     "prob": 0.902
+    },
+    {
+     "start": 210.12,
+     "end": 210.26,
+     "word": " think",
+     "prob": 0.995
+    },
+    {
+     "start": 210.26,
+     "end": 210.48,
+     "word": " about",
+     "prob": 0.995
+    }
+   ]
+  },
+  {
+   "start": 210.48,
+   "end": 213.12,
+   "text": " is you could be talking to ChatGPT as you work,",
+   "words": [
+    {
+     "start": 210.48,
+     "end": 210.58,
+     "word": " is",
+     "prob": 0.924
+    },
+    {
+     "start": 210.58,
+     "end": 210.72,
+     "word": " you",
+     "prob": 0.898
+    },
+    {
+     "start": 210.72,
+     "end": 210.86,
+     "word": " could",
+     "prob": 0.995
+    },
+    {
+     "start": 210.86,
+     "end": 211.0,
+     "word": " be",
+     "prob": 0.996
+    },
+    {
+     "start": 211.0,
+     "end": 211.32,
+     "word": " talking",
+     "prob": 0.982
+    },
+    {
+     "start": 211.32,
+     "end": 211.6,
+     "word": " to",
+     "prob": 0.989
+    },
+    {
+     "start": 211.6,
+     "end": 212.08,
+     "word": " ChatGPT",
+     "prob": 0.224
+    },
+    {
+     "start": 212.08,
+     "end": 212.6,
+     "word": " as",
+     "prob": 0.989
+    },
+    {
+     "start": 212.6,
+     "end": 212.78,
+     "word": " you",
+     "prob": 0.996
+    },
+    {
+     "start": 212.78,
+     "end": 213.12,
+     "word": " work,",
+     "prob": 0.996
+    }
+   ]
+  },
+  {
+   "start": 213.12,
+   "end": 215.42,
+   "text": " but then you could be using a separate tab",
+   "words": [
+    {
+     "start": 213.12,
+     "end": 213.7,
+     "word": " but",
+     "prob": 0.993
+    },
+    {
+     "start": 213.7,
+     "end": 213.82,
+     "word": " then",
+     "prob": 0.999
+    },
+    {
+     "start": 213.82,
+     "end": 213.94,
+     "word": " you",
+     "prob": 0.995
+    },
+    {
+     "start": 213.94,
+     "end": 214.04,
+     "word": " could",
+     "prob": 0.997
+    },
+    {
+     "start": 214.04,
+     "end": 214.16,
+     "word": " be",
+     "prob": 0.999
+    },
+    {
+     "start": 214.16,
+     "end": 214.4,
+     "word": " using",
+     "prob": 0.999
+    },
+    {
+     "start": 214.4,
+     "end": 214.54,
+     "word": " a",
+     "prob": 0.997
+    },
+    {
+     "start": 214.54,
+     "end": 214.98,
+     "word": " separate",
+     "prob": 0.997
+    },
+    {
+     "start": 214.98,
+     "end": 215.42,
+     "word": " tab",
+     "prob": 0.997
+    }
+   ]
+  },
+  {
+   "start": 215.42,
+   "end": 218.02,
+   "text": " specifically for doing other tasks.",
+   "words": [
+    {
+     "start": 215.42,
+     "end": 216.36,
+     "word": " specifically",
+     "prob": 0.555
+    },
+    {
+     "start": 216.36,
+     "end": 216.96,
+     "word": " for",
+     "prob": 0.99
+    },
+    {
+     "start": 216.96,
+     "end": 217.22,
+     "word": " doing",
+     "prob": 0.998
+    },
+    {
+     "start": 217.22,
+     "end": 217.58,
+     "word": " other",
+     "prob": 0.999
+    },
+    {
+     "start": 217.58,
+     "end": 218.02,
+     "word": " tasks.",
+     "prob": 0.997
+    }
+   ]
+  },
+  {
+   "start": 218.44,
+   "end": 220.32,
+   "text": " So you can have both the voice interaction",
+   "words": [
+    {
+     "start": 218.44,
+     "end": 218.6,
+     "word": " So",
+     "prob": 0.987
+    },
+    {
+     "start": 218.6,
+     "end": 218.74,
+     "word": " you",
+     "prob": 0.981
+    },
+    {
+     "start": 218.74,
+     "end": 218.88,
+     "word": " can",
+     "prob": 0.514
+    },
+    {
+     "start": 218.88,
+     "end": 219.14,
+     "word": " have",
+     "prob": 0.999
+    },
+    {
+     "start": 219.14,
+     "end": 219.36,
+     "word": " both",
+     "prob": 0.998
+    },
+    {
+     "start": 219.36,
+     "end": 219.62,
+     "word": " the",
+     "prob": 0.997
+    },
+    {
+     "start": 219.62,
+     "end": 219.86,
+     "word": " voice",
+     "prob": 0.986
+    },
+    {
+     "start": 219.86,
+     "end": 220.32,
+     "word": " interaction",
+     "prob": 0.994
+    }
+   ]
+  },
+  {
+   "start": 220.32,
+   "end": 221.62,
+   "text": " and the text interaction",
+   "words": [
+    {
+     "start": 220.32,
+     "end": 220.78,
+     "word": " and",
+     "prob": 0.991
+    },
+    {
+     "start": 220.78,
+     "end": 220.92,
+     "word": " the",
+     "prob": 0.999
+    },
+    {
+     "start": 220.92,
+     "end": 221.14,
+     "word": " text",
+     "prob": 0.997
+    },
+    {
+     "start": 221.14,
+     "end": 221.62,
+     "word": " interaction",
+     "prob": 0.998
+    }
+   ]
+  },
+  {
+   "start": 221.62,
+   "end": 224.36,
+   "text": " in two separate chat windows simultaneously.",
+   "words": [
+    {
+     "start": 221.62,
+     "end": 221.84,
+     "word": " in",
+     "prob": 0.989
+    },
+    {
+     "start": 221.84,
+     "end": 222.08,
+     "word": " two",
+     "prob": 0.994
+    },
+    {
+     "start": 222.08,
+     "end": 222.44,
+     "word": " separate",
+     "prob": 0.999
+    },
+    {
+     "start": 222.44,
+     "end": 222.7,
+     "word": " chat",
+     "prob": 0.987
+    },
+    {
+     "start": 222.7,
+     "end": 223.22,
+     "word": " windows",
+     "prob": 0.991
+    },
+    {
+     "start": 223.22,
+     "end": 224.36,
+     "word": " simultaneously.",
+     "prob": 0.886
+    }
+   ]
+  },
+  {
+   "start": 224.78,
+   "end": 228.28,
+   "text": " The latency of voice is gonna be reduced significantly.",
+   "words": [
+    {
+     "start": 224.78,
+     "end": 224.8,
+     "word": " The",
+     "prob": 0.846
+    },
+    {
+     "start": 224.8,
+     "end": 225.34,
+     "word": " latency",
+     "prob": 0.989
+    },
+    {
+     "start": 225.34,
+     "end": 226.26,
+     "word": " of",
+     "prob": 0.998
+    },
+    {
+     "start": 226.26,
+     "end": 226.68,
+     "word": " voice",
+     "prob": 0.985
+    },
+    {
+     "start": 226.68,
+     "end": 226.92,
+     "word": " is",
+     "prob": 0.998
+    },
+    {
+     "start": 226.92,
+     "end": 227.06,
+     "word": " gonna",
+     "prob": 0.117
+    },
+    {
+     "start": 227.06,
+     "end": 227.24,
+     "word": " be",
+     "prob": 0.999
+    },
+    {
+     "start": 227.24,
+     "end": 227.66,
+     "word": " reduced",
+     "prob": 0.999
+    },
+    {
+     "start": 227.66,
+     "end": 228.28,
+     "word": " significantly.",
+     "prob": 0.998
+    }
+   ]
+  },
+  {
+   "start": 228.72,
+   "end": 229.94,
+   "text": " So when that model comes out,",
+   "words": [
+    {
+     "start": 228.72,
+     "end": 228.76,
+     "word": " So",
+     "prob": 0.992
+    },
+    {
+     "start": 228.76,
+     "end": 228.98,
+     "word": " when",
+     "prob": 0.963
+    },
+    {
+     "start": 228.98,
+     "end": 229.14,
+     "word": " that",
+     "prob": 0.999
+    },
+    {
+     "start": 229.14,
+     "end": 229.34,
+     "word": " model",
+     "prob": 0.996
+    },
+    {
+     "start": 229.34,
+     "end": 229.54,
+     "word": " comes",
+     "prob": 0.999
+    },
+    {
+     "start": 229.54,
+     "end": 229.94,
+     "word": " out,",
+     "prob": 0.992
+    }
+   ]
+  },
+  {
+   "start": 230.2,
+   "end": 231.72,
+   "text": " you might find that it's even faster",
+   "words": [
+    {
+     "start": 230.2,
+     "end": 230.38,
+     "word": " you",
+     "prob": 0.998
+    },
+    {
+     "start": 230.38,
+     "end": 230.62,
+     "word": " might",
+     "prob": 0.999
+    },
+    {
+     "start": 230.62,
+     "end": 230.9,
+     "word": " find",
+     "prob": 0.999
+    },
+    {
+     "start": 230.9,
+     "end": 231.02,
+     "word": " that",
+     "prob": 0.999
+    },
+    {
+     "start": 231.02,
+     "end": 231.14,
+     "word": " it's",
+     "prob": 0.998
+    },
+    {
+     "start": 231.14,
+     "end": 231.32,
+     "word": " even",
+     "prob": 0.999
+    },
+    {
+     "start": 231.32,
+     "end": 231.72,
+     "word": " faster",
+     "prob": 0.999
+    }
+   ]
+  },
+  {
+   "start": 231.72,
+   "end": 234.24,
+   "text": " to talk to ChatGPT via voice chats.",
+   "words": [
+    {
+     "start": 231.72,
+     "end": 232.06,
+     "word": " to",
+     "prob": 0.265
+    },
+    {
+     "start": 232.06,
+     "end": 232.26,
+     "word": " talk",
+     "prob": 0.791
+    },
+    {
+     "start": 232.26,
+     "end": 232.56,
+     "word": " to",
+     "prob": 0.984
+    },
+    {
+     "start": 232.56,
+     "end": 232.98,
+     "word": " ChatGPT",
+     "prob": 0.437
+    },
+    {
+     "start": 232.98,
+     "end": 233.68,
+     "word": " via",
+     "prob": 0.875
+    },
+    {
+     "start": 233.68,
+     "end": 233.98,
+     "word": " voice",
+     "prob": 0.568
+    },
+    {
+     "start": 233.98,
+     "end": 234.24,
+     "word": " chats.",
+     "prob": 0.758
+    }
+   ]
+  },
+  {
+   "start": 234.58,
+   "end": 237.1,
+   "text": " A final feature that I wanna talk to you about in ChatGPT",
+   "words": [
+    {
+     "start": 234.58,
+     "end": 234.64,
+     "word": " A",
+     "prob": 0.955
+    },
+    {
+     "start": 234.64,
+     "end": 234.92,
+     "word": " final",
+     "prob": 0.997
+    },
+    {
+     "start": 234.92,
+     "end": 235.24,
+     "word": " feature",
+     "prob": 0.996
+    },
+    {
+     "start": 235.24,
+     "end": 235.42,
+     "word": " that",
+     "prob": 0.96
+    },
+    {
+     "start": 235.42,
+     "end": 235.52,
+     "word": " I",
+     "prob": 0.994
+    },
+    {
+     "start": 235.52,
+     "end": 235.66,
+     "word": " wanna",
+     "prob": 0.453
+    },
+    {
+     "start": 235.66,
+     "end": 235.9,
+     "word": " talk",
+     "prob": 0.97
+    },
+    {
+     "start": 235.9,
+     "end": 236.06,
+     "word": " to",
+     "prob": 0.989
+    },
+    {
+     "start": 236.06,
+     "end": 236.16,
+     "word": " you",
+     "prob": 0.992
+    },
+    {
+     "start": 236.16,
+     "end": 236.32,
+     "word": " about",
+     "prob": 0.999
+    },
+    {
+     "start": 236.32,
+     "end": 236.54,
+     "word": " in",
+     "prob": 0.985
+    },
+    {
+     "start": 236.54,
+     "end": 237.1,
+     "word": " ChatGPT",
+     "prob": 0.942
+    }
+   ]
+  },
+  {
+   "start": 237.1,
+   "end": 240.0,
+   "text": " is ChatGPT's ability to easily take screenshots.",
+   "words": [
+    {
+     "start": 237.1,
+     "end": 237.74,
+     "word": " is",
+     "prob": 0.854
+    },
+    {
+     "start": 237.74,
+     "end": 238.36,
+     "word": " ChatGPT's",
+     "prob": 0.939
+    },
+    {
+     "start": 238.36,
+     "end": 238.58,
+     "word": " ability",
+     "prob": 0.995
+    },
+    {
+     "start": 238.58,
+     "end": 238.88,
+     "word": " to",
+     "prob": 0.996
+    },
+    {
+     "start": 238.88,
+     "end": 239.12,
+     "word": " easily",
+     "prob": 0.991
+    },
+    {
+     "start": 239.12,
+     "end": 239.38,
+     "word": " take",
+     "prob": 0.961
+    },
+    {
+     "start": 239.38,
+     "end": 240.0,
+     "word": " screenshots.",
+     "prob": 0.932
+    }
+   ]
+  },
+  {
+   "start": 240.58,
+   "end": 242.24,
+   "text": " You can do this on Macintosh",
+   "words": [
+    {
+     "start": 240.58,
+     "end": 240.74,
+     "word": " You",
+     "prob": 0.998
+    },
+    {
+     "start": 240.74,
+     "end": 240.9,
+     "word": " can",
+     "prob": 0.994
+    },
+    {
+     "start": 240.9,
+     "end": 241.06,
+     "word": " do",
+     "prob": 0.999
+    },
+    {
+     "start": 241.06,
+     "end": 241.32,
+     "word": " this",
+     "prob": 1.0
+    },
+    {
+     "start": 241.32,
+     "end": 241.66,
+     "word": " on",
+     "prob": 0.99
+    },
+    {
+     "start": 241.66,
+     "end": 242.24,
+     "word": " Macintosh",
+     "prob": 0.977
+    }
+   ]
+  },
+  {
+   "start": 242.24,
+   "end": 245.14,
+   "text": " by holding the alt or option in space.",
+   "words": [
+    {
+     "start": 242.24,
+     "end": 242.56,
+     "word": " by",
+     "prob": 0.98
+    },
+    {
+     "start": 242.56,
+     "end": 242.84,
+     "word": " holding",
+     "prob": 0.998
+    },
+    {
+     "start": 242.84,
+     "end": 243.1,
+     "word": " the",
+     "prob": 0.986
+    },
+    {
+     "start": 243.1,
+     "end": 243.38,
+     "word": " alt",
+     "prob": 0.336
+    },
+    {
+     "start": 243.38,
+     "end": 243.64,
+     "word": " or",
+     "prob": 0.955
+    },
+    {
+     "start": 243.64,
+     "end": 244.14,
+     "word": " option",
+     "prob": 0.987
+    },
+    {
+     "start": 244.14,
+     "end": 244.78,
+     "word": " in",
+     "prob": 0.937
+    },
+    {
+     "start": 244.78,
+     "end": 245.14,
+     "word": " space.",
+     "prob": 0.976
+    }
+   ]
+  },
+  {
+   "start": 245.64,
+   "end": 247.0,
+   "text": " And then this will load a window",
+   "words": [
+    {
+     "start": 245.64,
+     "end": 245.8,
+     "word": " And",
+     "prob": 0.979
+    },
+    {
+     "start": 245.8,
+     "end": 245.92,
+     "word": " then",
+     "prob": 0.987
+    },
+    {
+     "start": 245.92,
+     "end": 246.12,
+     "word": " this",
+     "prob": 0.952
+    },
+    {
+     "start": 246.12,
+     "end": 246.28,
+     "word": " will",
+     "prob": 0.998
+    },
+    {
+     "start": 246.28,
+     "end": 246.48,
+     "word": " load",
+     "prob": 0.99
+    },
+    {
+     "start": 246.48,
+     "end": 246.66,
+     "word": " a",
+     "prob": 0.999
+    },
+    {
+     "start": 246.66,
+     "end": 247.0,
+     "word": " window",
+     "prob": 0.999
+    }
+   ]
+  },
+  {
+   "start": 247.0,
+   "end": 249.2,
+   "text": " that you can see here in the middle of the screen.",
+   "words": [
+    {
+     "start": 247.0,
+     "end": 247.24,
+     "word": " that",
+     "prob": 0.994
+    },
+    {
+     "start": 247.24,
+     "end": 247.34,
+     "word": " you",
+     "prob": 1.0
+    },
+    {
+     "start": 247.34,
+     "end": 247.5,
+     "word": " can",
+     "prob": 0.998
+    },
+    {
+     "start": 247.5,
+     "end": 247.72,
+     "word": " see",
+     "prob": 0.999
+    },
+    {
+     "start": 247.72,
+     "end": 248.14,
+     "word": " here",
+     "prob": 0.992
+    },
+    {
+     "start": 248.14,
+     "end": 248.58,
+     "word": " in",
+     "prob": 0.935
+    },
+    {
+     "start": 248.58,
+     "end": 248.66,
+     "word": " the",
+     "prob": 1.0
+    },
+    {
+     "start": 248.66,
+     "end": 248.78,
+     "word": " middle",
+     "prob": 1.0
+    },
+    {
+     "start": 248.78,
+     "end": 248.9,
+     "word": " of",
+     "prob": 0.998
+    },
+    {
+     "start": 248.9,
+     "end": 248.94,
+     "word": " the",
+     "prob": 0.994
+    },
+    {
+     "start": 248.94,
+     "end": 249.2,
+     "word": " screen.",
+     "prob": 0.999
+    }
+   ]
+  },
+  {
+   "start": 249.36,
+   "end": 250.44,
+   "text": " When you have this window open,",
+   "words": [
+    {
+     "start": 249.36,
+     "end": 249.52,
+     "word": " When",
+     "prob": 0.996
+    },
+    {
+     "start": 249.52,
+     "end": 249.64,
+     "word": " you",
+     "prob": 0.997
+    },
+    {
+     "start": 249.64,
+     "end": 249.78,
+     "word": " have",
+     "prob": 0.998
+    },
+    {
+     "start": 249.78,
+     "end": 249.92,
+     "word": " this",
+     "prob": 0.999
+    },
+    {
+     "start": 249.92,
+     "end": 250.14,
+     "word": " window",
+     "prob": 0.996
+    },
+    {
+     "start": 250.14,
+     "end": 250.44,
+     "word": " open,",
+     "prob": 0.838
+    }
+   ]
+  },
+  {
+   "start": 250.48,
+   "end": 252.22,
+   "text": " you can easily send messages to ChatGPT.",
+   "words": [
+    {
+     "start": 250.48,
+     "end": 250.54,
+     "word": " you",
+     "prob": 0.972
+    },
+    {
+     "start": 250.54,
+     "end": 250.64,
+     "word": " can",
+     "prob": 0.998
+    },
+    {
+     "start": 250.64,
+     "end": 250.94,
+     "word": " easily",
+     "prob": 0.997
+    },
+    {
+     "start": 250.94,
+     "end": 251.22,
+     "word": " send",
+     "prob": 0.999
+    },
+    {
+     "start": 251.22,
+     "end": 251.6,
+     "word": " messages",
+     "prob": 0.998
+    },
+    {
+     "start": 251.6,
+     "end": 251.84,
+     "word": " to",
+     "prob": 0.991
+    },
+    {
+     "start": 251.84,
+     "end": 252.22,
+     "word": " ChatGPT.",
+     "prob": 0.941
+    }
+   ]
+  },
+  {
+   "start": 252.54,
+   "end": 254.92,
+   "text": " But one of the killer features that I found to be useful",
+   "words": [
+    {
+     "start": 252.54,
+     "end": 252.68,
+     "word": " But",
+     "prob": 0.994
+    },
+    {
+     "start": 252.68,
+     "end": 252.88,
+     "word": " one",
+     "prob": 0.992
+    },
+    {
+     "start": 252.88,
+     "end": 252.98,
+     "word": " of",
+     "prob": 0.999
+    },
+    {
+     "start": 252.98,
+     "end": 253.1,
+     "word": " the",
+     "prob": 0.999
+    },
+    {
+     "start": 253.1,
+     "end": 253.32,
+     "word": " killer",
+     "prob": 0.998
+    },
+    {
+     "start": 253.32,
+     "end": 253.7,
+     "word": " features",
+     "prob": 0.923
+    },
+    {
+     "start": 253.7,
+     "end": 253.92,
+     "word": " that",
+     "prob": 0.994
+    },
+    {
+     "start": 253.92,
+     "end": 254.1,
+     "word": " I",
+     "prob": 1.0
+    },
+    {
+     "start": 254.1,
+     "end": 254.28,
+     "word": " found",
+     "prob": 0.933
+    },
+    {
+     "start": 254.28,
+     "end": 254.44,
+     "word": " to",
+     "prob": 0.998
+    },
+    {
+     "start": 254.44,
+     "end": 254.56,
+     "word": " be",
+     "prob": 0.999
+    },
+    {
+     "start": 254.56,
+     "end": 254.92,
+     "word": " useful",
+     "prob": 1.0
+    }
+   ]
+  },
+  {
+   "start": 254.92,
+   "end": 257.18,
+   "text": " is clicking on this attachment icon",
+   "words": [
+    {
+     "start": 254.92,
+     "end": 255.18,
+     "word": " is",
+     "prob": 0.91
+    },
+    {
+     "start": 255.18,
+     "end": 255.46,
+     "word": " clicking",
+     "prob": 0.999
+    },
+    {
+     "start": 255.46,
+     "end": 255.82,
+     "word": " on",
+     "prob": 0.999
+    },
+    {
+     "start": 255.82,
+     "end": 256.1,
+     "word": " this",
+     "prob": 0.999
+    },
+    {
+     "start": 256.1,
+     "end": 256.64,
+     "word": " attachment",
+     "prob": 0.978
+    },
+    {
+     "start": 256.64,
+     "end": 257.18,
+     "word": " icon",
+     "prob": 0.999
+    }
+   ]
+  },
+  {
+   "start": 257.18,
+   "end": 260.12,
+   "text": " and clicking take screenshot or take photo.",
+   "words": [
+    {
+     "start": 257.18,
+     "end": 257.68,
+     "word": " and",
+     "prob": 0.883
+    },
+    {
+     "start": 257.68,
+     "end": 257.96,
+     "word": " clicking",
+     "prob": 0.997
+    },
+    {
+     "start": 257.96,
+     "end": 258.32,
+     "word": " take",
+     "prob": 0.702
+    },
+    {
+     "start": 258.32,
+     "end": 258.98,
+     "word": " screenshot",
+     "prob": 0.986
+    },
+    {
+     "start": 258.98,
+     "end": 259.54,
+     "word": " or",
+     "prob": 0.959
+    },
+    {
+     "start": 259.54,
+     "end": 259.8,
+     "word": " take",
+     "prob": 0.996
+    },
+    {
+     "start": 259.8,
+     "end": 260.12,
+     "word": " photo.",
+     "prob": 0.988
+    }
+   ]
+  },
+  {
+   "start": 260.12,
+   "end": 264.46,
+   "text": " Let's now upload a screenshot of my Spotify application.",
+   "words": [
+    {
+     "start": 260.12,
+     "end": 260.76,
+     "word": " Let's",
+     "prob": 0.549
+    },
+    {
+     "start": 260.76,
+     "end": 260.96,
+     "word": " now",
+     "prob": 0.959
+    },
+    {
+     "start": 260.96,
+     "end": 261.54,
+     "word": " upload",
+     "prob": 0.98
+    },
+    {
+     "start": 261.54,
+     "end": 261.96,
+     "word": " a",
+     "prob": 0.985
+    },
+    {
+     "start": 261.96,
+     "end": 262.48,
+     "word": " screenshot",
+     "prob": 0.97
+    },
+    {
+     "start": 262.48,
+     "end": 262.86,
+     "word": " of",
+     "prob": 0.992
+    },
+    {
+     "start": 262.86,
+     "end": 263.1,
+     "word": " my",
+     "prob": 0.994
+    },
+    {
+     "start": 263.1,
+     "end": 263.56,
+     "word": " Spotify",
+     "prob": 0.93
+    },
+    {
+     "start": 263.56,
+     "end": 264.46,
+     "word": " application.",
+     "prob": 0.991
+    }
+   ]
+  },
+  {
+   "start": 264.7,
+   "end": 267.58,
+   "text": " Take a screenshot and tell to ChatGPT",
+   "words": [
+    {
+     "start": 264.7,
+     "end": 265.18,
+     "word": " Take",
+     "prob": 0.956
+    },
+    {
+     "start": 265.18,
+     "end": 265.36,
+     "word": " a",
+     "prob": 0.993
+    },
+    {
+     "start": 265.36,
+     "end": 265.84,
+     "word": " screenshot",
+     "prob": 0.999
+    },
+    {
+     "start": 265.84,
+     "end": 266.7,
+     "word": " and",
+     "prob": 0.826
+    },
+    {
+     "start": 266.7,
+     "end": 266.9,
+     "word": " tell",
+     "prob": 0.962
+    },
+    {
+     "start": 266.9,
+     "end": 267.08,
+     "word": " to",
+     "prob": 0.715
+    },
+    {
+     "start": 267.08,
+     "end": 267.58,
+     "word": " ChatGPT",
+     "prob": 0.464
+    }
+   ]
+  },
+  {
+   "start": 267.58,
+   "end": 271.9,
+   "text": " what is the song that I am currently listening to.",
+   "words": [
+    {
+     "start": 267.58,
+     "end": 268.2,
+     "word": " what",
+     "prob": 0.717
+    },
+    {
+     "start": 268.2,
+     "end": 268.5,
+     "word": " is",
+     "prob": 0.979
+    },
+    {
+     "start": 268.5,
+     "end": 268.74,
+     "word": " the",
+     "prob": 0.994
+    },
+    {
+     "start": 268.74,
+     "end": 269.08,
+     "word": " song",
+     "prob": 0.997
+    },
+    {
+     "start": 269.08,
+     "end": 269.7,
+     "word": " that",
+     "prob": 0.943
+    },
+    {
+     "start": 269.7,
+     "end": 269.9,
+     "word": " I",
+     "prob": 0.985
+    },
+    {
+     "start": 269.9,
+     "end": 270.12,
+     "word": " am",
+     "prob": 0.851
+    },
+    {
+     "start": 270.12,
+     "end": 270.76,
+     "word": " currently",
+     "prob": 0.992
+    },
+    {
+     "start": 270.76,
+     "end": 271.56,
+     "word": " listening",
+     "prob": 0.988
+    },
+    {
+     "start": 271.56,
+     "end": 271.9,
+     "word": " to.",
+     "prob": 0.977
+    }
+   ]
+  },
+  {
+   "start": 271.92,
+   "end": 274.92,
+   "text": " What we can do here is we can specifically upload",
+   "words": [
+    {
+     "start": 271.92,
+     "end": 272.1,
+     "word": " What",
+     "prob": 0.959
+    },
+    {
+     "start": 272.1,
+     "end": 272.22,
+     "word": " we",
+     "prob": 0.998
+    },
+    {
+     "start": 272.22,
+     "end": 272.32,
+     "word": " can",
+     "prob": 0.997
+    },
+    {
+     "start": 272.32,
+     "end": 272.52,
+     "word": " do",
+     "prob": 0.998
+    },
+    {
+     "start": 272.52,
+     "end": 272.78,
+     "word": " here",
+     "prob": 0.979
+    },
+    {
+     "start": 272.78,
+     "end": 272.96,
+     "word": " is",
+     "prob": 0.95
+    },
+    {
+     "start": 272.96,
+     "end": 273.08,
+     "word": " we",
+     "prob": 0.892
+    },
+    {
+     "start": 273.08,
+     "end": 273.36,
+     "word": " can",
+     "prob": 0.999
+    },
+    {
+     "start": 273.36,
+     "end": 273.9,
+     "word": " specifically",
+     "prob": 0.987
+    },
+    {
+     "start": 273.9,
+     "end": 274.92,
+     "word": " upload",
+     "prob": 0.997
+    }
+   ]
+  },
+  {
+   "start": 275.58,
+   "end": 277.48,
+   "text": " attachments based on our screenshot.",
+   "words": [
+    {
+     "start": 275.58,
+     "end": 276.06,
+     "word": " attachments",
+     "prob": 0.937
+    },
+    {
+     "start": 276.06,
+     "end": 276.54,
+     "word": " based",
+     "prob": 0.982
+    },
+    {
+     "start": 276.54,
+     "end": 276.76,
+     "word": " on",
+     "prob": 0.999
+    },
+    {
+     "start": 276.76,
+     "end": 276.92,
+     "word": " our",
+     "prob": 0.993
+    },
+    {
+     "start": 276.92,
+     "end": 277.48,
+     "word": " screenshot.",
+     "prob": 0.992
+    }
+   ]
+  },
+  {
+   "start": 277.92,
+   "end": 280.58,
+   "text": " And we can send vision directly to Spotify.",
+   "words": [
+    {
+     "start": 277.92,
+     "end": 277.98,
+     "word": " And",
+     "prob": 0.358
+    },
+    {
+     "start": 277.98,
+     "end": 278.04,
+     "word": " we",
+     "prob": 0.989
+    },
+    {
+     "start": 278.04,
+     "end": 278.18,
+     "word": " can",
+     "prob": 0.997
+    },
+    {
+     "start": 278.18,
+     "end": 278.4,
+     "word": " send",
+     "prob": 0.995
+    },
+    {
+     "start": 278.4,
+     "end": 278.72,
+     "word": " vision",
+     "prob": 0.842
+    },
+    {
+     "start": 278.72,
+     "end": 279.18,
+     "word": " directly",
+     "prob": 0.996
+    },
+    {
+     "start": 279.18,
+     "end": 279.88,
+     "word": " to",
+     "prob": 0.999
+    },
+    {
+     "start": 279.88,
+     "end": 280.58,
+     "word": " Spotify.",
+     "prob": 0.997
+    }
+   ]
+  },
+  {
+   "start": 281.18,
+   "end": 282.72,
+   "text": " And just to show you what I was listening to,",
+   "words": [
+    {
+     "start": 281.18,
+     "end": 281.22,
+     "word": " And",
+     "prob": 0.975
+    },
+    {
+     "start": 281.22,
+     "end": 281.38,
+     "word": " just",
+     "prob": 0.995
+    },
+    {
+     "start": 281.38,
+     "end": 281.56,
+     "word": " to",
+     "prob": 0.996
+    },
+    {
+     "start": 281.56,
+     "end": 281.74,
+     "word": " show",
+     "prob": 0.999
+    },
+    {
+     "start": 281.74,
+     "end": 281.88,
+     "word": " you",
+     "prob": 0.997
+    },
+    {
+     "start": 281.88,
+     "end": 282.04,
+     "word": " what",
+     "prob": 0.875
+    },
+    {
+     "start": 282.04,
+     "end": 282.14,
+     "word": " I",
+     "prob": 0.986
+    },
+    {
+     "start": 282.14,
+     "end": 282.3,
+     "word": " was",
+     "prob": 0.992
+    },
+    {
+     "start": 282.3,
+     "end": 282.54,
+     "word": " listening",
+     "prob": 0.911
+    },
+    {
+     "start": 282.54,
+     "end": 282.72,
+     "word": " to,",
+     "prob": 0.984
+    }
+   ]
+  },
+  {
+   "start": 282.8,
+   "end": 285.02,
+   "text": " I was listening to Holy Diver, Kill Switch, Engage.",
+   "words": [
+    {
+     "start": 282.8,
+     "end": 282.82,
+     "word": " I",
+     "prob": 0.953
+    },
+    {
+     "start": 282.82,
+     "end": 282.9,
+     "word": " was",
+     "prob": 0.971
+    },
+    {
+     "start": 282.9,
+     "end": 283.1,
+     "word": " listening",
+     "prob": 0.969
+    },
+    {
+     "start": 283.1,
+     "end": 283.24,
+     "word": " to",
+     "prob": 0.989
+    },
+    {
+     "start": 283.24,
+     "end": 283.46,
+     "word": " Holy",
+     "prob": 0.576
+    },
+    {
+     "start": 283.46,
+     "end": 283.78,
+     "word": " Diver,",
+     "prob": 0.914
+    },
+    {
+     "start": 284.0,
+     "end": 284.18,
+     "word": " Kill",
+     "prob": 0.895
+    },
+    {
+     "start": 284.18,
+     "end": 284.44,
+     "word": " Switch,",
+     "prob": 0.361
+    },
+    {
+     "start": 284.44,
+     "end": 285.02,
+     "word": " Engage.",
+     "prob": 0.66
+    }
+   ]
+  },
+  {
+   "start": 285.56,
+   "end": 289.1,
+   "text": " And you can see that ChatGPT was able to easily take",
+   "words": [
+    {
+     "start": 285.56,
+     "end": 285.76,
+     "word": " And",
+     "prob": 0.979
+    },
+    {
+     "start": 285.76,
+     "end": 285.88,
+     "word": " you",
+     "prob": 0.998
+    },
+    {
+     "start": 285.88,
+     "end": 286.06,
+     "word": " can",
+     "prob": 0.999
+    },
+    {
+     "start": 286.06,
+     "end": 286.42,
+     "word": " see",
+     "prob": 0.999
+    },
+    {
+     "start": 286.42,
+     "end": 286.94,
+     "word": " that",
+     "prob": 0.959
+    },
+    {
+     "start": 286.94,
+     "end": 287.52,
+     "word": " ChatGPT",
+     "prob": 0.968
+    },
+    {
+     "start": 287.52,
+     "end": 287.8,
+     "word": " was",
+     "prob": 0.994
+    },
+    {
+     "start": 287.8,
+     "end": 288.08,
+     "word": " able",
+     "prob": 0.999
+    },
+    {
+     "start": 288.08,
+     "end": 288.28,
+     "word": " to",
+     "prob": 0.999
+    },
+    {
+     "start": 288.28,
+     "end": 288.56,
+     "word": " easily",
+     "prob": 0.997
+    },
+    {
+     "start": 288.56,
+     "end": 289.1,
+     "word": " take",
+     "prob": 0.999
+    }
+   ]
+  },
+  {
+   "start": 289.1,
+   "end": 292.08,
+   "text": " a bit of a screenshot of one of my applications,",
+   "words": [
+    {
+     "start": 289.1,
+     "end": 289.64,
+     "word": " a",
+     "prob": 0.371
+    },
+    {
+     "start": 289.64,
+     "end": 289.82,
+     "word": " bit",
+     "prob": 0.885
+    },
+    {
+     "start": 289.82,
+     "end": 290.02,
+     "word": " of",
+     "prob": 0.996
+    },
+    {
+     "start": 290.02,
+     "end": 290.18,
+     "word": " a",
+     "prob": 0.941
+    },
+    {
+     "start": 290.18,
+     "end": 290.64,
+     "word": " screenshot",
+     "prob": 0.978
+    },
+    {
+     "start": 290.64,
+     "end": 290.92,
+     "word": " of",
+     "prob": 0.99
+    },
+    {
+     "start": 290.92,
+     "end": 291.1,
+     "word": " one",
+     "prob": 0.989
+    },
+    {
+     "start": 291.1,
+     "end": 291.2,
+     "word": " of",
+     "prob": 0.994
+    },
+    {
+     "start": 291.2,
+     "end": 291.36,
+     "word": " my",
+     "prob": 0.996
+    },
+    {
+     "start": 291.36,
+     "end": 292.08,
+     "word": " applications,",
+     "prob": 0.985
+    }
+   ]
+  },
+  {
+   "start": 292.58,
+   "end": 293.98,
+   "text": " which is my Spotify playlist.",
+   "words": [
+    {
+     "start": 292.58,
+     "end": 292.76,
+     "word": " which",
+     "prob": 0.955
+    },
+    {
+     "start": 292.76,
+     "end": 292.92,
+     "word": " is",
+     "prob": 0.997
+    },
+    {
+     "start": 292.92,
+     "end": 293.1,
+     "word": " my",
+     "prob": 0.997
+    },
+    {
+     "start": 293.1,
+     "end": 293.52,
+     "word": " Spotify",
+     "prob": 0.967
+    },
+    {
+     "start": 293.52,
+     "end": 293.98,
+     "word": " playlist.",
+     "prob": 0.94
+    }
+   ]
+  },
+  {
+   "start": 294.68,
+   "end": 296.6,
+   "text": " And then what it allows it to do is then",
+   "words": [
+    {
+     "start": 294.68,
+     "end": 294.74,
+     "word": " And",
+     "prob": 0.971
+    },
+    {
+     "start": 294.74,
+     "end": 294.98,
+     "word": " then",
+     "prob": 0.995
+    },
+    {
+     "start": 294.98,
+     "end": 295.3,
+     "word": " what",
+     "prob": 0.949
+    },
+    {
+     "start": 295.3,
+     "end": 295.44,
+     "word": " it",
+     "prob": 0.993
+    },
+    {
+     "start": 295.44,
+     "end": 295.74,
+     "word": " allows",
+     "prob": 0.999
+    },
+    {
+     "start": 295.74,
+     "end": 295.94,
+     "word": " it",
+     "prob": 0.773
+    },
+    {
+     "start": 295.94,
+     "end": 296.06,
+     "word": " to",
+     "prob": 0.999
+    },
+    {
+     "start": 296.06,
+     "end": 296.22,
+     "word": " do",
+     "prob": 0.999
+    },
+    {
+     "start": 296.22,
+     "end": 296.36,
+     "word": " is",
+     "prob": 0.989
+    },
+    {
+     "start": 296.36,
+     "end": 296.6,
+     "word": " then",
+     "prob": 0.778
+    }
+   ]
+  },
+  {
+   "start": 296.6,
+   "end": 298.52,
+   "text": " we can then ask you questions about that.",
+   "words": [
+    {
+     "start": 296.6,
+     "end": 296.78,
+     "word": " we",
+     "prob": 0.975
+    },
+    {
+     "start": 296.78,
+     "end": 296.9,
+     "word": " can",
+     "prob": 1.0
+    },
+    {
+     "start": 296.9,
+     "end": 297.02,
+     "word": " then",
+     "prob": 0.976
+    },
+    {
+     "start": 297.02,
+     "end": 297.3,
+     "word": " ask",
+     "prob": 0.992
+    },
+    {
+     "start": 297.3,
+     "end": 297.44,
+     "word": " you",
+     "prob": 0.337
+    },
+    {
+     "start": 297.44,
+     "end": 297.76,
+     "word": " questions",
+     "prob": 0.992
+    },
+    {
+     "start": 297.76,
+     "end": 298.12,
+     "word": " about",
+     "prob": 0.999
+    },
+    {
+     "start": 298.12,
+     "end": 298.52,
+     "word": " that.",
+     "prob": 0.996
+    }
+   ]
+  },
+  {
+   "start": 298.7,
+   "end": 300.68,
+   "text": " So a really great killer feature,",
+   "words": [
+    {
+     "start": 298.7,
+     "end": 299.12,
+     "word": " So",
+     "prob": 0.982
+    },
+    {
+     "start": 299.12,
+     "end": 299.62,
+     "word": " a",
+     "prob": 0.36
+    },
+    {
+     "start": 299.62,
+     "end": 299.84,
+     "word": " really",
+     "prob": 0.99
+    },
+    {
+     "start": 299.84,
+     "end": 300.18,
+     "word": " great",
+     "prob": 0.722
+    },
+    {
+     "start": 300.18,
+     "end": 300.46,
+     "word": " killer",
+     "prob": 0.873
+    },
+    {
+     "start": 300.46,
+     "end": 300.68,
+     "word": " feature,",
+     "prob": 0.967
+    }
+   ]
+  },
+  {
+   "start": 300.96,
+   "end": 302.84,
+   "text": " you just hit that option space or hold space.",
+   "words": [
+    {
+     "start": 300.96,
+     "end": 300.98,
+     "word": " you",
+     "prob": 0.991
+    },
+    {
+     "start": 300.98,
+     "end": 301.12,
+     "word": " just",
+     "prob": 0.995
+    },
+    {
+     "start": 301.12,
+     "end": 301.28,
+     "word": " hit",
+     "prob": 0.99
+    },
+    {
+     "start": 301.28,
+     "end": 301.4,
+     "word": " that",
+     "prob": 0.993
+    },
+    {
+     "start": 301.4,
+     "end": 301.72,
+     "word": " option",
+     "prob": 0.808
+    },
+    {
+     "start": 301.72,
+     "end": 302.06,
+     "word": " space",
+     "prob": 0.927
+    },
+    {
+     "start": 302.06,
+     "end": 302.28,
+     "word": " or",
+     "prob": 0.875
+    },
+    {
+     "start": 302.28,
+     "end": 302.48,
+     "word": " hold",
+     "prob": 0.742
+    },
+    {
+     "start": 302.48,
+     "end": 302.84,
+     "word": " space.",
+     "prob": 0.989
+    }
+   ]
+  },
+  {
+   "start": 303.06,
+   "end": 305.72,
+   "text": " And then you go to the attachment icon.",
+   "words": [
+    {
+     "start": 303.06,
+     "end": 303.52,
+     "word": " And",
+     "prob": 0.986
+    },
+    {
+     "start": 303.52,
+     "end": 303.64,
+     "word": " then",
+     "prob": 0.999
+    },
+    {
+     "start": 303.64,
+     "end": 303.76,
+     "word": " you",
+     "prob": 0.998
+    },
+    {
+     "start": 303.76,
+     "end": 303.92,
+     "word": " go",
+     "prob": 0.996
+    },
+    {
+     "start": 303.92,
+     "end": 304.16,
+     "word": " to",
+     "prob": 0.997
+    },
+    {
+     "start": 304.16,
+     "end": 304.46,
+     "word": " the",
+     "prob": 0.999
+    },
+    {
+     "start": 304.46,
+     "end": 305.32,
+     "word": " attachment",
+     "prob": 0.848
+    },
+    {
+     "start": 305.32,
+     "end": 305.72,
+     "word": " icon.",
+     "prob": 0.986
+    }
+   ]
+  },
+  {
+   "start": 305.94,
+   "end": 307.52,
+   "text": " And then you can take a screenshot",
+   "words": [
+    {
+     "start": 305.94,
+     "end": 306.4,
+     "word": " And",
+     "prob": 0.991
+    },
+    {
+     "start": 306.4,
+     "end": 306.52,
+     "word": " then",
+     "prob": 0.999
+    },
+    {
+     "start": 306.52,
+     "end": 306.62,
+     "word": " you",
+     "prob": 0.999
+    },
+    {
+     "start": 306.62,
+     "end": 306.78,
+     "word": " can",
+     "prob": 0.999
+    },
+    {
+     "start": 306.78,
+     "end": 306.96,
+     "word": " take",
+     "prob": 0.999
+    },
+    {
+     "start": 306.96,
+     "end": 307.1,
+     "word": " a",
+     "prob": 0.994
+    },
+    {
+     "start": 307.1,
+     "end": 307.52,
+     "word": " screenshot",
+     "prob": 0.993
+    }
+   ]
+  },
+  {
+   "start": 307.52,
+   "end": 310.28,
+   "text": " of any of your applications or your entire screen",
+   "words": [
+    {
+     "start": 307.52,
+     "end": 307.72,
+     "word": " of",
+     "prob": 0.922
+    },
+    {
+     "start": 307.72,
+     "end": 307.94,
+     "word": " any",
+     "prob": 0.997
+    },
+    {
+     "start": 307.94,
+     "end": 308.1,
+     "word": " of",
+     "prob": 0.999
+    },
+    {
+     "start": 308.1,
+     "end": 308.2,
+     "word": " your",
+     "prob": 0.999
+    },
+    {
+     "start": 308.2,
+     "end": 308.86,
+     "word": " applications",
+     "prob": 0.994
+    },
+    {
+     "start": 308.86,
+     "end": 309.22,
+     "word": " or",
+     "prob": 0.903
+    },
+    {
+     "start": 309.22,
+     "end": 309.44,
+     "word": " your",
+     "prob": 0.975
+    },
+    {
+     "start": 309.44,
+     "end": 309.84,
+     "word": " entire",
+     "prob": 0.997
+    },
+    {
+     "start": 309.84,
+     "end": 310.28,
+     "word": " screen",
+     "prob": 0.999
+    }
+   ]
+  },
+  {
+   "start": 310.79,
+   "end": 313.14,
+   "text": " on the specific application",
+   "words": [
+    {
+     "start": 310.79,
+     "end": 311.02,
+     "word": " on",
+     "prob": 0.882
+    },
+    {
+     "start": 311.02,
+     "end": 311.4,
+     "word": " the",
+     "prob": 0.998
+    },
+    {
+     "start": 311.4,
+     "end": 312.2,
+     "word": " specific",
+     "prob": 0.988
+    },
+    {
+     "start": 312.2,
+     "end": 313.14,
+     "word": " application",
+     "prob": 0.924
+    }
+   ]
+  },
+  {
+   "start": 313.14,
+   "end": 314.96,
+   "text": " that you'd like to ask questions about.",
+   "words": [
+    {
+     "start": 313.14,
+     "end": 313.44,
+     "word": " that",
+     "prob": 0.991
+    },
+    {
+     "start": 313.44,
+     "end": 313.62,
+     "word": " you'd",
+     "prob": 0.999
+    },
+    {
+     "start": 313.62,
+     "end": 313.74,
+     "word": " like",
+     "prob": 0.999
+    },
+    {
+     "start": 313.74,
+     "end": 313.94,
+     "word": " to",
+     "prob": 0.998
+    },
+    {
+     "start": 313.94,
+     "end": 314.16,
+     "word": " ask",
+     "prob": 0.986
+    },
+    {
+     "start": 314.16,
+     "end": 314.6,
+     "word": " questions",
+     "prob": 0.99
+    },
+    {
+     "start": 314.6,
+     "end": 314.96,
+     "word": " about.",
+     "prob": 0.998
+    }
+   ]
+  },
+  {
+   "start": 315.1,
+   "end": 318.16,
+   "text": " That screenshot will then allow ChatGPT's vision model",
+   "words": [
+    {
+     "start": 315.1,
+     "end": 315.46,
+     "word": " That",
+     "prob": 0.987
+    },
+    {
+     "start": 315.46,
+     "end": 315.92,
+     "word": " screenshot",
+     "prob": 0.982
+    },
+    {
+     "start": 315.92,
+     "end": 316.18,
+     "word": " will",
+     "prob": 0.982
+    },
+    {
+     "start": 316.18,
+     "end": 316.34,
+     "word": " then",
+     "prob": 0.99
+    },
+    {
+     "start": 316.34,
+     "end": 316.68,
+     "word": " allow",
+     "prob": 0.997
+    },
+    {
+     "start": 316.68,
+     "end": 317.6,
+     "word": " ChatGPT's",
+     "prob": 0.373
+    },
+    {
+     "start": 317.6,
+     "end": 317.76,
+     "word": " vision",
+     "prob": 0.589
+    },
+    {
+     "start": 317.76,
+     "end": 318.16,
+     "word": " model",
+     "prob": 0.995
+    }
+   ]
+  },
+  {
+   "start": 318.16,
+   "end": 320.84,
+   "text": " to answer questions about that image.",
+   "words": [
+    {
+     "start": 318.16,
+     "end": 318.8,
+     "word": " to",
+     "prob": 0.805
+    },
+    {
+     "start": 318.8,
+     "end": 319.18,
+     "word": " answer",
+     "prob": 0.97
+    },
+    {
+     "start": 319.18,
+     "end": 319.76,
+     "word": " questions",
+     "prob": 0.99
+    },
+    {
+     "start": 319.76,
+     "end": 320.24,
+     "word": " about",
+     "prob": 0.997
+    },
+    {
+     "start": 320.24,
+     "end": 320.48,
+     "word": " that",
+     "prob": 0.989
+    },
+    {
+     "start": 320.48,
+     "end": 320.84,
+     "word": " image.",
+     "prob": 0.995
+    }
+   ]
+  },
+  {
+   "start": 321.6,
+   "end": 323.22,
+   "text": " Cool, so hopefully you learned a lot about",
+   "words": [
+    {
+     "start": 321.6,
+     "end": 321.6,
+     "word": " Cool,",
+     "prob": 0.956
+    },
+    {
+     "start": 321.94,
+     "end": 322.1,
+     "word": " so",
+     "prob": 0.985
+    },
+    {
+     "start": 322.1,
+     "end": 322.38,
+     "word": " hopefully",
+     "prob": 0.774
+    },
+    {
+     "start": 322.38,
+     "end": 322.6,
+     "word": " you",
+     "prob": 0.96
+    },
+    {
+     "start": 322.6,
+     "end": 322.76,
+     "word": " learned",
+     "prob": 0.852
+    },
+    {
+     "start": 322.76,
+     "end": 322.88,
+     "word": " a",
+     "prob": 0.958
+    },
+    {
+     "start": 322.88,
+     "end": 323.0,
+     "word": " lot",
+     "prob": 0.998
+    },
+    {
+     "start": 323.0,
+     "end": 323.22,
+     "word": " about",
+     "prob": 0.994
+    }
+   ]
+  },
+  {
+   "start": 323.22,
+   "end": 325.5,
+   "text": " how you can use the ChatGPT desktop application.",
+   "words": [
+    {
+     "start": 323.22,
+     "end": 323.46,
+     "word": " how",
+     "prob": 0.993
+    },
+    {
+     "start": 323.46,
+     "end": 323.6,
+     "word": " you",
+     "prob": 0.993
+    },
+    {
+     "start": 323.6,
+     "end": 323.72,
+     "word": " can",
+     "prob": 0.996
+    },
+    {
+     "start": 323.72,
+     "end": 323.94,
+     "word": " use",
+     "prob": 0.998
+    },
+    {
+     "start": 323.94,
+     "end": 324.16,
+     "word": " the",
+     "prob": 0.985
+    },
+    {
+     "start": 324.16,
+     "end": 324.64,
+     "word": " ChatGPT",
+     "prob": 0.09
+    },
+    {
+     "start": 324.64,
+     "end": 325.0,
+     "word": " desktop",
+     "prob": 0.321
+    },
+    {
+     "start": 325.0,
+     "end": 325.5,
+     "word": " application.",
+     "prob": 0.985
+    }
+   ]
+  }
+ ]
+}

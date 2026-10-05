@@ -1,0 +1,203 @@
+1
+00:00:01,010 --> 00:00:04,770
+All right, I'm just going to walk you through ChatGPT deep research.
+
+2
+00:00:05,110 --> 00:00:09,150
+So it's a button here that you press, and you can deal with the different models.
+
+3
+00:00:09,430 --> 00:00:16,110
+In particular, if you have the $200 a month pro account, then it works really well, because
+
+4
+00:00:16,110 --> 00:00:20,310
+the pro model is much better at thinking through things, and then it can come up with
+
+5
+00:00:20,310 --> 00:00:21,990
+better things to research.
+
+6
+00:00:22,270 --> 00:00:24,710
+Just going to ask a question here.
+
+7
+00:00:24,710 --> 00:00:31,810
+I use this primarily for researching scientific papers or topics that I need to understand deeply.
+
+8
+00:00:32,110 --> 00:00:40,170
+So I'm going to say, why didn't Mometix become a science versus a cultural evolution?
+
+9
+00:00:41,650 --> 00:00:51,050
+Which seems to have become the dominant path for studying evolution of ideas.
+
+10
+00:00:52,150 --> 00:00:56,810
+And when you submit, quite often it will ask you specific questions, because it wants to
+
+11
+00:00:56,810 --> 00:00:57,290
+get it right.
+
+12
+00:00:57,670 --> 00:01:01,070
+And it is quite a lengthy process, so it is important that you answer it.
+
+13
+00:01:01,190 --> 00:01:05,590
+Normally, I would actually spend a lot more time on the prompt, depending on a few different
+
+14
+00:01:05,590 --> 00:01:06,110
+directions.
+
+15
+00:01:06,530 --> 00:01:16,150
+But specifically, why, from an incentive's point of view, did cultural evolution adopted
+
+16
+00:01:16,150 --> 00:01:21,460
+over Mometix by scientists?
+
+17
+00:01:29,190 --> 00:01:30,850
+Okay, and that's doing the research.
+
+18
+00:01:33,880 --> 00:01:38,840
+It typically can take anywhere from a few minutes to 10, 20 minutes in some cases.
+
+19
+00:01:45,280 --> 00:01:49,660
+If you click on it, you can usually see what things it's read on the right hand side here.
+
+20
+00:01:50,020 --> 00:01:52,360
+You'll be able to see what sources it looks at, too.
+
+21
+00:01:57,310 --> 00:02:04,110
+Okay, you can see here that it's gone through one of the sources already, this MIT source,
+
+22
+00:02:04,130 --> 00:02:07,170
+and it's telling you what it's looking at.
+
+23
+00:02:07,390 --> 00:02:11,450
+It's going to keep doing that for a while, keep thinking, and then keep going back different
+
+24
+00:02:11,450 --> 00:02:11,830
+sources.
+
+25
+00:02:12,190 --> 00:02:16,950
+It's actually writing the Google search queries in order to find these sources as well, which
+
+26
+00:02:16,950 --> 00:02:18,190
+is what makes it so powerful.
+
+27
+00:02:19,190 --> 00:02:22,950
+And then we'll decide when it has enough information to give you your answer.
+
+28
+00:02:23,470 --> 00:02:28,050
+So it will think a lot longer for things a bit more difficult, and it will come back
+
+29
+00:02:28,050 --> 00:02:30,630
+much more directly if it gets an answer quicker.
+
+30
+00:02:33,030 --> 00:02:37,850
+Okay, it looks like we have everything back, and it did an astounding amount of work.
+
+31
+00:02:37,850 --> 00:02:46,950
+It looked at 28 different sources from Stanford to like Wikipedia and neuroanthropology.net.
+
+32
+00:02:47,210 --> 00:02:51,750
+Tons of really interesting sources that you could always go and check for yourself, but
+
+33
+00:02:52,050 --> 00:02:57,170
+it also gives you all the thinking that went into this, and you can understand this thought
+
+34
+00:02:57,170 --> 00:02:58,750
+process as it comes on.
+
+35
+00:02:59,450 --> 00:03:03,870
+All right, so we have like now a pretty comprehensive report.
+
+36
+00:03:04,340 --> 00:03:09,330
+One of the main things is that memetics was less testable.
+
+37
+00:03:09,710 --> 00:03:13,270
+There's also more interdisciplinary integration in Cultural Revolution.
+
+38
+00:03:14,430 --> 00:03:20,210
+And also there were better institutional funding incentives because it was easier to get at
+
+39
+00:03:20,210 --> 00:03:24,370
+some of the big questions of Cultural Revolution with these existing funding
+
+40
+00:03:24,370 --> 00:03:25,070
+mechanisms.
+
+41
+00:03:25,910 --> 00:03:26,690
+Yeah, pretty interesting.
+
+42
+00:03:27,550 --> 00:03:29,590
+You could go read all these references if you want.
+
+43
+00:03:29,590 --> 00:03:31,190
+You could also ask it more information.
+
+44
+00:03:31,610 --> 00:03:33,550
+Now it has these sources that it's found.
+
+45
+00:03:34,030 --> 00:03:36,550
+It could also go and add more stuff to it as well.
+
+46
+00:03:36,950 --> 00:03:39,150
+You could also ask to summarize if you needed to.
+
+47
+00:03:40,250 --> 00:03:44,730
+Typically, I'll take this and I'll copy it, and I'll paste it into Claude.
+
+48
+00:03:45,250 --> 00:03:50,470
+And then I will ask Claude to summarize it in a tweet or something like that.
+
+49
+00:03:50,650 --> 00:03:54,670
+Claude is a little bit more creative, and these reports end up being relatively dry.
+
+50
+00:03:54,890 --> 00:03:59,130
+But they are amazingly well researched, and that's the main reason to use
+
+51
+00:03:59,130 --> 00:04:01,010
+something like deep research.

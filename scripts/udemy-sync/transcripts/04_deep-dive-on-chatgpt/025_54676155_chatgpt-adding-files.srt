@@ -1,0 +1,215 @@
+1
+00:00:00,000 --> 00:00:02,400
+Hey, this is just a quick video showing you that you can add
+
+2
+00:00:02,400 --> 00:00:05,240
+lots of different types of files to ChatGPT sessions.
+
+3
+00:00:05,660 --> 00:00:07,660
+I'm gonna put some files in this lesson
+
+4
+00:00:07,660 --> 00:00:08,880
+that you can easily download.
+
+5
+00:00:09,300 --> 00:00:12,060
+So you've got a picture of me, we've got an example PDF,
+
+6
+00:00:12,180 --> 00:00:15,560
+and we've got some example data in a Microsoft Excel sheet.
+
+7
+00:00:16,060 --> 00:00:17,960
+And what I want to demonstrate to you
+
+8
+00:00:17,960 --> 00:00:20,520
+is that we can add lots of different types of files
+
+9
+00:00:20,520 --> 00:00:22,080
+directly into ChatGPT.
+
+10
+00:00:22,280 --> 00:00:24,520
+So I'm gonna go to my desktop and downloads,
+
+11
+00:00:24,720 --> 00:00:26,020
+and then I'm gonna add these files.
+
+12
+00:00:26,020 --> 00:00:30,860
+And I'm gonna say, is this person a male or female?
+
+13
+00:00:31,360 --> 00:00:33,520
+Then this will analyze images and the documents,
+
+14
+00:00:33,990 --> 00:00:35,400
+and it appears to be a male.
+
+15
+00:00:35,540 --> 00:00:37,420
+So I definitely do look like a male in this one,
+
+16
+00:00:37,420 --> 00:00:38,020
+which is great.
+
+17
+00:00:38,420 --> 00:00:40,580
+We can also analyze things so we can say
+
+18
+00:00:40,580 --> 00:00:42,120
+what is inside of the PDF.
+
+19
+00:00:42,340 --> 00:00:44,280
+So you can have a chat with your documents.
+
+20
+00:00:44,620 --> 00:00:47,440
+So whatever the document is, you can generally upload it.
+
+21
+00:00:47,520 --> 00:00:49,900
+Now, obviously there will be file restrictions
+
+22
+00:00:49,900 --> 00:00:51,240
+for different types of documents,
+
+23
+00:00:51,240 --> 00:00:53,200
+and some documents may be encrypted.
+
+24
+00:00:53,400 --> 00:00:55,040
+So you won't be able to do this with every document.
+
+25
+00:00:55,040 --> 00:00:57,820
+The key point I wanna get across to you
+
+26
+00:00:57,820 --> 00:01:00,100
+is that there's a lot of different file types
+
+27
+00:01:00,100 --> 00:01:01,880
+that you can just throw into ChatGPT,
+
+28
+00:01:02,320 --> 00:01:03,960
+and you can start to chat with that.
+
+29
+00:01:04,200 --> 00:01:06,040
+So this is great for when you've got information
+
+30
+00:01:06,040 --> 00:01:07,060
+inside of a document,
+
+31
+00:01:07,420 --> 00:01:09,360
+you want to question that information
+
+32
+00:01:09,360 --> 00:01:10,700
+and get a quick response.
+
+33
+00:01:11,100 --> 00:01:12,880
+So rather than you read that document,
+
+34
+00:01:13,160 --> 00:01:15,100
+you could then go and question that directly
+
+35
+00:01:15,100 --> 00:01:16,260
+and ask lots of questions.
+
+36
+00:01:16,540 --> 00:01:17,440
+At this time of recording,
+
+37
+00:01:17,520 --> 00:01:20,000
+you can add about 10 files to an individual chat,
+
+38
+00:01:20,260 --> 00:01:22,580
+but obviously that might change as things progress.
+
+39
+00:01:23,000 --> 00:01:25,560
+The other thing that I want to also point out here
+
+40
+00:01:25,560 --> 00:01:27,320
+is that you can add files from Google Drive.
+
+41
+00:01:27,900 --> 00:01:29,980
+I'm sure by the time of you watching this,
+
+42
+00:01:30,000 --> 00:01:31,640
+they may have added additional connectors
+
+43
+00:01:31,640 --> 00:01:32,480
+inside of ChatGPT.
+
+44
+00:01:33,100 --> 00:01:34,420
+So keep an eye on for that.
+
+45
+00:01:34,640 --> 00:01:36,260
+I would expect that over time,
+
+46
+00:01:36,260 --> 00:01:38,980
+you'll be able to pull in more and more connectors.
+
+47
+00:01:39,180 --> 00:01:41,620
+So pulling in things from like OneDrive, Google Drive,
+
+48
+00:01:42,060 --> 00:01:44,000
+you'll start to think of it as a place
+
+49
+00:01:44,000 --> 00:01:45,900
+where you can essentially grab knowledge
+
+50
+00:01:45,900 --> 00:01:47,680
+specifically into chat histories.
+
+51
+00:01:48,100 --> 00:01:49,520
+And the important point here is,
+
+52
+00:01:49,520 --> 00:01:53,040
+use this when you're looking to get quick answers
+
+53
+00:01:53,040 --> 00:01:55,180
+and you don't want to read a 30 page PDF
+
+54
+00:01:55,180 --> 00:01:56,320
+or something like that.

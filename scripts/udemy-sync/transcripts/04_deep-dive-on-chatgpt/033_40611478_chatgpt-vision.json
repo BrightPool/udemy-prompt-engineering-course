@@ -1,0 +1,2861 @@
+{
+ "lecture_id": "40611478",
+ "title": "chatgpt vision",
+ "section": "04_deep-dive-on-chatgpt",
+ "video_path": "scripts/udemy-sync/videos/04_deep-dive-on-chatgpt/033_40611478_chatgpt-vision.mp4",
+ "duration_s": 131.31,
+ "model": "small.en",
+ "word_timestamps": true,
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 1.3,
+   "text": " Earlier on in the ChatGPT section,",
+   "words": [
+    {
+     "start": 0.0,
+     "end": 0.18,
+     "word": " Earlier",
+     "prob": 0.494
+    },
+    {
+     "start": 0.18,
+     "end": 0.38,
+     "word": " on",
+     "prob": 0.833
+    },
+    {
+     "start": 0.38,
+     "end": 0.5,
+     "word": " in",
+     "prob": 0.905
+    },
+    {
+     "start": 0.5,
+     "end": 0.6,
+     "word": " the",
+     "prob": 0.991
+    },
+    {
+     "start": 0.6,
+     "end": 0.92,
+     "word": " ChatGPT",
+     "prob": 0.367
+    },
+    {
+     "start": 0.92,
+     "end": 1.3,
+     "word": " section,",
+     "prob": 0.98
+    }
+   ]
+  },
+  {
+   "start": 1.36,
+   "end": 3.5,
+   "text": " we had a look at how we can easily generate images",
+   "words": [
+    {
+     "start": 1.36,
+     "end": 1.48,
+     "word": " we",
+     "prob": 0.995
+    },
+    {
+     "start": 1.48,
+     "end": 1.66,
+     "word": " had",
+     "prob": 0.99
+    },
+    {
+     "start": 1.66,
+     "end": 1.76,
+     "word": " a",
+     "prob": 0.963
+    },
+    {
+     "start": 1.76,
+     "end": 1.86,
+     "word": " look",
+     "prob": 0.998
+    },
+    {
+     "start": 1.86,
+     "end": 1.96,
+     "word": " at",
+     "prob": 0.995
+    },
+    {
+     "start": 1.96,
+     "end": 2.08,
+     "word": " how",
+     "prob": 0.997
+    },
+    {
+     "start": 2.08,
+     "end": 2.22,
+     "word": " we",
+     "prob": 0.996
+    },
+    {
+     "start": 2.22,
+     "end": 2.34,
+     "word": " can",
+     "prob": 0.987
+    },
+    {
+     "start": 2.34,
+     "end": 2.62,
+     "word": " easily",
+     "prob": 0.999
+    },
+    {
+     "start": 2.62,
+     "end": 3.06,
+     "word": " generate",
+     "prob": 0.997
+    },
+    {
+     "start": 3.06,
+     "end": 3.5,
+     "word": " images",
+     "prob": 0.998
+    }
+   ]
+  },
+  {
+   "start": 3.5,
+   "end": 6.26,
+   "text": " from prompts and also by using reference images.",
+   "words": [
+    {
+     "start": 3.5,
+     "end": 3.84,
+     "word": " from",
+     "prob": 0.998
+    },
+    {
+     "start": 3.84,
+     "end": 4.22,
+     "word": " prompts",
+     "prob": 0.986
+    },
+    {
+     "start": 4.22,
+     "end": 4.72,
+     "word": " and",
+     "prob": 0.669
+    },
+    {
+     "start": 4.72,
+     "end": 4.92,
+     "word": " also",
+     "prob": 0.996
+    },
+    {
+     "start": 4.92,
+     "end": 5.16,
+     "word": " by",
+     "prob": 0.98
+    },
+    {
+     "start": 5.16,
+     "end": 5.48,
+     "word": " using",
+     "prob": 0.999
+    },
+    {
+     "start": 5.48,
+     "end": 5.78,
+     "word": " reference",
+     "prob": 0.993
+    },
+    {
+     "start": 5.78,
+     "end": 6.26,
+     "word": " images.",
+     "prob": 0.998
+    }
+   ]
+  },
+  {
+   "start": 7.08,
+   "end": 9.22,
+   "text": " Now, I want to also make a point here",
+   "words": [
+    {
+     "start": 7.08,
+     "end": 7.22,
+     "word": " Now,",
+     "prob": 0.949
+    },
+    {
+     "start": 7.52,
+     "end": 7.74,
+     "word": " I",
+     "prob": 0.999
+    },
+    {
+     "start": 7.74,
+     "end": 7.9,
+     "word": " want",
+     "prob": 0.987
+    },
+    {
+     "start": 7.9,
+     "end": 8.08,
+     "word": " to",
+     "prob": 0.998
+    },
+    {
+     "start": 8.08,
+     "end": 8.42,
+     "word": " also",
+     "prob": 0.992
+    },
+    {
+     "start": 8.42,
+     "end": 8.66,
+     "word": " make",
+     "prob": 0.998
+    },
+    {
+     "start": 8.66,
+     "end": 8.8,
+     "word": " a",
+     "prob": 0.999
+    },
+    {
+     "start": 8.8,
+     "end": 8.98,
+     "word": " point",
+     "prob": 1.0
+    },
+    {
+     "start": 8.98,
+     "end": 9.22,
+     "word": " here",
+     "prob": 0.995
+    }
+   ]
+  },
+  {
+   "start": 9.22,
+   "end": 12.44,
+   "text": " that ChatGPT Vision also has reasoning capabilities.",
+   "words": [
+    {
+     "start": 9.22,
+     "end": 9.42,
+     "word": " that",
+     "prob": 0.975
+    },
+    {
+     "start": 9.42,
+     "end": 9.88,
+     "word": " ChatGPT",
+     "prob": 0.938
+    },
+    {
+     "start": 9.88,
+     "end": 10.26,
+     "word": " Vision",
+     "prob": 0.783
+    },
+    {
+     "start": 10.26,
+     "end": 10.98,
+     "word": " also",
+     "prob": 0.98
+    },
+    {
+     "start": 10.98,
+     "end": 11.34,
+     "word": " has",
+     "prob": 0.999
+    },
+    {
+     "start": 11.34,
+     "end": 11.8,
+     "word": " reasoning",
+     "prob": 0.996
+    },
+    {
+     "start": 11.8,
+     "end": 12.44,
+     "word": " capabilities.",
+     "prob": 0.998
+    }
+   ]
+  },
+  {
+   "start": 13.0,
+   "end": 14.88,
+   "text": " So for example, we can put in the original portrait",
+   "words": [
+    {
+     "start": 13.0,
+     "end": 13.08,
+     "word": " So",
+     "prob": 0.931
+    },
+    {
+     "start": 13.08,
+     "end": 13.22,
+     "word": " for",
+     "prob": 0.721
+    },
+    {
+     "start": 13.22,
+     "end": 13.46,
+     "word": " example,",
+     "prob": 0.999
+    },
+    {
+     "start": 13.54,
+     "end": 13.7,
+     "word": " we",
+     "prob": 0.998
+    },
+    {
+     "start": 13.7,
+     "end": 13.8,
+     "word": " can",
+     "prob": 0.778
+    },
+    {
+     "start": 13.8,
+     "end": 13.96,
+     "word": " put",
+     "prob": 0.704
+    },
+    {
+     "start": 13.96,
+     "end": 14.08,
+     "word": " in",
+     "prob": 0.966
+    },
+    {
+     "start": 14.08,
+     "end": 14.18,
+     "word": " the",
+     "prob": 0.996
+    },
+    {
+     "start": 14.18,
+     "end": 14.48,
+     "word": " original",
+     "prob": 0.996
+    },
+    {
+     "start": 14.48,
+     "end": 14.88,
+     "word": " portrait",
+     "prob": 0.95
+    }
+   ]
+  },
+  {
+   "start": 14.88,
+   "end": 17.24,
+   "text": " of my image and we can ask a question like,",
+   "words": [
+    {
+     "start": 14.88,
+     "end": 15.12,
+     "word": " of",
+     "prob": 0.998
+    },
+    {
+     "start": 15.12,
+     "end": 15.32,
+     "word": " my",
+     "prob": 0.956
+    },
+    {
+     "start": 15.32,
+     "end": 15.62,
+     "word": " image",
+     "prob": 0.997
+    },
+    {
+     "start": 15.62,
+     "end": 16.14,
+     "word": " and",
+     "prob": 0.594
+    },
+    {
+     "start": 16.14,
+     "end": 16.22,
+     "word": " we",
+     "prob": 0.999
+    },
+    {
+     "start": 16.22,
+     "end": 16.34,
+     "word": " can",
+     "prob": 0.998
+    },
+    {
+     "start": 16.34,
+     "end": 16.56,
+     "word": " ask",
+     "prob": 0.997
+    },
+    {
+     "start": 16.56,
+     "end": 16.72,
+     "word": " a",
+     "prob": 0.868
+    },
+    {
+     "start": 16.72,
+     "end": 16.96,
+     "word": " question",
+     "prob": 0.999
+    },
+    {
+     "start": 16.96,
+     "end": 17.24,
+     "word": " like,",
+     "prob": 0.925
+    }
+   ]
+  },
+  {
+   "start": 17.5,
+   "end": 19.8,
+   "text": " how many fingers am I holding up?",
+   "words": [
+    {
+     "start": 17.5,
+     "end": 17.7,
+     "word": " how",
+     "prob": 0.481
+    },
+    {
+     "start": 17.7,
+     "end": 17.9,
+     "word": " many",
+     "prob": 1.0
+    },
+    {
+     "start": 17.9,
+     "end": 18.38,
+     "word": " fingers",
+     "prob": 0.999
+    },
+    {
+     "start": 18.38,
+     "end": 18.98,
+     "word": " am",
+     "prob": 0.988
+    },
+    {
+     "start": 18.98,
+     "end": 19.18,
+     "word": " I",
+     "prob": 0.999
+    },
+    {
+     "start": 19.18,
+     "end": 19.48,
+     "word": " holding",
+     "prob": 0.999
+    },
+    {
+     "start": 19.48,
+     "end": 19.8,
+     "word": " up?",
+     "prob": 0.998
+    }
+   ]
+  },
+  {
+   "start": 20.38,
+   "end": 23.26,
+   "text": " And ChatGPT is able to not only generate images",
+   "words": [
+    {
+     "start": 20.38,
+     "end": 20.7,
+     "word": " And",
+     "prob": 0.978
+    },
+    {
+     "start": 20.7,
+     "end": 21.04,
+     "word": " ChatGPT",
+     "prob": 0.964
+    },
+    {
+     "start": 21.04,
+     "end": 21.32,
+     "word": " is",
+     "prob": 0.996
+    },
+    {
+     "start": 21.32,
+     "end": 21.54,
+     "word": " able",
+     "prob": 0.999
+    },
+    {
+     "start": 21.54,
+     "end": 21.76,
+     "word": " to",
+     "prob": 0.997
+    },
+    {
+     "start": 21.76,
+     "end": 21.9,
+     "word": " not",
+     "prob": 0.99
+    },
+    {
+     "start": 21.9,
+     "end": 22.28,
+     "word": " only",
+     "prob": 1.0
+    },
+    {
+     "start": 22.28,
+     "end": 22.84,
+     "word": " generate",
+     "prob": 0.998
+    },
+    {
+     "start": 22.84,
+     "end": 23.26,
+     "word": " images",
+     "prob": 0.999
+    }
+   ]
+  },
+  {
+   "start": 23.26,
+   "end": 25.3,
+   "text": " from images, but it's also able to provide you",
+   "words": [
+    {
+     "start": 23.26,
+     "end": 23.48,
+     "word": " from",
+     "prob": 0.999
+    },
+    {
+     "start": 23.48,
+     "end": 23.78,
+     "word": " images,",
+     "prob": 0.998
+    },
+    {
+     "start": 23.88,
+     "end": 24.04,
+     "word": " but",
+     "prob": 0.999
+    },
+    {
+     "start": 24.04,
+     "end": 24.18,
+     "word": " it's",
+     "prob": 0.928
+    },
+    {
+     "start": 24.18,
+     "end": 24.44,
+     "word": " also",
+     "prob": 1.0
+    },
+    {
+     "start": 24.44,
+     "end": 24.7,
+     "word": " able",
+     "prob": 0.999
+    },
+    {
+     "start": 24.7,
+     "end": 24.9,
+     "word": " to",
+     "prob": 0.999
+    },
+    {
+     "start": 24.9,
+     "end": 25.16,
+     "word": " provide",
+     "prob": 0.999
+    },
+    {
+     "start": 25.16,
+     "end": 25.3,
+     "word": " you",
+     "prob": 0.988
+    }
+   ]
+  },
+  {
+   "start": 25.3,
+   "end": 27.94,
+   "text": " with cognitive reasoning on specific images.",
+   "words": [
+    {
+     "start": 25.3,
+     "end": 25.44,
+     "word": " with",
+     "prob": 0.99
+    },
+    {
+     "start": 25.44,
+     "end": 25.78,
+     "word": " cognitive",
+     "prob": 0.494
+    },
+    {
+     "start": 25.78,
+     "end": 26.38,
+     "word": " reasoning",
+     "prob": 1.0
+    },
+    {
+     "start": 26.38,
+     "end": 27.08,
+     "word": " on",
+     "prob": 0.997
+    },
+    {
+     "start": 27.08,
+     "end": 27.5,
+     "word": " specific",
+     "prob": 0.994
+    },
+    {
+     "start": 27.5,
+     "end": 27.94,
+     "word": " images.",
+     "prob": 0.999
+    }
+   ]
+  },
+  {
+   "start": 27.94,
+   "end": 30.74,
+   "text": " So now ChatGPT is analysing the images",
+   "words": [
+    {
+     "start": 27.94,
+     "end": 28.52,
+     "word": " So",
+     "prob": 0.886
+    },
+    {
+     "start": 28.52,
+     "end": 28.88,
+     "word": " now",
+     "prob": 0.911
+    },
+    {
+     "start": 28.88,
+     "end": 29.26,
+     "word": " ChatGPT",
+     "prob": 0.437
+    },
+    {
+     "start": 29.26,
+     "end": 29.54,
+     "word": " is",
+     "prob": 0.993
+    },
+    {
+     "start": 29.54,
+     "end": 30.08,
+     "word": " analysing",
+     "prob": 0.622
+    },
+    {
+     "start": 30.08,
+     "end": 30.28,
+     "word": " the",
+     "prob": 0.998
+    },
+    {
+     "start": 30.28,
+     "end": 30.74,
+     "word": " images",
+     "prob": 0.996
+    }
+   ]
+  },
+  {
+   "start": 30.74,
+   "end": 32.88,
+   "text": " and it shows us that we're holding up two fingers",
+   "words": [
+    {
+     "start": 30.74,
+     "end": 31.3,
+     "word": " and",
+     "prob": 0.72
+    },
+    {
+     "start": 31.3,
+     "end": 31.48,
+     "word": " it",
+     "prob": 0.99
+    },
+    {
+     "start": 31.48,
+     "end": 31.66,
+     "word": " shows",
+     "prob": 0.994
+    },
+    {
+     "start": 31.66,
+     "end": 31.86,
+     "word": " us",
+     "prob": 0.988
+    },
+    {
+     "start": 31.86,
+     "end": 31.98,
+     "word": " that",
+     "prob": 0.993
+    },
+    {
+     "start": 31.98,
+     "end": 32.12,
+     "word": " we're",
+     "prob": 0.993
+    },
+    {
+     "start": 32.12,
+     "end": 32.3,
+     "word": " holding",
+     "prob": 0.999
+    },
+    {
+     "start": 32.3,
+     "end": 32.44,
+     "word": " up",
+     "prob": 0.997
+    },
+    {
+     "start": 32.44,
+     "end": 32.6,
+     "word": " two",
+     "prob": 0.974
+    },
+    {
+     "start": 32.6,
+     "end": 32.88,
+     "word": " fingers",
+     "prob": 0.996
+    }
+   ]
+  },
+  {
+   "start": 32.88,
+   "end": 34.38,
+   "text": " in a classic peace sign.",
+   "words": [
+    {
+     "start": 32.88,
+     "end": 33.38,
+     "word": " in",
+     "prob": 0.979
+    },
+    {
+     "start": 33.38,
+     "end": 33.5,
+     "word": " a",
+     "prob": 0.999
+    },
+    {
+     "start": 33.5,
+     "end": 33.8,
+     "word": " classic",
+     "prob": 0.99
+    },
+    {
+     "start": 33.8,
+     "end": 34.04,
+     "word": " peace",
+     "prob": 0.497
+    },
+    {
+     "start": 34.04,
+     "end": 34.38,
+     "word": " sign.",
+     "prob": 0.995
+    }
+   ]
+  },
+  {
+   "start": 34.88,
+   "end": 36.12,
+   "text": " Let's also have a look on Google.",
+   "words": [
+    {
+     "start": 34.88,
+     "end": 35.2,
+     "word": " Let's",
+     "prob": 0.969
+    },
+    {
+     "start": 35.2,
+     "end": 35.32,
+     "word": " also",
+     "prob": 0.994
+    },
+    {
+     "start": 35.32,
+     "end": 35.5,
+     "word": " have",
+     "prob": 0.998
+    },
+    {
+     "start": 35.5,
+     "end": 35.58,
+     "word": " a",
+     "prob": 0.998
+    },
+    {
+     "start": 35.58,
+     "end": 35.7,
+     "word": " look",
+     "prob": 0.998
+    },
+    {
+     "start": 35.7,
+     "end": 35.9,
+     "word": " on",
+     "prob": 0.991
+    },
+    {
+     "start": 35.9,
+     "end": 36.12,
+     "word": " Google.",
+     "prob": 0.963
+    }
+   ]
+  },
+  {
+   "start": 36.34,
+   "end": 37.64,
+   "text": " So I'm going to go and get an image",
+   "words": [
+    {
+     "start": 36.34,
+     "end": 36.42,
+     "word": " So",
+     "prob": 0.927
+    },
+    {
+     "start": 36.42,
+     "end": 36.52,
+     "word": " I'm",
+     "prob": 0.96
+    },
+    {
+     "start": 36.52,
+     "end": 36.6,
+     "word": " going",
+     "prob": 0.672
+    },
+    {
+     "start": 36.6,
+     "end": 36.68,
+     "word": " to",
+     "prob": 0.996
+    },
+    {
+     "start": 36.68,
+     "end": 36.78,
+     "word": " go",
+     "prob": 0.997
+    },
+    {
+     "start": 36.78,
+     "end": 37.02,
+     "word": " and",
+     "prob": 0.992
+    },
+    {
+     "start": 37.02,
+     "end": 37.2,
+     "word": " get",
+     "prob": 0.999
+    },
+    {
+     "start": 37.2,
+     "end": 37.36,
+     "word": " an",
+     "prob": 0.996
+    },
+    {
+     "start": 37.36,
+     "end": 37.64,
+     "word": " image",
+     "prob": 0.999
+    }
+   ]
+  },
+  {
+   "start": 37.64,
+   "end": 39.48,
+   "text": " of several men working in the world",
+   "words": [
+    {
+     "start": 37.64,
+     "end": 37.92,
+     "word": " of",
+     "prob": 0.941
+    },
+    {
+     "start": 37.92,
+     "end": 38.54,
+     "word": " several",
+     "prob": 0.953
+    },
+    {
+     "start": 38.54,
+     "end": 38.78,
+     "word": " men",
+     "prob": 0.997
+    },
+    {
+     "start": 38.78,
+     "end": 39.08,
+     "word": " working",
+     "prob": 0.993
+    },
+    {
+     "start": 39.08,
+     "end": 39.32,
+     "word": " in",
+     "prob": 0.835
+    },
+    {
+     "start": 39.32,
+     "end": 39.32,
+     "word": " the",
+     "prob": 0.98
+    },
+    {
+     "start": 39.32,
+     "end": 39.48,
+     "word": " world",
+     "prob": 0.801
+    }
+   ]
+  },
+  {
+   "start": 39.48,
+   "end": 41.7,
+   "text": " and seeing if it can identify both the gender",
+   "words": [
+    {
+     "start": 39.48,
+     "end": 39.72,
+     "word": " and",
+     "prob": 0.886
+    },
+    {
+     "start": 39.72,
+     "end": 39.94,
+     "word": " seeing",
+     "prob": 0.971
+    },
+    {
+     "start": 39.94,
+     "end": 40.16,
+     "word": " if",
+     "prob": 0.998
+    },
+    {
+     "start": 40.16,
+     "end": 40.28,
+     "word": " it",
+     "prob": 0.99
+    },
+    {
+     "start": 40.28,
+     "end": 40.44,
+     "word": " can",
+     "prob": 0.997
+    },
+    {
+     "start": 40.44,
+     "end": 41.0,
+     "word": " identify",
+     "prob": 0.985
+    },
+    {
+     "start": 41.0,
+     "end": 41.26,
+     "word": " both",
+     "prob": 0.991
+    },
+    {
+     "start": 41.26,
+     "end": 41.46,
+     "word": " the",
+     "prob": 0.993
+    },
+    {
+     "start": 41.46,
+     "end": 41.7,
+     "word": " gender",
+     "prob": 0.993
+    }
+   ]
+  },
+  {
+   "start": 41.7,
+   "end": 43.8,
+   "text": " and how many people there are in this image.",
+   "words": [
+    {
+     "start": 41.7,
+     "end": 41.98,
+     "word": " and",
+     "prob": 0.989
+    },
+    {
+     "start": 41.98,
+     "end": 42.2,
+     "word": " how",
+     "prob": 0.998
+    },
+    {
+     "start": 42.2,
+     "end": 42.38,
+     "word": " many",
+     "prob": 1.0
+    },
+    {
+     "start": 42.38,
+     "end": 42.7,
+     "word": " people",
+     "prob": 0.999
+    },
+    {
+     "start": 42.7,
+     "end": 42.94,
+     "word": " there",
+     "prob": 0.99
+    },
+    {
+     "start": 42.94,
+     "end": 43.16,
+     "word": " are",
+     "prob": 0.998
+    },
+    {
+     "start": 43.16,
+     "end": 43.36,
+     "word": " in",
+     "prob": 0.998
+    },
+    {
+     "start": 43.36,
+     "end": 43.5,
+     "word": " this",
+     "prob": 0.995
+    },
+    {
+     "start": 43.5,
+     "end": 43.8,
+     "word": " image.",
+     "prob": 0.999
+    }
+   ]
+  },
+  {
+   "start": 44.42,
+   "end": 45.68,
+   "text": " So then I'm going to go back to ChatGPT,",
+   "words": [
+    {
+     "start": 44.42,
+     "end": 44.5,
+     "word": " So",
+     "prob": 0.98
+    },
+    {
+     "start": 44.5,
+     "end": 44.62,
+     "word": " then",
+     "prob": 0.98
+    },
+    {
+     "start": 44.62,
+     "end": 44.78,
+     "word": " I'm",
+     "prob": 0.992
+    },
+    {
+     "start": 44.78,
+     "end": 44.82,
+     "word": " going",
+     "prob": 0.907
+    },
+    {
+     "start": 44.82,
+     "end": 44.9,
+     "word": " to",
+     "prob": 0.995
+    },
+    {
+     "start": 44.9,
+     "end": 45.02,
+     "word": " go",
+     "prob": 0.977
+    },
+    {
+     "start": 45.02,
+     "end": 45.18,
+     "word": " back",
+     "prob": 0.998
+    },
+    {
+     "start": 45.18,
+     "end": 45.32,
+     "word": " to",
+     "prob": 0.994
+    },
+    {
+     "start": 45.32,
+     "end": 45.68,
+     "word": " ChatGPT,",
+     "prob": 0.93
+    }
+   ]
+  },
+  {
+   "start": 45.92,
+   "end": 46.96,
+   "text": " I'm going to click on the plus sign,",
+   "words": [
+    {
+     "start": 45.92,
+     "end": 46.0,
+     "word": " I'm",
+     "prob": 0.975
+    },
+    {
+     "start": 46.0,
+     "end": 46.08,
+     "word": " going",
+     "prob": 0.952
+    },
+    {
+     "start": 46.08,
+     "end": 46.16,
+     "word": " to",
+     "prob": 0.997
+    },
+    {
+     "start": 46.16,
+     "end": 46.26,
+     "word": " click",
+     "prob": 0.995
+    },
+    {
+     "start": 46.26,
+     "end": 46.38,
+     "word": " on",
+     "prob": 0.997
+    },
+    {
+     "start": 46.38,
+     "end": 46.46,
+     "word": " the",
+     "prob": 0.995
+    },
+    {
+     "start": 46.46,
+     "end": 46.58,
+     "word": " plus",
+     "prob": 0.152
+    },
+    {
+     "start": 46.58,
+     "end": 46.96,
+     "word": " sign,",
+     "prob": 0.995
+    }
+   ]
+  },
+  {
+   "start": 47.38,
+   "end": 49.82,
+   "text": " upload from computer, going to go into my downloads,",
+   "words": [
+    {
+     "start": 47.38,
+     "end": 47.58,
+     "word": " upload",
+     "prob": 0.77
+    },
+    {
+     "start": 47.58,
+     "end": 47.78,
+     "word": " from",
+     "prob": 0.998
+    },
+    {
+     "start": 47.78,
+     "end": 48.16,
+     "word": " computer,",
+     "prob": 0.981
+    },
+    {
+     "start": 48.88,
+     "end": 49.02,
+     "word": " going",
+     "prob": 0.424
+    },
+    {
+     "start": 49.02,
+     "end": 49.12,
+     "word": " to",
+     "prob": 0.886
+    },
+    {
+     "start": 49.12,
+     "end": 49.18,
+     "word": " go",
+     "prob": 0.843
+    },
+    {
+     "start": 49.18,
+     "end": 49.28,
+     "word": " into",
+     "prob": 0.674
+    },
+    {
+     "start": 49.28,
+     "end": 49.44,
+     "word": " my",
+     "prob": 0.992
+    },
+    {
+     "start": 49.44,
+     "end": 49.82,
+     "word": " downloads,",
+     "prob": 0.987
+    }
+   ]
+  },
+  {
+   "start": 50.42,
+   "end": 51.4,
+   "text": " and then I'm going to say,",
+   "words": [
+    {
+     "start": 50.42,
+     "end": 50.68,
+     "word": " and",
+     "prob": 0.994
+    },
+    {
+     "start": 50.68,
+     "end": 50.8,
+     "word": " then",
+     "prob": 0.997
+    },
+    {
+     "start": 50.8,
+     "end": 50.92,
+     "word": " I'm",
+     "prob": 0.998
+    },
+    {
+     "start": 50.92,
+     "end": 50.98,
+     "word": " going",
+     "prob": 0.968
+    },
+    {
+     "start": 50.98,
+     "end": 51.1,
+     "word": " to",
+     "prob": 0.999
+    },
+    {
+     "start": 51.1,
+     "end": 51.4,
+     "word": " say,",
+     "prob": 0.998
+    }
+   ]
+  },
+  {
+   "start": 51.72,
+   "end": 54.44,
+   "text": " how many people are in this image",
+   "words": [
+    {
+     "start": 51.72,
+     "end": 52.16,
+     "word": " how",
+     "prob": 0.638
+    },
+    {
+     "start": 52.16,
+     "end": 52.46,
+     "word": " many",
+     "prob": 0.999
+    },
+    {
+     "start": 52.46,
+     "end": 53.0,
+     "word": " people",
+     "prob": 0.999
+    },
+    {
+     "start": 53.0,
+     "end": 53.44,
+     "word": " are",
+     "prob": 0.999
+    },
+    {
+     "start": 53.44,
+     "end": 53.68,
+     "word": " in",
+     "prob": 0.999
+    },
+    {
+     "start": 53.68,
+     "end": 54.0,
+     "word": " this",
+     "prob": 1.0
+    },
+    {
+     "start": 54.0,
+     "end": 54.44,
+     "word": " image",
+     "prob": 0.999
+    }
+   ]
+  },
+  {
+   "start": 56.0,
+   "end": 57.66,
+   "text": " and what gender are they?",
+   "words": [
+    {
+     "start": 56.0,
+     "end": 56.56,
+     "word": " and",
+     "prob": 0.223
+    },
+    {
+     "start": 56.56,
+     "end": 56.78,
+     "word": " what",
+     "prob": 0.975
+    },
+    {
+     "start": 56.78,
+     "end": 57.02,
+     "word": " gender",
+     "prob": 0.997
+    },
+    {
+     "start": 57.02,
+     "end": 57.38,
+     "word": " are",
+     "prob": 0.994
+    },
+    {
+     "start": 57.38,
+     "end": 57.66,
+     "word": " they?",
+     "prob": 0.995
+    }
+   ]
+  },
+  {
+   "start": 61.7,
+   "end": 63.1,
+   "text": " Okay, so ChatGPT has worked out",
+   "words": [
+    {
+     "start": 61.7,
+     "end": 61.86,
+     "word": " Okay,",
+     "prob": 0.826
+    },
+    {
+     "start": 61.98,
+     "end": 62.08,
+     "word": " so",
+     "prob": 0.989
+    },
+    {
+     "start": 62.08,
+     "end": 62.4,
+     "word": " ChatGPT",
+     "prob": 0.09
+    },
+    {
+     "start": 62.4,
+     "end": 62.64,
+     "word": " has",
+     "prob": 0.929
+    },
+    {
+     "start": 62.64,
+     "end": 62.88,
+     "word": " worked",
+     "prob": 0.995
+    },
+    {
+     "start": 62.88,
+     "end": 63.1,
+     "word": " out",
+     "prob": 0.998
+    }
+   ]
+  },
+  {
+   "start": 63.1,
+   "end": 64.62,
+   "text": " that there are two people in the image.",
+   "words": [
+    {
+     "start": 63.1,
+     "end": 63.22,
+     "word": " that",
+     "prob": 0.98
+    },
+    {
+     "start": 63.22,
+     "end": 63.36,
+     "word": " there",
+     "prob": 0.995
+    },
+    {
+     "start": 63.36,
+     "end": 63.46,
+     "word": " are",
+     "prob": 0.995
+    },
+    {
+     "start": 63.46,
+     "end": 63.7,
+     "word": " two",
+     "prob": 0.992
+    },
+    {
+     "start": 63.7,
+     "end": 63.94,
+     "word": " people",
+     "prob": 0.999
+    },
+    {
+     "start": 63.94,
+     "end": 64.2,
+     "word": " in",
+     "prob": 0.994
+    },
+    {
+     "start": 64.2,
+     "end": 64.3,
+     "word": " the",
+     "prob": 0.999
+    },
+    {
+     "start": 64.3,
+     "end": 64.62,
+     "word": " image.",
+     "prob": 0.999
+    }
+   ]
+  },
+  {
+   "start": 64.98,
+   "end": 67.22,
+   "text": " So it can't really identify the gender,",
+   "words": [
+    {
+     "start": 64.98,
+     "end": 65.24,
+     "word": " So",
+     "prob": 0.979
+    },
+    {
+     "start": 65.24,
+     "end": 65.46,
+     "word": " it",
+     "prob": 0.86
+    },
+    {
+     "start": 65.46,
+     "end": 65.72,
+     "word": " can't",
+     "prob": 0.993
+    },
+    {
+     "start": 65.72,
+     "end": 66.0,
+     "word": " really",
+     "prob": 0.999
+    },
+    {
+     "start": 66.0,
+     "end": 66.58,
+     "word": " identify",
+     "prob": 0.999
+    },
+    {
+     "start": 66.58,
+     "end": 66.92,
+     "word": " the",
+     "prob": 0.999
+    },
+    {
+     "start": 66.92,
+     "end": 67.22,
+     "word": " gender,",
+     "prob": 0.998
+    }
+   ]
+  },
+  {
+   "start": 67.22,
+   "end": 69.8,
+   "text": " but it has been able to identify that there are two people.",
+   "words": [
+    {
+     "start": 67.22,
+     "end": 67.58,
+     "word": " but",
+     "prob": 0.999
+    },
+    {
+     "start": 67.58,
+     "end": 67.68,
+     "word": " it",
+     "prob": 0.998
+    },
+    {
+     "start": 67.68,
+     "end": 67.9,
+     "word": " has",
+     "prob": 0.999
+    },
+    {
+     "start": 67.9,
+     "end": 68.08,
+     "word": " been",
+     "prob": 0.995
+    },
+    {
+     "start": 68.08,
+     "end": 68.24,
+     "word": " able",
+     "prob": 0.998
+    },
+    {
+     "start": 68.24,
+     "end": 68.38,
+     "word": " to",
+     "prob": 0.999
+    },
+    {
+     "start": 68.38,
+     "end": 68.74,
+     "word": " identify",
+     "prob": 0.998
+    },
+    {
+     "start": 68.74,
+     "end": 68.96,
+     "word": " that",
+     "prob": 0.996
+    },
+    {
+     "start": 68.96,
+     "end": 69.12,
+     "word": " there",
+     "prob": 0.998
+    },
+    {
+     "start": 69.12,
+     "end": 69.26,
+     "word": " are",
+     "prob": 0.912
+    },
+    {
+     "start": 69.26,
+     "end": 69.44,
+     "word": " two",
+     "prob": 0.999
+    },
+    {
+     "start": 69.44,
+     "end": 69.8,
+     "word": " people.",
+     "prob": 1.0
+    }
+   ]
+  },
+  {
+   "start": 70.44,
+   "end": 72.56,
+   "text": " We could also tell ChatGPT to give this",
+   "words": [
+    {
+     "start": 70.44,
+     "end": 70.56,
+     "word": " We",
+     "prob": 0.999
+    },
+    {
+     "start": 70.56,
+     "end": 70.68,
+     "word": " could",
+     "prob": 0.814
+    },
+    {
+     "start": 70.68,
+     "end": 70.98,
+     "word": " also",
+     "prob": 1.0
+    },
+    {
+     "start": 70.98,
+     "end": 71.36,
+     "word": " tell",
+     "prob": 0.976
+    },
+    {
+     "start": 71.36,
+     "end": 71.9,
+     "word": " ChatGPT",
+     "prob": 0.906
+    },
+    {
+     "start": 71.9,
+     "end": 72.22,
+     "word": " to",
+     "prob": 0.996
+    },
+    {
+     "start": 72.22,
+     "end": 72.38,
+     "word": " give",
+     "prob": 0.998
+    },
+    {
+     "start": 72.38,
+     "end": 72.56,
+     "word": " this",
+     "prob": 0.919
+    }
+   ]
+  },
+  {
+   "start": 72.56,
+   "end": 74.18,
+   "text": " in more of a structured data form.",
+   "words": [
+    {
+     "start": 72.56,
+     "end": 72.82,
+     "word": " in",
+     "prob": 0.989
+    },
+    {
+     "start": 72.82,
+     "end": 73.1,
+     "word": " more",
+     "prob": 0.995
+    },
+    {
+     "start": 73.1,
+     "end": 73.2,
+     "word": " of",
+     "prob": 0.995
+    },
+    {
+     "start": 73.2,
+     "end": 73.3,
+     "word": " a",
+     "prob": 0.997
+    },
+    {
+     "start": 73.3,
+     "end": 73.56,
+     "word": " structured",
+     "prob": 0.951
+    },
+    {
+     "start": 73.56,
+     "end": 73.9,
+     "word": " data",
+     "prob": 0.987
+    },
+    {
+     "start": 73.9,
+     "end": 74.18,
+     "word": " form.",
+     "prob": 0.95
+    }
+   ]
+  },
+  {
+   "start": 74.32,
+   "end": 78.42,
+   "text": " So I could say, could you output this as a CSV",
+   "words": [
+    {
+     "start": 74.32,
+     "end": 74.36,
+     "word": " So",
+     "prob": 0.996
+    },
+    {
+     "start": 74.36,
+     "end": 74.44,
+     "word": " I",
+     "prob": 0.982
+    },
+    {
+     "start": 74.44,
+     "end": 74.56,
+     "word": " could",
+     "prob": 0.996
+    },
+    {
+     "start": 74.56,
+     "end": 74.84,
+     "word": " say,",
+     "prob": 0.999
+    },
+    {
+     "start": 75.14,
+     "end": 75.54,
+     "word": " could",
+     "prob": 0.845
+    },
+    {
+     "start": 75.54,
+     "end": 76.3,
+     "word": " you",
+     "prob": 0.996
+    },
+    {
+     "start": 76.3,
+     "end": 76.8,
+     "word": " output",
+     "prob": 0.998
+    },
+    {
+     "start": 76.8,
+     "end": 77.38,
+     "word": " this",
+     "prob": 0.998
+    },
+    {
+     "start": 77.38,
+     "end": 77.84,
+     "word": " as",
+     "prob": 0.996
+    },
+    {
+     "start": 77.84,
+     "end": 78.06,
+     "word": " a",
+     "prob": 0.991
+    },
+    {
+     "start": 78.06,
+     "end": 78.42,
+     "word": " CSV",
+     "prob": 0.608
+    }
+   ]
+  },
+  {
+   "start": 78.82,
+   "end": 82.34,
+   "text": " with probabilities for male versus female",
+   "words": [
+    {
+     "start": 78.82,
+     "end": 79.1,
+     "word": " with",
+     "prob": 0.815
+    },
+    {
+     "start": 79.1,
+     "end": 79.8,
+     "word": " probabilities",
+     "prob": 0.997
+    },
+    {
+     "start": 79.8,
+     "end": 81.06,
+     "word": " for",
+     "prob": 0.99
+    },
+    {
+     "start": 81.06,
+     "end": 81.44,
+     "word": " male",
+     "prob": 0.983
+    },
+    {
+     "start": 81.44,
+     "end": 81.88,
+     "word": " versus",
+     "prob": 0.975
+    },
+    {
+     "start": 81.88,
+     "end": 82.34,
+     "word": " female",
+     "prob": 1.0
+    }
+   ]
+  },
+  {
+   "start": 82.34,
+   "end": 86.52,
+   "text": " and the number of people identified.",
+   "words": [
+    {
+     "start": 82.34,
+     "end": 82.92,
+     "word": " and",
+     "prob": 0.718
+    },
+    {
+     "start": 82.92,
+     "end": 83.2,
+     "word": " the",
+     "prob": 0.999
+    },
+    {
+     "start": 83.2,
+     "end": 83.5,
+     "word": " number",
+     "prob": 1.0
+    },
+    {
+     "start": 83.5,
+     "end": 83.76,
+     "word": " of",
+     "prob": 0.999
+    },
+    {
+     "start": 83.76,
+     "end": 84.2,
+     "word": " people",
+     "prob": 1.0
+    },
+    {
+     "start": 84.2,
+     "end": 86.52,
+     "word": " identified.",
+     "prob": 0.995
+    }
+   ]
+  },
+  {
+   "start": 87.2,
+   "end": 89.96,
+   "text": " And then we can get structured data directly out",
+   "words": [
+    {
+     "start": 87.2,
+     "end": 87.72,
+     "word": " And",
+     "prob": 0.608
+    },
+    {
+     "start": 87.72,
+     "end": 87.84,
+     "word": " then",
+     "prob": 0.994
+    },
+    {
+     "start": 87.84,
+     "end": 87.94,
+     "word": " we",
+     "prob": 0.98
+    },
+    {
+     "start": 87.94,
+     "end": 88.06,
+     "word": " can",
+     "prob": 0.998
+    },
+    {
+     "start": 88.06,
+     "end": 88.22,
+     "word": " get",
+     "prob": 0.998
+    },
+    {
+     "start": 88.22,
+     "end": 88.58,
+     "word": " structured",
+     "prob": 0.973
+    },
+    {
+     "start": 88.58,
+     "end": 88.94,
+     "word": " data",
+     "prob": 0.997
+    },
+    {
+     "start": 88.94,
+     "end": 89.42,
+     "word": " directly",
+     "prob": 0.994
+    },
+    {
+     "start": 89.42,
+     "end": 89.96,
+     "word": " out",
+     "prob": 0.996
+    }
+   ]
+  },
+  {
+   "start": 89.96,
+   "end": 93.44,
+   "text": " from ChatGPT and we're just reasoning over those images.",
+   "words": [
+    {
+     "start": 89.96,
+     "end": 90.48,
+     "word": " from",
+     "prob": 0.995
+    },
+    {
+     "start": 90.48,
+     "end": 91.08,
+     "word": " ChatGPT",
+     "prob": 0.091
+    },
+    {
+     "start": 91.08,
+     "end": 91.74,
+     "word": " and",
+     "prob": 0.561
+    },
+    {
+     "start": 91.74,
+     "end": 91.94,
+     "word": " we're",
+     "prob": 0.987
+    },
+    {
+     "start": 91.94,
+     "end": 92.08,
+     "word": " just",
+     "prob": 0.996
+    },
+    {
+     "start": 92.08,
+     "end": 92.52,
+     "word": " reasoning",
+     "prob": 0.998
+    },
+    {
+     "start": 92.52,
+     "end": 92.84,
+     "word": " over",
+     "prob": 0.998
+    },
+    {
+     "start": 92.84,
+     "end": 93.06,
+     "word": " those",
+     "prob": 0.996
+    },
+    {
+     "start": 93.06,
+     "end": 93.44,
+     "word": " images.",
+     "prob": 0.999
+    }
+   ]
+  },
+  {
+   "start": 93.92,
+   "end": 94.9,
+   "text": " So again, you can see here,",
+   "words": [
+    {
+     "start": 93.92,
+     "end": 93.94,
+     "word": " So",
+     "prob": 0.983
+    },
+    {
+     "start": 93.94,
+     "end": 94.24,
+     "word": " again,",
+     "prob": 0.875
+    },
+    {
+     "start": 94.24,
+     "end": 94.36,
+     "word": " you",
+     "prob": 0.998
+    },
+    {
+     "start": 94.36,
+     "end": 94.48,
+     "word": " can",
+     "prob": 1.0
+    },
+    {
+     "start": 94.48,
+     "end": 94.66,
+     "word": " see",
+     "prob": 0.999
+    },
+    {
+     "start": 94.66,
+     "end": 94.9,
+     "word": " here,",
+     "prob": 0.997
+    }
+   ]
+  },
+  {
+   "start": 95.1,
+   "end": 97.26,
+   "text": " it's worked out that this is how much",
+   "words": [
+    {
+     "start": 95.1,
+     "end": 95.4,
+     "word": " it's",
+     "prob": 0.991
+    },
+    {
+     "start": 95.4,
+     "end": 95.64,
+     "word": " worked",
+     "prob": 0.997
+    },
+    {
+     "start": 95.64,
+     "end": 95.92,
+     "word": " out",
+     "prob": 0.999
+    },
+    {
+     "start": 95.92,
+     "end": 96.22,
+     "word": " that",
+     "prob": 0.966
+    },
+    {
+     "start": 96.22,
+     "end": 96.68,
+     "word": " this",
+     "prob": 0.966
+    },
+    {
+     "start": 96.68,
+     "end": 96.86,
+     "word": " is",
+     "prob": 0.998
+    },
+    {
+     "start": 96.86,
+     "end": 97.1,
+     "word": " how",
+     "prob": 0.999
+    },
+    {
+     "start": 97.1,
+     "end": 97.26,
+     "word": " much",
+     "prob": 0.999
+    }
+   ]
+  },
+  {
+   "start": 97.26,
+   "end": 99.44,
+   "text": " it likely thinks the probability of male is",
+   "words": [
+    {
+     "start": 97.26,
+     "end": 97.44,
+     "word": " it",
+     "prob": 0.992
+    },
+    {
+     "start": 97.44,
+     "end": 97.68,
+     "word": " likely",
+     "prob": 0.996
+    },
+    {
+     "start": 97.68,
+     "end": 98.06,
+     "word": " thinks",
+     "prob": 0.991
+    },
+    {
+     "start": 98.06,
+     "end": 98.24,
+     "word": " the",
+     "prob": 0.993
+    },
+    {
+     "start": 98.24,
+     "end": 98.56,
+     "word": " probability",
+     "prob": 0.99
+    },
+    {
+     "start": 98.56,
+     "end": 98.82,
+     "word": " of",
+     "prob": 0.989
+    },
+    {
+     "start": 98.82,
+     "end": 98.98,
+     "word": " male",
+     "prob": 0.98
+    },
+    {
+     "start": 98.98,
+     "end": 99.44,
+     "word": " is",
+     "prob": 0.992
+    }
+   ]
+  },
+  {
+   "start": 99.44,
+   "end": 101.0,
+   "text": " versus the probability of female.",
+   "words": [
+    {
+     "start": 99.44,
+     "end": 99.78,
+     "word": " versus",
+     "prob": 0.77
+    },
+    {
+     "start": 99.78,
+     "end": 99.98,
+     "word": " the",
+     "prob": 0.993
+    },
+    {
+     "start": 99.98,
+     "end": 100.22,
+     "word": " probability",
+     "prob": 0.989
+    },
+    {
+     "start": 100.22,
+     "end": 100.66,
+     "word": " of",
+     "prob": 0.996
+    },
+    {
+     "start": 100.66,
+     "end": 101.0,
+     "word": " female.",
+     "prob": 0.998
+    }
+   ]
+  },
+  {
+   "start": 101.48,
+   "end": 103.08,
+   "text": " And then it's basically making a CSV",
+   "words": [
+    {
+     "start": 101.48,
+     "end": 101.6,
+     "word": " And",
+     "prob": 0.99
+    },
+    {
+     "start": 101.6,
+     "end": 101.76,
+     "word": " then",
+     "prob": 0.996
+    },
+    {
+     "start": 101.76,
+     "end": 102.12,
+     "word": " it's",
+     "prob": 0.971
+    },
+    {
+     "start": 102.12,
+     "end": 102.38,
+     "word": " basically",
+     "prob": 0.998
+    },
+    {
+     "start": 102.38,
+     "end": 102.68,
+     "word": " making",
+     "prob": 0.998
+    },
+    {
+     "start": 102.68,
+     "end": 102.88,
+     "word": " a",
+     "prob": 0.906
+    },
+    {
+     "start": 102.88,
+     "end": 103.08,
+     "word": " CSV",
+     "prob": 0.995
+    }
+   ]
+  },
+  {
+   "start": 103.08,
+   "end": 105.02,
+   "text": " and then it shows us we can download",
+   "words": [
+    {
+     "start": 103.08,
+     "end": 103.5,
+     "word": " and",
+     "prob": 0.457
+    },
+    {
+     "start": 103.5,
+     "end": 103.68,
+     "word": " then",
+     "prob": 0.989
+    },
+    {
+     "start": 103.68,
+     "end": 103.94,
+     "word": " it",
+     "prob": 0.991
+    },
+    {
+     "start": 103.94,
+     "end": 104.16,
+     "word": " shows",
+     "prob": 0.998
+    },
+    {
+     "start": 104.16,
+     "end": 104.36,
+     "word": " us",
+     "prob": 0.992
+    },
+    {
+     "start": 104.36,
+     "end": 104.5,
+     "word": " we",
+     "prob": 0.905
+    },
+    {
+     "start": 104.5,
+     "end": 104.66,
+     "word": " can",
+     "prob": 1.0
+    },
+    {
+     "start": 104.66,
+     "end": 105.02,
+     "word": " download",
+     "prob": 0.999
+    }
+   ]
+  },
+  {
+   "start": 105.02,
+   "end": 106.46,
+   "text": " this specific CSV here.",
+   "words": [
+    {
+     "start": 105.02,
+     "end": 105.32,
+     "word": " this",
+     "prob": 0.938
+    },
+    {
+     "start": 105.32,
+     "end": 105.76,
+     "word": " specific",
+     "prob": 0.999
+    },
+    {
+     "start": 105.76,
+     "end": 106.08,
+     "word": " CSV",
+     "prob": 0.996
+    },
+    {
+     "start": 106.08,
+     "end": 106.46,
+     "word": " here.",
+     "prob": 0.995
+    }
+   ]
+  },
+  {
+   "start": 107.14,
+   "end": 108.68,
+   "text": " So I've now got some structured data.",
+   "words": [
+    {
+     "start": 107.14,
+     "end": 107.38,
+     "word": " So",
+     "prob": 0.99
+    },
+    {
+     "start": 107.38,
+     "end": 107.48,
+     "word": " I've",
+     "prob": 0.945
+    },
+    {
+     "start": 107.48,
+     "end": 107.62,
+     "word": " now",
+     "prob": 0.996
+    },
+    {
+     "start": 107.62,
+     "end": 107.74,
+     "word": " got",
+     "prob": 0.997
+    },
+    {
+     "start": 107.74,
+     "end": 107.9,
+     "word": " some",
+     "prob": 1.0
+    },
+    {
+     "start": 107.9,
+     "end": 108.22,
+     "word": " structured",
+     "prob": 0.979
+    },
+    {
+     "start": 108.22,
+     "end": 108.68,
+     "word": " data.",
+     "prob": 0.999
+    }
+   ]
+  },
+  {
+   "start": 108.8,
+   "end": 110.12,
+   "text": " So you've got these person IDs,",
+   "words": [
+    {
+     "start": 108.8,
+     "end": 109.02,
+     "word": " So",
+     "prob": 0.989
+    },
+    {
+     "start": 109.02,
+     "end": 109.14,
+     "word": " you've",
+     "prob": 0.941
+    },
+    {
+     "start": 109.14,
+     "end": 109.18,
+     "word": " got",
+     "prob": 0.996
+    },
+    {
+     "start": 109.18,
+     "end": 109.36,
+     "word": " these",
+     "prob": 0.997
+    },
+    {
+     "start": 109.36,
+     "end": 109.74,
+     "word": " person",
+     "prob": 0.58
+    },
+    {
+     "start": 109.74,
+     "end": 110.12,
+     "word": " IDs,",
+     "prob": 0.983
+    }
+   ]
+  },
+  {
+   "start": 110.58,
+   "end": 112.04,
+   "text": " the estimated gender is unknown,",
+   "words": [
+    {
+     "start": 110.58,
+     "end": 110.72,
+     "word": " the",
+     "prob": 0.994
+    },
+    {
+     "start": 110.72,
+     "end": 111.12,
+     "word": " estimated",
+     "prob": 0.952
+    },
+    {
+     "start": 111.12,
+     "end": 111.44,
+     "word": " gender",
+     "prob": 0.993
+    },
+    {
+     "start": 111.44,
+     "end": 111.62,
+     "word": " is",
+     "prob": 0.986
+    },
+    {
+     "start": 111.62,
+     "end": 112.04,
+     "word": " unknown,",
+     "prob": 0.998
+    }
+   ]
+  },
+  {
+   "start": 112.42,
+   "end": 115.06,
+   "text": " but the probability of male is quite high.",
+   "words": [
+    {
+     "start": 112.42,
+     "end": 112.74,
+     "word": " but",
+     "prob": 0.995
+    },
+    {
+     "start": 112.74,
+     "end": 112.98,
+     "word": " the",
+     "prob": 0.895
+    },
+    {
+     "start": 112.98,
+     "end": 113.44,
+     "word": " probability",
+     "prob": 0.999
+    },
+    {
+     "start": 113.44,
+     "end": 113.78,
+     "word": " of",
+     "prob": 0.999
+    },
+    {
+     "start": 113.78,
+     "end": 114.04,
+     "word": " male",
+     "prob": 0.996
+    },
+    {
+     "start": 114.04,
+     "end": 114.32,
+     "word": " is",
+     "prob": 0.999
+    },
+    {
+     "start": 114.32,
+     "end": 114.58,
+     "word": " quite",
+     "prob": 0.999
+    },
+    {
+     "start": 114.58,
+     "end": 115.06,
+     "word": " high.",
+     "prob": 1.0
+    }
+   ]
+  },
+  {
+   "start": 115.69,
+   "end": 116.4,
+   "text": " And there you go.",
+   "words": [
+    {
+     "start": 115.69,
+     "end": 115.9,
+     "word": " And",
+     "prob": 0.392
+    },
+    {
+     "start": 115.9,
+     "end": 116.06,
+     "word": " there",
+     "prob": 0.986
+    },
+    {
+     "start": 116.06,
+     "end": 116.16,
+     "word": " you",
+     "prob": 0.994
+    },
+    {
+     "start": 116.16,
+     "end": 116.4,
+     "word": " go.",
+     "prob": 0.999
+    }
+   ]
+  },
+  {
+   "start": 116.8,
+   "end": 118.82,
+   "text": " Okay, so I'd recommend having a play around with this,",
+   "words": [
+    {
+     "start": 116.8,
+     "end": 116.96,
+     "word": " Okay,",
+     "prob": 0.932
+    },
+    {
+     "start": 117.04,
+     "end": 117.18,
+     "word": " so",
+     "prob": 0.992
+    },
+    {
+     "start": 117.18,
+     "end": 117.42,
+     "word": " I'd",
+     "prob": 0.946
+    },
+    {
+     "start": 117.42,
+     "end": 117.66,
+     "word": " recommend",
+     "prob": 0.999
+    },
+    {
+     "start": 117.66,
+     "end": 117.96,
+     "word": " having",
+     "prob": 0.997
+    },
+    {
+     "start": 117.96,
+     "end": 118.14,
+     "word": " a",
+     "prob": 0.992
+    },
+    {
+     "start": 118.14,
+     "end": 118.3,
+     "word": " play",
+     "prob": 0.986
+    },
+    {
+     "start": 118.3,
+     "end": 118.5,
+     "word": " around",
+     "prob": 0.972
+    },
+    {
+     "start": 118.5,
+     "end": 118.64,
+     "word": " with",
+     "prob": 0.998
+    },
+    {
+     "start": 118.64,
+     "end": 118.82,
+     "word": " this,",
+     "prob": 0.998
+    }
+   ]
+  },
+  {
+   "start": 118.96,
+   "end": 120.18,
+   "text": " maybe add in a couple of images",
+   "words": [
+    {
+     "start": 118.96,
+     "end": 119.04,
+     "word": " maybe",
+     "prob": 0.996
+    },
+    {
+     "start": 119.04,
+     "end": 119.36,
+     "word": " add",
+     "prob": 0.827
+    },
+    {
+     "start": 119.36,
+     "end": 119.48,
+     "word": " in",
+     "prob": 0.996
+    },
+    {
+     "start": 119.48,
+     "end": 119.58,
+     "word": " a",
+     "prob": 0.999
+    },
+    {
+     "start": 119.58,
+     "end": 119.72,
+     "word": " couple",
+     "prob": 1.0
+    },
+    {
+     "start": 119.72,
+     "end": 119.84,
+     "word": " of",
+     "prob": 0.998
+    },
+    {
+     "start": 119.84,
+     "end": 120.18,
+     "word": " images",
+     "prob": 1.0
+    }
+   ]
+  },
+  {
+   "start": 120.18,
+   "end": 123.52,
+   "text": " and try and get some structured data out from these images.",
+   "words": [
+    {
+     "start": 120.18,
+     "end": 120.8,
+     "word": " and",
+     "prob": 0.753
+    },
+    {
+     "start": 120.8,
+     "end": 121.02,
+     "word": " try",
+     "prob": 0.992
+    },
+    {
+     "start": 121.02,
+     "end": 121.1,
+     "word": " and",
+     "prob": 0.993
+    },
+    {
+     "start": 121.1,
+     "end": 121.2,
+     "word": " get",
+     "prob": 1.0
+    },
+    {
+     "start": 121.2,
+     "end": 121.4,
+     "word": " some",
+     "prob": 0.999
+    },
+    {
+     "start": 121.4,
+     "end": 121.8,
+     "word": " structured",
+     "prob": 0.98
+    },
+    {
+     "start": 121.8,
+     "end": 122.32,
+     "word": " data",
+     "prob": 0.996
+    },
+    {
+     "start": 122.32,
+     "end": 122.8,
+     "word": " out",
+     "prob": 0.995
+    },
+    {
+     "start": 122.8,
+     "end": 122.98,
+     "word": " from",
+     "prob": 0.998
+    },
+    {
+     "start": 122.98,
+     "end": 123.14,
+     "word": " these",
+     "prob": 0.998
+    },
+    {
+     "start": 123.14,
+     "end": 123.52,
+     "word": " images.",
+     "prob": 1.0
+    }
+   ]
+  },
+  {
+   "start": 123.98,
+   "end": 126.4,
+   "text": " That could include identifying different types of objects,",
+   "words": [
+    {
+     "start": 123.98,
+     "end": 124.2,
+     "word": " That",
+     "prob": 0.998
+    },
+    {
+     "start": 124.2,
+     "end": 124.34,
+     "word": " could",
+     "prob": 0.991
+    },
+    {
+     "start": 124.34,
+     "end": 124.68,
+     "word": " include",
+     "prob": 0.999
+    },
+    {
+     "start": 124.68,
+     "end": 125.24,
+     "word": " identifying",
+     "prob": 0.995
+    },
+    {
+     "start": 125.24,
+     "end": 125.52,
+     "word": " different",
+     "prob": 0.998
+    },
+    {
+     "start": 125.52,
+     "end": 125.78,
+     "word": " types",
+     "prob": 0.999
+    },
+    {
+     "start": 125.78,
+     "end": 125.96,
+     "word": " of",
+     "prob": 0.999
+    },
+    {
+     "start": 125.96,
+     "end": 126.4,
+     "word": " objects,",
+     "prob": 0.997
+    }
+   ]
+  },
+  {
+   "start": 126.72,
+   "end": 128.84,
+   "text": " people, places, or emotions.",
+   "words": [
+    {
+     "start": 126.72,
+     "end": 127.12,
+     "word": " people,",
+     "prob": 0.999
+    },
+    {
+     "start": 127.4,
+     "end": 127.8,
+     "word": " places,",
+     "prob": 0.999
+    },
+    {
+     "start": 128.18,
+     "end": 128.42,
+     "word": " or",
+     "prob": 0.999
+    },
+    {
+     "start": 128.42,
+     "end": 128.84,
+     "word": " emotions.",
+     "prob": 0.999
+    }
+   ]
+  },
+  {
+   "start": 129.4,
+   "end": 130.5,
+   "text": " Cool, I'll see you in the next one.",
+   "words": [
+    {
+     "start": 129.4,
+     "end": 129.54,
+     "word": " Cool,",
+     "prob": 0.997
+    },
+    {
+     "start": 129.78,
+     "end": 129.92,
+     "word": " I'll",
+     "prob": 0.997
+    },
+    {
+     "start": 129.92,
+     "end": 130.04,
+     "word": " see",
+     "prob": 0.999
+    },
+    {
+     "start": 130.04,
+     "end": 130.1,
+     "word": " you",
+     "prob": 0.924
+    },
+    {
+     "start": 130.1,
+     "end": 130.16,
+     "word": " in",
+     "prob": 0.831
+    },
+    {
+     "start": 130.16,
+     "end": 130.18,
+     "word": " the",
+     "prob": 0.998
+    },
+    {
+     "start": 130.18,
+     "end": 130.3,
+     "word": " next",
+     "prob": 1.0
+    },
+    {
+     "start": 130.3,
+     "end": 130.5,
+     "word": " one.",
+     "prob": 0.999
+    }
+   ]
+  }
+ ]
+}

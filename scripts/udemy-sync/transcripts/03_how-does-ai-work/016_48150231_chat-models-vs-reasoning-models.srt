@@ -1,0 +1,631 @@
+1
+00:00:00,000 --> 00:00:01,900
+Hey, in this video, we're gonna talk about the difference
+
+2
+00:00:01,900 --> 00:00:04,020
+between chat models and reasoning models.
+
+3
+00:00:04,360 --> 00:00:06,280
+We'll learn about why you should use different types
+
+4
+00:00:06,280 --> 00:00:07,780
+of models depending upon the task.
+
+5
+00:00:08,020 --> 00:00:09,380
+So firstly, chat models.
+
+6
+00:00:09,660 --> 00:00:11,820
+If you've ever used something like ChatGPT,
+
+7
+00:00:12,340 --> 00:00:13,380
+then you've used a chat model.
+
+8
+00:00:13,600 --> 00:00:15,740
+A chat model is basically a large language model
+
+9
+00:00:15,740 --> 00:00:18,440
+that uses a sequence of messages in a message history
+
+10
+00:00:18,440 --> 00:00:21,280
+as inputs and returns messages as outputs.
+
+11
+00:00:21,800 --> 00:00:23,140
+On the left here, you can see we've got
+
+12
+00:00:23,140 --> 00:00:26,080
+what is digital marketing and that is a user message.
+
+13
+00:00:26,660 --> 00:00:29,640
+You can also see that we've got a response from OpenAI.
+
+14
+00:00:30,080 --> 00:00:31,480
+That is an AI message.
+
+15
+00:00:31,960 --> 00:00:33,280
+There are three different types of messages
+
+16
+00:00:33,280 --> 00:00:34,940
+that generally chat models expose.
+
+17
+00:00:35,240 --> 00:00:36,700
+There's the developer system message.
+
+18
+00:00:37,240 --> 00:00:38,300
+There's the user messages,
+
+19
+00:00:38,440 --> 00:00:40,380
+which are the messages that you would generally type.
+
+20
+00:00:40,740 --> 00:00:42,020
+And then there's the AI messages
+
+21
+00:00:42,020 --> 00:00:43,760
+that come back from a chat model.
+
+22
+00:00:44,000 --> 00:00:45,760
+There are lots of large language model providers
+
+23
+00:00:45,760 --> 00:00:46,480
+to choose from.
+
+24
+00:00:46,760 --> 00:00:49,700
+For example, we have OpenAI with their GPT-X series.
+
+25
+00:00:49,940 --> 00:00:51,060
+We also have Anthropic,
+
+26
+00:00:51,160 --> 00:00:53,540
+which offers Claude Sonnet and Claude Opus models.
+
+27
+00:00:53,540 --> 00:00:56,660
+There is also Meta with their free open source models,
+
+28
+00:00:56,780 --> 00:00:57,980
+which are the Llama models.
+
+29
+00:00:58,520 --> 00:01:00,060
+There is also Google Gemini.
+
+30
+00:01:00,380 --> 00:01:02,060
+They have both a Google Gemini Pro
+
+31
+00:01:02,060 --> 00:01:04,380
+and a Google Gemini Flash series of models.
+
+32
+00:01:04,660 --> 00:01:06,180
+There's Mistral and many more.
+
+33
+00:01:06,360 --> 00:01:07,740
+Some of the characteristics that you'll find
+
+34
+00:01:07,740 --> 00:01:09,940
+with chat models is that they are actually very quick.
+
+35
+00:01:10,260 --> 00:01:11,320
+They have low latency.
+
+36
+00:01:11,960 --> 00:01:13,140
+These models respond quickly
+
+37
+00:01:13,140 --> 00:01:15,920
+and often stream the tokens to you word by word.
+
+38
+00:01:16,480 --> 00:01:18,640
+They're very good in terms of the reason capabilities.
+
+39
+00:01:19,120 --> 00:01:21,720
+For example, Claude or GPT-4O are able to solve
+
+40
+00:01:21,720 --> 00:01:23,680
+easy to medium difficulty tasks.
+
+41
+00:01:23,980 --> 00:01:25,960
+Reasoning models are a newer type of model
+
+42
+00:01:25,960 --> 00:01:28,460
+that uses something called test time compute scaling.
+
+43
+00:01:28,800 --> 00:01:31,440
+And basically, you can think of test time compute scaling
+
+44
+00:01:31,440 --> 00:01:33,500
+as basically allocating more time
+
+45
+00:01:33,500 --> 00:01:34,880
+to thinking and reasoning
+
+46
+00:01:34,880 --> 00:01:37,440
+before returning the result or the response.
+
+47
+00:01:38,020 --> 00:01:41,340
+So in general, these models take a lot longer
+
+48
+00:01:41,340 --> 00:01:43,780
+because they're actually allocating time at execution
+
+49
+00:01:43,780 --> 00:01:45,380
+to think through the problem rationally
+
+50
+00:01:45,840 --> 00:01:48,020
+and then coming up with an overall solution.
+
+51
+00:01:48,720 --> 00:01:49,540
+Let's have a look at this
+
+52
+00:01:49,540 --> 00:01:51,480
+so we can see that it's got multiple turns
+
+53
+00:01:51,480 --> 00:01:54,240
+and it has a bit of reasoning.
+
+54
+00:01:54,620 --> 00:01:56,660
+That output then goes into the second turn
+
+55
+00:01:56,660 --> 00:01:58,100
+which then has some input
+
+56
+00:01:58,100 --> 00:01:59,780
+and then that goes into the reasoning
+
+57
+00:01:59,780 --> 00:02:01,440
+which then produces an output.
+
+58
+00:02:01,540 --> 00:02:04,040
+So you can see it's a multi-turn experience
+
+59
+00:02:04,040 --> 00:02:07,020
+and basically that means that it's got more thinking time.
+
+60
+00:02:07,240 --> 00:02:08,320
+So when you ask it a question,
+
+61
+00:02:08,600 --> 00:02:09,940
+we'll allocate more time
+
+62
+00:02:09,940 --> 00:02:13,120
+before actually responding to you or your query.
+
+63
+00:02:13,240 --> 00:02:14,820
+So the kind of characteristics you'll get
+
+64
+00:02:14,820 --> 00:02:17,800
+when you're using a reasoning model is increased latency.
+
+65
+00:02:18,280 --> 00:02:20,580
+Now, OpenAI, which have released GPT-5
+
+66
+00:02:20,580 --> 00:02:22,680
+have two modes for using this.
+
+67
+00:02:23,200 --> 00:02:25,800
+There is the fast mode and there is the thinking mode.
+
+68
+00:02:26,120 --> 00:02:27,920
+You'll find that if you use the thinking mode,
+
+69
+00:02:27,920 --> 00:02:29,840
+it has additional latency.
+
+70
+00:02:30,120 --> 00:02:31,420
+It takes longer to come back
+
+71
+00:02:31,420 --> 00:02:33,340
+and longer for you to get that response.
+
+72
+00:02:33,760 --> 00:02:36,400
+Now, due to this test time compute reasoning,
+
+73
+00:02:37,120 --> 00:02:39,980
+these models will definitely outperform chat models.
+
+74
+00:02:40,240 --> 00:02:42,780
+If you have a very hard problem
+
+75
+00:02:42,780 --> 00:02:43,840
+or you're not sure
+
+76
+00:02:44,300 --> 00:02:46,040
+or you don't mind suffering
+
+77
+00:02:46,040 --> 00:02:48,560
+with some additional time for the response to come back,
+
+78
+00:02:48,820 --> 00:02:49,940
+if you want to make sure
+
+79
+00:02:49,940 --> 00:02:51,540
+and it's a very important piece of work,
+
+80
+00:02:52,040 --> 00:02:53,560
+definitely use a reasoning model.
+
+81
+00:02:53,820 --> 00:02:56,500
+They have more time that they spend on the problem
+
+82
+00:02:56,500 --> 00:02:58,540
+and they will give you more accurate results.
+
+83
+00:02:59,000 --> 00:03:00,860
+Realize that there's always a trade-off here
+
+84
+00:03:00,860 --> 00:03:04,000
+and you are spending longer waiting for the AI model
+
+85
+00:03:04,000 --> 00:03:04,880
+to get back to you.
+
+86
+00:03:05,020 --> 00:03:06,960
+Here are some examples of when you should use
+
+87
+00:03:06,960 --> 00:03:08,540
+a chat model versus a reasoning model.
+
+88
+00:03:08,760 --> 00:03:10,380
+So for example, when we're doing content,
+
+89
+00:03:10,560 --> 00:03:11,500
+quick emails and posts,
+
+90
+00:03:11,960 --> 00:03:13,540
+but when we might use a reasoning model
+
+91
+00:03:13,540 --> 00:03:16,020
+is technical documentation or research analysis.
+
+92
+00:03:16,640 --> 00:03:18,120
+For example, if we look at problem solving,
+
+93
+00:03:18,120 --> 00:03:20,240
+basic calculations or simple Q&A,
+
+94
+00:03:20,480 --> 00:03:21,860
+but if we were using a reasoning model,
+
+95
+00:03:22,040 --> 00:03:23,800
+maybe we'd use that for multi-step debugging.
+
+96
+00:03:24,120 --> 00:03:25,260
+Okay, so you now know the difference
+
+97
+00:03:25,260 --> 00:03:27,020
+between a chat model and a reasoning model.
+
+98
+00:03:27,280 --> 00:03:28,540
+Let's have a look at how we can do this
+
+99
+00:03:28,540 --> 00:03:29,300
+inside of OpenAI.
+
+100
+00:03:29,660 --> 00:03:30,940
+Go to chatgbt.com
+
+101
+00:03:30,940 --> 00:03:33,360
+and then if you go and click in the top left,
+
+102
+00:03:33,520 --> 00:03:36,900
+you can see that we have the option to use GPT-5.
+
+103
+00:03:37,240 --> 00:03:39,360
+We've either auto fast thinking
+
+104
+00:03:39,360 --> 00:03:41,000
+or if you even upgrade even further,
+
+105
+00:03:41,380 --> 00:03:42,540
+you can get a pro,
+
+106
+00:03:42,720 --> 00:03:44,060
+which is research grade intelligence.
+
+107
+00:03:44,760 --> 00:03:47,660
+You can see that auto will basically do model routing
+
+108
+00:03:47,660 --> 00:03:49,380
+where look at your query and decide,
+
+109
+00:03:49,800 --> 00:03:52,480
+is it gonna be using a fast inference model,
+
+110
+00:03:52,620 --> 00:03:53,260
+so a chat model,
+
+111
+00:03:53,460 --> 00:03:55,360
+and also we have the option to do thinking.
+
+112
+00:03:55,660 --> 00:03:56,520
+So if I say thinking,
+
+113
+00:03:56,780 --> 00:04:00,220
+and then what we can type is what is data science?
+
+114
+00:04:01,420 --> 00:04:02,540
+And then what you'll see is
+
+115
+00:04:02,540 --> 00:04:04,320
+when we then submit our query,
+
+116
+00:04:04,600 --> 00:04:06,640
+you can see that chatgbt is thinking.
+
+117
+00:04:08,260 --> 00:04:09,820
+If you click on the thinking,
+
+118
+00:04:09,840 --> 00:04:11,740
+you'll see that you can actually see
+
+119
+00:04:11,740 --> 00:04:14,320
+the thoughts and the reasoning tokens
+
+120
+00:04:14,320 --> 00:04:16,080
+that chatgbt decided to do.
+
+121
+00:04:16,080 --> 00:04:17,600
+Then we get our response.
+
+122
+00:04:17,960 --> 00:04:19,980
+So we had to wait seven seconds
+
+123
+00:04:19,980 --> 00:04:21,840
+for the thinking model
+
+124
+00:04:21,840 --> 00:04:24,360
+to come back with a response for us.
+
+125
+00:04:24,780 --> 00:04:26,680
+If we contrast this with fast
+
+126
+00:04:26,680 --> 00:04:28,480
+and I go and load a fast model,
+
+127
+00:04:28,860 --> 00:04:30,500
+and then I'm gonna keep in the same conversation
+
+128
+00:04:30,500 --> 00:04:32,820
+and say what is data science?
+
+129
+00:04:35,260 --> 00:04:37,980
+You'll now see that we don't have any thinking tokens.
+
+130
+00:04:38,140 --> 00:04:40,040
+We basically get an immediate response.
+
+131
+00:04:40,460 --> 00:04:42,980
+However, the model isn't thinking about
+
+132
+00:04:42,980 --> 00:04:45,420
+how best to service our query.
+
+133
+00:04:45,740 --> 00:04:47,080
+So that is how you can switch.
+
+134
+00:04:47,080 --> 00:04:48,280
+Now, obviously, if you want,
+
+135
+00:04:48,380 --> 00:04:49,920
+you can stick on auto mode,
+
+136
+00:04:49,980 --> 00:04:53,620
+which will look at how complicated your query is,
+
+137
+00:04:53,620 --> 00:04:55,960
+and it will decide whether to use a fast model
+
+138
+00:04:55,960 --> 00:04:58,460
+or whether to use a thinking-based reasoning model.
+
+139
+00:04:58,620 --> 00:04:59,320
+For best practices,
+
+140
+00:04:59,940 --> 00:05:02,540
+I would recommend for tasks that require increased accuracy,
+
+141
+00:05:02,680 --> 00:05:04,720
+or you must make sure that the error is less,
+
+142
+00:05:05,220 --> 00:05:06,220
+use reasoning models.
+
+143
+00:05:06,700 --> 00:05:09,220
+For tasks such as content generation or copywriting,
+
+144
+00:05:09,460 --> 00:05:10,980
+you can use a smaller chat model.
+
+145
+00:05:11,620 --> 00:05:13,900
+Reasoning models also take time to respond.
+
+146
+00:05:14,220 --> 00:05:16,020
+So you can also have a reasoning model
+
+147
+00:05:16,020 --> 00:05:17,960
+working on a task for a couple of minutes
+
+148
+00:05:17,960 --> 00:05:22,160
+whilst you're also using Claude or GPT-40 alongside that.
+
+149
+00:05:22,500 --> 00:05:23,780
+So don't wait two to three minutes
+
+150
+00:05:23,780 --> 00:05:24,820
+for the task to complete.
+
+151
+00:05:25,260 --> 00:05:26,420
+Go and work on another task
+
+152
+00:05:26,420 --> 00:05:27,940
+whilst you're waiting for the reasoning model
+
+153
+00:05:27,940 --> 00:05:29,020
+to get back to you.
+
+154
+00:05:29,180 --> 00:05:30,220
+In the next section of the course,
+
+155
+00:05:30,220 --> 00:05:32,060
+we'll look at how you can use standard practices
+
+156
+00:05:32,060 --> 00:05:34,700
+such as list generation, sentiment analysis,
+
+157
+00:05:35,040 --> 00:05:36,900
+and writing clean and clear instruction
+
+158
+00:05:36,900 --> 00:05:38,860
+to make sure that you get the most out of these models.

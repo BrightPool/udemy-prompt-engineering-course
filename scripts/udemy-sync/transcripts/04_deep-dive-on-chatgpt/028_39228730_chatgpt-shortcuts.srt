@@ -1,0 +1,55 @@
+1
+00:00:00,000 --> 00:00:03,500
+You can easily use shortcuts inside of the ChatGPT user interface
+
+2
+00:00:03,500 --> 00:00:05,260
+so that you can go and do things
+
+3
+00:00:05,260 --> 00:00:07,180
+such as toggle the sidebar like this,
+
+4
+00:00:08,680 --> 00:00:11,400
+or even have a look at all the individual shortcuts.
+
+5
+00:00:12,080 --> 00:00:13,900
+Hit Control, forward slash,
+
+6
+00:00:14,220 --> 00:00:16,720
+or if you're on Mac, hit Command, forward slash.
+
+7
+00:00:17,220 --> 00:00:17,980
+You will then be presented
+
+8
+00:00:17,980 --> 00:00:19,860
+with something called keyboard shortcuts.
+
+9
+00:00:20,360 --> 00:00:22,480
+As you can see, I was just toggling the sidebar.
+
+10
+00:00:23,100 --> 00:00:25,380
+We can also do other things such as deleting the chat,
+
+11
+00:00:25,840 --> 00:00:28,540
+opening a new chat, focusing the chat input,
+
+12
+00:00:28,540 --> 00:00:31,640
+or even copying the last response or the last code block.
+
+13
+00:00:32,140 --> 00:00:33,140
+Hopefully, this will help you
+
+14
+00:00:33,140 --> 00:00:34,720
+to speed up your ChatGPT workplace.

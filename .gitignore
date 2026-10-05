@@ -3,7 +3,9 @@
 **/**.pdf
 **/**.csv
 **/**.mkv
-**/**.mp3        
+**/**.mp4
+**/**.mp3
+scripts/udemy-sync/videos/
 **/**.jsonl
 **/**.txt
 **/out/**
@@ -34,3 +36,7 @@ docs/
 !building_ai_agents/resources/prompts/*
 !ai_text_model_projects/reverse_engineering_a_publication/all_text.txt
 !ai_text_model_projects/reverse_engineering_a_publication/Lenny Newsletter - Sheet1.csv
+.playwright-cli/
+__pycache__/
+decks/**/.build/
+decks/*/previews/

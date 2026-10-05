@@ -1,0 +1,215 @@
+1
+00:00:00,000 --> 00:00:01,300
+Earlier on in the ChatGPT section,
+
+2
+00:00:01,360 --> 00:00:03,500
+we had a look at how we can easily generate images
+
+3
+00:00:03,500 --> 00:00:06,260
+from prompts and also by using reference images.
+
+4
+00:00:07,080 --> 00:00:09,220
+Now, I want to also make a point here
+
+5
+00:00:09,220 --> 00:00:12,440
+that ChatGPT Vision also has reasoning capabilities.
+
+6
+00:00:13,000 --> 00:00:14,880
+So for example, we can put in the original portrait
+
+7
+00:00:14,880 --> 00:00:17,240
+of my image and we can ask a question like,
+
+8
+00:00:17,500 --> 00:00:19,800
+how many fingers am I holding up?
+
+9
+00:00:20,380 --> 00:00:23,260
+And ChatGPT is able to not only generate images
+
+10
+00:00:23,260 --> 00:00:25,300
+from images, but it's also able to provide you
+
+11
+00:00:25,300 --> 00:00:27,940
+with cognitive reasoning on specific images.
+
+12
+00:00:27,940 --> 00:00:30,740
+So now ChatGPT is analysing the images
+
+13
+00:00:30,740 --> 00:00:32,880
+and it shows us that we're holding up two fingers
+
+14
+00:00:32,880 --> 00:00:34,380
+in a classic peace sign.
+
+15
+00:00:34,880 --> 00:00:36,120
+Let's also have a look on Google.
+
+16
+00:00:36,340 --> 00:00:37,640
+So I'm going to go and get an image
+
+17
+00:00:37,640 --> 00:00:39,480
+of several men working in the world
+
+18
+00:00:39,480 --> 00:00:41,700
+and seeing if it can identify both the gender
+
+19
+00:00:41,700 --> 00:00:43,800
+and how many people there are in this image.
+
+20
+00:00:44,420 --> 00:00:45,680
+So then I'm going to go back to ChatGPT,
+
+21
+00:00:45,920 --> 00:00:46,960
+I'm going to click on the plus sign,
+
+22
+00:00:47,380 --> 00:00:49,820
+upload from computer, going to go into my downloads,
+
+23
+00:00:50,420 --> 00:00:51,400
+and then I'm going to say,
+
+24
+00:00:51,720 --> 00:00:54,440
+how many people are in this image
+
+25
+00:00:56,000 --> 00:00:57,660
+and what gender are they?
+
+26
+00:01:01,700 --> 00:01:03,100
+Okay, so ChatGPT has worked out
+
+27
+00:01:03,100 --> 00:01:04,620
+that there are two people in the image.
+
+28
+00:01:04,980 --> 00:01:07,220
+So it can't really identify the gender,
+
+29
+00:01:07,220 --> 00:01:09,800
+but it has been able to identify that there are two people.
+
+30
+00:01:10,440 --> 00:01:12,560
+We could also tell ChatGPT to give this
+
+31
+00:01:12,560 --> 00:01:14,180
+in more of a structured data form.
+
+32
+00:01:14,320 --> 00:01:18,420
+So I could say, could you output this as a CSV
+
+33
+00:01:18,820 --> 00:01:22,340
+with probabilities for male versus female
+
+34
+00:01:22,340 --> 00:01:26,520
+and the number of people identified.
+
+35
+00:01:27,200 --> 00:01:29,960
+And then we can get structured data directly out
+
+36
+00:01:29,960 --> 00:01:33,440
+from ChatGPT and we're just reasoning over those images.
+
+37
+00:01:33,920 --> 00:01:34,900
+So again, you can see here,
+
+38
+00:01:35,100 --> 00:01:37,260
+it's worked out that this is how much
+
+39
+00:01:37,260 --> 00:01:39,440
+it likely thinks the probability of male is
+
+40
+00:01:39,440 --> 00:01:41,000
+versus the probability of female.
+
+41
+00:01:41,480 --> 00:01:43,080
+And then it's basically making a CSV
+
+42
+00:01:43,080 --> 00:01:45,020
+and then it shows us we can download
+
+43
+00:01:45,020 --> 00:01:46,460
+this specific CSV here.
+
+44
+00:01:47,140 --> 00:01:48,680
+So I've now got some structured data.
+
+45
+00:01:48,800 --> 00:01:50,120
+So you've got these person IDs,
+
+46
+00:01:50,580 --> 00:01:52,040
+the estimated gender is unknown,
+
+47
+00:01:52,420 --> 00:01:55,060
+but the probability of male is quite high.
+
+48
+00:01:55,690 --> 00:01:56,400
+And there you go.
+
+49
+00:01:56,800 --> 00:01:58,820
+Okay, so I'd recommend having a play around with this,
+
+50
+00:01:58,960 --> 00:02:00,180
+maybe add in a couple of images
+
+51
+00:02:00,180 --> 00:02:03,520
+and try and get some structured data out from these images.
+
+52
+00:02:03,980 --> 00:02:06,400
+That could include identifying different types of objects,
+
+53
+00:02:06,720 --> 00:02:08,840
+people, places, or emotions.
+
+54
+00:02:09,400 --> 00:02:10,500
+Cool, I'll see you in the next one.

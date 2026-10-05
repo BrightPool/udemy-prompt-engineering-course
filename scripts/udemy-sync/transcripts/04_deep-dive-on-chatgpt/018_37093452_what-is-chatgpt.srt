@@ -1,0 +1,371 @@
+1
+00:00:00,000 --> 00:00:02,580
+I'm going to walk you through what is ChatGPT.
+
+2
+00:00:02,880 --> 00:00:06,120
+This is the original AI model that everyone knows and loves.
+
+3
+00:00:06,860 --> 00:00:09,000
+So you've probably heard of it, but we're going to walk you through it anyway.
+
+4
+00:00:09,600 --> 00:00:11,500
+What would be the next word in the sentence?
+
+5
+00:00:11,920 --> 00:00:14,420
+The students open their, what?
+
+6
+00:00:15,160 --> 00:00:18,860
+Could be books, could open their laptops, they could open their exams, their minds.
+
+7
+00:00:19,340 --> 00:00:23,100
+There's a lot of different words that could come next in that sentence.
+
+8
+00:00:23,380 --> 00:00:27,760
+And we can predict what word might come next based on the context in
+
+9
+00:00:27,760 --> 00:00:29,080
+which we're seeing the sentence.
+
+10
+00:00:29,780 --> 00:00:34,120
+And so can ChatGPT, and that is essentially how these models work.
+
+11
+00:00:34,300 --> 00:00:39,740
+They have figured out the probability of what word comes next based on all of the
+
+12
+00:00:39,740 --> 00:00:41,860
+different words that they've seen on the internet.
+
+13
+00:00:42,640 --> 00:00:46,040
+And, you know, without getting too technical, they have those probabilities
+
+14
+00:00:46,040 --> 00:00:50,280
+baked into the model and they can decide based on the context, based on
+
+15
+00:00:50,280 --> 00:00:53,100
+the prompt that you give them, what word comes next.
+
+16
+00:00:53,260 --> 00:00:55,460
+And they specifically use tokens rather than words.
+
+17
+00:00:55,920 --> 00:00:59,660
+A token is about three fourths of a word on average, a lot of some differences
+
+18
+00:00:59,660 --> 00:01:01,280
+in how they split those words up.
+
+19
+00:01:01,460 --> 00:01:04,800
+But the model is trained until it can predict the next token.
+
+20
+00:01:05,240 --> 00:01:10,220
+And then when it knows on average what the right tokens are to come next in the
+
+21
+00:01:10,220 --> 00:01:14,000
+sequence, then you can give it a new sequence and figure out what comes next
+
+22
+00:01:14,000 --> 00:01:17,860
+after that and through understanding that through being able to predict the next
+
+23
+00:01:17,860 --> 00:01:21,720
+token, you have to understand quite a lot about how the world works because
+
+24
+00:01:21,720 --> 00:01:23,500
+you need to know how things are associated.
+
+25
+00:01:23,500 --> 00:01:27,040
+And therefore we get the magic that is a large language model.
+
+26
+00:01:27,240 --> 00:01:31,780
+ChancherBT specifically is based on GBT4, which is a transformer model.
+
+27
+00:01:32,380 --> 00:01:36,060
+Transformer models coming from the attention is all you need paper, which
+
+28
+00:01:36,060 --> 00:01:39,660
+is a famous paper, but I'm not going to run you through too much of the jargon
+
+29
+00:01:39,660 --> 00:01:41,860
+here, it won't mean too much to you.
+
+30
+00:01:42,040 --> 00:01:46,320
+Just need to know is that this is, you know, the current kind of state of
+
+31
+00:01:46,320 --> 00:01:48,220
+the art of this type of model.
+
+32
+00:01:48,440 --> 00:01:51,760
+We don't have another type of model other than transformer models
+
+33
+00:01:51,760 --> 00:01:53,080
+that are doing as good.
+
+34
+00:01:53,080 --> 00:01:56,720
+But, you know, scientists are working on other types of architecture as well.
+
+35
+00:01:57,120 --> 00:01:58,560
+So how did they train ChancherBT?
+
+36
+00:01:58,720 --> 00:02:02,220
+Well, it wasn't just the transformer model that was pretty good on its own.
+
+37
+00:02:02,220 --> 00:02:06,880
+And that's where we had GBT3, but to get ChancherBT to actually kind of make
+
+38
+00:02:06,880 --> 00:02:09,600
+it behave like an assistant, we had to have additional steps.
+
+39
+00:02:10,060 --> 00:02:14,400
+So after training the initial, you know, predict the next token model,
+
+40
+00:02:14,740 --> 00:02:18,760
+the foundation model, then they had to do some fine tuning on top.
+
+41
+00:02:18,760 --> 00:02:23,960
+They would have humans figure out which outputs were best and worst
+
+42
+00:02:23,960 --> 00:02:27,660
+from different questions, and then they would use that to reward the model.
+
+43
+00:02:27,920 --> 00:02:33,060
+So they would predict tokens that humans thought were good answers to questions.
+
+44
+00:02:33,340 --> 00:02:38,480
+Then they had to develop a type of policy reward model, PPO, reinforcement
+
+45
+00:02:38,480 --> 00:02:42,200
+learning, and what that would allow you to do is take a prompt, the sample
+
+46
+00:02:42,200 --> 00:02:47,240
+from the dataset, use that PPO model to generate the output, and then
+
+47
+00:02:47,240 --> 00:02:51,120
+the reward model calculates a reward for the output, and the reward is
+
+48
+00:02:51,120 --> 00:02:53,200
+used to update the policy using PPO.
+
+49
+00:02:53,700 --> 00:02:56,820
+So this is kind of an additional set of reinforcement learning on top.
+
+50
+00:02:57,600 --> 00:03:02,240
+Again, technical jargon, but all that means really is that you have the
+
+51
+00:03:02,240 --> 00:03:05,900
+transformer model that's trained on the internet, then you fine tune it
+
+52
+00:03:05,900 --> 00:03:11,100
+based on what people find helpful and useful in terms of responses, and
+
+53
+00:03:11,100 --> 00:03:15,180
+then you optimize it based on policies so that when you get the results,
+
+54
+00:03:15,180 --> 00:03:19,680
+you can be sure that they're much better on average than what you would
+
+55
+00:03:19,680 --> 00:03:21,380
+get if you just use the foundation model.
+
+56
+00:03:21,880 --> 00:03:26,040
+It was created by OpenAI, but you can access it at chat.openai.com or
+
+57
+00:03:26,040 --> 00:03:27,180
+chatgbt.com.
+
+58
+00:03:27,620 --> 00:03:31,180
+They have a free version that you can try out and the free version is
+
+59
+00:03:31,180 --> 00:03:34,520
+pretty comprehensive and generous, but you can also buy a plus or pro
+
+60
+00:03:34,520 --> 00:03:37,980
+version, the pro version is $200 a month currently, and you get some
+
+61
+00:03:37,980 --> 00:03:39,680
+additional powerful models for that.
+
+62
+00:03:39,840 --> 00:03:43,740
+The features are numerous and we're not going to cover all of them here,
+
+63
+00:03:43,740 --> 00:03:47,940
+but the main things that we find are useful day to day are the chat
+
+64
+00:03:47,940 --> 00:03:51,620
+history, so being able to see what are the previous chats that you've
+
+65
+00:03:51,620 --> 00:03:53,860
+had, just the ability to generate text.
+
+66
+00:03:54,100 --> 00:03:58,180
+So you can ask it for a blog post or explain how the solar system
+
+67
+00:03:58,180 --> 00:04:00,520
+was made or whatever it is you're trying to generate.
+
+68
+00:04:00,960 --> 00:04:05,660
+And then also image generation is built into chatgbt through Dali.
+
+69
+00:04:05,900 --> 00:04:08,540
+It has the ability to browse the web as we can get up to date
+
+70
+00:04:08,540 --> 00:04:10,280
+current information, which is really powerful.
+
+71
+00:04:10,960 --> 00:04:13,020
+The models themselves, a little bit confusing.
+
+72
+00:04:13,020 --> 00:04:16,080
+There's lots of different models and they change all the time, but
+
+73
+00:04:16,080 --> 00:04:19,680
+broadly speaking, we have GPT-40, which is the workhorse.
+
+74
+00:04:19,960 --> 00:04:23,400
+You know, they're really good, useful and scalable model that most
+
+75
+00:04:23,400 --> 00:04:24,740
+people use for most questions.
+
+76
+00:04:25,280 --> 00:04:28,600
+They have some of the research preview type models like GPT-4.5,
+
+77
+00:04:28,600 --> 00:04:29,940
+which is a little bit more creative.
+
+78
+00:04:30,520 --> 00:04:34,240
+And then you have some of the reasoning models like 01, 03 mini, 01
+
+79
+00:04:34,240 --> 00:04:37,300
+pro mode, and these are the ones where they think first before
+
+80
+00:04:37,300 --> 00:04:38,160
+giving you a response.
+
+81
+00:04:38,460 --> 00:04:41,860
+So they're pretty good for mathematical questions or things where you
+
+82
+00:04:41,860 --> 00:04:42,720
+need a lot of logic.
+
+83
+00:04:43,020 --> 00:04:45,740
+There's also custom GPTs and you can think of these as custom
+
+84
+00:04:45,740 --> 00:04:50,640
+prompts where they've given these versions of chatgbt a set of tools
+
+85
+00:04:50,640 --> 00:04:53,640
+they can use, maybe with the Expedia one, you can book a trip, but
+
+86
+00:04:53,640 --> 00:04:57,600
+also they have a certain set of instructions tells them how to behave.
+
+87
+00:04:57,880 --> 00:05:01,140
+Things I use chatgbt for most, I would say creating blog posts.
+
+88
+00:05:01,420 --> 00:05:04,360
+They have a canvas editor now, which is quite useful.
+
+89
+00:05:04,800 --> 00:05:07,260
+Creating social media posts, particularly if you want to create
+
+90
+00:05:07,260 --> 00:05:10,760
+them in a specific style, it's very good at adhering to specific styles.
+
+91
+00:05:11,020 --> 00:05:12,640
+And then automating tasks as well.
+
+92
+00:05:12,640 --> 00:05:17,140
+Whenever I need to do something formal, fill in documentation or do my taxes
+
+93
+00:05:17,140 --> 00:05:21,800
+or peel a parking ticket, then I tend to use chatgbt for that.
