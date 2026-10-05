@@ -66,7 +66,7 @@ If you are new to the repo, pick a track below:
 | Core prompting and OpenAI | `openai_features_and_functionality/`, `advanced_text_model_techniques/` | Responses API, structured outputs, tool calling, streaming, async requests, few-shot prompting, ReAct, self-consistency, prompt optimization |
 | Retrieval and agents | `retrieval_embeddings_and_vector_databases/`, `advanced_retrieval_techniques/`, `building_ai_agents/`, `agent_architectures/` | Embeddings, hybrid retrieval, retriever evaluation, support agents, OpenAI Agents SDK, orchestration patterns |
 | Framework deep dives | `deep_dive_on_langchain/`, `deep_dive_on_langgraph/` | LangChain chat models, LCEL, vectorstores, agents, LangGraph state, persistence, human-in-the-loop, RAG, streaming |
-| Projects and evals | `ai_text_model_projects/`, `prompt_optimization_and_evals/`, `evaluating_quality/` | Blog generation, long-document summarization, transcription, text-to-speech, realtime voice, DSPy, SAMMO, eval metrics |
+| Projects and evals | `ai_text_model_projects/`, `prompt_optimization_and_evals/`, `evaluating_quality/` | Blog generation, long-document summarization, transcription, DSPy, SAMMO, eval metrics |
 | Vision and image models | `vision/`, `advanced_image_model_techniques/`, `ai_image_model_projects/`, `standard_image_model_practices/` | Multimodal analysis, product descriptions, FLUX/FAL image workflows, older Stable Diffusion and DreamBooth projects, placeholder image-practices folder |
 | Supporting assets | `building_ai_agents/resources/`, `images/`, `docs/` | Sample datasets, prompt files, screenshots, architecture diagrams, and internal planning or audit material |
 
@@ -100,7 +100,6 @@ Most notebooks can be run with just `OPENAI_API_KEY`, but some sections need ext
 - `SUPABASE_URL` and `SUPABASE_KEY` for pgvector examples
 - `LANGCHAIN_API_KEY` and `TAVILY_API_KEY` for some agent and tracing workflows
 - `FAL_KEY` for several FLUX image-generation notebooks
-- Twilio plus ngrok for the realtime voice example in `ai_text_model_projects/openai_realtime_example_with_twilio/`
 - Hugging Face or Google Cloud credentials for some older image-model project notebooks
 
 Use environment variables or your preferred local secret manager. If you use 1Password CLI, inject secrets locally rather than storing them in tracked files.
@@ -112,7 +111,6 @@ Some folders are more complete than others:
 - `deep_dive_on_langgraph/` is a structured sequence and works well as a guided learning track
 - `deep_dive_on_langchain/` is richer as a library of concepts than as a strict linear path
 - `building_ai_agents/resources/` contains the datasets, prompts, and knowledge-base files used by the agent notebooks
-- `ai_text_model_projects/openai_realtime_example_with_twilio/` is a standalone example app with its own [README](ai_text_model_projects/openai_realtime_example_with_twilio/README.md) and pinned [requirements.txt](ai_text_model_projects/openai_realtime_example_with_twilio/requirements.txt)
 - `standard_image_model_practices/` is currently just a placeholder and should not be treated as a populated section
 - Several vision and image notebooks depend on external assets, uploads, or cloud credentials and are not fully self-contained after clone
 
