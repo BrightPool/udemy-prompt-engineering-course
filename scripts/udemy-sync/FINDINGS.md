@@ -64,6 +64,6 @@ These resolved to a unique-by-basename match but the basename appears in more
 than one folder, so the matcher picked the first hit. All three look correct
 on inspection, but flagging for sanity:
 
-- `automating_product_descriptions.ipynb` (lecture 42387198) → `ai_text_model_projects/automating_product_descriptions.ipynb` (also exists at `vision/automating_product_descriptions.ipynb`)
-- `ux_landing_page_analysis.ipynb` (lecture 42882572) → `ai_text_model_projects/ux_landing_page_analysis.ipynb` (also at `vision/ux_landing_page_analysis.ipynb`)
+- `automating_product_descriptions.ipynb` (lecture 42387198) → `projects/automating_product_descriptions.ipynb` (also exists at `vision/automating_product_descriptions.ipynb`)
+- `ux_landing_page_analysis.ipynb` (lecture 42882572) → `projects/ux_landing_page_analysis.ipynb` (also at `vision/ux_landing_page_analysis.ipynb`)
 - `evaluation_metrics.ipynb` (lecture 41918608) → `evaluating_quality/evaluation_metrics.ipynb` (also at `prompt_optimization_and_evals/evaluation_metrics.ipynb`)

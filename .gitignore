@@ -25,7 +25,6 @@ CLAUDE.md
 *.skill
 docs/
 .venv
-!retrieval_augmented_generation/data/batman_history.md
 !retrieval_embeddings_and_vector_databases/data/
 !retrieval_embeddings_and_vector_databases/data/*
 !building_ai_agents/resources/data/
@@ -34,9 +33,13 @@ docs/
 !building_ai_agents/resources/data/knowledge_base/**
 !building_ai_agents/resources/prompts/
 !building_ai_agents/resources/prompts/*
-!ai_text_model_projects/reverse_engineering_a_publication/all_text.txt
-!ai_text_model_projects/reverse_engineering_a_publication/Lenny Newsletter - Sheet1.csv
+!projects/reverse_engineering_a_publication/all_text.txt
+!projects/reverse_engineering_a_publication/Lenny Newsletter - Sheet1.csv
+!projects/training_data.jsonl
 .playwright-cli/
 __pycache__/
 decks/**/.build/
 decks/*/previews/
+
+# Course slide decks (kept locally, synced to ~/Desktop/course-decks)
+decks/

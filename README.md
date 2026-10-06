@@ -40,12 +40,14 @@ If you are new to the repo, pick a track below:
 - [Computer Use Through the API](openai_features_and_functionality/computer_use.ipynb)
 - [Managed Agents: The Agents API](openai_features_and_functionality/managed_agents_api.ipynb)
 
-### Anthropic / Claude API
+### Exploring Other Providers
 
-- [Claude section: lesson order and comparison notes](anthropic_features_and_functionality/README.md)
-- [Anthropic Features and Functionality](anthropic_features_and_functionality/anthropic_features_and_functionality.ipynb)
-- [Claude Prompting and Python Tools](anthropic_features_and_functionality/claude_prompting_and_tools.ipynb)
-- [Claude Computer Use](anthropic_features_and_functionality/claude_computer_use.ipynb), optional live demo disabled by default
+- [Section guide: lesson order and comparison notes](exploring_other_providers/README.md)
+- [OpenRouter Features and Functionality](exploring_other_providers/openrouter_features_and_agent.ipynb)
+- [Building a Small Agent with OpenRouter](exploring_other_providers/building_a_small_agent_with_openrouter.ipynb)
+- [Anthropic Features and Functionality](exploring_other_providers/anthropic_features_and_functionality.ipynb)
+- [Claude Prompting and Python Tools](exploring_other_providers/claude_prompting_and_tools.ipynb)
+- [Claude Computer Use](exploring_other_providers/claude_computer_use.ipynb), optional live demo disabled by default
 
 ### Prompt Engineering Techniques
 - [Few-Shot Learning](advanced_text_model_techniques/few_shot_learning.ipynb)
@@ -65,27 +67,23 @@ If you are new to the repo, pick a track below:
 - [Skills Based Agents](building_ai_agents/skills_based_agents.ipynb)
 - [Blog Post Generator Agent](building_ai_agents/blog_post_generator_agent.ipynb)
 
-### Model Gateways
-- [OpenRouter Features and Functionality](model_gateways/openrouter_features_and_agent.ipynb)
-- [Building a Small Agent with OpenRouter](model_gateways/building_a_small_agent_with_openrouter.ipynb)
-
 ### LangGraph
-- [Simple LangGraph](deep_dive_on_langgraph/1_simple_langgraph.ipynb) through [Time Travel](deep_dive_on_langgraph/6_time_travel.ipynb)
+- [Simple LangGraph](deep_dive_on_langgraph/simple_langgraph.ipynb) through [Time Travel](deep_dive_on_langgraph/time_travel.ipynb)
 
 ### Evals & Optimization
 - [Social Media Posts](prompt_optimization_and_evals/social_media_posts.ipynb)
 - [Evaluation Metrics](prompt_optimization_and_evals/evaluation_metrics.ipynb)
-- [DSPy Primer](prompt_optimization_and_evals/dspy-primer-with-every.ipynb)
+- [DSPy Primer](prompt_optimization_and_evals/dspy_primer_with_every.ipynb)
 
 ## Repo Map
 
 | Area | Folders | What you'll find |
 | --- | --- | --- |
 | Core prompting and OpenAI | `openai_features_and_functionality/`, `advanced_text_model_techniques/` | Responses API, structured outputs, tool calling, streaming, async requests, few-shot prompting, ReAct, self-consistency, prompt optimization |
-| Anthropic / Claude | `anthropic_features_and_functionality/` | Native Messages API, OpenAI comparison, structured output, Python tools, optional computer use |
+| Other providers | `exploring_other_providers/` | OpenRouter gateway and agent, Claude Messages API, OpenAI comparison, structured output, Python tools, optional computer use |
 | Retrieval and agents | `retrieval_embeddings_and_vector_databases/`, `advanced_retrieval_techniques/`, `building_ai_agents/`, `agent_architectures/` | Embeddings, hybrid retrieval, retriever evaluation, support agents, OpenAI Agents SDK, orchestration patterns |
 | Framework deep dives | `deep_dive_on_langchain/`, `deep_dive_on_langgraph/` | LangChain chat models, LCEL, vectorstores, agents, LangGraph state, persistence, human-in-the-loop, RAG, streaming |
-| Projects and evals | `ai_text_model_projects/`, `prompt_optimization_and_evals/`, `evaluating_quality/` | Blog generation, long-document summarization, transcription, DSPy, SAMMO, eval metrics |
+| Projects and evals | `projects/`, `prompt_optimization_and_evals/`, `evaluating_quality/` | Blog generation, long-document summarization, transcription, DSPy, SAMMO, eval metrics |
 | Vision and image models | `vision/`, `advanced_image_model_techniques/`, `ai_image_model_projects/`, `standard_image_model_practices/` | Multimodal analysis, product descriptions, FLUX/FAL image workflows, older Stable Diffusion and DreamBooth projects, placeholder image-practices folder |
 | Supporting assets | `building_ai_agents/resources/`, `images/`, `docs/` | Sample datasets, prompt files, screenshots, architecture diagrams, and internal planning or audit material |
 
@@ -152,6 +150,6 @@ If you want a more deliberate progression:
 2. Retrieval: `retrieval_embeddings_and_vector_databases/` -> `advanced_retrieval_techniques/`
 3. Agents: `building_ai_agents/` -> `agent_architectures/`
 4. Frameworks: `deep_dive_on_langchain/` and `deep_dive_on_langgraph/`
-5. Applied projects: `ai_text_model_projects/`, `prompt_optimization_and_evals/`, `vision/`, `advanced_image_model_techniques/`
+5. Applied projects: `projects/`, `prompt_optimization_and_evals/`, `vision/`, `advanced_image_model_techniques/`
 
 If you are following the Udemy course, use the videos for the full teaching sequence and use this repo as the coding companion.
