@@ -4,19 +4,19 @@ Notebooks for the Exploring Other Providers section: model gateways (OpenRouter)
 
 ## Model gateways
 
-- [OpenRouter features and agent](openrouter_features_and_agent.ipynb): the complete walkthrough, including model discovery, comparison, streaming, structured JSON, provider routing, fallbacks, tools and customer credit accounting. Optional sections cover reasoning, async requests, embeddings, caching, web tools, multimodal inputs, media generation, Responses, batch jobs and LangChain.
-- [Building a small agent with OpenRouter](building_a_small_agent_with_openrouter.ipynb): a shorter, self-contained lesson with two read-only Python tools, a bounded agent loop, tool evidence and actual cost reconciliation.
+- [OpenRouter setup, costs and a simple agent](openrouter_features_and_agent.ipynb): three short demonstrations covering API-key setup and the OpenAI SDK base URL, a native OpenRouter SDK request with its returned cost, and a Python agent SDK example that calls an addition tool. A small optional section adds image generation, video generation and embeddings through the same gateway.
 
-Run the setup cells, enter an OpenRouter key with the private prompt, and continue in order. The core walkthrough makes paid requests. Optional features are off by default. Media and hosted tools have separate pricing; inspect current model and endpoint information before enabling them.
+Run the cells in order in Jupyter or Colab with Python 3.10 or later. Enter an OpenRouter key with the hidden prompt. The examples make paid requests and install compatible client and agent SDK versions. Text and agent examples use `openai/gpt-6.1-sol`; the optional examples use specialist models and are disabled by default.
 
-For the gateway lesson, show the client configuration, live catalogue, two-model comparison and routing example. For the agent lesson, use the focused notebook: explain the task, schemas and two sample functions, run the loop, inspect the tool trace, confirm the £15 total and show the cost of every model turn. The longer feature tour is a reference, not a script for one lecture.
+Show the base URL change, inspect the native SDK response and request cost, then run the agent and point out the printed tool call followed by the final answer.
 
 ## Anthropic / Claude API
 
-Three Python notebooks support a compact four-lecture section alongside the OpenAI API lessons. They reuse familiar tasks so students can see which ideas transfer and which API details change.
+Four Python notebooks support a compact Claude section alongside the OpenAI API lessons. They reuse familiar tasks so students can see which ideas transfer and which API details change.
 
 | Lecture | Notebook | Main demonstration |
 | --- | --- | --- |
+| Anthropic Console + Messages/Agents | [OpenAI vs Anthropic vs Gemini](openai_vs_anthropic_vs_gemini.ipynb) | The OpenAI concepts mapped across all three providers, then the real differences: prompt caching control and model strengths |
 | Anthropic API Basics and Claude Features | [Features and Functionality](anthropic_features_and_functionality.ipynb) | Native Messages, multi-turn content, streaming, structured JSON and usage |
 | Claude Prompting and Tool Use | [Prompting and Python Tools](claude_prompting_and_tools.ipynb) | Clear prompts, native tool schemas, two read-only Python functions and a bounded agent loop |
 | Claude Computer Use via the API | [Computer Use](claude_computer_use.ipynb) | Current computer toolset, ordered actions, matching results and an optional isolated form demo |
@@ -24,17 +24,17 @@ Three Python notebooks support a compact four-lecture section alongside the Open
 
 ### Google Colab
 
+- [OpenAI vs Anthropic vs Gemini notebook](https://colab.research.google.com/github/BrightPool/udemy-prompt-engineering-course/blob/main/exploring_other_providers/openai_vs_anthropic_vs_gemini.ipynb)
 - [Features notebook](https://colab.research.google.com/github/BrightPool/udemy-prompt-engineering-course/blob/main/exploring_other_providers/anthropic_features_and_functionality.ipynb)
 - [Prompting and tools notebook](https://colab.research.google.com/github/BrightPool/udemy-prompt-engineering-course/blob/main/exploring_other_providers/claude_prompting_and_tools.ipynb)
 - [Computer-use notebook](https://colab.research.google.com/github/BrightPool/udemy-prompt-engineering-course/blob/main/exploring_other_providers/claude_computer_use.ipynb)
-- [OpenRouter features notebook](https://colab.research.google.com/github/BrightPool/udemy-prompt-engineering-course/blob/main/exploring_other_providers/openrouter_features_and_agent.ipynb)
-- [OpenRouter agent notebook](https://colab.research.google.com/github/BrightPool/udemy-prompt-engineering-course/blob/main/exploring_other_providers/building_a_small_agent_with_openrouter.ipynb)
+- [OpenRouter setup, costs and agent notebook](https://colab.research.google.com/github/BrightPool/udemy-prompt-engineering-course/blob/main/exploring_other_providers/openrouter_features_and_agent.ipynb)
 
 ### Running the lessons
 
 Use Jupyter or Colab, then run cells in order. The notebooks install their Python packages with `%pip`. Provide `ANTHROPIC_API_KEY` through an environment variable or the hidden `getpass` prompt. API calls incur charges. The OpenAI comparison also requires a separate `OPENAI_API_KEY`.
 
-The default features model is Haiku 4.5 for a small introductory demonstration. Inspect the live model list and each feature guide before changing the model. Optional features are off by default. The live computer-use exercise is also off by default and targets the current toolset on Sonnet 5.5. Its offline cells need no API key or running browser.
+The default features model is Haiku 5.5 for a small introductory demonstration. Inspect the live model list and each feature guide before changing the model. Optional features are off by default. The live computer-use exercise is also off by default and targets the current toolset on Haiku 5.5. Its offline cells need no API key or running browser.
 
 ### Similarities and differences
 
