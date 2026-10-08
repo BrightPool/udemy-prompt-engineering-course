@@ -35,6 +35,7 @@ If you are new to the repo, pick a track below:
 - [Chat Completions vs Responses API](openai_features_and_functionality/chat_completions_vs_responses_api.ipynb)
 - [Responses API & Messages](openai_features_and_functionality/responses_api_and_messages.ipynb)
 - [Structured Outputs](openai_features_and_functionality/structured_outputs_using_openai.ipynb)
+- [Decisions API: typed answers, speed and cost](openai_features_and_functionality/decisions_api.ipynb)
 - [Tool Calling](openai_features_and_functionality/tool_calling.ipynb)
 - [Code Interpreter: Python in a Sandbox](openai_features_and_functionality/code_interpreter.ipynb)
 - [Computer Use Through the API](openai_features_and_functionality/computer_use.ipynb)
@@ -44,6 +45,8 @@ If you are new to the repo, pick a track below:
 
 - [Section guide: lesson order and comparison notes](exploring_other_providers/README.md)
 - [OpenRouter Features and Functionality](exploring_other_providers/openrouter_features_and_agent.ipynb)
+- [A/B Test the Model, Keep the Prompt](exploring_other_providers/openrouter_model_ab_testing.ipynb)
+- [Using Gemini for Video Analysis](exploring_other_providers/gemini_video_analysis.ipynb), native SDK, timestamped Q&A and structured outputs
 - [Building a Small Agent with OpenRouter](exploring_other_providers/building_a_small_agent_with_openrouter.ipynb)
 - [Anthropic Features and Functionality](exploring_other_providers/anthropic_features_and_functionality.ipynb)
 - [Claude Prompting and Python Tools](exploring_other_providers/claude_prompting_and_tools.ipynb)
@@ -80,7 +83,7 @@ If you are new to the repo, pick a track below:
 | Area | Folders | What you'll find |
 | --- | --- | --- |
 | Core prompting and OpenAI | `openai_features_and_functionality/`, `advanced_text_model_techniques/` | Responses API, structured outputs, tool calling, streaming, async requests, few-shot prompting, ReAct, self-consistency, prompt optimization |
-| Other providers | `exploring_other_providers/` | OpenRouter gateway and agent, Claude Messages API, OpenAI comparison, structured output, Python tools, optional computer use |
+| Other providers | `exploring_other_providers/` | OpenRouter gateway and agent, Claude Messages API, Gemini video analysis, provider comparison, structured output, Python tools, optional computer use |
 | Retrieval and agents | `retrieval_embeddings_and_vector_databases/`, `advanced_retrieval_techniques/`, `building_ai_agents/`, `agent_architectures/` | Embeddings, hybrid retrieval, retriever evaluation, support agents, OpenAI Agents SDK, orchestration patterns |
 | Framework deep dives | `deep_dive_on_langchain/`, `deep_dive_on_langgraph/` | LangChain chat models, LCEL, vectorstores, agents, LangGraph state, persistence, human-in-the-loop, RAG, streaming |
 | Projects and evals | `projects/`, `prompt_optimization_and_evals/`, `evaluating_quality/` | Blog generation, long-document summarization, transcription, DSPy, SAMMO, eval metrics |

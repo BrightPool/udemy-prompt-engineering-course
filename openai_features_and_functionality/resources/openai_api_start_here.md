@@ -27,6 +27,12 @@ Responses is the interface we use to send model inputs and receive typed output 
 
 Messages are one kind of input/output item. For continued conversations, send relevant history or use `previous_response_id`. Resend instructions you still require when linking turns.
 
+## Decisions API companion lesson
+
+After Structured Outputs, compare generated JSON with a bounded decision. The [Decisions API notebook](../decisions_api.ipynb) introduces Predicate, Choice and Score, checks a ticket against ground truth, and measures the same model on Decisions and Responses. It also explains Jev by TypeSafe and why decision models attracted developer interest.
+
+The three-slide introduction and recording notes are in `/Users/jamesaphoenix/Desktop/course-decks/decisions-api/`. The optional 20-pair benchmark starts disabled. [Decisions Playground](https://platform.openai.com/decisions?lang=python) · [Decisions guide](https://developers.openai.com/api/docs/guides/decisions).
+
 ## Suggested order
 
 1. Setting up an OpenAI Account & API Key.

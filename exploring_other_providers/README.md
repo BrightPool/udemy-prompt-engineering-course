@@ -1,14 +1,25 @@
 # Exploring Other Providers
 
-Notebooks for the Exploring Other Providers section: model gateways (OpenRouter) and the Anthropic Claude API.
+Notebooks for the Exploring Other Providers section: model gateways (OpenRouter), the Anthropic Claude API and native Gemini video analysis.
 
 ## Model gateways
 
 - [OpenRouter setup, costs and a simple agent](openrouter_features_and_agent.ipynb): three short demonstrations covering API-key setup and the OpenAI SDK base URL, a native OpenRouter SDK request with its returned cost, and a Python agent SDK example that calls an addition tool. A small optional section adds image generation, video generation and embeddings through the same gateway.
+- [A/B test the model, keep the prompt](openrouter_model_ab_testing.ipynb): a follow-on using the native OpenRouter Python and agent SDKs with LangChain's AgentEvals. Compare GPT-6.1 Sol and Gemini 3.8 Flash on one conversation, then optionally run the same 50 fictional threads per model asynchronously. Ground truth checks completed tool-call count, expected tools and arguments, and summary coverage. Includes Wilson confidence intervals, sample-size planning and an exact paired comparison. The 100-run batch starts disabled.
 
 Run the cells in order in Jupyter or Colab with Python 3.10 or later. Enter an OpenRouter key with the hidden prompt. The examples make paid requests and install compatible client and agent SDK versions. Text and agent examples use `openai/gpt-6.1-sol`; the optional examples use specialist models and are disabled by default.
 
 Show the base URL change, inspect the native SDK response and request cost, then run the agent and point out the printed tool call followed by the final answer.
+
+For the A/B testing follow-on, introduce ground truth and the three pass rules, show the recorded tool calls and summaries, then compare the eval table. Highlight that only `model` changes in `call_model`. Scale from one thread to the same 50 threads per model, then explain confidence intervals and the paired comparison. The gateway makes model selection another optimisation lever alongside changing prompts. The two-slide introduction and recording notes are in `/Users/jamesaphoenix/Desktop/course-decks/openrouter-model-testing/`.
+
+## Gemini video analysis
+
+- [Using Gemini for Video Analysis](gemini_video_analysis.ipynb): Google's native `google-genai` SDK and Interactions API, upload polling, timestamped Q&A, conversation history, Pydantic structured timelines and answers, explicit unknown handling and token usage. An optional dense-sampling example starts disabled.
+
+Run in Jupyter or Colab with Python 3.10+. Enter a Gemini API key at the hidden prompt. The default downloads Google's public pottery clip, about 12 seconds and 70 MB, or set `VIDEO_PATH` to your own MP4. The main lesson makes four generation requests. It deletes the lesson's uploaded file and stored interactions at the end.
+
+Start with the dated provider and pricing comparison, then follow the deck's upload, wait, ask sequence. Show that an uploaded URI saves transfer while conversation history and caching have separate roles. Inspect the timeline and the answer that acknowledges missing evidence. The companion deck is in `/Users/jamesaphoenix/Desktop/course-decks/gemini-video-analysis/`.
 
 ## Anthropic / Claude API
 
@@ -29,6 +40,7 @@ Four Python notebooks support a compact Claude section alongside the OpenAI API 
 - [Prompting and tools notebook](https://colab.research.google.com/github/BrightPool/udemy-prompt-engineering-course/blob/main/exploring_other_providers/claude_prompting_and_tools.ipynb)
 - [Computer-use notebook](https://colab.research.google.com/github/BrightPool/udemy-prompt-engineering-course/blob/main/exploring_other_providers/claude_computer_use.ipynb)
 - [OpenRouter setup, costs and agent notebook](https://colab.research.google.com/github/BrightPool/udemy-prompt-engineering-course/blob/main/exploring_other_providers/openrouter_features_and_agent.ipynb)
+- [OpenRouter model A/B testing notebook](https://colab.research.google.com/github/BrightPool/udemy-prompt-engineering-course/blob/main/exploring_other_providers/openrouter_model_ab_testing.ipynb)
 
 ### Running the lessons
 
