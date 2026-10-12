@@ -5,13 +5,13 @@ Notebooks for the Exploring Other Providers section: model gateways (OpenRouter)
 ## Model gateways
 
 - [OpenRouter setup, costs and a simple agent](openrouter_features_and_agent.ipynb): three short demonstrations covering API-key setup and the OpenAI SDK base URL, a native OpenRouter SDK request with its returned cost, and a Python agent SDK example that calls an addition tool. A small optional section adds image generation, video generation and embeddings through the same gateway.
-- [A/B test the model, keep the prompt](openrouter_model_ab_testing.ipynb): a follow-on using the native OpenRouter Python and agent SDKs with LangChain's AgentEvals. Compare GPT-6.1 Sol and Gemini 3.8 Flash on one conversation, then optionally run the same 50 fictional threads per model asynchronously. Ground truth checks completed tool-call count, expected tools and arguments, and summary coverage. Includes Wilson confidence intervals, sample-size planning and an exact paired comparison. The 100-run batch starts disabled.
+- [A/B test the model, keep the prompt](openrouter_model_ab_testing.ipynb): a short follow-on using the native OpenRouter Python SDK. Six hand-written refund cases with expected answers, a plain Python eval function (valid JSON, eligibility, refund amount), then the same cases run on GPT-OSS 20B and Mistral Nemo. Only the model changes. Compares pass rate and cost per model (12 cheap requests).
 
 Run the cells in order in Jupyter or Colab with Python 3.10 or later. Enter an OpenRouter key with the hidden prompt. The examples make paid requests and install compatible client and agent SDK versions. Text and agent examples use `openai/gpt-6.1-sol`; the optional examples use specialist models and are disabled by default.
 
 Show the base URL change, inspect the native SDK response and request cost, then run the agent and point out the printed tool call followed by the final answer.
 
-For the A/B testing follow-on, introduce ground truth and the three pass rules, show the recorded tool calls and summaries, then compare the eval table. Highlight that only `model` changes in `call_model`. Scale from one thread to the same 50 threads per model, then explain confidence intervals and the paired comparison. The gateway makes model selection another optimisation lever alongside changing prompts. The two-slide introduction and recording notes are in `/Users/jamesaphoenix/Desktop/course-decks/openrouter-model-testing/`.
+For the A/B testing follow-on, write the cases and expected answers first, then the eval function, then run both models. Highlight that only `model` changes in the loop, and walk through the failing rows to show why a model lost. The gateway makes model selection another optimisation lever alongside changing prompts. The two-slide introduction and recording notes are in `/Users/jamesaphoenix/Desktop/course-decks/openrouter-model-testing/`.
 
 ## Gemini video analysis
 
